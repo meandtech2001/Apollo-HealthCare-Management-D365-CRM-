@@ -1,0 +1,117 @@
+Launch command line
+
+Program output
+
+SolutionPackger CRM Solution Packaging Tool [Version 9.1.1.179]
+c 2017 Microsoft Corporation.  All rights reserved
+
+Extracting ApolloHospitalProject_1_0_0_3_managed.zip
+
+Skipping localization
+Processing Component: Entities
+ - Account
+ - apollo_ApolloFeedbacks
+ - apollo_ApolloInvoice
+ - apollo_ApolloLab
+ - apollo_DoctorShift
+ - apollo_HomeVisit
+ - apollo_InsuranceClaim
+ - apollo_InvoiceLine
+ - apollo_MedicalTest
+ - apollo_medicaltestbpf
+ - apollo_MedicalTestInvoiceLines
+ - apollo_Medicine
+ - apollo_MedicineInvoicesLine
+ - apollo_Message
+ - apollo_patientcreationbpf
+ - apollo_PrescribedMedicine
+ - apollo_Prescription
+ - apollo_Reward
+ - apollo_Shift
+ - apollo_TestReport
+ - Appointment
+ - BusinessUnit
+ - Contact
+
+ - Role
+ - SystemUser
+Processing Component: Roles
+
+ - Apollo Admin
+ - Apollo Doctor
+ - Apollo Lab Technician
+ - Apollo Nurse
+ - Apollo Staff
+Processing Component: Workflows
+ - AccountCreation_Action
+ - Add 30 days to Effective To
+ - Blood sugar/Glucose Tests should have TestDate as current date
+ - Calc_TotalAmountInvoice
+ - CalcTotalMedicineAmount_CustomWF
+ - ContactCreated_Alert
+ - CRM to Whatsapp
+ - Fill Total price
+ - Hide Insurance Claim and Amount when Does Customer has Insurance? is No
+ - Hide LastName if FirstName is empty
+ - If Dosage is High, Duration is required
+ - If Prescription exists, Lab shows recommendation
+ - If Rating < 3, Comments is Required
+ - Invoice Modified on Date should be assigned as Modified on
+ - Lock Doctor field once AppointmentDate is set
+ - Make Findings as Required if Test Date is past
+ - MedicalTest_FinishBPF
+ - medicaltestBPF
+ - MedicalTestEmail
+ - PatientCreationBPF
+ - PrescribedMedicineSetName
+ - Run_TotalAmountInvoice
+
+ - SendEmailOnChangeOfMedicalTestStatus
+ - Set AppointmentDate to current date if blank
+ - Setting of Amount value for Medicine/Medical Test
+ - Show Claim Amount only when Insurance Provider has data
+ - Show Error if Expired Date is not given
+ - Show Shift Date when Doctor Availability in Yes
+ - Show/Hide Doctor's & Remaining Capacity
+ - Show/Hide Total Medicine Amount and Total Medical Test Amount
+ - UpdateCapacityOnCreateOfAppointment
+ - Whatsapp to CRM
+ - Whatsapp to CRM 2
+Processing Component: FieldSecurityProfiles
+Processing Component: Templates
+ - EmailTemplates
+Processing Component: EntityMaps
+Processing Component: EntityRelationships
+Processing Component: optionsets
+ - apollo_paymentmode
+
+Processing Component: Reports
+ - Type of Patients
+Processing Component: Dashboards
+ - {a9a846f7-82d9-f011-8544-000d3a81a9a9}
+Processing Component: Dialogs
+ - {0f7ca1b0-be13-4b18-aa02-1c7f3a058116}
+Processing Component: WebResources
+ - apollo_buttonCalcTotalAmount
+ - apollo_CreateUpdateHomeVisitRecord
+ - apollo_highlight
+ - apollo_Highlight_FinalAmount
+ - apollo_MedicalReport_script
+ - apollo_openAppointmentPopup
+ - apollo_TestingScripts
+Processing Component: SolutionPluginAssemblies
+ - MyPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=baa6576eee0f6dbc
+Processing Component: SdkMessageProcessingSteps
+ - 76e55b17-04e3-f011-8406-0022481a1bf1
+Processing Component: AppModuleSiteMaps
+ - apollo_ApolloManagement
+Processing Component: AppModules
+ - apollo_ApolloManagement
+Processing Component: EntityDataSources
+ - 356eddaa-3306-44ca-947f-066efbdc5ce2
+Processing Component: CanvasApps
+ - apollo_apollomanagementdefaultcommandlibrary_33e35
+ - apollo_appointmentcreationpage_a95af
+
+Managed Extract complete.
+
