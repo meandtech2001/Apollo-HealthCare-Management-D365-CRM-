@@ -68,9 +68,10 @@ The Apollo Hospital Platform is a custom-engineered solution built on **Dynamics
 <div align="center">
   <table border="0">
     <tr>
-      <td><img src="IMAGE_LINK_1" width="250" /><br /><sub>Patient Dashboard</sub></td>
-      <td><img src="IMAGE_LINK_2" width="250" /><br /><sub>Billing Logic</sub></td>
-      <td><img src="IMAGE_LINK_3" width="250" /><br /><sub>Custom Process Flow</sub></td>
+      <td><img src="https://cdn.discordapp.com/attachments/933790279528484947/1493172552212680755/image.png?ex=69de00ce&is=69dcaf4e&hm=0a506ad23e778298f1fd5a0a1b6d7e723ad9267bd5d661ef11adbbf0f30b3beb" width="250" /><br /><sub>Patient Dashboard</sub></td>
+      <td><img src="https://cdn.discordapp.com/attachments/933790279528484947/1493172897295110245/image.png?ex=69de0120&is=69dcafa0&hm=78bf686e7f168dd692a01dcd926840b3d47f34bbe21d69080074e78c7b742adf" width="250" /><br /><sub>Billing Logic</sub></td>
+      <td><img src="https://cdn.discordapp.com/attachments/933790279528484947/1493172855075111055/image.png?ex=69de0116&is=69dcaf96&hm=951256d7ecacba70744bf81aeb6d61212a9b877f148d1def273af75a008a20fa" width="250" /><br /><sub>Custom Process Flow</sub></td>
+      <td><img src="https://cdn.discordapp.com/attachments/933790279528484947/1493173077381742754/image.png?ex=69de014b&is=69dcafcb&hm=7224cae53cf5d95f8b5f450ca61350bf5cb94a1c639c42ac3c9a6f2c992d5264" width="250" /><br /><sub>Custom Page PopUp</sub></td>
     </tr>
   </table>
 </div>
