@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{f24c49a6-68b9-477c-bc3c-19edf82aa994}</savedqueryid>
+    <layoutxml>
+      <grid
+        name="apollo_apolloinvoices"
+        jump="apollo_invoicename"
+        select="1"
+        icon="1"
+        preview="0">
+        <row
+          name="apollo_apolloinvoice"
+          id="apollo_apolloinvoiceid">
+          <cell
+            name="apollo_invoicename"
+            width="300" />
+          <cell
+            name="apollo_apolloinvoicedate"
+            width="155" />
+          <cell
+            name="statecode"
+            width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch
+        version="1.0"
+        mapping="logical">
+        <entity
+          name="apollo_apolloinvoice">
+          <attribute
+            name="apollo_apolloinvoiceid" />
+          <attribute
+            name="apollo_invoicename" />
+          <filter
+            type="and">
+            <condition
+              attribute="statecode"
+              operator="eq"
+              value="0" />
+          </filter>
+          <attribute
+            name="apollo_apolloinvoicedate" />
+          <attribute
+            name="statecode" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName
+        description="Apollo Invoice Lookup View"
+        languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

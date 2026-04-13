@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{b787f17f-ae3f-49bb-b203-2b411948bcbb}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab
+          verticallayout="true"
+          id="{41e66bc9-d5f8-4f54-8606-52af7c6bb099}"
+          IsUserDefined="1">
+          <labels>
+            <label
+              description=""
+              languagecode="1033" />
+          </labels>
+          <columns>
+            <column
+              width="100%">
+              <sections>
+                <section
+                  showlabel="false"
+                  showbar="false"
+                  IsUserDefined="0"
+                  id="{ad54913d-186a-46b0-b4f2-24c3d6b4faf3}">
+                  <labels>
+                    <label
+                      description="GENERAL"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell
+                        id="{6c64aaa7-451a-48fd-afe9-83fc59ecc242}"
+                        visible="false">
+                        <labels>
+                          <label
+                            description="Name"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_name"
+                          classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}"
+                          datafieldname="apollo_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{2fdec993-65a6-44b5-ae4c-debf938a7678}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Start Time"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_starttime"
+                          classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}"
+                          datafieldname="apollo_starttime"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{31dbce6d-84a6-4e09-a33e-1828fb97fc9f}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="End Time"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_endtime"
+                          classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}"
+                          datafieldname="apollo_endtime"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{cc4bdba7-f591-445d-91a9-aaf6020f741e}"
+                        visible="false">
+                        <labels>
+                          <label
+                            description="Owner"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="ownerid"
+                          classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                          datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions
+        Order="0"
+        FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName
+        description="Shift - Quick View"
+        languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

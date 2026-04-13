@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appaction
+  uniquename="apollo__Mscrm.SubGrid.{!EntityLogicalName}.NewRecord!apollo_ApolloManagement!apollo_medicaltest!2">
+  <appmoduleid>
+    <uniquename>apollo_ApolloManagement</uniquename>
+  </appmoduleid>
+  <buttonlabeltext
+    default="New {EntityLogicalNameMarker}">
+    <label
+      description="New {EntityLogicalNameMarker}"
+      languagecode="1033" />
+  </buttonlabeltext>
+  <buttontooltipdescription
+    default="Create a new {EntityLogicalNameMarker} record.">
+    <label
+      description="Create a new {EntityLogicalNameMarker} record."
+      languagecode="1033" />
+  </buttontooltipdescription>
+  <buttontooltiptitle
+    default="New {EntityLogicalNameMarker}">
+    <label
+      description="New {EntityLogicalNameMarker}"
+      languagecode="1033" />
+  </buttontooltiptitle>
+  <context>1</context>
+  <contextentity>
+    <logicalname>apollo_medicaltest</logicalname>
+  </contextentity>
+  <contextvalue>apollo_medicaltest</contextvalue>
+  <fonticon>$clientsvg:Add</fonticon>
+  <hidden>0</hidden>
+  <iscustomizable>1</iscustomizable>
+  <isdisabled>0</isdisabled>
+  <isgrouptitlehidden>0</isgrouptitlehidden>
+  <location>2</location>
+  <name>Mscrm.SubGrid.{!EntityLogicalName}.NewRecord</name>
+  <onclickeventjavascriptfunctionname>newMedicalTestOpen</onclickeventjavascriptfunctionname>
+  <onclickeventjavascriptparameters>[{"type":5}]</onclickeventjavascriptparameters>
+  <onclickeventjavascriptwebresourceid>
+    <webresourceid>bbf1fb75-5832-f111-88b4-0022481a1bf1</webresourceid>
+  </onclickeventjavascriptwebresourceid>
+  <onclickeventtype>2</onclickeventtype>
+  <origin>2</origin>
+  <sequence>100100010.0000000000</sequence>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <type>0</type>
+  <visibilitytype>2</visibilitytype>
+</appaction>

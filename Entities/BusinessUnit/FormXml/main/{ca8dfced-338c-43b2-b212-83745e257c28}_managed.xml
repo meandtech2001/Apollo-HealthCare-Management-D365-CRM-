@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{ca8dfced-338c-43b2-b212-83745e257c28}</formid>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form
+      headerdensity="HighWithControls"
+      solutionaction="Modified">
+      <header
+        id="{afbd24c8-fff1-4424-9257-c4d501ae0436}"
+        celllabelposition="Top"
+        columns="111"
+        labelwidth="115"
+        celllabelalignment="Left"
+        solutionaction="Added">
+        <rows>
+          <row>
+            <cell
+              id="{175aa165-29d1-481b-9961-8f1bb7816968}"
+              showlabel="false"
+              ordinalvalue="10000">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{7aaf8fe1-528f-4acb-bdb6-93cfe8fafe9d}"
+              showlabel="false"
+              ordinalvalue="20001">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{deaad4fd-f762-4f6b-81fa-a2434e282e95}"
+              showlabel="false"
+              ordinalvalue="30002">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer
+        id="{38300be0-d840-48ac-881c-0579ed6e0560}"
+        celllabelposition="Top"
+        columns="111"
+        labelwidth="115"
+        celllabelalignment="Left"
+        solutionaction="Added">
+        <rows>
+          <row>
+            <cell
+              id="{bcb34479-872d-4366-a380-ff506db88dc7}"
+              showlabel="false"
+              ordinalvalue="10000">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{35778a5c-29ff-405c-818c-979cc9f58570}"
+              showlabel="false"
+              ordinalvalue="20001">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{5d1b23a6-b1df-4441-96c9-ef7fe994cfaf}"
+              showlabel="false"
+              ordinalvalue="30002">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions
+        Order="0"
+        FallbackForm="true"
+        solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName
+        description="Informationen"
+        languagecode="1031" />
+      <LocalizedName
+        description="Business Unit Main Form -1"
+        languagecode="1033" />
+      <LocalizedName
+        description="Informations"
+        languagecode="1036" />
+      <LocalizedName
+        description="जानकारी"
+        languagecode="1081" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description
+        description="Ein Formular für diese Entität."
+        languagecode="1031" />
+      <Description
+        description="A form for this entity."
+        languagecode="1033" />
+      <Description
+        description="Formulaire pour cette entité."
+        languagecode="1036" />
+      <Description
+        description="इस एंटिटी के लिए एक प्रपत्र."
+        languagecode="1081" />
+    </Descriptions>
+  </systemform>
+</forms>

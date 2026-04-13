@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{6151b15b-a095-4802-96a5-c298b12e1f4d}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab
+          verticallayout="true"
+          id="{63509826-0e32-45fa-81cd-54070d4b0be7}"
+          IsUserDefined="1">
+          <labels>
+            <label
+              description=""
+              languagecode="1033" />
+          </labels>
+          <columns>
+            <column
+              width="100%">
+              <sections>
+                <section
+                  showlabel="false"
+                  showbar="false"
+                  IsUserDefined="0"
+                  id="{a0e1f2e6-9f9e-4d8f-a103-34ef8ae9edcb}">
+                  <labels>
+                    <label
+                      description="GENERAL"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell
+                        id="{16fb8866-6084-450e-b472-f1327bd22ca5}">
+                        <labels>
+                          <label
+                            description="Invoice Line Name"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_invoicelinename"
+                          classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}"
+                          datafieldname="apollo_invoicelinename" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{2f4bb025-d4b5-4571-a954-94ff8fc29470}">
+                        <labels>
+                          <label
+                            description="Owner"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="ownerid"
+                          classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                          datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName
+        description="Information"
+        languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

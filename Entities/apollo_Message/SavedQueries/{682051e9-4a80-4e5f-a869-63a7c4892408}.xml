@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{682051e9-4a80-4e5f-a869-63a7c4892408}</savedqueryid>
+    <layoutxml>
+      <grid
+        name="resultset"
+        jump="apollo_name"
+        select="1"
+        icon="1"
+        preview="1">
+        <row
+          name="result"
+          id="apollo_messageid">
+          <cell
+            name="apollo_name"
+            width="300" />
+          <cell
+            name="createdon"
+            width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch
+        version="1.0"
+        mapping="logical">
+        <entity
+          name="apollo_message">
+          <attribute
+            name="apollo_messageid" />
+          <attribute
+            name="apollo_name" />
+          <attribute
+            name="createdon" />
+          <order
+            attribute="apollo_name"
+            descending="false" />
+          <filter
+            type="and">
+            <condition
+              attribute="statecode"
+              operator="eq"
+              value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName
+        description="Inactive Messages"
+        languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

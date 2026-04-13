@@ -1,0 +1,29 @@
+// JavaScript source code
+
+function openAppointmentPopup(formContext) {
+    var doctorRecord = formContext.getAttribute("apollo_doctor").getValue();
+    var doctorId = doctorRecord[0].id.replace("{", "").replace("}", "");
+
+    var pageInput = {
+        pageType: "custom",
+        name: "apollo_appointmentcreationpage_a95af",
+        recordId: doctorId
+    };
+
+    var navigationOptions = {
+        target: 2,
+        position: 1,
+        width: { value: 1200, unit: "px" },
+        height: { value: 1200, unit: "px" },
+        title: "Create Appointment"
+    };
+
+    Xrm.Navigation.navigateTo(pageInput, navigationOptions).then(
+        function () {
+            console.log("Appointment creation page opened successfully.");
+        },
+        function (error) {
+            console.error("Error opening appointment creation page: ", error);
+        }
+    );
+}

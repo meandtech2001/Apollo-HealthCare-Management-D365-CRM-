@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalizedNames>
+    <LocalizedName
+      description="Apollo Dashboard"
+      languagecode="1033" />
+  </LocalizedNames>
+  <FormId>{a9a846f7-82d9-f011-8544-000d3a81a9a9}</FormId>
+  <IsCustomizable>1</IsCustomizable>
+  <IsDefault>0</IsDefault>
+  <FormXml>
+    <forms
+      type="dashboard">
+      <form>
+        <tabs>
+          <tab
+            showlabel="false"
+            verticallayout="true"
+            id="{bec294e7-0cd7-4f6c-8fdb-63e4dac6ec90}">
+            <labels>
+              <label
+                description="Tab"
+                languagecode="1033" />
+            </labels>
+            <columns>
+              <column
+                width="100%">
+                <sections>
+                  <section
+                    showlabel="false"
+                    showbar="false"
+                    columns="1111"
+                    id="{d6230fb5-2cd3-4782-ab65-9585a7b2e8b6}">
+                    <labels>
+                      <label
+                        description="Section"
+                        languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell
+                          colspan="1"
+                          rowspan="12"
+                          showlabel="false"
+                          id="{40bf012c-5cc0-4b2d-8793-6a7bd5f07f37}"
+                          auto="false">
+                          <labels>
+                            <label
+                              description="Account"
+                              languagecode="1033" />
+                            <label
+                              description="Comptes"
+                              languagecode="1036" />
+                            <label
+                              description="Firmen"
+                              languagecode="1031" />
+                            <label
+                              description="खाते"
+                              languagecode="1081" />
+                          </labels>
+                          <control
+                            id="Component0474883"
+                            uniqueid="{55d53853-9a47-e554-b273-7bba467b2edb}"
+                            classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}"
+                            indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>account</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>10</RecordsPerPage>
+                              <HeaderColorCode />
+                              <ViewId>{00000000-0000-0000-00AA-000010001001}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{5B290FFF-355F-DF11-AE90-00155D2E3002}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell
+                          colspan="2"
+                          rowspan="12"
+                          showlabel="false"
+                          id="{074f36fe-c11f-4de8-bffd-a656a992fbc0}"
+                          auto="false">
+                          <labels>
+                            <label
+                              description="Appointment"
+                              languagecode="1033" />
+                            <label
+                              description="Rendez-vous"
+                              languagecode="1036" />
+                            <label
+                              description="Termine"
+                              languagecode="1031" />
+                            <label
+                              description="अपॉइंटमेंट्स"
+                              languagecode="1081" />
+                          </labels>
+                          <control
+                            id="Componente6ea01b"
+                            uniqueid="{ba47c79e-65ae-49d7-1b2b-7537a8965d2b}"
+                            classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}"
+                            indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>appointment</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>10</RecordsPerPage>
+                              <HeaderColorCode />
+                              <ViewId>{606EEA12-0C33-47D3-96E1-BA1529EE8205}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{C99B12DF-8A2B-408C-A51D-24CA2168A4A3}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell
+                          colspan="1"
+                          rowspan="12"
+                          showlabel="false"
+                          id="{34f7aa3c-e0f3-4a00-9434-6e64e3ad1417}"
+                          auto="false">
+                          <labels>
+                            <label
+                              description="Appointments"
+                              languagecode="1033" />
+                            <label
+                              description="Rendez-vous"
+                              languagecode="1036" />
+                            <label
+                              description="Termine"
+                              languagecode="1031" />
+                            <label
+                              description="अपॉइंटमेंट्स"
+                              languagecode="1081" />
+                          </labels>
+                          <control
+                            id="Component0779120"
+                            uniqueid="{608214e6-cc6e-3aee-b1dc-9294ddb71deb}"
+                            classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}"
+                            indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>appointment</TargetEntityType>
+                              <ChartGridMode>Grid</ChartGridMode>
+                              <EnableQuickFind>true</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <EnableJumpBar>true</EnableJumpBar>
+                              <RecordsPerPage>8</RecordsPerPage>
+                              <HeaderColorCode />
+                              <ViewId>{5B5F75F6-B585-4212-952A-B4CBB64E2627}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId />
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row>
+                        <cell
+                          colspan="2"
+                          rowspan="12"
+                          showlabel="false"
+                          id="{1745df98-8309-42cf-ae7a-504cfe59c882}"
+                          visible="false">
+                          <labels>
+                            <label
+                              description="Assistant"
+                              languagecode="1033" />
+                            <label
+                              description="Cartes d'action"
+                              languagecode="1036" />
+                            <label
+                              description="Aktionskarten"
+                              languagecode="1031" />
+                            <label
+                              description="क्रिया कार्ड्स"
+                              languagecode="1081" />
+                          </labels>
+                          <control
+                            id="ActionCards"
+                            classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}"
+                            uniqueid="{3ff9a528-dd50-4aca-8f10-2e5ed73513ad}"
+                            disabled="false">
+                            <parameters>
+                              <ViewId>{92AFD454-0F2E-4397-A1C8-05E37C6AD699}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>actioncard</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <ChartGridMode>All</ChartGridMode>
+                              <VisualizationId />
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>4</RecordsPerPage>
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell
+                          colspan="2"
+                          rowspan="12"
+                          showlabel="false"
+                          ispreviewcell="true"
+                          id="{468b3ac0-5239-463b-bd55-e35a0e919f2e}">
+                          <labels>
+                            <label
+                              description=""
+                              languagecode="1033" />
+                          </labels>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+        </tabs>
+        <controlDescriptions>
+          <controlDescription
+            forControl="{3ff9a528-dd50-4aca-8f10-2e5ed73513ad}">
+            <customControl
+              formFactor="2"
+              name="MscrmControls.CardFeedContainer.CardFeedContainer">
+              <parameters>
+                <data-set
+                  name="SubGrid">
+                  <ViewId>{92AFD454-0F2E-4397-A1C8-05E37C6AD699}</ViewId>
+                  <IsUserView>false</IsUserView>
+                  <TargetEntityType>actioncard</TargetEntityType>
+                  <FilteredViewIds>{92AFD454-0F2E-4397-A1C8-05E37C6AD699}</FilteredViewIds>
+                  <EnableViewPicker>false</EnableViewPicker>
+                </data-set>
+                <Location
+                  static="true"
+                  type="Decimal">2</Location>
+                <msinternal.isvisibleinmocaonly
+                  static="true">true</msinternal.isvisibleinmocaonly>
+              </parameters>
+            </customControl>
+            <customControl
+              formFactor="0"
+              name="MscrmControls.CardFeedContainer.CardFeedContainer">
+              <parameters>
+                <data-set
+                  name="SubGrid">
+                  <ViewId>{92AFD454-0F2E-4397-A1C8-05E37C6AD699}</ViewId>
+                  <IsUserView>false</IsUserView>
+                  <TargetEntityType>actioncard</TargetEntityType>
+                  <FilteredViewIds>{92AFD454-0F2E-4397-A1C8-05E37C6AD699}</FilteredViewIds>
+                  <EnableViewPicker>false</EnableViewPicker>
+                </data-set>
+                <Location
+                  static="true"
+                  type="Decimal">2</Location>
+                <msinternal.isvisibleinmocaonly
+                  static="true">true</msinternal.isvisibleinmocaonly>
+              </parameters>
+            </customControl>
+            <customControl
+              formFactor="1"
+              name="MscrmControls.CardFeedContainer.CardFeedContainer">
+              <parameters>
+                <data-set
+                  name="SubGrid">
+                  <ViewId>{92AFD454-0F2E-4397-A1C8-05E37C6AD699}</ViewId>
+                  <IsUserView>false</IsUserView>
+                  <TargetEntityType>actioncard</TargetEntityType>
+                  <FilteredViewIds>{92AFD454-0F2E-4397-A1C8-05E37C6AD699}</FilteredViewIds>
+                  <EnableViewPicker>false</EnableViewPicker>
+                </data-set>
+                <Location
+                  static="true"
+                  type="Decimal">2</Location>
+                <msinternal.isvisibleinmocaonly
+                  static="true">true</msinternal.isvisibleinmocaonly>
+              </parameters>
+            </customControl>
+          </controlDescription>
+        </controlDescriptions>
+      </form>
+    </forms>
+  </FormXml>
+  <IntroducedVersion>1.0.0.1</IntroducedVersion>
+  <IsTabletEnabled>0</IsTabletEnabled>
+</Dashboard>

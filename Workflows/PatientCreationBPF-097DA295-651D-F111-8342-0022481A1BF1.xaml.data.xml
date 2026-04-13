@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Workflow
+  WorkflowId="{097da295-651d-f111-8342-0022481a1bf1}"
+  Name="PatientCreationBPF" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/PatientCreationBPF-097DA295-651D-F111-8342-0022481A1BF1.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>100</processorder>
+  <RunAs>1</RunAs>
+  <UniqueName>apollo_patientcreationbpf</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.2</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <ModernFlowType>0</ModernFlowType>
+  <PrimaryEntity>Contact</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName
+      languagecode="1033"
+      description="PatientCreationBPF" />
+  </LocalizedNames>
+  <labels>
+    <steplabels
+      id="{40e7d318-e196-4e1b-876e-c43673dad1e2}">
+      <label
+        languagecode="1033"
+        description="Contact Creation" />
+    </steplabels>
+    <steplabels
+      id="{244275e3-f3c9-4de9-8d43-e29f09c289a7}">
+      <label
+        languagecode="1033"
+        description="Patient Type" />
+    </steplabels>
+    <steplabels
+      id="{a56d61d3-cd8f-43df-a85e-2c0d6cf81ca4}">
+      <label
+        languagecode="1033"
+        description="First Name" />
+    </steplabels>
+    <steplabels
+      id="{4ad41d22-8350-41f1-8bcb-e3eb27c7b2a4}">
+      <label
+        languagecode="1033"
+        description="Last Name" />
+    </steplabels>
+    <steplabels
+      id="{942125f7-3800-4483-bdf7-d2259d0f60c9}">
+      <label
+        languagecode="1033"
+        description="Patient DateofBirth" />
+    </steplabels>
+    <steplabels
+      id="{3846bf57-833c-4636-b702-78471cfb9fd5}">
+      <label
+        languagecode="1033"
+        description="Email" />
+    </steplabels>
+    <steplabels
+      id="{1d0e4b0a-80f7-4423-b47b-0cc315c08fc4}">
+      <label
+        languagecode="1033"
+        description="Mobile Phone" />
+    </steplabels>
+    <steplabels
+      id="{7946f615-27a5-46a4-926f-35f72119faa9}">
+      <label
+        languagecode="1033"
+        description="Create Account" />
+    </steplabels>
+    <steplabels
+      id="{f0f0d0b4-ba74-4f13-9336-c0f0853931dc}">
+      <label
+        languagecode="1033"
+        description="Account Name" />
+    </steplabels>
+    <steplabels
+      id="{d0a1f30b-5951-4148-8e53-fd7ec7acca22}">
+      <label
+        languagecode="1033"
+        description="Date of Establishment" />
+    </steplabels>
+    <steplabels
+      id="{0ffaa5c1-0757-4101-bdee-f4ba2ab7810e}">
+      <label
+        languagecode="1033"
+        description="Email" />
+    </steplabels>
+    <steplabels
+      id="{eae53114-1cb2-4053-9cad-135aad8ad296}">
+      <label
+        languagecode="1033"
+        description="Main Phone" />
+    </steplabels>
+    <steplabels
+      id="{3e5da3f4-7e35-4f35-9838-c0d861a963f9}">
+      <label
+        languagecode="1033"
+        description="Street 1" />
+    </steplabels>
+    <steplabels
+      id="{0d6b01ea-d276-4da9-a8b0-468f7d83df5d}">
+      <label
+        languagecode="1033"
+        description="City" />
+    </steplabels>
+    <steplabels
+      id="{156dd217-7602-474f-bd86-9144d9b2f787}">
+      <label
+        languagecode="1033"
+        description="State/Province" />
+    </steplabels>
+    <steplabels
+      id="{e89b027e-0e57-4857-8e86-e2c1a9b0285c}">
+      <label
+        languagecode="1033"
+        description="ZIP/Postal Code" />
+    </steplabels>
+    <steplabels
+      id="{a6d6b510-1c7c-4aba-bd14-b54300e307e7}">
+      <label
+        languagecode="1033"
+        description="Country" />
+    </steplabels>
+    <steplabels
+      id="{91c4fcde-f3ae-4b80-8db1-2a622eaa0884}">
+      <label
+        languagecode="1033"
+        description="AccountCreation_Action" />
+    </steplabels>
+    <steplabels
+      id="{34db1c53-5e0e-4e52-a4b2-8fde498f99ef}">
+      <label
+        languagecode="1033"
+        description="Create Appointment" />
+    </steplabels>
+    <steplabels
+      id="{00a06ebb-e4a4-49a2-b65b-2d229b04cc35}">
+      <label
+        languagecode="1033"
+        description="Appointment Date" />
+    </steplabels>
+    <steplabels
+      id="{1be070ea-52f7-4d76-bfea-134eb9646b3f}">
+      <label
+        languagecode="1033"
+        description="Doctor" />
+    </steplabels>
+    <steplabels
+      id="{5ea8ca1d-9751-422e-8200-e2dd813bbb78}">
+      <label
+        languagecode="1033"
+        description="Patient" />
+    </steplabels>
+    <steplabels
+      id="{dbb94318-ea4d-4958-bcaf-23609bc200b4}">
+      <label
+        languagecode="1033"
+        description="Subject" />
+    </steplabels>
+    <steplabels
+      id="{d28e36c8-4fd3-4c2d-ae29-47c8841ed2e2}">
+      <label
+        languagecode="1033"
+        description="Priority" />
+    </steplabels>
+  </labels>
+</Workflow>

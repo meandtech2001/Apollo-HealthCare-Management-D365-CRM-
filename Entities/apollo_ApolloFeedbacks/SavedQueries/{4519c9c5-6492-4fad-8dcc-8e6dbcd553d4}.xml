@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{4519c9c5-6492-4fad-8dcc-8e6dbcd553d4}</savedqueryid>
+    <layoutxml>
+      <grid
+        name="resultset"
+        jump="apollo_title"
+        select="1"
+        icon="1"
+        preview="1">
+        <row
+          name="result"
+          id="apollo_apollofeedbacksid">
+          <cell
+            name="apollo_title"
+            width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch
+        version="1.0"
+        mapping="logical">
+        <entity
+          name="apollo_apollofeedbacks">
+          <attribute
+            name="apollo_apollofeedbacksid" />
+          <attribute
+            name="apollo_title" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName
+        description="Quick Find Active Apollo Feedbacks"
+        languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,629 @@
+<Activity x:Class="XrmWorkflow097da295651df11183420022481a1bf1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mcwb="clr-namespace:Microsoft.Crm.Workflow.BusinessProcessFlowActivities;assembly=Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" xmlns:mcwc="clr-namespace:Microsoft.Crm.Workflow.ClientActivities;assembly=Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" xmlns:mcwo="clr-namespace:Microsoft.Crm.Workflow.ObjectModel;assembly=Microsoft.Crm, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" xmlns:mxs="clr-namespace:Microsoft.Xrm.Sdk;assembly=Microsoft.Xrm.Sdk, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" xmlns:mxsq="clr-namespace:Microsoft.Xrm.Sdk.Query;assembly=Microsoft.Xrm.Sdk, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" xmlns:mxswa="clr-namespace:Microsoft.Xrm.Sdk.Workflow.Activities;assembly=Microsoft.Xrm.Sdk.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" xmlns:s="clr-namespace:System;assembly=mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" xmlns:srs="clr-namespace:System.Runtime.Serialization;assembly=System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" xmlns:this="clr-namespace:" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="InputEntities" Type="InArgument(scg:IDictionary(x:String, mxs:Entity))" />
+    <x:Property Name="CreatedEntities" Type="InArgument(scg:IDictionary(x:String, mxs:Entity))" />
+  </x:Members>
+  <this:XrmWorkflow097da295651df11183420022481a1bf1.InputEntities>
+    <InArgument x:TypeArguments="scg:IDictionary(x:String, mxs:Entity)" />
+  </this:XrmWorkflow097da295651df11183420022481a1bf1.InputEntities>
+  <this:XrmWorkflow097da295651df11183420022481a1bf1.CreatedEntities>
+    <InArgument x:TypeArguments="scg:IDictionary(x:String, mxs:Entity)" />
+  </this:XrmWorkflow097da295651df11183420022481a1bf1.CreatedEntities>
+  <mva:VisualBasic.Settings>Assembly references and imported namespaces for internal implementation</mva:VisualBasic.Settings>
+  <mxswa:Workflow>
+    <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.BusinessProcessFlowActivities.StageRelationshipCollectionComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="RelationshipCollectionStep1">
+      <mxswa:ActivityReference.Properties>
+        <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+        <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+          <Sequence DisplayName="RelationshipStep2">
+            <mcwb:StageRelationship AttributeName="apollo_patient" RelationshipName="apollo_account_appointment_286" SourceStageId="7946f615-27a5-46a4-926f-35f72119faa9" TargetStageId="34db1c53-5e0e-4e52-a4b2-8fde498f99ef" />
+          </Sequence>
+          <Sequence DisplayName="RelationshipStep3">
+            <mcwb:StageRelationship AttributeName="primarycontactid" RelationshipName="account_primary_contact" SourceStageId="40e7d318-e196-4e1b-876e-c43673dad1e2" TargetStageId="7946f615-27a5-46a4-926f-35f72119faa9" />
+          </Sequence>
+        </sco:Collection>
+      </mxswa:ActivityReference.Properties>
+    </mxswa:ActivityReference>
+    <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EntityComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EntityStep4: contact">
+      <mxswa:ActivityReference.Properties>
+        <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+        <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+          <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.StageComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StageStep5: Contact Creation">
+            <mxswa:ActivityReference.Properties>
+              <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+              <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.StepComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StepStep6: New Step">
+                  <mxswa:ActivityReference.Properties>
+                    <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                    <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                      <Sequence DisplayName="ControlStep7">
+                        <mcwb:Control ClassId="3ef39988-22bb-4f0b-bbbe-64b5a3748aee" ControlDisplayName="Patient Type" ControlId="apollo_patienttype" DataFieldName="apollo_patienttype" IsSystemControl="False" IsUnbound="False" SystemStepType="0">
+                          <mcwb:Control.Parameters>
+                            <InArgument x:TypeArguments="x:String">
+                              <Literal x:TypeArguments="x:String" Value="" />
+                            </InArgument>
+                          </mcwb:Control.Parameters>
+                        </mcwb:Control>
+                      </Sequence>
+                    </sco:Collection>
+                    <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
+                      <mcwo:StepLabel Description="Patient Type" LabelId="244275e3-f3c9-4de9-8d43-e29f09c289a7" LanguageCode="1033" />
+                    </sco:Collection>
+                    <x:String x:Key="ProcessStepId">244275e3-f3c9-4de9-8d43-e29f09c289a7</x:String>
+                    <x:Boolean x:Key="IsProcessRequired">True</x:Boolean>
+                  </mxswa:ActivityReference.Properties>
+                </mxswa:ActivityReference>
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.StepComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StepStep8: New Step">
+                  <mxswa:ActivityReference.Properties>
+                    <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                    <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                      <Sequence DisplayName="ControlStep9">
+                        <mcwb:Control ClassId="4273edbd-ac1d-40d3-9fb2-095c621b552d" ControlDisplayName="First Name" ControlId="firstname" DataFieldName="firstname" IsSystemControl="False" IsUnbound="False" SystemStepType="0">
+                          <mcwb:Control.Parameters>
+                            <InArgument x:TypeArguments="x:String">
+                              <Literal x:TypeArguments="x:String" Value="" />
+                            </InArgument>
+                          </mcwb:Control.Parameters>
+                        </mcwb:Control>
+                      </Sequence>
+                    </sco:Collection>
+                    <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
+                      <mcwo:StepLabel Description="First Name" LabelId="a56d61d3-cd8f-43df-a85e-2c0d6cf81ca4" LanguageCode="1033" />
+                    </sco:Collection>
+                    <x:String x:Key="ProcessStepId">a56d61d3-cd8f-43df-a85e-2c0d6cf81ca4</x:String>
+                    <x:Boolean x:Key="IsProcessRequired">True</x:Boolean>
+                  </mxswa:ActivityReference.Properties>
+                </mxswa:ActivityReference>
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.StepComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StepStep10: New Step">
+                  <mxswa:ActivityReference.Properties>
+                    <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                    <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                      <Sequence DisplayName="ControlStep11">
+                        <mcwb:Control ClassId="4273edbd-ac1d-40d3-9fb2-095c621b552d" ControlDisplayName="Last Name" ControlId="lastname" DataFieldName="lastname" IsSystemControl="False" IsUnbound="False" SystemStepType="0">
+                          <mcwb:Control.Parameters>
+                            <InArgument x:TypeArguments="x:String">
+                              <Literal x:TypeArguments="x:String" Value="" />
+                            </InArgument>
+                          </mcwb:Control.Parameters>
+                        </mcwb:Control>
+                      </Sequence>
+                    </sco:Collection>
+                    <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
+                      <mcwo:StepLabel Description="Last Name" LabelId="4ad41d22-8350-41f1-8bcb-e3eb27c7b2a4" LanguageCode="1033" />
+                    </sco:Collection>
+                    <x:String x:Key="ProcessStepId">4ad41d22-8350-41f1-8bcb-e3eb27c7b2a4</x:String>
+                    <x:Boolean x:Key="IsProcessRequired">False</x:Boolean>
+                  </mxswa:ActivityReference.Properties>
+                </mxswa:ActivityReference>
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.StepComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StepStep12: New Step">
+                  <mxswa:ActivityReference.Properties>
+                    <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                    <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                      <Sequence DisplayName="ControlStep13">
+                        <mcwb:Control ClassId="5b773807-9fb2-42db-97c3-7a91eff8adff" ControlDisplayName="Patient DateofBirth" ControlId="apollo_patientdateofbirth" DataFieldName="apollo_patientdateofbirth" IsSystemControl="False" IsUnbound="False" SystemStepType="0">
+                          <mcwb:Control.Parameters>
+                            <InArgument x:TypeArguments="x:String">
+                              <Literal x:TypeArguments="x:String" Value="" />
+                            </InArgument>
+                          </mcwb:Control.Parameters>
+                        </mcwb:Control>
+                      </Sequence>
+                    </sco:Collection>
+                    <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
+                      <mcwo:StepLabel Description="Patient DateofBirth" LabelId="942125f7-3800-4483-bdf7-d2259d0f60c9" LanguageCode="1033" />
+                    </sco:Collection>
+                    <x:String x:Key="ProcessStepId">942125f7-3800-4483-bdf7-d2259d0f60c9</x:String>
+                    <x:Boolean x:Key="IsProcessRequired">True</x:Boolean>
+                  </mxswa:ActivityReference.Properties>
+                </mxswa:ActivityReference>
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.StepComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StepStep14: New Step">
+                  <mxswa:ActivityReference.Properties>
+                    <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                    <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                      <Sequence DisplayName="ControlStep15">
+                        <mcwb:Control ClassId="ada2203e-b4cd-49be-9ddf-234642b43b52" ControlDisplayName="Email" ControlId="emailaddress1" DataFieldName="emailaddress1" IsSystemControl="False" IsUnbound="False" SystemStepType="0">
+                          <mcwb:Control.Parameters>
+                            <InArgument x:TypeArguments="x:String">
+                              <Literal x:TypeArguments="x:String" Value="" />
+                            </InArgument>
+                          </mcwb:Control.Parameters>
+                        </mcwb:Control>
+                      </Sequence>
+                    </sco:Collection>
+                    <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
+                      <mcwo:StepLabel Description="Email" LabelId="3846bf57-833c-4636-b702-78471cfb9fd5" LanguageCode="1033" />
+                    </sco:Collection>
+                    <x:String x:Key="ProcessStepId">3846bf57-833c-4636-b702-78471cfb9fd5</x:String>
+                    <x:Boolean x:Key="IsProcessRequired">True</x:Boolean>
+                  </mxswa:ActivityReference.Properties>
+                </mxswa:ActivityReference>
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.StepComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StepStep16: New Step">
+                  <mxswa:ActivityReference.Properties>
+                    <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                    <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                      <Sequence DisplayName="ControlStep17">
+                        <mcwb:Control ClassId="4273edbd-ac1d-40d3-9fb2-095c621b552d" ControlDisplayName="Mobile Phone" ControlId="mobilephone" DataFieldName="mobilephone" IsSystemControl="False" IsUnbound="False" SystemStepType="0">
+                          <mcwb:Control.Parameters>
+                            <InArgument x:TypeArguments="x:String">
+                              <Literal x:TypeArguments="x:String" Value="" />
+                            </InArgument>
+                          </mcwb:Control.Parameters>
+                        </mcwb:Control>
+                      </Sequence>
+                    </sco:Collection>
+                    <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
+                      <mcwo:StepLabel Description="Mobile Phone" LabelId="1d0e4b0a-80f7-4423-b47b-0cc315c08fc4" LanguageCode="1033" />
+                    </sco:Collection>
+                    <x:String x:Key="ProcessStepId">1d0e4b0a-80f7-4423-b47b-0cc315c08fc4</x:String>
+                    <x:Boolean x:Key="IsProcessRequired">True</x:Boolean>
+                  </mxswa:ActivityReference.Properties>
+                </mxswa:ActivityReference>
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.ActionComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ActionStep18: Step_18">
+                  <mxswa:ActivityReference.Properties>
+                    <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                    <sco:Collection x:TypeArguments="Activity" x:Key="Activities" />
+                    <x:String x:Key="ActionId">cd715057-749b-4118-9074-bfd468ccd22b</x:String>
+                    <x:Int32 x:Key="ActionType">3</x:Int32>
+                    <s:Guid x:Key="ProcessId">e6ca7a0c-d2c3-4dd1-a701-3f989745489c</s:Guid>
+                    <x:String x:Key="UniqueName">ContactCreated_Alert</x:String>
+                    <x:Array x:Key="TriggerEvents" Type="mcwo:ProcessTriggerData">
+                      <mcwo:ProcessTriggerData Event="STAGEEXIT" FilterId="40e7d318-e196-4e1b-876e-c43673dad1e2" PipelineStageId="20" />
+                    </x:Array>
+                    <x:Null x:Key="ActionControl" />
+                  </mxswa:ActivityReference.Properties>
+                </mxswa:ActivityReference>
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.ConditionSequence, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionStep54">
+                  <mxswa:ActivityReference.Arguments>
+                    <InArgument x:TypeArguments="x:Boolean" x:Key="Wait">False</InArgument>
+                  </mxswa:ActivityReference.Arguments>
+                  <mxswa:ActivityReference.Properties>
+                    <sco:Collection x:TypeArguments="Variable" x:Key="Variables">
+                      <Variable x:TypeArguments="x:Boolean" Default="False" Name="ConditionBranchStep55_condition" />
+                      <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep55_1" />
+                      <Variable x:TypeArguments="x:Object" Name="ConditionBranchStep55_2" />
+                    </sco:Collection>
+                    <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                      <mxswa:GetEntityProperty Attribute="apollo_patienttype" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="contact" Value="[ConditionBranchStep55_1]">
+                        <mxswa:GetEntityProperty.TargetType>
+                          <InArgument x:TypeArguments="s:Type">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type">
+                              <x:Null />
+                            </mxswa:ReferenceLiteral>
+                          </InArgument>
+                        </mxswa:GetEntityProperty.TargetType>
+                      </mxswa:GetEntityProperty>
+                      <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
+                        <mxswa:ActivityReference.Arguments>
+                          <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">CreateCrmType</InArgument>
+                          <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { Microsoft.Xrm.Sdk.Workflow.WorkflowPropertyType.OptionSetValue, "554550000", "Picklist" }]</InArgument>
+                          <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+                            <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:OptionSetValue" />
+                          </InArgument>
+                          <OutArgument x:TypeArguments="x:Object" x:Key="Result">[ConditionBranchStep55_2]</OutArgument>
+                        </mxswa:ActivityReference.Arguments>
+                      </mxswa:ActivityReference>
+                      <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateCondition, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateCondition">
+                        <mxswa:ActivityReference.Arguments>
+                          <InArgument x:TypeArguments="mxsq:ConditionOperator" x:Key="ConditionOperator">Equal</InArgument>
+                          <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { ConditionBranchStep55_2 }]</InArgument>
+                          <InArgument x:TypeArguments="x:Object" x:Key="Operand">[ConditionBranchStep55_1]</InArgument>
+                          <OutArgument x:TypeArguments="x:Boolean" x:Key="Result">[ConditionBranchStep55_condition]</OutArgument>
+                        </mxswa:ActivityReference.Arguments>
+                      </mxswa:ActivityReference>
+                      <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.ConditionBranch, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep55">
+                        <mxswa:ActivityReference.Arguments>
+                          <InArgument x:TypeArguments="x:Boolean" x:Key="Condition">[ConditionBranchStep55_condition]</InArgument>
+                        </mxswa:ActivityReference.Arguments>
+                        <mxswa:ActivityReference.Properties>
+                          <mxswa:ActivityReference x:Key="Then" AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.Composite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConditionBranchStep55">
+                            <mxswa:ActivityReference.Properties>
+                              <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                              <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                                <Sequence DisplayName="SetNextStageStep56">
+                                  <mcwc:SetNextStage ParentStageId="40e7d318-e196-4e1b-876e-c43673dad1e2" StageId="7946f615-27a5-46a4-926f-35f72119faa9" />
+                                </Sequence>
+                              </sco:Collection>
+                            </mxswa:ActivityReference.Properties>
+                          </mxswa:ActivityReference>
+                          <x:Null x:Key="Else" />
+                          <x:String x:Key="Description">Patient Type</x:String>
+                        </mxswa:ActivityReference.Properties>
+                      </mxswa:ActivityReference>
+                    </sco:Collection>
+                    <x:Boolean x:Key="ContainsElseBranch">False</x:Boolean>
+                  </mxswa:ActivityReference.Properties>
+                </mxswa:ActivityReference>
+              </sco:Collection>
+              <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
+                <mcwo:StepLabel Description="Contact Creation" LabelId="40e7d318-e196-4e1b-876e-c43673dad1e2" LanguageCode="1033" />
+              </sco:Collection>
+              <x:String x:Key="StageId">40e7d318-e196-4e1b-876e-c43673dad1e2</x:String>
+              <x:String x:Key="StageCategory">0</x:String>
+              <x:String x:Key="NextStageId">34db1c53-5e0e-4e52-a4b2-8fde498f99ef</x:String>
+            </mxswa:ActivityReference.Properties>
+          </mxswa:ActivityReference>
+        </sco:Collection>
+        <x:Null x:Key="RelationshipName" />
+        <x:Null x:Key="AttributeName" />
+        <x:Boolean x:Key="IsClosedLoop">False</x:Boolean>
+      </mxswa:ActivityReference.Properties>
+    </mxswa:ActivityReference>
+    <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EntityComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EntityStep5: account">
+      <mxswa:ActivityReference.Properties>
+        <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+        <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+          <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.StageComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StageStep20: Create Account">
+            <mxswa:ActivityReference.Properties>
+              <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+              <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.StepComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StepStep21: New Step">
+                  <mxswa:ActivityReference.Properties>
+                    <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                    <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                      <Sequence DisplayName="ControlStep22">
+                        <mcwb:Control ClassId="4273edbd-ac1d-40d3-9fb2-095c621b552d" ControlDisplayName="Account Name" ControlId="name" DataFieldName="name" IsSystemControl="False" IsUnbound="False" SystemStepType="0">
+                          <mcwb:Control.Parameters>
+                            <InArgument x:TypeArguments="x:String">
+                              <Literal x:TypeArguments="x:String" Value="" />
+                            </InArgument>
+                          </mcwb:Control.Parameters>
+                        </mcwb:Control>
+                      </Sequence>
+                    </sco:Collection>
+                    <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
+                      <mcwo:StepLabel Description="Account Name" LabelId="f0f0d0b4-ba74-4f13-9336-c0f0853931dc" LanguageCode="1033" />
+                    </sco:Collection>
+                    <x:String x:Key="ProcessStepId">f0f0d0b4-ba74-4f13-9336-c0f0853931dc</x:String>
+                    <x:Boolean x:Key="IsProcessRequired">True</x:Boolean>
+                  </mxswa:ActivityReference.Properties>
+                </mxswa:ActivityReference>
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.StepComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StepStep23: New Step">
+                  <mxswa:ActivityReference.Properties>
+                    <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                    <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                      <Sequence DisplayName="ControlStep24">
+                        <mcwb:Control ClassId="5b773807-9fb2-42db-97c3-7a91eff8adff" ControlDisplayName="Date of Establishment" ControlId="apollo_dateofestablishment" DataFieldName="apollo_dateofestablishment" IsSystemControl="False" IsUnbound="False" SystemStepType="0">
+                          <mcwb:Control.Parameters>
+                            <InArgument x:TypeArguments="x:String">
+                              <Literal x:TypeArguments="x:String" Value="" />
+                            </InArgument>
+                          </mcwb:Control.Parameters>
+                        </mcwb:Control>
+                      </Sequence>
+                    </sco:Collection>
+                    <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
+                      <mcwo:StepLabel Description="Date of Establishment" LabelId="d0a1f30b-5951-4148-8e53-fd7ec7acca22" LanguageCode="1033" />
+                    </sco:Collection>
+                    <x:String x:Key="ProcessStepId">d0a1f30b-5951-4148-8e53-fd7ec7acca22</x:String>
+                    <x:Boolean x:Key="IsProcessRequired">True</x:Boolean>
+                  </mxswa:ActivityReference.Properties>
+                </mxswa:ActivityReference>
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.StepComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StepStep25: New Step">
+                  <mxswa:ActivityReference.Properties>
+                    <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                    <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                      <Sequence DisplayName="ControlStep26">
+                        <mcwb:Control ClassId="ada2203e-b4cd-49be-9ddf-234642b43b52" ControlDisplayName="Email" ControlId="emailaddress1" DataFieldName="emailaddress1" IsSystemControl="False" IsUnbound="False" SystemStepType="0">
+                          <mcwb:Control.Parameters>
+                            <InArgument x:TypeArguments="x:String">
+                              <Literal x:TypeArguments="x:String" Value="" />
+                            </InArgument>
+                          </mcwb:Control.Parameters>
+                        </mcwb:Control>
+                      </Sequence>
+                    </sco:Collection>
+                    <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
+                      <mcwo:StepLabel Description="Email" LabelId="0ffaa5c1-0757-4101-bdee-f4ba2ab7810e" LanguageCode="1033" />
+                    </sco:Collection>
+                    <x:String x:Key="ProcessStepId">0ffaa5c1-0757-4101-bdee-f4ba2ab7810e</x:String>
+                    <x:Boolean x:Key="IsProcessRequired">False</x:Boolean>
+                  </mxswa:ActivityReference.Properties>
+                </mxswa:ActivityReference>
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.StepComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StepStep27: New Step">
+                  <mxswa:ActivityReference.Properties>
+                    <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                    <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                      <Sequence DisplayName="ControlStep28">
+                        <mcwb:Control ClassId="4273edbd-ac1d-40d3-9fb2-095c621b552d" ControlDisplayName="Main Phone" ControlId="telephone1" DataFieldName="telephone1" IsSystemControl="False" IsUnbound="False" SystemStepType="0">
+                          <mcwb:Control.Parameters>
+                            <InArgument x:TypeArguments="x:String">
+                              <Literal x:TypeArguments="x:String" Value="" />
+                            </InArgument>
+                          </mcwb:Control.Parameters>
+                        </mcwb:Control>
+                      </Sequence>
+                    </sco:Collection>
+                    <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
+                      <mcwo:StepLabel Description="Main Phone" LabelId="eae53114-1cb2-4053-9cad-135aad8ad296" LanguageCode="1033" />
+                    </sco:Collection>
+                    <x:String x:Key="ProcessStepId">eae53114-1cb2-4053-9cad-135aad8ad296</x:String>
+                    <x:Boolean x:Key="IsProcessRequired">False</x:Boolean>
+                  </mxswa:ActivityReference.Properties>
+                </mxswa:ActivityReference>
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.StepComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StepStep29: New Step">
+                  <mxswa:ActivityReference.Properties>
+                    <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                    <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                      <Sequence DisplayName="ControlStep30">
+                        <mcwb:Control ClassId="4273edbd-ac1d-40d3-9fb2-095c621b552d" ControlDisplayName="Address 1: Street 1" ControlId="address1_line1" DataFieldName="address1_line1" IsSystemControl="False" IsUnbound="False" SystemStepType="0">
+                          <mcwb:Control.Parameters>
+                            <InArgument x:TypeArguments="x:String">
+                              <Literal x:TypeArguments="x:String" Value="" />
+                            </InArgument>
+                          </mcwb:Control.Parameters>
+                        </mcwb:Control>
+                      </Sequence>
+                    </sco:Collection>
+                    <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
+                      <mcwo:StepLabel Description="Street 1" LabelId="3e5da3f4-7e35-4f35-9838-c0d861a963f9" LanguageCode="1033" />
+                    </sco:Collection>
+                    <x:String x:Key="ProcessStepId">3e5da3f4-7e35-4f35-9838-c0d861a963f9</x:String>
+                    <x:Boolean x:Key="IsProcessRequired">False</x:Boolean>
+                  </mxswa:ActivityReference.Properties>
+                </mxswa:ActivityReference>
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.StepComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StepStep31: New Step">
+                  <mxswa:ActivityReference.Properties>
+                    <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                    <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                      <Sequence DisplayName="ControlStep32">
+                        <mcwb:Control ClassId="4273edbd-ac1d-40d3-9fb2-095c621b552d" ControlDisplayName="Address 1: City" ControlId="address1_city" DataFieldName="address1_city" IsSystemControl="False" IsUnbound="False" SystemStepType="0">
+                          <mcwb:Control.Parameters>
+                            <InArgument x:TypeArguments="x:String">
+                              <Literal x:TypeArguments="x:String" Value="" />
+                            </InArgument>
+                          </mcwb:Control.Parameters>
+                        </mcwb:Control>
+                      </Sequence>
+                    </sco:Collection>
+                    <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
+                      <mcwo:StepLabel Description="City" LabelId="0d6b01ea-d276-4da9-a8b0-468f7d83df5d" LanguageCode="1033" />
+                    </sco:Collection>
+                    <x:String x:Key="ProcessStepId">0d6b01ea-d276-4da9-a8b0-468f7d83df5d</x:String>
+                    <x:Boolean x:Key="IsProcessRequired">False</x:Boolean>
+                  </mxswa:ActivityReference.Properties>
+                </mxswa:ActivityReference>
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.StepComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StepStep33: New Step">
+                  <mxswa:ActivityReference.Properties>
+                    <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                    <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                      <Sequence DisplayName="ControlStep34">
+                        <mcwb:Control ClassId="4273edbd-ac1d-40d3-9fb2-095c621b552d" ControlDisplayName="Address 1: State/Province" ControlId="address1_stateorprovince" DataFieldName="address1_stateorprovince" IsSystemControl="False" IsUnbound="False" SystemStepType="0">
+                          <mcwb:Control.Parameters>
+                            <InArgument x:TypeArguments="x:String">
+                              <Literal x:TypeArguments="x:String" Value="" />
+                            </InArgument>
+                          </mcwb:Control.Parameters>
+                        </mcwb:Control>
+                      </Sequence>
+                    </sco:Collection>
+                    <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
+                      <mcwo:StepLabel Description="State/Province" LabelId="156dd217-7602-474f-bd86-9144d9b2f787" LanguageCode="1033" />
+                    </sco:Collection>
+                    <x:String x:Key="ProcessStepId">156dd217-7602-474f-bd86-9144d9b2f787</x:String>
+                    <x:Boolean x:Key="IsProcessRequired">False</x:Boolean>
+                  </mxswa:ActivityReference.Properties>
+                </mxswa:ActivityReference>
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.StepComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StepStep35: New Step">
+                  <mxswa:ActivityReference.Properties>
+                    <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                    <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                      <Sequence DisplayName="ControlStep36">
+                        <mcwb:Control ClassId="4273edbd-ac1d-40d3-9fb2-095c621b552d" ControlDisplayName="Address 1: ZIP/Postal Code" ControlId="address1_postalcode" DataFieldName="address1_postalcode" IsSystemControl="False" IsUnbound="False" SystemStepType="0">
+                          <mcwb:Control.Parameters>
+                            <InArgument x:TypeArguments="x:String">
+                              <Literal x:TypeArguments="x:String" Value="" />
+                            </InArgument>
+                          </mcwb:Control.Parameters>
+                        </mcwb:Control>
+                      </Sequence>
+                    </sco:Collection>
+                    <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
+                      <mcwo:StepLabel Description="ZIP/Postal Code" LabelId="e89b027e-0e57-4857-8e86-e2c1a9b0285c" LanguageCode="1033" />
+                    </sco:Collection>
+                    <x:String x:Key="ProcessStepId">e89b027e-0e57-4857-8e86-e2c1a9b0285c</x:String>
+                    <x:Boolean x:Key="IsProcessRequired">False</x:Boolean>
+                  </mxswa:ActivityReference.Properties>
+                </mxswa:ActivityReference>
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.StepComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StepStep37: New Step">
+                  <mxswa:ActivityReference.Properties>
+                    <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                    <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                      <Sequence DisplayName="ControlStep38">
+                        <mcwb:Control ClassId="4273edbd-ac1d-40d3-9fb2-095c621b552d" ControlDisplayName="Address 1: Country/Region" ControlId="address1_country" DataFieldName="address1_country" IsSystemControl="False" IsUnbound="False" SystemStepType="0">
+                          <mcwb:Control.Parameters>
+                            <InArgument x:TypeArguments="x:String">
+                              <Literal x:TypeArguments="x:String" Value="" />
+                            </InArgument>
+                          </mcwb:Control.Parameters>
+                        </mcwb:Control>
+                      </Sequence>
+                    </sco:Collection>
+                    <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
+                      <mcwo:StepLabel Description="Country" LabelId="a6d6b510-1c7c-4aba-bd14-b54300e307e7" LanguageCode="1033" />
+                    </sco:Collection>
+                    <x:String x:Key="ProcessStepId">a6d6b510-1c7c-4aba-bd14-b54300e307e7</x:String>
+                    <x:Boolean x:Key="IsProcessRequired">False</x:Boolean>
+                  </mxswa:ActivityReference.Properties>
+                </mxswa:ActivityReference>
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.StepComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StepStep39: AccountCreation_Action">
+                  <mxswa:ActivityReference.Properties>
+                    <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                    <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                      <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.ActionComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ActionStep40: Step_40">
+                        <mxswa:ActivityReference.Properties>
+                          <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                          <sco:Collection x:TypeArguments="Activity" x:Key="Activities" />
+                          <x:String x:Key="ActionId">91c4fcde-f3ae-4b80-8db1-2a622eaa0884</x:String>
+                          <x:Int32 x:Key="ActionType">0</x:Int32>
+                          <s:Guid x:Key="ProcessId">6f6a338d-bba7-46b0-91d3-0219890b67f5</s:Guid>
+                          <x:String x:Key="UniqueName">apollo_AccountCreation_Action</x:String>
+                          <x:Null x:Key="TriggerEvents" />
+                          <Sequence x:Key="ActionControl" DisplayName="ControlStep41">
+                            <mcwb:Control ClassId="00ad73da-bd4d-49c6-88a8-2f4f4cad4a20" ControlDisplayName="AccountCreation_Action" ControlId="apollo_AccountCreation_Action_Step_41" IsSystemControl="False" IsUnbound="True" SystemStepType="0">
+                              <mcwb:Control.DataFieldName>
+                                <InArgument x:TypeArguments="x:String">
+                                  <Literal x:TypeArguments="x:String" Value="" />
+                                </InArgument>
+                              </mcwb:Control.DataFieldName>
+                              <mcwb:Control.Parameters>
+                                <InArgument x:TypeArguments="x:String">
+                                  <Literal x:TypeArguments="x:String" Value="" />
+                                </InArgument>
+                              </mcwb:Control.Parameters>
+                            </mcwb:Control>
+                          </Sequence>
+                        </mxswa:ActivityReference.Properties>
+                      </mxswa:ActivityReference>
+                    </sco:Collection>
+                    <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
+                      <mcwo:StepLabel Description="AccountCreation_Action" LabelId="91c4fcde-f3ae-4b80-8db1-2a622eaa0884" LanguageCode="1033" />
+                    </sco:Collection>
+                    <x:String x:Key="ProcessStepId">91c4fcde-f3ae-4b80-8db1-2a622eaa0884</x:String>
+                    <x:Boolean x:Key="IsProcessRequired">False</x:Boolean>
+                  </mxswa:ActivityReference.Properties>
+                </mxswa:ActivityReference>
+              </sco:Collection>
+              <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
+                <mcwo:StepLabel Description="Create Account" LabelId="7946f615-27a5-46a4-926f-35f72119faa9" LanguageCode="1033" />
+              </sco:Collection>
+              <x:String x:Key="StageId">7946f615-27a5-46a4-926f-35f72119faa9</x:String>
+              <x:String x:Key="StageCategory">1</x:String>
+              <x:String x:Key="NextStageId">34db1c53-5e0e-4e52-a4b2-8fde498f99ef</x:String>
+            </mxswa:ActivityReference.Properties>
+          </mxswa:ActivityReference>
+        </sco:Collection>
+        <x:Null x:Key="RelationshipName" />
+        <x:Null x:Key="AttributeName" />
+        <x:Boolean x:Key="IsClosedLoop">False</x:Boolean>
+      </mxswa:ActivityReference.Properties>
+    </mxswa:ActivityReference>
+    <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EntityComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EntityStep6: appointment">
+      <mxswa:ActivityReference.Properties>
+        <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+        <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+          <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.StageComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StageStep43: Create Appointment">
+            <mxswa:ActivityReference.Properties>
+              <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+              <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.StepComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StepStep44: New Step">
+                  <mxswa:ActivityReference.Properties>
+                    <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                    <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                      <Sequence DisplayName="ControlStep45">
+                        <mcwb:Control ClassId="5b773807-9fb2-42db-97c3-7a91eff8adff" ControlDisplayName="Appointment Date" ControlId="apollo_appointmentdate" DataFieldName="apollo_appointmentdate" IsSystemControl="False" IsUnbound="False" SystemStepType="0">
+                          <mcwb:Control.Parameters>
+                            <InArgument x:TypeArguments="x:String">
+                              <Literal x:TypeArguments="x:String" Value="" />
+                            </InArgument>
+                          </mcwb:Control.Parameters>
+                        </mcwb:Control>
+                      </Sequence>
+                    </sco:Collection>
+                    <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
+                      <mcwo:StepLabel Description="Appointment Date" LabelId="00a06ebb-e4a4-49a2-b65b-2d229b04cc35" LanguageCode="1033" />
+                    </sco:Collection>
+                    <x:String x:Key="ProcessStepId">00a06ebb-e4a4-49a2-b65b-2d229b04cc35</x:String>
+                    <x:Boolean x:Key="IsProcessRequired">True</x:Boolean>
+                  </mxswa:ActivityReference.Properties>
+                </mxswa:ActivityReference>
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.StepComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StepStep46: New Step">
+                  <mxswa:ActivityReference.Properties>
+                    <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                    <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                      <Sequence DisplayName="ControlStep47">
+                        <mcwb:Control ClassId="270bd3db-d9af-4782-9025-509e298dec0a" ControlDisplayName="Doctor" ControlId="apollo_doctor" DataFieldName="apollo_doctor" IsSystemControl="False" IsUnbound="False" SystemStepType="0">
+                          <mcwb:Control.Parameters>
+                            <InArgument x:TypeArguments="x:String">
+                              <Literal x:TypeArguments="x:String" Value="" />
+                            </InArgument>
+                          </mcwb:Control.Parameters>
+                        </mcwb:Control>
+                      </Sequence>
+                    </sco:Collection>
+                    <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
+                      <mcwo:StepLabel Description="Doctor" LabelId="1be070ea-52f7-4d76-bfea-134eb9646b3f" LanguageCode="1033" />
+                    </sco:Collection>
+                    <x:String x:Key="ProcessStepId">1be070ea-52f7-4d76-bfea-134eb9646b3f</x:String>
+                    <x:Boolean x:Key="IsProcessRequired">True</x:Boolean>
+                  </mxswa:ActivityReference.Properties>
+                </mxswa:ActivityReference>
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.StepComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StepStep48: New Step">
+                  <mxswa:ActivityReference.Properties>
+                    <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                    <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                      <Sequence DisplayName="ControlStep49">
+                        <mcwb:Control ClassId="270bd3db-d9af-4782-9025-509e298dec0a" ControlDisplayName="Patient" ControlId="apollo_patient" DataFieldName="apollo_patient" IsSystemControl="False" IsUnbound="False" SystemStepType="0">
+                          <mcwb:Control.Parameters>
+                            <InArgument x:TypeArguments="x:String">
+                              <Literal x:TypeArguments="x:String" Value="" />
+                            </InArgument>
+                          </mcwb:Control.Parameters>
+                        </mcwb:Control>
+                      </Sequence>
+                    </sco:Collection>
+                    <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
+                      <mcwo:StepLabel Description="Patient" LabelId="5ea8ca1d-9751-422e-8200-e2dd813bbb78" LanguageCode="1033" />
+                    </sco:Collection>
+                    <x:String x:Key="ProcessStepId">5ea8ca1d-9751-422e-8200-e2dd813bbb78</x:String>
+                    <x:Boolean x:Key="IsProcessRequired">True</x:Boolean>
+                  </mxswa:ActivityReference.Properties>
+                </mxswa:ActivityReference>
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.StepComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StepStep50: New Step">
+                  <mxswa:ActivityReference.Properties>
+                    <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                    <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                      <Sequence DisplayName="ControlStep51">
+                        <mcwb:Control ClassId="4273edbd-ac1d-40d3-9fb2-095c621b552d" ControlDisplayName="Subject" ControlId="subject" DataFieldName="subject" IsSystemControl="False" IsUnbound="False" SystemStepType="0">
+                          <mcwb:Control.Parameters>
+                            <InArgument x:TypeArguments="x:String">
+                              <Literal x:TypeArguments="x:String" Value="" />
+                            </InArgument>
+                          </mcwb:Control.Parameters>
+                        </mcwb:Control>
+                      </Sequence>
+                    </sco:Collection>
+                    <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
+                      <mcwo:StepLabel Description="Subject" LabelId="dbb94318-ea4d-4958-bcaf-23609bc200b4" LanguageCode="1033" />
+                    </sco:Collection>
+                    <x:String x:Key="ProcessStepId">dbb94318-ea4d-4958-bcaf-23609bc200b4</x:String>
+                    <x:Boolean x:Key="IsProcessRequired">True</x:Boolean>
+                  </mxswa:ActivityReference.Properties>
+                </mxswa:ActivityReference>
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.StepComposite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StepStep52: New Step">
+                  <mxswa:ActivityReference.Properties>
+                    <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+                    <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                      <Sequence DisplayName="ControlStep53">
+                        <mcwb:Control ClassId="3ef39988-22bb-4f0b-bbbe-64b5a3748aee" ControlDisplayName="Priority" ControlId="prioritycode" DataFieldName="prioritycode" IsSystemControl="False" IsUnbound="False" SystemStepType="0">
+                          <mcwb:Control.Parameters>
+                            <InArgument x:TypeArguments="x:String">
+                              <Literal x:TypeArguments="x:String" Value="" />
+                            </InArgument>
+                          </mcwb:Control.Parameters>
+                        </mcwb:Control>
+                      </Sequence>
+                    </sco:Collection>
+                    <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
+                      <mcwo:StepLabel Description="Priority" LabelId="d28e36c8-4fd3-4c2d-ae29-47c8841ed2e2" LanguageCode="1033" />
+                    </sco:Collection>
+                    <x:String x:Key="ProcessStepId">d28e36c8-4fd3-4c2d-ae29-47c8841ed2e2</x:String>
+                    <x:Boolean x:Key="IsProcessRequired">False</x:Boolean>
+                  </mxswa:ActivityReference.Properties>
+                </mxswa:ActivityReference>
+              </sco:Collection>
+              <sco:Collection x:TypeArguments="mcwo:StepLabel" x:Key="StepLabels">
+                <mcwo:StepLabel Description="Create Appointment" LabelId="34db1c53-5e0e-4e52-a4b2-8fde498f99ef" LanguageCode="1033" />
+              </sco:Collection>
+              <x:String x:Key="StageId">34db1c53-5e0e-4e52-a4b2-8fde498f99ef</x:String>
+              <x:String x:Key="StageCategory">3</x:String>
+              <x:Null x:Key="NextStageId" />
+            </mxswa:ActivityReference.Properties>
+          </mxswa:ActivityReference>
+        </sco:Collection>
+        <x:Null x:Key="RelationshipName" />
+        <x:Null x:Key="AttributeName" />
+        <x:Boolean x:Key="IsClosedLoop">False</x:Boolean>
+      </mxswa:ActivityReference.Properties>
+    </mxswa:ActivityReference>
+  </mxswa:Workflow>
+</Activity>

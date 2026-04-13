@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template>
+  <text><![CDATA[<P>Dear ]]></text>
+  <slugs>
+    <slug>
+      <entity>contact</entity>
+      <attribute>salutation</attribute>
+    </slug>
+    <default />
+  </slugs>
+  <text><![CDATA[ ]]></text>
+  <slugs>
+    <slug>
+      <entity>contact</entity>
+      <attribute>lastname</attribute>
+    </slug>
+    <default>Valued Customer</default>
+  </slugs>
+  <text><![CDATA[  ,</P><P>Thank you for registering with us. We now have the following registration information on file:</P><P>Name: ]]></text>
+  <slugs>
+    <slug>
+      <entity>systemuser</entity>
+      <attribute>fullname</attribute>
+    </slug>
+    <default />
+  </slugs>
+  <text><![CDATA[<BR>Street Address: ]]></text>
+  <slugs>
+    <slug>
+      <entity>contact</entity>
+      <attribute>address1_line1</attribute>
+    </slug>
+    <slug>
+      <entity>contact</entity>
+      <attribute>address1_line2</attribute>
+    </slug>
+    <slug>
+      <entity>contact</entity>
+      <attribute>address1_line3</attribute>
+    </slug>
+    <default>No Address Provided</default>
+  </slugs>
+  <text><![CDATA[ <BR>City: ]]></text>
+  <slugs>
+    <slug>
+      <entity>contact</entity>
+      <attribute>address1_city</attribute>
+    </slug>
+    <default />
+  </slugs>
+  <text><![CDATA[<BR>State or Province: ]]></text>
+  <slugs>
+    <slug>
+      <entity>contact</entity>
+      <attribute>address1_stateorprovince</attribute>
+    </slug>
+    <default />
+  </slugs>
+  <text><![CDATA[<BR>Country or Region: ]]></text>
+  <slugs>
+    <slug>
+      <entity>contact</entity>
+      <attribute>address1_country</attribute>
+    </slug>
+    <default />
+  </slugs>
+  <text><![CDATA[<BR>Postal Code: ]]></text>
+  <slugs>
+    <slug>
+      <entity>contact</entity>
+      <attribute>address1_postalcode</attribute>
+    </slug>
+    <default />
+  </slugs>
+  <text><![CDATA[<BR>E-mail Address: ]]></text>
+  <slugs>
+    <slug>
+      <entity>contact</entity>
+      <attribute>emailaddress1</attribute>
+    </slug>
+    <default />
+  </slugs>
+  <text><![CDATA[</P><P>If you would like to change or add additional information to your customer profile please visit our Web site. While there you can take advantage of the many self-service features of our site including scheduling, appointment notifications, knowledge base look-up, and service request management. </P><P>We look forward to serving you in the future.</P><P>Thank you.</P>]]></text>
+</template>

@@ -1,0 +1,175 @@
+<Activity x:Class="XrmWorkflow80d34d666ceef01184070022481a1bf1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mcwa="clr-namespace:Microsoft.Crm.Workflow.Activities;assembly=Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" xmlns:mxs="clr-namespace:Microsoft.Xrm.Sdk;assembly=Microsoft.Xrm.Sdk, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" xmlns:mxswa="clr-namespace:Microsoft.Xrm.Sdk.Workflow.Activities;assembly=Microsoft.Xrm.Sdk.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" xmlns:s="clr-namespace:System;assembly=mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" xmlns:srs="clr-namespace:System.Runtime.Serialization;assembly=System.Runtime.Serialization, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" xmlns:this="clr-namespace:" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <x:Members>
+    <x:Property Name="InputEntities" Type="InArgument(scg:IDictionary(x:String, mxs:Entity))" />
+    <x:Property Name="CreatedEntities" Type="InArgument(scg:IDictionary(x:String, mxs:Entity))" />
+  </x:Members>
+  <this:XrmWorkflow80d34d666ceef01184070022481a1bf1.InputEntities>
+    <InArgument x:TypeArguments="scg:IDictionary(x:String, mxs:Entity)" />
+  </this:XrmWorkflow80d34d666ceef01184070022481a1bf1.InputEntities>
+  <this:XrmWorkflow80d34d666ceef01184070022481a1bf1.CreatedEntities>
+    <InArgument x:TypeArguments="scg:IDictionary(x:String, mxs:Entity)" />
+  </this:XrmWorkflow80d34d666ceef01184070022481a1bf1.CreatedEntities>
+  <mva:VisualBasic.Settings>Assembly references and imported namespaces for internal implementation</mva:VisualBasic.Settings>
+  <mxswa:Workflow>
+    <mxswa:Workflow.Variables>
+      <Variable x:TypeArguments="mxs:Money" Name="InvokeSdkMessageStep1InsuranceAmountOut_localParameter">
+        <Variable.Default>
+          <mxswa:ReferenceLiteral x:TypeArguments="mxs:Money">
+            <x:Null />
+          </mxswa:ReferenceLiteral>
+        </Variable.Default>
+      </Variable>
+      <Variable x:TypeArguments="mxs:Money" Name="InvokeSdkMessageStep1TotalAmountOut_localParameter">
+        <Variable.Default>
+          <mxswa:ReferenceLiteral x:TypeArguments="mxs:Money">
+            <x:Null />
+          </mxswa:ReferenceLiteral>
+        </Variable.Default>
+      </Variable>
+    </mxswa:Workflow.Variables>
+    <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.Composite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StageStep3: Run action Calc_TotalAmountInvoice">
+      <mxswa:ActivityReference.Properties>
+        <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+        <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+          <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.Composite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="InvokeSdkMessageStep1: Run Calc_TotalAmountInvoice Action">
+            <mxswa:ActivityReference.Properties>
+              <sco:Collection x:TypeArguments="Variable" x:Key="Variables">
+                <Variable x:TypeArguments="x:Object" Name="InvokeSdkMessageStep1_1" />
+                <Variable x:TypeArguments="x:Object" Name="InvokeSdkMessageStep1_2" />
+                <Variable x:TypeArguments="x:Object" Name="InvokeSdkMessageStep1_1_converted" />
+                <Variable x:TypeArguments="x:Object" Name="InvokeSdkMessageStep1_3" />
+                <Variable x:TypeArguments="x:Object" Name="InvokeSdkMessageStep1_4" />
+                <Variable x:TypeArguments="x:Object" Name="InvokeSdkMessageStep1_3_converted" />
+              </sco:Collection>
+              <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+                <mxswa:GetEntityProperty Attribute="apollo_insuranceclaim" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="apollo_apolloinvoice" Value="[InvokeSdkMessageStep1_2]">
+                  <mxswa:GetEntityProperty.TargetType>
+                    <InArgument x:TypeArguments="s:Type">
+                      <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:EntityReference" />
+                    </InArgument>
+                  </mxswa:GetEntityProperty.TargetType>
+                </mxswa:GetEntityProperty>
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
+                  <mxswa:ActivityReference.Arguments>
+                    <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">SelectFirstNonNull</InArgument>
+                    <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { InvokeSdkMessageStep1_2 }]</InArgument>
+                    <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+                      <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:EntityReference" />
+                    </InArgument>
+                    <OutArgument x:TypeArguments="x:Object" x:Key="Result">[InvokeSdkMessageStep1_1]</OutArgument>
+                  </mxswa:ActivityReference.Arguments>
+                </mxswa:ActivityReference>
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.ConvertCrmXrmTypes, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConvertCrmXrmTypes">
+                  <mxswa:ActivityReference.Arguments>
+                    <InArgument x:TypeArguments="x:Object" x:Key="Value">[InvokeSdkMessageStep1_1]</InArgument>
+                    <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+                      <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:EntityReference" />
+                    </InArgument>
+                    <OutArgument x:TypeArguments="x:Object" x:Key="Result">[InvokeSdkMessageStep1_1_converted]</OutArgument>
+                  </mxswa:ActivityReference.Arguments>
+                </mxswa:ActivityReference>
+                <mxswa:GetEntityProperty Attribute="apollo_apolloinvoiceid" Entity="[InputEntities(&quot;primaryEntity&quot;)]" EntityName="apollo_apolloinvoice" Value="[InvokeSdkMessageStep1_4]">
+                  <mxswa:GetEntityProperty.TargetType>
+                    <InArgument x:TypeArguments="s:Type">
+                      <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:EntityReference" />
+                    </InArgument>
+                  </mxswa:GetEntityProperty.TargetType>
+                </mxswa:GetEntityProperty>
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
+                  <mxswa:ActivityReference.Arguments>
+                    <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">SelectFirstNonNull</InArgument>
+                    <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { InvokeSdkMessageStep1_4 }]</InArgument>
+                    <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+                      <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:EntityReference" />
+                    </InArgument>
+                    <OutArgument x:TypeArguments="x:Object" x:Key="Result">[InvokeSdkMessageStep1_3]</OutArgument>
+                  </mxswa:ActivityReference.Arguments>
+                </mxswa:ActivityReference>
+                <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.ConvertCrmXrmTypes, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="ConvertCrmXrmTypes">
+                  <mxswa:ActivityReference.Arguments>
+                    <InArgument x:TypeArguments="x:Object" x:Key="Value">[InvokeSdkMessageStep1_3]</InArgument>
+                    <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+                      <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:EntityReference" />
+                    </InArgument>
+                    <OutArgument x:TypeArguments="x:Object" x:Key="Result">[InvokeSdkMessageStep1_3_converted]</OutArgument>
+                  </mxswa:ActivityReference.Arguments>
+                </mxswa:ActivityReference>
+                <mcwa:InvokeSdkMessageActivity DisplayName="InvokeSdkMessageStep1: Run Calc_TotalAmountInvoice Action" SdkMessageEntityName="apollo_apolloinvoice" SdkMessageId="b59d20d2-04f3-f011-8407-0022481a1bf1" SdkMessageName="apollo_Calc_InsuranceClaim" SdkMessageRequestSuffix="">
+                  <mcwa:InvokeSdkMessageActivity.Arguments>
+                    <InArgument x:TypeArguments="mxs:EntityReference" x:Key="InsuranceClaim">[DirectCast(InvokeSdkMessageStep1_1_converted, Microsoft.Xrm.Sdk.EntityReference)]</InArgument>
+                    <InArgument x:TypeArguments="mxs:EntityReference" x:Key="Target">[DirectCast(InvokeSdkMessageStep1_3_converted, Microsoft.Xrm.Sdk.EntityReference)]</InArgument>
+                    <OutArgument x:TypeArguments="mxs:Money" x:Key="InsuranceAmountOut">[InvokeSdkMessageStep1InsuranceAmountOut_localParameter]</OutArgument>
+                    <OutArgument x:TypeArguments="mxs:Money" x:Key="TotalAmountOut">[InvokeSdkMessageStep1TotalAmountOut_localParameter]</OutArgument>
+                  </mcwa:InvokeSdkMessageActivity.Arguments>
+                  <mcwa:InvokeSdkMessageActivity.Properties>
+                    <sco:Collection x:TypeArguments="x:String" x:Key="InsuranceClaim#InArgumentEntityType">
+                      <x:String>apollo_insuranceclaim</x:String>
+                    </sco:Collection>
+                    <sco:Collection x:TypeArguments="x:String" x:Key="Target#InArgumentEntityType">
+                      <x:String>apollo_apolloinvoice</x:String>
+                    </sco:Collection>
+                    <x:String x:Key="Target#InArgumentRequired">Target</x:String>
+                  </mcwa:InvokeSdkMessageActivity.Properties>
+                </mcwa:InvokeSdkMessageActivity>
+              </sco:Collection>
+            </mxswa:ActivityReference.Properties>
+          </mxswa:ActivityReference>
+          <Persist />
+        </sco:Collection>
+      </mxswa:ActivityReference.Properties>
+    </mxswa:ActivityReference>
+    <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.Composite, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="StageStep4: Type a stage description here.">
+      <mxswa:ActivityReference.Properties>
+        <sco:Collection x:TypeArguments="Variable" x:Key="Variables" />
+        <sco:Collection x:TypeArguments="Activity" x:Key="Activities">
+          <Sequence DisplayName="UpdateStep5: Update Final Amount">
+            <Sequence.Variables>
+              <Variable x:TypeArguments="x:Object" Name="UpdateStep5_1" />
+              <Variable x:TypeArguments="x:Object" Name="UpdateStep5_2" />
+            </Sequence.Variables>
+            <Assign x:TypeArguments="mxs:Entity" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" Value="[New Entity(&quot;apollo_apolloinvoice&quot;)]" />
+            <Assign x:TypeArguments="s:Guid" To="[CreatedEntities(&quot;primaryEntity#Temp&quot;).Id]" Value="[InputEntities(&quot;primaryEntity&quot;).Id]" />
+            <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
+              <mxswa:ActivityReference.Arguments>
+                <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">SelectFirstNonNull</InArgument>
+                <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { InvokeSdkMessageStep1InsuranceAmountOut_localParameter }]</InArgument>
+                <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+                  <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:Money" />
+                </InArgument>
+                <OutArgument x:TypeArguments="x:Object" x:Key="Result">[UpdateStep5_1]</OutArgument>
+              </mxswa:ActivityReference.Arguments>
+            </mxswa:ActivityReference>
+            <mxswa:SetEntityProperty Attribute="apollo_insuranceclaimamount" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="apollo_apolloinvoice" Value="[UpdateStep5_1]">
+              <mxswa:SetEntityProperty.TargetType>
+                <InArgument x:TypeArguments="s:Type">
+                  <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:Money" />
+                </InArgument>
+              </mxswa:SetEntityProperty.TargetType>
+            </mxswa:SetEntityProperty>
+            <mxswa:ActivityReference AssemblyQualifiedName="Microsoft.Crm.Workflow.Activities.EvaluateExpression, Microsoft.Crm.Workflow, Version=9.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" DisplayName="EvaluateExpression">
+              <mxswa:ActivityReference.Arguments>
+                <InArgument x:TypeArguments="x:String" x:Key="ExpressionOperator">SelectFirstNonNull</InArgument>
+                <InArgument x:TypeArguments="s:Object[]" x:Key="Parameters">[New Object() { InvokeSdkMessageStep1TotalAmountOut_localParameter }]</InArgument>
+                <InArgument x:TypeArguments="s:Type" x:Key="TargetType">
+                  <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:Money" />
+                </InArgument>
+                <OutArgument x:TypeArguments="x:Object" x:Key="Result">[UpdateStep5_2]</OutArgument>
+              </mxswa:ActivityReference.Arguments>
+            </mxswa:ActivityReference>
+            <mxswa:SetEntityProperty Attribute="apollo_finalamount" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="apollo_apolloinvoice" Value="[UpdateStep5_2]">
+              <mxswa:SetEntityProperty.TargetType>
+                <InArgument x:TypeArguments="s:Type">
+                  <mxswa:ReferenceLiteral x:TypeArguments="s:Type" Value="mxs:Money" />
+                </InArgument>
+              </mxswa:SetEntityProperty.TargetType>
+            </mxswa:SetEntityProperty>
+            <mxswa:UpdateEntity DisplayName="UpdateStep5" Entity="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" EntityName="apollo_apolloinvoice" />
+            <Assign x:TypeArguments="mxs:Entity" To="[InputEntities(&quot;primaryEntity&quot;)]" Value="[CreatedEntities(&quot;primaryEntity#Temp&quot;)]" />
+            <Persist />
+          </Sequence>
+          <Persist />
+        </sco:Collection>
+      </mxswa:ActivityReference.Properties>
+    </mxswa:ActivityReference>
+  </mxswa:Workflow>
+</Activity>

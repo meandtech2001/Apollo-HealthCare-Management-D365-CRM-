@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{09bdc2e3-ce2a-60e0-7d00-aa3f5239d5eb}</savedqueryid>
+    <layoutxml>
+      <grid
+        name="resultset"
+        jump="apollo_title"
+        select="1"
+        icon="1"
+        preview="1">
+        <row
+          name="result"
+          id="apollo_apollofeedbacksid">
+          <cell
+            name="apollo_title"
+            width="300" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1048576</querytype>
+    <fetchxml>
+      <fetch
+        version="1.0"
+        mapping="logical">
+        <entity
+          name="apollo_apollofeedbacks">
+          <attribute
+            name="apollo_apollofeedbacksid" />
+          <attribute
+            name="apollo_title" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName
+        description="Apollo Feedbacks Copilot View"
+        languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

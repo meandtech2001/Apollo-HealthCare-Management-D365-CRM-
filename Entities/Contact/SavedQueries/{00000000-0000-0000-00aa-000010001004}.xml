@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{00000000-0000-0000-00aa-000010001004}</savedqueryid>
+    <queryapi></queryapi>
+    <layoutxml>
+      <grid
+        name="resultset"
+        jump="fullname"
+        select="1"
+        icon="1"
+        preview="1">
+        <row
+          name="result"
+          id="contactid">
+          <cell
+            name="fullname"
+            width="125" />
+          <cell
+            name="apollo_contactnumber"
+            width="140" />
+          <cell
+            name="emailaddress1"
+            width="150" />
+          <cell
+            name="mobilephone"
+            width="119" />
+          <cell
+            name="parentcustomerid"
+            width="150" />
+          <cell
+            name="apollo_patienttype"
+            width="111" />
+          <cell
+            name="apollo_emergencycontactperson"
+            width="193" />
+          <cell
+            name="address1_city"
+            width="128" />
+          <cell
+            name="address1_stateorprovince"
+            width="186" />
+          <cell
+            name="address1_country"
+            width="194" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch
+        version="1.0"
+        output-format="xml-platform"
+        mapping="logical">
+        <entity
+          name="contact">
+          <attribute
+            name="fullname" />
+          <order
+            attribute="fullname"
+            descending="false" />
+          <attribute
+            name="parentcustomerid" />
+          <filter
+            type="and">
+            <condition
+              attribute="statecode"
+              operator="eq"
+              value="0" />
+          </filter>
+          <attribute
+            name="emailaddress1" />
+          <attribute
+            name="contactid" />
+          <attribute
+            name="apollo_contactnumber" />
+          <attribute
+            name="apollo_patienttype" />
+          <attribute
+            name="apollo_emergencycontactperson" />
+          <attribute
+            name="mobilephone" />
+          <attribute
+            name="address1_country" />
+          <attribute
+            name="address1_stateorprovince" />
+          <attribute
+            name="address1_city" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName
+        description="Aktive Kontakte"
+        languagecode="1031" />
+      <LocalizedName
+        description="Active Contacts"
+        languagecode="1033" />
+      <LocalizedName
+        description="Contacts actifs"
+        languagecode="1036" />
+      <LocalizedName
+        description="सक्रिय संपर्क"
+        languagecode="1081" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

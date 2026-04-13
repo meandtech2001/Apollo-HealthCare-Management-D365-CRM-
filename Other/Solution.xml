@@ -1,0 +1,2846 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml
+  version="9.2.26034.167"
+  SolutionPackageVersion="9.2"
+  languagecode="1033"
+  generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  OrganizationVersion="9.2.26034.167"
+  OrganizationSchemaType="Standard"
+  CRMServerServiceabilityVersion="9.2.26034.00167">
+  <SolutionManifest>
+    <UniqueName>ApolloHospitalProject</UniqueName>
+    <LocalizedNames>
+      <LocalizedName
+        description="Apollo Hospital Project"
+        languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description
+        description="My practice"
+        languagecode="1033" />
+    </Descriptions>
+    <Version>1.0.0.4</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>ApolloHospital</UniqueName>
+      <LocalizedNames>
+        <LocalizedName
+          description="Apollo Hospital"
+          languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions>
+        <Description
+          description="Apollo Hospitals"
+          languagecode="1033" />
+      </Descriptions>
+      <EMailAddress
+        xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl
+        xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>apollo</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>55455</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City
+            xsi:nil="true"></City>
+          <County
+            xsi:nil="true"></County>
+          <Country
+            xsi:nil="true"></Country>
+          <Fax
+            xsi:nil="true"></Fax>
+          <FreightTermsCode
+            xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber
+            xsi:nil="true"></ImportSequenceNumber>
+          <Latitude
+            xsi:nil="true"></Latitude>
+          <Line1
+            xsi:nil="true"></Line1>
+          <Line2
+            xsi:nil="true"></Line2>
+          <Line3
+            xsi:nil="true"></Line3>
+          <Longitude
+            xsi:nil="true"></Longitude>
+          <Name
+            xsi:nil="true"></Name>
+          <PostalCode
+            xsi:nil="true"></PostalCode>
+          <PostOfficeBox
+            xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName
+            xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince
+            xsi:nil="true"></StateOrProvince>
+          <Telephone1
+            xsi:nil="true"></Telephone1>
+          <Telephone2
+            xsi:nil="true"></Telephone2>
+          <Telephone3
+            xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber
+            xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone
+            xsi:nil="true"></UPSZone>
+          <UTCOffset
+            xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode
+            xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City
+            xsi:nil="true"></City>
+          <County
+            xsi:nil="true"></County>
+          <Country
+            xsi:nil="true"></Country>
+          <Fax
+            xsi:nil="true"></Fax>
+          <FreightTermsCode
+            xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber
+            xsi:nil="true"></ImportSequenceNumber>
+          <Latitude
+            xsi:nil="true"></Latitude>
+          <Line1
+            xsi:nil="true"></Line1>
+          <Line2
+            xsi:nil="true"></Line2>
+          <Line3
+            xsi:nil="true"></Line3>
+          <Longitude
+            xsi:nil="true"></Longitude>
+          <Name
+            xsi:nil="true"></Name>
+          <PostalCode
+            xsi:nil="true"></PostalCode>
+          <PostOfficeBox
+            xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName
+            xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince
+            xsi:nil="true"></StateOrProvince>
+          <Telephone1
+            xsi:nil="true"></Telephone1>
+          <Telephone2
+            xsi:nil="true"></Telephone2>
+          <Telephone3
+            xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber
+            xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone
+            xsi:nil="true"></UPSZone>
+          <UTCOffset
+            xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode
+            xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent
+        type="1"
+        schemaName="account"
+        behavior="1" />
+      <RootComponent
+        type="1"
+        schemaName="apollo_apollofeedbacks"
+        behavior="0" />
+      <RootComponent
+        type="1"
+        schemaName="apollo_apolloinvoice"
+        behavior="0" />
+      <RootComponent
+        type="1"
+        schemaName="apollo_apollolab"
+        behavior="0" />
+      <RootComponent
+        type="1"
+        schemaName="apollo_doctorshift"
+        behavior="0" />
+      <RootComponent
+        type="1"
+        schemaName="apollo_homevisit"
+        behavior="0" />
+      <RootComponent
+        type="1"
+        schemaName="apollo_insuranceclaim"
+        behavior="0" />
+      <RootComponent
+        type="1"
+        schemaName="apollo_invoiceline"
+        behavior="0" />
+      <RootComponent
+        type="1"
+        schemaName="apollo_medicaltest"
+        behavior="0" />
+      <RootComponent
+        type="1"
+        schemaName="apollo_medicaltestbpf"
+        behavior="0" />
+      <RootComponent
+        type="1"
+        schemaName="apollo_medicaltestinvoicelines"
+        behavior="0" />
+      <RootComponent
+        type="1"
+        schemaName="apollo_medicine"
+        behavior="0" />
+      <RootComponent
+        type="1"
+        schemaName="apollo_medicineinvoicesline"
+        behavior="0" />
+      <RootComponent
+        type="1"
+        schemaName="apollo_message"
+        behavior="0" />
+      <RootComponent
+        type="1"
+        schemaName="apollo_patientcreationbpf"
+        behavior="0" />
+      <RootComponent
+        type="1"
+        schemaName="apollo_prescribedmedicine"
+        behavior="0" />
+      <RootComponent
+        type="1"
+        schemaName="apollo_prescription"
+        behavior="0" />
+      <RootComponent
+        type="1"
+        schemaName="apollo_reward"
+        behavior="0" />
+      <RootComponent
+        type="1"
+        schemaName="apollo_shift"
+        behavior="0" />
+      <RootComponent
+        type="1"
+        schemaName="apollo_testreport"
+        behavior="0" />
+      <RootComponent
+        type="1"
+        schemaName="appointment"
+        behavior="2" />
+      <RootComponent
+        type="1"
+        schemaName="businessunit"
+        behavior="2" />
+      <RootComponent
+        type="1"
+        schemaName="contact"
+        behavior="2" />
+      <RootComponent
+        type="1"
+        schemaName="role"
+        behavior="1" />
+      <RootComponent
+        type="1"
+        schemaName="systemuser"
+        behavior="2" />
+      <RootComponent
+        type="183"
+        id="{356eddaa-3306-44ca-947f-066efbdc5ce2}"
+        schemaName="VCP_DS_b9d1d9e4-95f0-48c4-8eba-2abe1abc9d41"
+        behavior="0" />
+      <RootComponent
+        type="20"
+        id="{124c34da-cec0-f011-bbd3-000d3a81a9a9}"
+        behavior="0" />
+      <RootComponent
+        type="20"
+        id="{44186c84-cac0-f011-bbd3-000d3a81a9a9}"
+        behavior="0" />
+      <RootComponent
+        type="20"
+        id="{76b3b7ce-cec0-f011-bbd3-000d3a81a9a9}"
+        behavior="0" />
+      <RootComponent
+        type="20"
+        id="{99065d90-cac0-f011-bbd3-000d3a81a9a9}"
+        behavior="0" />
+      <RootComponent
+        type="20"
+        id="{d6cd7abf-cec0-f011-bbd3-000d3a81a9a9}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{01090b03-630a-f111-8407-0022481a1bf1}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{097da295-651d-f111-8342-0022481a1bf1}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{11d5eb4c-c6bc-f011-bbd3-000d3a81a9a9}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{146e4583-87ba-f011-bbd3-000d3a81a9a9}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{21e516a6-f4cd-f011-8544-000d3a81a9a9}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{27686c43-4517-f111-8342-0022481a1bf1}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{27cd774f-c7bc-f011-bbd3-000d3a81a9a9}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{3066c1d7-c9bc-f011-bbd3-000d3a81a9a9}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{3555f1c0-87e9-f011-8406-0022481a1bf1}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{37071855-eeee-f011-8407-0022481a1bf1}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{37f8bd7b-87c5-f011-8544-000d3a81a9a9}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{3b279c05-87ba-f011-bbd3-000d3a81a9a9}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{3cc0324f-8aba-f011-bbd3-000d3a81a9a9}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{3fceb84b-b1bc-f011-bbd3-000d3a81a9a9}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{44acf4ae-48bb-f011-bbd3-000d3a81a9a9}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{6100b939-8bc5-f011-8544-000d3a81a9a9}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{6f5bf69a-89c5-f011-8544-000d3a81a9a9}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{6f6a338d-bba7-46b0-91d3-0219890b67f5}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{718b9171-9614-f111-8342-0022481a1bf1}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{72412adf-e2f2-f011-8407-0022481a1bf1}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{73b2f604-4abb-f011-bbd3-000d3a81a9a9}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{7c5471e7-85ba-f011-bbd3-000d3a81a9a9}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{80d34d66-6cee-f011-8407-0022481a1bf1}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{87526e25-4502-f111-8407-0022481a1bf1}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{91f87f6f-b611-f111-8342-0022481a1bf1}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{984bbeb3-dfcd-f011-8544-000d3a81a9a9}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{a06d134d-e1cd-f011-8544-000d3a81a9a9}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{b49d20d2-04f3-f011-8407-0022481a1bf1}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{b950c093-88ba-f011-bbd3-000d3a81a9a9}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{c6c87e93-3d15-f111-8342-0022481a1bf1}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{e6ca7a0c-d2c3-4dd1-a701-3f989745489c}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{f04b7caa-49bb-f011-bbd3-000d3a81a9a9}"
+        behavior="0" />
+      <RootComponent
+        type="29"
+        id="{f6734eed-83ba-f011-bbd3-000d3a81a9a9}"
+        behavior="0" />
+      <RootComponent
+        type="300"
+        schemaName="apollo_apollomanagementdefaultcommandlibrary_33e35"
+        behavior="0" />
+      <RootComponent
+        type="300"
+        schemaName="apollo_appointmentcreationpage_a95af"
+        behavior="0" />
+      <RootComponent
+        type="31"
+        id="{31327784-15d8-f011-8544-000d3a81a9a9}"
+        behavior="0" />
+      <RootComponent
+        type="36"
+        id="{07b94c1d-c85f-492f-b120-f0a743c540e6}"
+        behavior="0" />
+      <RootComponent
+        type="36"
+        id="{25249025-91fa-43c1-8c38-1f6bc14221c3}"
+        behavior="0" />
+      <RootComponent
+        type="36"
+        id="{35249025-91fa-43c1-8c38-1f6bc14221c3}"
+        behavior="0" />
+      <RootComponent
+        type="36"
+        id="{5351049b-c2a4-4335-8789-e4fa8b8b319e}"
+        behavior="0" />
+      <RootComponent
+        type="36"
+        id="{7816b01c-efa8-4396-8ba5-0b6b72da5c08}"
+        behavior="0" />
+      <RootComponent
+        type="36"
+        id="{7cdc528e-9c3e-4170-b04f-97a30fb736c9}"
+        behavior="0" />
+      <RootComponent
+        type="36"
+        id="{85850450-865b-4465-8e86-66ac848df3b9}"
+        behavior="0" />
+      <RootComponent
+        type="36"
+        id="{9a3aa696-2a23-4460-a87c-10ae475e3231}"
+        behavior="0" />
+      <RootComponent
+        type="36"
+        id="{9bdfd720-030e-4bf7-a94f-6183b527f84c}"
+        behavior="0" />
+      <RootComponent
+        type="36"
+        id="{b6c38bb9-2423-471d-8b38-e3b99ed80e7a}"
+        behavior="0" />
+      <RootComponent
+        type="36"
+        id="{ba699c93-6b75-4318-b129-59e2fe4cf0ca}"
+        behavior="0" />
+      <RootComponent
+        type="36"
+        id="{df7251b7-038b-41fc-9b0a-bb9f79011712}"
+        behavior="0" />
+      <RootComponent
+        type="431"
+        schemaName="contact apollo_photo"
+        behavior="0" />
+      <RootComponent
+        type="432"
+        schemaName="contact"
+        behavior="0" />
+      <RootComponent
+        type="60"
+        id="{0f7ca1b0-be13-4b18-aa02-1c7f3a058116}"
+        behavior="0" />
+      <RootComponent
+        type="60"
+        id="{a9a846f7-82d9-f011-8544-000d3a81a9a9}"
+        behavior="0" />
+      <RootComponent
+        type="61"
+        schemaName="apollo_buttonCalcTotalAmount"
+        behavior="0" />
+      <RootComponent
+        type="61"
+        schemaName="apollo_CreateUpdateHomeVisitRecord"
+        behavior="0" />
+      <RootComponent
+        type="61"
+        schemaName="apollo_highlight"
+        behavior="0" />
+      <RootComponent
+        type="61"
+        schemaName="apollo_Highlight_FinalAmount"
+        behavior="0" />
+      <RootComponent
+        type="61"
+        schemaName="apollo_MedicalReport_script"
+        behavior="0" />
+      <RootComponent
+        type="61"
+        schemaName="apollo_openAppointmentPopup"
+        behavior="0" />
+      <RootComponent
+        type="61"
+        schemaName="apollo_TestingScripts"
+        behavior="0" />
+      <RootComponent
+        type="62"
+        schemaName="apollo_ApolloManagement"
+        behavior="0" />
+      <RootComponent
+        type="70"
+        id="{adb74f5e-08d2-f011-8544-000d3a81a9a9}"
+        behavior="0" />
+      <RootComponent
+        type="80"
+        schemaName="apollo_ApolloManagement"
+        behavior="0" />
+      <RootComponent
+        type="9"
+        schemaName="apollo_paymentmode"
+        behavior="0" />
+      <RootComponent
+        type="91"
+        id="{37f90dd0-e3f0-4bdf-855d-3ed46993080b}"
+        schemaName="MyPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=baa6576eee0f6dbc"
+        behavior="0" />
+      <RootComponent
+        type="92"
+        id="{76e55b17-04e3-f011-8406-0022481a1bf1}"
+        behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required
+          type="1"
+          schemaName="businessunit"
+          displayName="BusinessUnit"
+          parentSchemaName=""
+          solution="System (5.0)" />
+        <Dependent
+          type="1"
+          schemaName="businessunit"
+          displayName="BusinessUnit" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="1"
+          schemaName="role"
+          displayName="Role"
+          parentSchemaName=""
+          solution="AuthorizationCore (1.131.0.0)" />
+        <Dependent
+          type="1"
+          schemaName="role"
+          displayName="Role" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="181"
+          schemaName="Virtual Connector Data Provider"
+          displayName="Virtual Connector Data Provider"
+          solution="msft_ConnectorProvider (9.1.0.458)"
+          id="{b581d5dc-72e1-ea11-a81e-000d3af5fff1}">
+          <package
+            appName="Virtual Connectors Data Provider Package"
+            version="9.1.0.458">msft_ConnectorProviderAnchor (9.1.0.458)</package>
+        </Required>
+        <Dependent
+          type="1"
+          schemaName="apollo_apollofeedbacks"
+          displayName="Apollo Feedback" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="181"
+          schemaName="Virtual Connector Data Provider"
+          displayName="Virtual Connector Data Provider"
+          solution="msft_ConnectorProvider (9.1.0.458)"
+          id="{b581d5dc-72e1-ea11-a81e-000d3af5fff1}">
+          <package
+            appName="Virtual Connectors Data Provider Package"
+            version="9.1.0.458">msft_ConnectorProviderAnchor (9.1.0.458)</package>
+        </Required>
+        <Dependent
+          type="183"
+          schemaName="VCP_DS_b9d1d9e4-95f0-48c4-8eba-2abe1abc9d41"
+          displayName="VCP_DS_b9d1d9e4-95f0-48c4-8eba-2abe1abc9d41"
+          id="{356eddaa-3306-44ca-947f-066efbdc5ce2}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="accountid"
+          displayName="accountid"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="accountid"
+          displayName="accountid" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="activityid"
+          displayName="activityid"
+          parentSchemaName="appointment"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="activityid"
+          displayName="activityid" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="actualend"
+          displayName="actualend"
+          parentSchemaName="appointment"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="actualend"
+          displayName="actualend" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="actualstart"
+          displayName="actualstart"
+          parentSchemaName="appointment"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="actualstart"
+          displayName="actualstart" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address1_addresstypecode"
+          displayName="address1_addresstypecode"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address1_addresstypecode"
+          displayName="address1_addresstypecode" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address1_city"
+          displayName="address1_city"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address1_city"
+          displayName="address1_city" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address1_composite"
+          displayName="address1_composite"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address1_composite"
+          displayName="address1_composite" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address1_country"
+          displayName="address1_country"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address1_country"
+          displayName="address1_country" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address1_county"
+          displayName="address1_county"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address1_county"
+          displayName="address1_county" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address1_fax"
+          displayName="address1_fax"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address1_fax"
+          displayName="address1_fax" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address1_latitude"
+          displayName="address1_latitude"
+          parentSchemaName="businessunit"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address1_latitude"
+          displayName="address1_latitude" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address1_line1"
+          displayName="address1_line1"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address1_line1"
+          displayName="address1_line1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address1_line2"
+          displayName="address1_line2"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address1_line2"
+          displayName="address1_line2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address1_line3"
+          displayName="address1_line3"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address1_line3"
+          displayName="address1_line3" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address1_longitude"
+          displayName="address1_longitude"
+          parentSchemaName="businessunit"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address1_longitude"
+          displayName="address1_longitude" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address1_name"
+          displayName="address1_name"
+          parentSchemaName="businessunit"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address1_name"
+          displayName="address1_name" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address1_postalcode"
+          displayName="address1_postalcode"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address1_postalcode"
+          displayName="address1_postalcode" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address1_postofficebox"
+          displayName="address1_postofficebox"
+          parentSchemaName="businessunit"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address1_postofficebox"
+          displayName="address1_postofficebox" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address1_primarycontactname"
+          displayName="address1_primarycontactname"
+          parentSchemaName="contact"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address1_primarycontactname"
+          displayName="address1_primarycontactname" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address1_shippingmethodcode"
+          displayName="address1_shippingmethodcode"
+          parentSchemaName="businessunit"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address1_shippingmethodcode"
+          displayName="address1_shippingmethodcode" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address1_stateorprovince"
+          displayName="address1_stateorprovince"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address1_stateorprovince"
+          displayName="address1_stateorprovince" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address1_telephone1"
+          displayName="address1_telephone1"
+          parentSchemaName="businessunit"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address1_telephone1"
+          displayName="address1_telephone1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address1_telephone2"
+          displayName="address1_telephone2"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address1_telephone2"
+          displayName="address1_telephone2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address1_telephone3"
+          displayName="address1_telephone3"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address1_telephone3"
+          displayName="address1_telephone3" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address1_upszone"
+          displayName="address1_upszone"
+          parentSchemaName="contact"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address1_upszone"
+          displayName="address1_upszone" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address1_utcoffset"
+          displayName="address1_utcoffset"
+          parentSchemaName="contact"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address1_utcoffset"
+          displayName="address1_utcoffset" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address2_addresstypecode"
+          displayName="address2_addresstypecode"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address2_addresstypecode"
+          displayName="address2_addresstypecode" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address2_city"
+          displayName="address2_city"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address2_city"
+          displayName="address2_city" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address2_composite"
+          displayName="address2_composite"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address2_composite"
+          displayName="address2_composite" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address2_country"
+          displayName="address2_country"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address2_country"
+          displayName="address2_country" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address2_county"
+          displayName="address2_county"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address2_county"
+          displayName="address2_county" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address2_fax"
+          displayName="address2_fax"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address2_fax"
+          displayName="address2_fax" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address2_line1"
+          displayName="address2_line1"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address2_line1"
+          displayName="address2_line1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address2_line2"
+          displayName="address2_line2"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address2_line2"
+          displayName="address2_line2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address2_line3"
+          displayName="address2_line3"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address2_line3"
+          displayName="address2_line3" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address2_postalcode"
+          displayName="address2_postalcode"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address2_postalcode"
+          displayName="address2_postalcode" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address2_stateorprovince"
+          displayName="address2_stateorprovince"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address2_stateorprovince"
+          displayName="address2_stateorprovince" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address2_telephone1"
+          displayName="address2_telephone1"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address2_telephone1"
+          displayName="address2_telephone1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address2_telephone2"
+          displayName="address2_telephone2"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address2_telephone2"
+          displayName="address2_telephone2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="address2_telephone3"
+          displayName="address2_telephone3"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="address2_telephone3"
+          displayName="address2_telephone3" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="businessunitid"
+          displayName="businessunitid"
+          parentSchemaName="systemuser"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="businessunitid"
+          displayName="businessunitid" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="contactid"
+          displayName="contactid"
+          parentSchemaName="contact"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="contactid"
+          displayName="contactid" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="correlatedsubjectchanged"
+          displayName="Correlated subject changed"
+          parentSchemaName="email"
+          parentDisplayName="Email"
+          solution="msft_ActivitiesInfra_Extensions (9.2.0.80)">
+          <package
+            appName="msdynce_Activities"
+            version="9.0.26034.260325003">msdynce_EnableUCIByDefault (9.0.26034.260325003)</package>
+          <package
+            appName="ActivitiesInfra Package"
+            version="1.0.0.0">msft_ActivitiesInfra_Anchor (1.0.0.0)</package>
+        </Required>
+        <Dependent
+          type="29"
+          displayName="MedicalTestEmail"
+          id="{27686c43-4517-f111-8342-0022481a1bf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="correlatedsubjectchanged"
+          displayName="Correlated subject changed"
+          parentSchemaName="email"
+          parentDisplayName="Email"
+          solution="msft_ActivitiesInfra_Extensions (9.2.0.80)">
+          <package
+            appName="msdynce_Activities"
+            version="9.0.26034.260325003">msdynce_EnableUCIByDefault (9.0.26034.260325003)</package>
+          <package
+            appName="ActivitiesInfra Package"
+            version="1.0.0.0">msft_ActivitiesInfra_Anchor (1.0.0.0)</package>
+        </Required>
+        <Dependent
+          type="29"
+          displayName="AccountCreation_Action"
+          id="{6f6a338d-bba7-46b0-91d3-0219890b67f5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="correlatedsubjectchanged"
+          displayName="Correlated subject changed"
+          parentSchemaName="email"
+          parentDisplayName="Email"
+          solution="msft_ActivitiesInfra_Extensions (9.2.0.80)">
+          <package
+            appName="msdynce_Activities"
+            version="9.0.26034.260325003">msdynce_EnableUCIByDefault (9.0.26034.260325003)</package>
+          <package
+            appName="ActivitiesInfra Package"
+            version="1.0.0.0">msft_ActivitiesInfra_Anchor (1.0.0.0)</package>
+        </Required>
+        <Dependent
+          type="29"
+          displayName="SendEmailOnChangeOfMedicalTestStatus"
+          id="{c6c87e93-3d15-f111-8342-0022481a1bf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="correlatedsubjectchanged"
+          displayName="Correlated subject changed"
+          parentSchemaName="email"
+          parentDisplayName="Email"
+          solution="msft_ActivitiesInfra_Extensions (9.2.0.80)">
+          <package
+            appName="msdynce_Activities"
+            version="9.0.26034.260325003">msdynce_EnableUCIByDefault (9.0.26034.260325003)</package>
+          <package
+            appName="ActivitiesInfra Package"
+            version="1.0.0.0">msft_ActivitiesInfra_Anchor (1.0.0.0)</package>
+        </Required>
+        <Dependent
+          type="29"
+          displayName="ContactCreated_Alert"
+          id="{e6ca7a0c-d2c3-4dd1-a701-3f989745489c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="firstname"
+          displayName="firstname"
+          parentSchemaName="systemuser"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="firstname"
+          displayName="firstname" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="gendercode"
+          displayName="gendercode"
+          parentSchemaName="contact"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="gendercode"
+          displayName="gendercode" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="internalemailaddress"
+          displayName="internalemailaddress"
+          parentSchemaName="systemuser"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="internalemailaddress"
+          displayName="internalemailaddress" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="isduplicatesenderunresolved"
+          displayName="Is Duplicate Sender Unresolved"
+          parentSchemaName="email"
+          parentDisplayName="Email"
+          solution="msft_ActivitiesInfra_Extensions (9.2.0.80)">
+          <package
+            appName="msdynce_Activities"
+            version="9.0.26034.260325003">msdynce_EnableUCIByDefault (9.0.26034.260325003)</package>
+          <package
+            appName="ActivitiesInfra Package"
+            version="1.0.0.0">msft_ActivitiesInfra_Anchor (1.0.0.0)</package>
+        </Required>
+        <Dependent
+          type="29"
+          displayName="MedicalTestEmail"
+          id="{27686c43-4517-f111-8342-0022481a1bf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="isduplicatesenderunresolved"
+          displayName="Is Duplicate Sender Unresolved"
+          parentSchemaName="email"
+          parentDisplayName="Email"
+          solution="msft_ActivitiesInfra_Extensions (9.2.0.80)">
+          <package
+            appName="msdynce_Activities"
+            version="9.0.26034.260325003">msdynce_EnableUCIByDefault (9.0.26034.260325003)</package>
+          <package
+            appName="ActivitiesInfra Package"
+            version="1.0.0.0">msft_ActivitiesInfra_Anchor (1.0.0.0)</package>
+        </Required>
+        <Dependent
+          type="29"
+          displayName="AccountCreation_Action"
+          id="{6f6a338d-bba7-46b0-91d3-0219890b67f5}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="isduplicatesenderunresolved"
+          displayName="Is Duplicate Sender Unresolved"
+          parentSchemaName="email"
+          parentDisplayName="Email"
+          solution="msft_ActivitiesInfra_Extensions (9.2.0.80)">
+          <package
+            appName="msdynce_Activities"
+            version="9.0.26034.260325003">msdynce_EnableUCIByDefault (9.0.26034.260325003)</package>
+          <package
+            appName="ActivitiesInfra Package"
+            version="1.0.0.0">msft_ActivitiesInfra_Anchor (1.0.0.0)</package>
+        </Required>
+        <Dependent
+          type="29"
+          displayName="SendEmailOnChangeOfMedicalTestStatus"
+          id="{c6c87e93-3d15-f111-8342-0022481a1bf1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="isduplicatesenderunresolved"
+          displayName="Is Duplicate Sender Unresolved"
+          parentSchemaName="email"
+          parentDisplayName="Email"
+          solution="msft_ActivitiesInfra_Extensions (9.2.0.80)">
+          <package
+            appName="msdynce_Activities"
+            version="9.0.26034.260325003">msdynce_EnableUCIByDefault (9.0.26034.260325003)</package>
+          <package
+            appName="ActivitiesInfra Package"
+            version="1.0.0.0">msft_ActivitiesInfra_Anchor (1.0.0.0)</package>
+        </Required>
+        <Dependent
+          type="29"
+          displayName="ContactCreated_Alert"
+          id="{e6ca7a0c-d2c3-4dd1-a701-3f989745489c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="isonlinemeeting"
+          displayName="Is Online Meeting"
+          parentSchemaName="appointment"
+          parentDisplayName="Appointment"
+          solution="msft_ActivitiesInfra_Extensions (9.2.0.80)">
+          <package
+            appName="msdynce_Activities"
+            version="9.0.26034.260325003">msdynce_EnableUCIByDefault (9.0.26034.260325003)</package>
+          <package
+            appName="ActivitiesInfra Package"
+            version="1.0.0.0">msft_ActivitiesInfra_Anchor (1.0.0.0)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Appointment for Interactive experience"
+          parentDisplayName="Appointment"
+          id="{230cd27c-0ce0-4b52-9fe5-d7a5ed94ba4e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="lastname"
+          displayName="lastname"
+          parentSchemaName="systemuser"
+          solution="AuthorizationCore (1.131.0.0)" />
+        <Dependent
+          type="2"
+          schemaName="lastname"
+          displayName="lastname" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="msa_managingpartnerid"
+          displayName="Managing Partner"
+          parentSchemaName="account"
+          parentDisplayName="Account"
+          solution="PowerPages_RuntimeCoreDependencies (1.0.2305.1)">
+          <package
+            appName="Power Pages Core Package"
+            version="1.1.2602.237">PowerPages_Core (1.1.2602.237)</package>
+        </Required>
+        <Dependent
+          type="26"
+          schemaName="Active Account List"
+          displayName="Active Account List"
+          parentSchemaName="account"
+          parentDisplayName="Account"
+          id="{cec641c8-ffb7-f011-bbd3-000d3a81a9a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="name"
+          displayName="name"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="name"
+          displayName="name" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="onlinemeetingjoinurl"
+          displayName="Online Meeting Join Url"
+          parentSchemaName="appointment"
+          parentDisplayName="Appointment"
+          solution="msft_ActivitiesInfra_Extensions (9.2.0.80)">
+          <package
+            appName="msdynce_Activities"
+            version="9.0.26034.260325003">msdynce_EnableUCIByDefault (9.0.26034.260325003)</package>
+          <package
+            appName="ActivitiesInfra Package"
+            version="1.0.0.0">msft_ActivitiesInfra_Anchor (1.0.0.0)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Appointment for Interactive experience"
+          parentDisplayName="Appointment"
+          id="{230cd27c-0ce0-4b52-9fe5-d7a5ed94ba4e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="scheduledend"
+          displayName="scheduledend"
+          parentSchemaName="appointment"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="scheduledend"
+          displayName="scheduledend" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="scheduledstart"
+          displayName="scheduledstart"
+          parentSchemaName="appointment"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="scheduledstart"
+          displayName="scheduledstart" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="statecode"
+          displayName="statecode"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="statecode"
+          displayName="statecode" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="statuscode"
+          displayName="statuscode"
+          parentSchemaName="account"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="statuscode"
+          displayName="statuscode" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="systemmanagedusertype"
+          displayName="System Managed User Type"
+          parentSchemaName="systemuser"
+          parentDisplayName="User"
+          solution="AuthorizationCore (1.131.0.0)">
+          <package
+            appName="Authorization Package"
+            version="1.7.0.0">msft_PrivilegeChecker (1.7.0.0)</package>
+        </Required>
+        <Dependent
+          type="26"
+          schemaName="Enabled Users"
+          displayName="Enabled Users"
+          parentSchemaName="systemuser"
+          parentDisplayName="User"
+          id="{00000000-0000-0000-00aa-000010001019}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="systemmanagedusertype"
+          displayName="System Managed User Type"
+          parentSchemaName="systemuser"
+          parentDisplayName="User"
+          solution="AuthorizationCore (1.131.0.0)">
+          <package
+            appName="Authorization Package"
+            version="1.7.0.0">msft_PrivilegeChecker (1.7.0.0)</package>
+        </Required>
+        <Dependent
+          type="26"
+          schemaName="Disabled Users"
+          displayName="Disabled Users"
+          parentSchemaName="systemuser"
+          parentDisplayName="User"
+          id="{00000000-0000-0000-00aa-000010001119}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="systemmanagedusertype"
+          displayName="System Managed User Type"
+          parentSchemaName="systemuser"
+          parentDisplayName="User"
+          solution="AuthorizationCore (1.131.0.0)">
+          <package
+            appName="Authorization Package"
+            version="1.7.0.0">msft_PrivilegeChecker (1.7.0.0)</package>
+        </Required>
+        <Dependent
+          type="26"
+          schemaName="User Lookup View"
+          displayName="User Lookup View"
+          parentSchemaName="systemuser"
+          parentDisplayName="User"
+          id="{e88ca999-0b16-4ae9-b6a9-9edc840d42d8}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="2"
+          schemaName="telephone2"
+          displayName="telephone2"
+          parentSchemaName="contact"
+          solution="System (5.0)" />
+        <Dependent
+          type="2"
+          schemaName="telephone2"
+          displayName="telephone2" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="26"
+          schemaName="All Contacts"
+          displayName="All Contacts"
+          parentSchemaName="contact"
+          parentDisplayName="Contact"
+          solution="msdynce_AppCommon (9.0.4.0066)"
+          id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}">
+          <package
+            appName="msdynce_AppCommon"
+            version="9.0.26033.10001">msdynce_AppCommonAnchor (9.0.26033.10001)</package>
+        </Required>
+        <Dependent
+          type="26"
+          schemaName="All Contacts"
+          displayName="All Contacts"
+          parentSchemaName="contact"
+          parentDisplayName="Contact"
+          id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="26"
+          schemaName="All Users"
+          displayName="All Users"
+          parentSchemaName="systemuser"
+          parentDisplayName="User"
+          solution="msdynce_AppCommon (9.0.4.0066)"
+          id="{5aecef10-d691-4cee-a86f-7bd0fd161f79}">
+          <package
+            appName="msdynce_AppCommon"
+            version="9.0.26033.10001">msdynce_AppCommonAnchor (9.0.26033.10001)</package>
+        </Required>
+        <Dependent
+          type="26"
+          schemaName="All Users"
+          displayName="All Users"
+          parentSchemaName="systemuser"
+          parentDisplayName="User"
+          id="{5aecef10-d691-4cee-a86f-7bd0fd161f79}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="26"
+          schemaName="Power Pages Users"
+          displayName="Power Pages Users"
+          parentSchemaName="systemuser"
+          parentDisplayName="User"
+          solution="AuthorizationCore (1.131.0.0)"
+          id="{1fe05f14-0074-49e3-b55d-0af1fd0a2b85}">
+          <package
+            appName="Authorization Package"
+            version="1.7.0.0">msft_PrivilegeChecker (1.7.0.0)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Apollo Lab Main Form - Staff"
+          parentDisplayName="Apollo Lab"
+          id="{097485cd-71b3-f011-bbd2-000d3a81a9a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="26"
+          schemaName="Power Pages Users"
+          displayName="Power Pages Users"
+          parentSchemaName="systemuser"
+          parentDisplayName="User"
+          solution="AuthorizationCore (1.131.0.0)"
+          id="{1fe05f14-0074-49e3-b55d-0af1fd0a2b85}">
+          <package
+            appName="Authorization Package"
+            version="1.7.0.0">msft_PrivilegeChecker (1.7.0.0)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Appointment Main Form"
+          parentDisplayName="Appointment"
+          id="{549a8aa3-c349-4ab9-8bac-4873fa9a7a5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="26"
+          schemaName="Power Pages Users"
+          displayName="Power Pages Users"
+          parentSchemaName="systemuser"
+          parentDisplayName="User"
+          solution="AuthorizationCore (1.131.0.0)"
+          id="{1fe05f14-0074-49e3-b55d-0af1fd0a2b85}">
+          <package
+            appName="Authorization Package"
+            version="1.7.0.0">msft_PrivilegeChecker (1.7.0.0)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Doctor Shift Main Form - 1"
+          parentDisplayName="Doctor Shift"
+          id="{6f831027-d1bf-482d-a988-5fe1560b7e41}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="26"
+          schemaName="Power Pages Users"
+          displayName="Power Pages Users"
+          parentSchemaName="systemuser"
+          parentDisplayName="User"
+          solution="AuthorizationCore (1.131.0.0)"
+          id="{1fe05f14-0074-49e3-b55d-0af1fd0a2b85}">
+          <package
+            appName="Authorization Package"
+            version="1.7.0.0">msft_PrivilegeChecker (1.7.0.0)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Test Report Main Form"
+          parentDisplayName="Test Report"
+          id="{9555e45c-15b3-428f-bda9-8754f7c13f47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="26"
+          schemaName="Soft deleted Users"
+          displayName="Soft deleted Users"
+          parentSchemaName="systemuser"
+          parentDisplayName="User"
+          solution="AuthorizationCore (1.131.0.0)"
+          id="{5fda842a-004b-42b4-a611-b93c2c69667e}">
+          <package
+            appName="Authorization Package"
+            version="1.7.0.0">msft_PrivilegeChecker (1.7.0.0)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Apollo Lab Main Form - Staff"
+          parentDisplayName="Apollo Lab"
+          id="{097485cd-71b3-f011-bbd2-000d3a81a9a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="26"
+          schemaName="Soft deleted Users"
+          displayName="Soft deleted Users"
+          parentSchemaName="systemuser"
+          parentDisplayName="User"
+          solution="AuthorizationCore (1.131.0.0)"
+          id="{5fda842a-004b-42b4-a611-b93c2c69667e}">
+          <package
+            appName="Authorization Package"
+            version="1.7.0.0">msft_PrivilegeChecker (1.7.0.0)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Appointment Main Form"
+          parentDisplayName="Appointment"
+          id="{549a8aa3-c349-4ab9-8bac-4873fa9a7a5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="26"
+          schemaName="Soft deleted Users"
+          displayName="Soft deleted Users"
+          parentSchemaName="systemuser"
+          parentDisplayName="User"
+          solution="AuthorizationCore (1.131.0.0)"
+          id="{5fda842a-004b-42b4-a611-b93c2c69667e}">
+          <package
+            appName="Authorization Package"
+            version="1.7.0.0">msft_PrivilegeChecker (1.7.0.0)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Doctor Shift Main Form - 1"
+          parentDisplayName="Doctor Shift"
+          id="{6f831027-d1bf-482d-a988-5fe1560b7e41}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="26"
+          schemaName="Soft deleted Users"
+          displayName="Soft deleted Users"
+          parentSchemaName="systemuser"
+          parentDisplayName="User"
+          solution="AuthorizationCore (1.131.0.0)"
+          id="{5fda842a-004b-42b4-a611-b93c2c69667e}">
+          <package
+            appName="Authorization Package"
+            version="1.7.0.0">msft_PrivilegeChecker (1.7.0.0)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Test Report Main Form"
+          parentDisplayName="Test Report"
+          id="{9555e45c-15b3-428f-bda9-8754f7c13f47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="26"
+          schemaName="Stub Users"
+          displayName="Stub Users"
+          parentSchemaName="systemuser"
+          parentDisplayName="User"
+          solution="AuthorizationCore (1.131.0.0)"
+          id="{490b1410-d231-46b0-b5fa-60017b21ab14}">
+          <package
+            appName="Authorization Package"
+            version="1.7.0.0">msft_PrivilegeChecker (1.7.0.0)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Apollo Lab Main Form - Staff"
+          parentDisplayName="Apollo Lab"
+          id="{097485cd-71b3-f011-bbd2-000d3a81a9a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="26"
+          schemaName="Stub Users"
+          displayName="Stub Users"
+          parentSchemaName="systemuser"
+          parentDisplayName="User"
+          solution="AuthorizationCore (1.131.0.0)"
+          id="{490b1410-d231-46b0-b5fa-60017b21ab14}">
+          <package
+            appName="Authorization Package"
+            version="1.7.0.0">msft_PrivilegeChecker (1.7.0.0)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Appointment Main Form"
+          parentDisplayName="Appointment"
+          id="{549a8aa3-c349-4ab9-8bac-4873fa9a7a5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="26"
+          schemaName="Stub Users"
+          displayName="Stub Users"
+          parentSchemaName="systemuser"
+          parentDisplayName="User"
+          solution="AuthorizationCore (1.131.0.0)"
+          id="{490b1410-d231-46b0-b5fa-60017b21ab14}">
+          <package
+            appName="Authorization Package"
+            version="1.7.0.0">msft_PrivilegeChecker (1.7.0.0)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Doctor Shift Main Form - 1"
+          parentDisplayName="Doctor Shift"
+          id="{6f831027-d1bf-482d-a988-5fe1560b7e41}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="26"
+          schemaName="Stub Users"
+          displayName="Stub Users"
+          parentSchemaName="systemuser"
+          parentDisplayName="User"
+          solution="AuthorizationCore (1.131.0.0)"
+          id="{490b1410-d231-46b0-b5fa-60017b21ab14}">
+          <package
+            appName="Authorization Package"
+            version="1.7.0.0">msft_PrivilegeChecker (1.7.0.0)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Test Report Main Form"
+          parentDisplayName="Test Report"
+          id="{9555e45c-15b3-428f-bda9-8754f7c13f47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="26"
+          schemaName="Users deleted in tenant but exist in the environment"
+          displayName="Users deleted in tenant but exist in the environment"
+          parentSchemaName="systemuser"
+          parentDisplayName="User"
+          solution="AuthorizationCore (1.131.0.0)"
+          id="{19487f2f-8405-4d59-8f8b-4eda98d4f302}">
+          <package
+            appName="Authorization Package"
+            version="1.7.0.0">msft_PrivilegeChecker (1.7.0.0)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Apollo Lab Main Form - Staff"
+          parentDisplayName="Apollo Lab"
+          id="{097485cd-71b3-f011-bbd2-000d3a81a9a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="26"
+          schemaName="Users deleted in tenant but exist in the environment"
+          displayName="Users deleted in tenant but exist in the environment"
+          parentSchemaName="systemuser"
+          parentDisplayName="User"
+          solution="AuthorizationCore (1.131.0.0)"
+          id="{19487f2f-8405-4d59-8f8b-4eda98d4f302}">
+          <package
+            appName="Authorization Package"
+            version="1.7.0.0">msft_PrivilegeChecker (1.7.0.0)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Appointment Main Form"
+          parentDisplayName="Appointment"
+          id="{549a8aa3-c349-4ab9-8bac-4873fa9a7a5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="26"
+          schemaName="Users deleted in tenant but exist in the environment"
+          displayName="Users deleted in tenant but exist in the environment"
+          parentSchemaName="systemuser"
+          parentDisplayName="User"
+          solution="AuthorizationCore (1.131.0.0)"
+          id="{19487f2f-8405-4d59-8f8b-4eda98d4f302}">
+          <package
+            appName="Authorization Package"
+            version="1.7.0.0">msft_PrivilegeChecker (1.7.0.0)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Doctor Shift Main Form - 1"
+          parentDisplayName="Doctor Shift"
+          id="{6f831027-d1bf-482d-a988-5fe1560b7e41}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="26"
+          schemaName="Users deleted in tenant but exist in the environment"
+          displayName="Users deleted in tenant but exist in the environment"
+          parentSchemaName="systemuser"
+          parentDisplayName="User"
+          solution="AuthorizationCore (1.131.0.0)"
+          id="{19487f2f-8405-4d59-8f8b-4eda98d4f302}">
+          <package
+            appName="Authorization Package"
+            version="1.7.0.0">msft_PrivilegeChecker (1.7.0.0)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Test Report Main Form"
+          parentDisplayName="Test Report"
+          id="{9555e45c-15b3-428f-bda9-8754f7c13f47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="36"
+          displayName="Modern Duplicate Detection Task Completion Template"
+          solution="msdyn_PowerAdminSettingsDataManagementSolution (1.1.1.3109)"
+          id="{35249025-91fa-43c1-8c38-1f6bc14221c3}">
+          <package
+            appName="PowerPlatformEnvironmentSettingsApp"
+            version="1.1.1.3109">PowerPlatformEnvironmentSettingsApp_Anchor (1.1.1.3109)</package>
+        </Required>
+        <Dependent
+          type="36"
+          displayName="Modern Duplicate Detection Task Completion Template"
+          id="{35249025-91fa-43c1-8c38-1f6bc14221c3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="59"
+          schemaName="Appointments by Month Due"
+          displayName="Appointments by Month Due"
+          parentSchemaName="appointment"
+          parentDisplayName="Appointment"
+          solution="msdynce_AppCommon (9.0.4.0066)"
+          id="{1bc0ff08-cb08-45d6-8fd4-e49e6b49fe91}">
+          <package
+            appName="msdynce_AppCommon"
+            version="9.0.26033.10001">msdynce_AppCommonAnchor (9.0.26033.10001)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Contact - Main 1"
+          parentDisplayName="Contact"
+          id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="59"
+          schemaName="Appointments by Month Due"
+          displayName="Appointments by Month Due"
+          parentSchemaName="appointment"
+          parentDisplayName="Appointment"
+          solution="msdynce_AppCommon (9.0.4.0066)"
+          id="{1bc0ff08-cb08-45d6-8fd4-e49e6b49fe91}">
+          <package
+            appName="msdynce_AppCommon"
+            version="9.0.26033.10001">msdynce_AppCommonAnchor (9.0.26033.10001)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Contact - Main 2"
+          parentDisplayName="Contact"
+          id="{3f3589a6-24b7-f011-bbd3-000d3a81a9a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="59"
+          schemaName="Appointments by Priority"
+          displayName="Appointments by Priority"
+          parentSchemaName="appointment"
+          parentDisplayName="Appointment"
+          solution="msdynce_AppCommon (9.0.4.0066)"
+          id="{c99b12df-8a2b-408c-a51d-24ca2168a4a3}">
+          <package
+            appName="msdynce_AppCommon"
+            version="9.0.26033.10001">msdynce_AppCommonAnchor (9.0.26033.10001)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Apollo Dashboard"
+          id="{a9a846f7-82d9-f011-8544-000d3a81a9a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="60"
+          displayName="Contact - Main 1"
+          parentDisplayName="Contact"
+          solution="msdynce_AppCommon (9.0.4.0066)"
+          id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}">
+          <package
+            appName="msdynce_AppCommon"
+            version="9.0.26033.10001">msdynce_AppCommonAnchor (9.0.26033.10001)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Contact - Main 1"
+          parentDisplayName="Contact"
+          id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="60"
+          displayName="Appointment for Interactive experience"
+          parentDisplayName="Appointment"
+          solution="msdynce_Activities (9.0.1.2033)"
+          id="{230cd27c-0ce0-4b52-9fe5-d7a5ed94ba4e}">
+          <package
+            appName="msdynce_Activities"
+            version="9.0.26034.260325003">msdynce_EnableUCIByDefault (9.0.26034.260325003)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Appointment for Interactive experience"
+          parentDisplayName="Appointment"
+          id="{230cd27c-0ce0-4b52-9fe5-d7a5ed94ba4e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="60"
+          displayName="account contact card"
+          parentDisplayName="Contact"
+          solution="msdynce_AppCommon (9.0.4.0066)"
+          id="{29de27bc-a257-4f29-99cf-bab4a84e688f}">
+          <package
+            appName="msdynce_AppCommon"
+            version="9.0.26033.10001">msdynce_AppCommonAnchor (9.0.26033.10001)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Account"
+          parentDisplayName="Account"
+          id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="60"
+          displayName="account contact card"
+          parentDisplayName="Contact"
+          solution="msdynce_AppCommon (9.0.4.0066)"
+          id="{29de27bc-a257-4f29-99cf-bab4a84e688f}">
+          <package
+            appName="msdynce_AppCommon"
+            version="9.0.26033.10001">msdynce_AppCommonAnchor (9.0.26033.10001)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Account for Interactive experience"
+          parentDisplayName="Account"
+          id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="60"
+          displayName="account contact card"
+          parentDisplayName="Contact"
+          solution="msdynce_AppCommon (9.0.4.0066)"
+          id="{29de27bc-a257-4f29-99cf-bab4a84e688f}">
+          <package
+            appName="msdynce_AppCommon"
+            version="9.0.26033.10001">msdynce_AppCommonAnchor (9.0.26033.10001)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Apollo Account Main - Doctor"
+          parentDisplayName="Account"
+          id="{ac79617f-9fb2-f011-bbd2-000d3a81a9a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="60"
+          displayName="Appointment Main Form"
+          parentDisplayName="Appointment"
+          solution="msdynce_Activities (9.0.1.2033)"
+          id="{549a8aa3-c349-4ab9-8bac-4873fa9a7a5c}">
+          <package
+            appName="msdynce_Activities"
+            version="9.0.26034.260325003">msdynce_EnableUCIByDefault (9.0.26034.260325003)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Appointment Main Form"
+          parentDisplayName="Appointment"
+          id="{549a8aa3-c349-4ab9-8bac-4873fa9a7a5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="60"
+          displayName="Contact Quick Create - Account"
+          parentDisplayName="Contact"
+          solution="msdynce_AppCommon (9.0.4.0066)"
+          id="{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}">
+          <package
+            appName="msdynce_AppCommon"
+            version="9.0.26033.10001">msdynce_AppCommonAnchor (9.0.26033.10001)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Contact Quick Create - Account"
+          parentDisplayName="Contact"
+          id="{661157fe-2fc9-4eaa-835f-5bfa2f7b64f7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="60"
+          displayName="Account"
+          parentDisplayName="Account"
+          solution="msdynce_AppCommon (9.0.4.0066)"
+          id="{8448b78f-8f42-454e-8e2a-f8196b0419af}">
+          <package
+            appName="msdynce_AppCommon"
+            version="9.0.26033.10001">msdynce_AppCommonAnchor (9.0.26033.10001)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Account"
+          parentDisplayName="Account"
+          id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="60"
+          displayName="Account for Interactive experience"
+          parentDisplayName="Account"
+          solution="msdynce_AppCommon (9.0.4.0066)"
+          id="{a72c7955-442b-4ea4-9499-b10cd18b4256}">
+          <package
+            appName="msdynce_AppCommon"
+            version="9.0.26033.10001">msdynce_AppCommonAnchor (9.0.26033.10001)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Account for Interactive experience"
+          parentDisplayName="Account"
+          id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="60"
+          displayName="Information"
+          parentDisplayName="Account"
+          solution="msdynce_AppCommon (9.0.4.0066)"
+          id="{b053a39a-041a-4356-acef-ddf00182762b}">
+          <package
+            appName="msdynce_AppCommon"
+            version="9.0.26033.10001">msdynce_AppCommonAnchor (9.0.26033.10001)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Information"
+          parentDisplayName="Account"
+          id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="60"
+          displayName="Contact Quick Form"
+          parentDisplayName="Contact"
+          solution="msdynce_AppCommon (9.0.4.0066)"
+          id="{bdb0ae1c-32fa-4374-b637-8dafe107bc44}">
+          <package
+            appName="msdynce_AppCommon"
+            version="9.0.26033.10001">msdynce_AppCommonAnchor (9.0.26033.10001)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Contact Quick Form"
+          parentDisplayName="Contact"
+          id="{bdb0ae1c-32fa-4374-b637-8dafe107bc44}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="60"
+          displayName="Account Quick Create"
+          parentDisplayName="Account"
+          solution="msdynce_AppCommon (9.0.4.0066)"
+          id="{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}">
+          <package
+            appName="msdynce_AppCommon"
+            version="9.0.26033.10001">msdynce_AppCommonAnchor (9.0.26033.10001)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Account Quick Create"
+          parentDisplayName="Account"
+          id="{c9e7ec2d-efca-4e4c-b3e3-f63c4bba5e4b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="60"
+          displayName="Invite Web Form"
+          parentDisplayName="Contact"
+          solution="PowerPages_RuntimeCore (1.0.2509.1)"
+          id="{d6190b35-9474-4098-9698-33f6627eb3bf}">
+          <package
+            appName="Power Pages Core Package"
+            version="1.1.2602.237">PowerPages_Core (1.1.2602.237)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Invite Web Form"
+          parentDisplayName="Contact"
+          id="{d6190b35-9474-4098-9698-33f6627eb3bf}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="61"
+          schemaName="Activities/SystemLibraries/Appointment_main_system_library.js"
+          displayName="Activities/SystemLibraries/Appointment_main_system_library.js"
+          solution="msdynce_Activities (9.0.1.2033)">
+          <package
+            appName="msdynce_Activities"
+            version="9.0.26034.260325003">msdynce_EnableUCIByDefault (9.0.26034.260325003)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Appointment Main Form"
+          parentDisplayName="Appointment"
+          id="{549a8aa3-c349-4ab9-8bac-4873fa9a7a5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="61"
+          schemaName="Activities/SystemLibraries/Appointment_main_system_library.js"
+          displayName="Activities/SystemLibraries/Appointment_main_system_library.js"
+          solution="msdynce_Activities (9.0.1.2033)">
+          <package
+            appName="msdynce_Activities"
+            version="9.0.26034.260325003">msdynce_EnableUCIByDefault (9.0.26034.260325003)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Appointment Main Form - 2"
+          parentDisplayName="Appointment"
+          id="{f5af0c79-97db-4c3f-8d7e-62b53d9062d4}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="61"
+          schemaName="AppCommon/Account/Account_main_system_library.js"
+          displayName="AppCommon/Account/Account_main_system_library.js"
+          solution="msdynce_AppCommon (9.0.4.0066)">
+          <package
+            appName="msdynce_AppCommon"
+            version="9.0.26033.10001">msdynce_AppCommonAnchor (9.0.26033.10001)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Account"
+          parentDisplayName="Account"
+          id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="61"
+          schemaName="AppCommon/Account/Account_main_system_library.js"
+          displayName="AppCommon/Account/Account_main_system_library.js"
+          solution="msdynce_AppCommon (9.0.4.0066)">
+          <package
+            appName="msdynce_AppCommon"
+            version="9.0.26033.10001">msdynce_AppCommonAnchor (9.0.26033.10001)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Apollo Account Main"
+          parentDisplayName="Account"
+          id="{91ebb94a-9fb2-f011-bbd2-000d3a81a9a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="61"
+          schemaName="AppCommon/Account/Account_main_system_library.js"
+          displayName="AppCommon/Account/Account_main_system_library.js"
+          solution="msdynce_AppCommon (9.0.4.0066)">
+          <package
+            appName="msdynce_AppCommon"
+            version="9.0.26033.10001">msdynce_AppCommonAnchor (9.0.26033.10001)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Account for Interactive experience"
+          parentDisplayName="Account"
+          id="{a72c7955-442b-4ea4-9499-b10cd18b4256}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="61"
+          schemaName="AppCommon/Account/Account_main_system_library.js"
+          displayName="AppCommon/Account/Account_main_system_library.js"
+          solution="msdynce_AppCommon (9.0.4.0066)">
+          <package
+            appName="msdynce_AppCommon"
+            version="9.0.26033.10001">msdynce_AppCommonAnchor (9.0.26033.10001)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Apollo Account Main - Doctor"
+          parentDisplayName="Account"
+          id="{ac79617f-9fb2-f011-bbd2-000d3a81a9a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="61"
+          schemaName="AppCommon/Contact/Contact_main_system_library.js"
+          displayName="AppCommon/Contact/Contact_main_system_library.js"
+          solution="msdynce_AppCommon (9.0.4.0066)">
+          <package
+            appName="msdynce_AppCommon"
+            version="9.0.26033.10001">msdynce_AppCommonAnchor (9.0.26033.10001)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Contact - Main 1"
+          parentDisplayName="Contact"
+          id="{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="61"
+          schemaName="AppCommon/Contact/Contact_main_system_library.js"
+          displayName="AppCommon/Contact/Contact_main_system_library.js"
+          solution="msdynce_AppCommon (9.0.4.0066)">
+          <package
+            appName="msdynce_AppCommon"
+            version="9.0.26033.10001">msdynce_AppCommonAnchor (9.0.26033.10001)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Contact - Main 2"
+          parentDisplayName="Contact"
+          id="{3f3589a6-24b7-f011-bbd3-000d3a81a9a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="61"
+          schemaName="msdyn_/Images/AppModule_Default_Icon.png"
+          displayName="msdyn_/Images/AppModule_Default_Icon.png"
+          solution="AppModuleWebResources (2.5)">
+          <package
+            appName="AppModule Web Resources Package"
+            version="2.5">AppModuleWebResources (2.5)</package>
+        </Required>
+        <Dependent
+          type="80"
+          schemaName="apollo_ApolloManagement"
+          displayName="Apollo Management" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="66"
+          schemaName="Microsoft.PowerApps.PowerAppsOneGrid"
+          displayName="Microsoft.PowerApps.PowerAppsOneGrid"
+          solution="BaseCustomControlsCore (9.0.2603.4013)">
+          <package
+            appName="Base Custom Controls"
+            version="9.0.2603.4013">BaseCustomControlsCore (9.0.2603.4013)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Appointment Main Form"
+          parentDisplayName="Appointment"
+          id="{549a8aa3-c349-4ab9-8bac-4873fa9a7a5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="66"
+          schemaName="Microsoft.PowerApps.PowerAppsOneGrid"
+          displayName="Microsoft.PowerApps.PowerAppsOneGrid"
+          solution="BaseCustomControlsCore (9.0.2603.4013)">
+          <package
+            appName="Base Custom Controls"
+            version="9.0.2603.4013">BaseCustomControlsCore (9.0.2603.4013)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Prescription Main 1"
+          parentDisplayName="Prescription"
+          id="{cc0584cd-8e3c-452a-ab0d-029415b778e6}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="66"
+          schemaName="MscrmControls.Activity.HyperlinkControlWithImage"
+          displayName="MscrmControls.Activity.HyperlinkControlWithImage"
+          solution="msdynce_ActivitiesPatch (9.0.26034.260325003)">
+          <package
+            appName="msdynce_Activities"
+            version="9.0.26034.260325003">msdynce_EnableUCIByDefault (9.0.26034.260325003)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Appointment for Interactive experience"
+          parentDisplayName="Appointment"
+          id="{230cd27c-0ce0-4b52-9fe5-d7a5ed94ba4e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="66"
+          schemaName="MscrmControls.CardFeedContainer.CardFeedContainer"
+          displayName="MscrmControls.CardFeedContainer.CardFeedContainer"
+          solution="BaseCustomControlsCore (9.0.2603.4013)">
+          <package
+            appName="Base Custom Controls"
+            version="9.0.2603.4013">BaseCustomControlsCore (9.0.2603.4013)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Contact - Main 2"
+          parentDisplayName="Contact"
+          id="{3f3589a6-24b7-f011-bbd3-000d3a81a9a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="66"
+          schemaName="MscrmControls.CardFeedContainer.CardFeedContainer"
+          displayName="MscrmControls.CardFeedContainer.CardFeedContainer"
+          solution="BaseCustomControlsCore (9.0.2603.4013)">
+          <package
+            appName="Base Custom Controls"
+            version="9.0.2603.4013">BaseCustomControlsCore (9.0.2603.4013)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Account"
+          parentDisplayName="Account"
+          id="{8448b78f-8f42-454e-8e2a-f8196b0419af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="66"
+          schemaName="MscrmControls.CardFeedContainer.CardFeedContainer"
+          displayName="MscrmControls.CardFeedContainer.CardFeedContainer"
+          solution="BaseCustomControlsCore (9.0.2603.4013)">
+          <package
+            appName="Base Custom Controls"
+            version="9.0.2603.4013">BaseCustomControlsCore (9.0.2603.4013)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Apollo Dashboard"
+          id="{a9a846f7-82d9-f011-8544-000d3a81a9a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="66"
+          schemaName="MscrmControls.FieldControls.ToggleControl"
+          displayName="MscrmControls.FieldControls.ToggleControl"
+          solution="BaseCustomControlsCore (9.0.2603.4013)">
+          <package
+            appName="Base Custom Controls"
+            version="9.0.2603.4013">BaseCustomControlsCore (9.0.2603.4013)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Medical Test Main Form - Patient"
+          parentDisplayName="Medical Test"
+          id="{1b858756-23b7-f011-bbd3-000d3a81a9a9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="66"
+          schemaName="MscrmControls.FieldControls.ToggleControl"
+          displayName="MscrmControls.FieldControls.ToggleControl"
+          solution="BaseCustomControlsCore (9.0.2603.4013)">
+          <package
+            appName="Base Custom Controls"
+            version="9.0.2603.4013">BaseCustomControlsCore (9.0.2603.4013)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Appointment for Interactive experience"
+          parentDisplayName="Appointment"
+          id="{230cd27c-0ce0-4b52-9fe5-d7a5ed94ba4e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="66"
+          schemaName="MscrmControls.FieldControls.ToggleControl"
+          displayName="MscrmControls.FieldControls.ToggleControl"
+          solution="BaseCustomControlsCore (9.0.2603.4013)">
+          <package
+            appName="Base Custom Controls"
+            version="9.0.2603.4013">BaseCustomControlsCore (9.0.2603.4013)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Appointment Main Form"
+          parentDisplayName="Appointment"
+          id="{549a8aa3-c349-4ab9-8bac-4873fa9a7a5c}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="66"
+          schemaName="MscrmControls.FieldControls.ToggleControl"
+          displayName="MscrmControls.FieldControls.ToggleControl"
+          solution="BaseCustomControlsCore (9.0.2603.4013)">
+          <package
+            appName="Base Custom Controls"
+            version="9.0.2603.4013">BaseCustomControlsCore (9.0.2603.4013)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Test Report Main Form"
+          parentDisplayName="Test Report"
+          id="{9555e45c-15b3-428f-bda9-8754f7c13f47}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="66"
+          schemaName="MscrmControls.FieldControls.ToggleControl"
+          displayName="MscrmControls.FieldControls.ToggleControl"
+          solution="BaseCustomControlsCore (9.0.2603.4013)">
+          <package
+            appName="Base Custom Controls"
+            version="9.0.2603.4013">BaseCustomControlsCore (9.0.2603.4013)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Apollo Invoice Main Form"
+          parentDisplayName="Apollo Invoice"
+          id="{a5089bae-e25d-4b34-99a6-ba7fc5e08acc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="66"
+          schemaName="MscrmControls.FieldControls.ToggleControl"
+          displayName="MscrmControls.FieldControls.ToggleControl"
+          solution="BaseCustomControlsCore (9.0.2603.4013)">
+          <package
+            appName="Base Custom Controls"
+            version="9.0.2603.4013">BaseCustomControlsCore (9.0.2603.4013)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Medical Test Main Form - Staff"
+          parentDisplayName="Medical Test"
+          id="{d43eaf88-9474-4cda-86aa-cd6ac9994ee9}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="66"
+          schemaName="MscrmControls.Grid.GridControl"
+          displayName="MscrmControls.Grid.GridControl"
+          solution="BaseCustomControlsCore (9.0.2603.4013)">
+          <package
+            appName="Base Custom Controls"
+            version="9.0.2603.4013">BaseCustomControlsCore (9.0.2603.4013)</package>
+        </Required>
+        <Dependent
+          type="26"
+          schemaName="Active Apollo Invoices"
+          displayName="Active Apollo Invoices"
+          parentSchemaName="apollo_apolloinvoice"
+          parentDisplayName="Apollo Invoice"
+          id="{25db77d7-b260-4079-936e-ca5f388894af}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="66"
+          schemaName="MscrmControls.RichTextEditor.RichTextEditorControl"
+          displayName="MscrmControls.RichTextEditor.RichTextEditorControl"
+          solution="msdyn_RichTextEditor (9.0.26034.1015)">
+          <package
+            appName="msdynce_Activities"
+            version="9.0.26034.260325003">msdynce_EnableUCIByDefault (9.0.26034.260325003)</package>
+          <package
+            appName="msdyn_CustomControlsExtended"
+            version="9.0.26034.1015">msdyn_TimelineExtended (9.0.26034.1015)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Appointment for Interactive experience"
+          parentDisplayName="Appointment"
+          id="{230cd27c-0ce0-4b52-9fe5-d7a5ed94ba4e}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="66"
+          schemaName="MscrmControls.Signature.SignatureControl"
+          displayName="MscrmControls.Signature.SignatureControl"
+          solution="CustomControlsCore (9.2.26034.00167)">
+          <package
+            appName="Custom Controls Package"
+            version="9.2.26034.00167">CustomControlsCore (9.2.26034.00167)</package>
+        </Required>
+        <Dependent
+          type="60"
+          displayName="Apollo Invoice Main Form"
+          parentDisplayName="Apollo Invoice"
+          id="{a5089bae-e25d-4b34-99a6-ba7fc5e08acc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="appactionrule"
+          displayName="msdyn_Mscrm.AppendSelected!1"
+          solution="msdyn_SystemAppActions (9.1.0.57)"
+          id.uniquename="msdyn_Mscrm.AppendSelected!1">
+          <package
+            appName="PowerAppsActions Package"
+            version="9.1.0.57">PowerAppsActions_Anchor (9.1.0.57)</package>
+        </Required>
+        <Dependent
+          type="appaction_appactionrule_classicrules"
+          displayName="appactionid.uniquename=apollo__Mscrm.SubGrid.%7B!EntityLogicalName%7D.AddNewStandard!apollo_ApolloManagement!apollo_medicaltest!2,appactionruleid.uniquename=msdyn_Mscrm.AppendSelected!1"
+          id.appactionid.uniquename="apollo__Mscrm.SubGrid.{!EntityLogicalName}.AddNewStandard!apollo_ApolloManagement!apollo_medicaltest!2"
+          id.appactionruleid.uniquename="msdyn_Mscrm.AppendSelected!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="appactionrule"
+          displayName="msdyn_Mscrm.AppendToPrimary!0"
+          solution="msdyn_SystemAppActions (9.1.0.57)"
+          id.uniquename="msdyn_Mscrm.AppendToPrimary!0">
+          <package
+            appName="PowerAppsActions Package"
+            version="9.1.0.57">PowerAppsActions_Anchor (9.1.0.57)</package>
+        </Required>
+        <Dependent
+          type="appaction_appactionrule_classicrules"
+          displayName="appactionid.uniquename=apollo__Mscrm.SubGrid.%7B!EntityLogicalName%7D.AddNewStandard!apollo_ApolloManagement!apollo_medicaltest!2,appactionruleid.uniquename=msdyn_Mscrm.AppendToPrimary!0"
+          id.appactionid.uniquename="apollo__Mscrm.SubGrid.{!EntityLogicalName}.AddNewStandard!apollo_ApolloManagement!apollo_medicaltest!2"
+          id.appactionruleid.uniquename="msdyn_Mscrm.AppendToPrimary!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="appactionrule"
+          displayName="msdyn_Mscrm.AppendToPrimary!1"
+          solution="msdyn_SystemAppActions (9.1.0.57)"
+          id.uniquename="msdyn_Mscrm.AppendToPrimary!1">
+          <package
+            appName="PowerAppsActions Package"
+            version="9.1.0.57">PowerAppsActions_Anchor (9.1.0.57)</package>
+        </Required>
+        <Dependent
+          type="appaction_appactionrule_classicrules"
+          displayName="appactionid.uniquename=apollo__Mscrm.SubGrid.%7B!EntityLogicalName%7D.AddNewStandard!apollo_ApolloManagement!apollo_medicaltest!2,appactionruleid.uniquename=msdyn_Mscrm.AppendToPrimary!1"
+          id.appactionid.uniquename="apollo__Mscrm.SubGrid.{!EntityLogicalName}.AddNewStandard!apollo_ApolloManagement!apollo_medicaltest!2"
+          id.appactionruleid.uniquename="msdyn_Mscrm.AppendToPrimary!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="appactionrule"
+          displayName="msdyn_Mscrm.CreateSelectedEntityPermission!1"
+          solution="msdyn_SystemAppActions (9.1.0.57)"
+          id.uniquename="msdyn_Mscrm.CreateSelectedEntityPermission!1">
+          <package
+            appName="PowerAppsActions Package"
+            version="9.1.0.57">PowerAppsActions_Anchor (9.1.0.57)</package>
+        </Required>
+        <Dependent
+          type="appaction_appactionrule_classicrules"
+          displayName="appactionid.uniquename=apollo__Mscrm.SubGrid.%7B!EntityLogicalName%7D.AddNewStandard!apollo_ApolloManagement!apollo_medicaltest!2,appactionruleid.uniquename=msdyn_Mscrm.CreateSelectedEntityPermission!1"
+          id.appactionid.uniquename="apollo__Mscrm.SubGrid.{!EntityLogicalName}.AddNewStandard!apollo_ApolloManagement!apollo_medicaltest!2"
+          id.appactionruleid.uniquename="msdyn_Mscrm.CreateSelectedEntityPermission!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="appactionrule"
+          displayName="msdyn_Mscrm.CreateSelectedEntityPermission!1"
+          solution="msdyn_SystemAppActions (9.1.0.57)"
+          id.uniquename="msdyn_Mscrm.CreateSelectedEntityPermission!1">
+          <package
+            appName="PowerAppsActions Package"
+            version="9.1.0.57">PowerAppsActions_Anchor (9.1.0.57)</package>
+        </Required>
+        <Dependent
+          type="appaction_appactionrule_classicrules"
+          displayName="appactionid.uniquename=apollo__Mscrm.SubGrid.%7B!EntityLogicalName%7D.NewRecord!apollo_ApolloManagement!apollo_medicaltest!2,appactionruleid.uniquename=msdyn_Mscrm.CreateSelectedEntityPermission!1"
+          id.appactionid.uniquename="apollo__Mscrm.SubGrid.{!EntityLogicalName}.NewRecord!apollo_ApolloManagement!apollo_medicaltest!2"
+          id.appactionruleid.uniquename="msdyn_Mscrm.CreateSelectedEntityPermission!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="appactionrule"
+          displayName="msdyn_Mscrm.EntityFormIsEnabled!0"
+          solution="msdyn_SystemAppActions (9.1.0.57)"
+          id.uniquename="msdyn_Mscrm.EntityFormIsEnabled!0">
+          <package
+            appName="PowerAppsActions Package"
+            version="9.1.0.57">PowerAppsActions_Anchor (9.1.0.57)</package>
+        </Required>
+        <Dependent
+          type="appaction_appactionrule_classicrules"
+          displayName="appactionid.uniquename=apollo__Mscrm.SubGrid.%7B!EntityLogicalName%7D.AddNewStandard!apollo_ApolloManagement!apollo_medicaltest!2,appactionruleid.uniquename=msdyn_Mscrm.EntityFormIsEnabled!0"
+          id.appactionid.uniquename="apollo__Mscrm.SubGrid.{!EntityLogicalName}.AddNewStandard!apollo_ApolloManagement!apollo_medicaltest!2"
+          id.appactionruleid.uniquename="msdyn_Mscrm.EntityFormIsEnabled!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="appactionrule"
+          displayName="msdyn_Mscrm.HideAddNewForChildEntities!1"
+          solution="msdyn_SystemAppActions (9.1.0.57)"
+          id.uniquename="msdyn_Mscrm.HideAddNewForChildEntities!1">
+          <package
+            appName="PowerAppsActions Package"
+            version="9.1.0.57">PowerAppsActions_Anchor (9.1.0.57)</package>
+        </Required>
+        <Dependent
+          type="appaction_appactionrule_classicrules"
+          displayName="appactionid.uniquename=apollo__Mscrm.SubGrid.%7B!EntityLogicalName%7D.AddNewStandard!apollo_ApolloManagement!apollo_medicaltest!2,appactionruleid.uniquename=msdyn_Mscrm.HideAddNewForChildEntities!1"
+          id.appactionid.uniquename="apollo__Mscrm.SubGrid.{!EntityLogicalName}.AddNewStandard!apollo_ApolloManagement!apollo_medicaltest!2"
+          id.appactionruleid.uniquename="msdyn_Mscrm.HideAddNewForChildEntities!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="appactionrule"
+          displayName="msdyn_Mscrm.HideAddressEntities!1"
+          solution="msdyn_SystemAppActions (9.1.0.57)"
+          id.uniquename="msdyn_Mscrm.HideAddressEntities!1">
+          <package
+            appName="PowerAppsActions Package"
+            version="9.1.0.57">PowerAppsActions_Anchor (9.1.0.57)</package>
+        </Required>
+        <Dependent
+          type="appaction_appactionrule_classicrules"
+          displayName="appactionid.uniquename=apollo__Mscrm.SubGrid.%7B!EntityLogicalName%7D.NewRecord!apollo_ApolloManagement!apollo_medicaltest!2,appactionruleid.uniquename=msdyn_Mscrm.HideAddressEntities!1"
+          id.appactionid.uniquename="apollo__Mscrm.SubGrid.{!EntityLogicalName}.NewRecord!apollo_ApolloManagement!apollo_medicaltest!2"
+          id.appactionruleid.uniquename="msdyn_Mscrm.HideAddressEntities!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="appactionrule"
+          displayName="msdyn_Mscrm.HideNewForChildEntities!1"
+          solution="msdyn_SystemAppActions (9.1.0.57)"
+          id.uniquename="msdyn_Mscrm.HideNewForChildEntities!1">
+          <package
+            appName="PowerAppsActions Package"
+            version="9.1.0.57">PowerAppsActions_Anchor (9.1.0.57)</package>
+        </Required>
+        <Dependent
+          type="appaction_appactionrule_classicrules"
+          displayName="appactionid.uniquename=apollo__Mscrm.SubGrid.%7B!EntityLogicalName%7D.NewRecord!apollo_ApolloManagement!apollo_medicaltest!2,appactionruleid.uniquename=msdyn_Mscrm.HideNewForChildEntities!1"
+          id.appactionid.uniquename="apollo__Mscrm.SubGrid.{!EntityLogicalName}.NewRecord!apollo_ApolloManagement!apollo_medicaltest!2"
+          id.appactionruleid.uniquename="msdyn_Mscrm.HideNewForChildEntities!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="appactionrule"
+          displayName="msdyn_Mscrm.IsEntityAvailableForUserInMocaOffline!0"
+          solution="msdyn_SystemAppActions (9.1.0.57)"
+          id.uniquename="msdyn_Mscrm.IsEntityAvailableForUserInMocaOffline!0">
+          <package
+            appName="PowerAppsActions Package"
+            version="9.1.0.57">PowerAppsActions_Anchor (9.1.0.57)</package>
+        </Required>
+        <Dependent
+          type="appaction_appactionrule_classicrules"
+          displayName="appactionid.uniquename=apollo__Mscrm.SubGrid.%7B!EntityLogicalName%7D.AddNewStandard!apollo_ApolloManagement!apollo_medicaltest!2,appactionruleid.uniquename=msdyn_Mscrm.IsEntityAvailableForUserInMocaOffline!0"
+          id.appactionid.uniquename="apollo__Mscrm.SubGrid.{!EntityLogicalName}.AddNewStandard!apollo_ApolloManagement!apollo_medicaltest!2"
+          id.appactionruleid.uniquename="msdyn_Mscrm.IsEntityAvailableForUserInMocaOffline!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="appactionrule"
+          displayName="msdyn_Mscrm.IsEntityAvailableForUserInMocaOffline!0"
+          solution="msdyn_SystemAppActions (9.1.0.57)"
+          id.uniquename="msdyn_Mscrm.IsEntityAvailableForUserInMocaOffline!0">
+          <package
+            appName="PowerAppsActions Package"
+            version="9.1.0.57">PowerAppsActions_Anchor (9.1.0.57)</package>
+        </Required>
+        <Dependent
+          type="appaction_appactionrule_classicrules"
+          displayName="appactionid.uniquename=apollo__Mscrm.SubGrid.%7B!EntityLogicalName%7D.NewRecord!apollo_ApolloManagement!apollo_medicaltest!2,appactionruleid.uniquename=msdyn_Mscrm.IsEntityAvailableForUserInMocaOffline!0"
+          id.appactionid.uniquename="apollo__Mscrm.SubGrid.{!EntityLogicalName}.NewRecord!apollo_ApolloManagement!apollo_medicaltest!2"
+          id.appactionruleid.uniquename="msdyn_Mscrm.IsEntityAvailableForUserInMocaOffline!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="appactionrule"
+          displayName="msdyn_Mscrm.IsNotActivityPointer!1"
+          solution="msdyn_SystemAppActions (9.1.0.57)"
+          id.uniquename="msdyn_Mscrm.IsNotActivityPointer!1">
+          <package
+            appName="PowerAppsActions Package"
+            version="9.1.0.57">PowerAppsActions_Anchor (9.1.0.57)</package>
+        </Required>
+        <Dependent
+          type="appaction_appactionrule_classicrules"
+          displayName="appactionid.uniquename=apollo__Mscrm.SubGrid.%7B!EntityLogicalName%7D.NewRecord!apollo_ApolloManagement!apollo_medicaltest!2,appactionruleid.uniquename=msdyn_Mscrm.IsNotActivityPointer!1"
+          id.appactionid.uniquename="apollo__Mscrm.SubGrid.{!EntityLogicalName}.NewRecord!apollo_ApolloManagement!apollo_medicaltest!2"
+          id.appactionruleid.uniquename="msdyn_Mscrm.IsNotActivityPointer!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="appactionrule"
+          displayName="msdyn_Mscrm.IsValidForHierarchyPageInUC!0"
+          solution="msdyn_SystemAppActions (9.1.0.57)"
+          id.uniquename="msdyn_Mscrm.IsValidForHierarchyPageInUC!0">
+          <package
+            appName="PowerAppsActions Package"
+            version="9.1.0.57">PowerAppsActions_Anchor (9.1.0.57)</package>
+        </Required>
+        <Dependent
+          type="appaction_appactionrule_classicrules"
+          displayName="appactionid.uniquename=apollo__Mscrm.SubGrid.%7B!EntityLogicalName%7D.NewRecord!apollo_ApolloManagement!apollo_medicaltest!2,appactionruleid.uniquename=msdyn_Mscrm.IsValidForHierarchyPageInUC!0"
+          id.appactionid.uniquename="apollo__Mscrm.SubGrid.{!EntityLogicalName}.NewRecord!apollo_ApolloManagement!apollo_medicaltest!2"
+          id.appactionruleid.uniquename="msdyn_Mscrm.IsValidForHierarchyPageInUC!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="appactionrule"
+          displayName="msdyn_Mscrm.IsValidForHierarchyView!0"
+          solution="msdyn_SystemAppActions (9.1.0.57)"
+          id.uniquename="msdyn_Mscrm.IsValidForHierarchyView!0">
+          <package
+            appName="PowerAppsActions Package"
+            version="9.1.0.57">PowerAppsActions_Anchor (9.1.0.57)</package>
+        </Required>
+        <Dependent
+          type="appaction_appactionrule_classicrules"
+          displayName="appactionid.uniquename=apollo__Mscrm.SubGrid.%7B!EntityLogicalName%7D.NewRecord!apollo_ApolloManagement!apollo_medicaltest!2,appactionruleid.uniquename=msdyn_Mscrm.IsValidForHierarchyView!0"
+          id.appactionid.uniquename="apollo__Mscrm.SubGrid.{!EntityLogicalName}.NewRecord!apollo_ApolloManagement!apollo_medicaltest!2"
+          id.appactionruleid.uniquename="msdyn_Mscrm.IsValidForHierarchyView!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="appactionrule"
+          displayName="msdyn_Mscrm.PrimaryIsNotActivityHomePageGrid!0"
+          solution="msdyn_SystemAppActions (9.1.0.57)"
+          id.uniquename="msdyn_Mscrm.PrimaryIsNotActivityHomePageGrid!0">
+          <package
+            appName="PowerAppsActions Package"
+            version="9.1.0.57">PowerAppsActions_Anchor (9.1.0.57)</package>
+        </Required>
+        <Dependent
+          type="appaction_appactionrule_classicrules"
+          displayName="appactionid.uniquename=apollo__Mscrm.SubGrid.%7B!EntityLogicalName%7D.NewRecord!apollo_ApolloManagement!apollo_medicaltest!2,appactionruleid.uniquename=msdyn_Mscrm.PrimaryIsNotActivityHomePageGrid!0"
+          id.appactionid.uniquename="apollo__Mscrm.SubGrid.{!EntityLogicalName}.NewRecord!apollo_ApolloManagement!apollo_medicaltest!2"
+          id.appactionruleid.uniquename="msdyn_Mscrm.PrimaryIsNotActivityHomePageGrid!0" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="appactionrule"
+          displayName="msdyn_Mscrm.SelectedEntityIsNotBPFEntity!1"
+          solution="msdyn_SystemAppActions (9.1.0.57)"
+          id.uniquename="msdyn_Mscrm.SelectedEntityIsNotBPFEntity!1">
+          <package
+            appName="PowerAppsActions Package"
+            version="9.1.0.57">PowerAppsActions_Anchor (9.1.0.57)</package>
+        </Required>
+        <Dependent
+          type="appaction_appactionrule_classicrules"
+          displayName="appactionid.uniquename=apollo__Mscrm.SubGrid.%7B!EntityLogicalName%7D.NewRecord!apollo_ApolloManagement!apollo_medicaltest!2,appactionruleid.uniquename=msdyn_Mscrm.SelectedEntityIsNotBPFEntity!1"
+          id.appactionid.uniquename="apollo__Mscrm.SubGrid.{!EntityLogicalName}.NewRecord!apollo_ApolloManagement!apollo_medicaltest!2"
+          id.appactionruleid.uniquename="msdyn_Mscrm.SelectedEntityIsNotBPFEntity!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="appactionrule"
+          displayName="msdyn_Mscrm.ShowForNonRelationshipBoundGrids!1"
+          solution="msdyn_SystemAppActions (9.1.0.57)"
+          id.uniquename="msdyn_Mscrm.ShowForNonRelationshipBoundGrids!1">
+          <package
+            appName="PowerAppsActions Package"
+            version="9.1.0.57">PowerAppsActions_Anchor (9.1.0.57)</package>
+        </Required>
+        <Dependent
+          type="appaction_appactionrule_classicrules"
+          displayName="appactionid.uniquename=apollo__Mscrm.SubGrid.%7B!EntityLogicalName%7D.NewRecord!apollo_ApolloManagement!apollo_medicaltest!2,appactionruleid.uniquename=msdyn_Mscrm.ShowForNonRelationshipBoundGrids!1"
+          id.appactionid.uniquename="apollo__Mscrm.SubGrid.{!EntityLogicalName}.NewRecord!apollo_ApolloManagement!apollo_medicaltest!2"
+          id.appactionruleid.uniquename="msdyn_Mscrm.ShowForNonRelationshipBoundGrids!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="appactionrule"
+          displayName="msdyn_Mscrm.ShowForOneToManyGrids!1"
+          solution="msdyn_SystemAppActions (9.1.0.57)"
+          id.uniquename="msdyn_Mscrm.ShowForOneToManyGrids!1">
+          <package
+            appName="PowerAppsActions Package"
+            version="9.1.0.57">PowerAppsActions_Anchor (9.1.0.57)</package>
+        </Required>
+        <Dependent
+          type="appaction_appactionrule_classicrules"
+          displayName="appactionid.uniquename=apollo__Mscrm.SubGrid.%7B!EntityLogicalName%7D.AddNewStandard!apollo_ApolloManagement!apollo_medicaltest!2,appactionruleid.uniquename=msdyn_Mscrm.ShowForOneToManyGrids!1"
+          id.appactionid.uniquename="apollo__Mscrm.SubGrid.{!EntityLogicalName}.AddNewStandard!apollo_ApolloManagement!apollo_medicaltest!2"
+          id.appactionruleid.uniquename="msdyn_Mscrm.ShowForOneToManyGrids!1" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="botcomponentcollection"
+          displayName="bot_componentcollection_appcopilot_v1"
+          solution="msdyn_AppCopilotPVABotComponentCollection (9.1.2026023.260218190)"
+          id.schemaname="bot_componentcollection_appcopilot_v1">
+          <package
+            appName="PowerAppsAppCopilotPVABotApp Package"
+            version="9.1.2026023.260218190">msdyn_AppCopilotPVABotComponentCollection (9.1.2026023.260218190)</package>
+        </Required>
+        <Dependent
+          type="bot_botcomponentcollection"
+          displayName="botcomponentcollectionid.schemaname=bot_componentcollection_appcopilot_v1,botid.schemaname=crd42_bot610100"
+          id.botcomponentcollectionid.schemaname="bot_componentcollection_appcopilot_v1"
+          id.botid.schemaname="crd42_bot610100" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required
+          type="SettingDefinition"
+          displayName="AppChannel"
+          solution="msdyn_AppFrameworkInfraExtensions (1.0.0.16)"
+          id.uniquename="AppChannel">
+          <package
+            appName="PowerAppsAppFramework Package"
+            version="1.0.0.25">PowerAppsAppFramework_Anchor (1.0.0.25)</package>
+        </Required>
+        <Dependent
+          type="AppSetting"
+          displayName="parentappmoduleid.uniquename=apollo_ApolloManagement,settingdefinitionid.uniquename=AppChannel"
+          id.parentappmoduleid.uniquename="apollo_ApolloManagement"
+          id.settingdefinitionid.uniquename="AppChannel" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

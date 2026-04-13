@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship
+    Name="apollo_account_appointment_286" />
+  <EntityRelationship
+    Name="apollo_apolloinvoice_Appointment_appointment" />
+  <EntityRelationship
+    Name="apollo_apolloinvoice_InsuranceClaim_apollo_insuranceclaim" />
+  <EntityRelationship
+    Name="apollo_apollolab_LabTechnician_systemuser" />
+  <EntityRelationship
+    Name="apollo_Appointment_Appointment_apollo_MedicalTest" />
+  <EntityRelationship
+    Name="apollo_appointment_Doctor_systemuser" />
+  <EntityRelationship
+    Name="apollo_contact_appointment_286" />
+  <EntityRelationship
+    Name="apollo_contact_EmergencyContactPerson_contact" />
+  <EntityRelationship
+    Name="apollo_doctorshift_Doctor_systemuser" />
+  <EntityRelationship
+    Name="apollo_doctorshift_Shift_apollo_shift" />
+  <EntityRelationship
+    Name="apollo_homevisit_Appointment_appointment" />
+  <EntityRelationship
+    Name="apollo_insuranceclaim_Appointment_appointment" />
+  <EntityRelationship
+    Name="apollo_insuranceclaim_Patient_contact" />
+  <EntityRelationship
+    Name="apollo_invoiceline_ParentInvoice_apollo_apolloinvoice" />
+  <EntityRelationship
+    Name="apollo_medicaltest_apollo_lab_apollo_apollolab" />
+  <EntityRelationship
+    Name="apollo_medicaltest_Prescription_apollo_prescription" />
+  <EntityRelationship
+    Name="apollo_medicaltestinvoicelines_Invoice_apollo_apolloinvoice" />
+  <EntityRelationship
+    Name="apollo_medicaltestinvoicelines_InvoiceLine_apollo_invoiceline" />
+  <EntityRelationship
+    Name="apollo_medicaltestinvoicelines_MedicalTest_apollo_medicaltest" />
+  <EntityRelationship
+    Name="apollo_medicineinvoicesline_Invoice_apollo_apolloinvoice" />
+  <EntityRelationship
+    Name="apollo_medicineinvoicesline_InvoiceLine_apollo_invoiceline" />
+  <EntityRelationship
+    Name="apollo_medicineinvoicesline_Medicine_apollo_medicine" />
+  <EntityRelationship
+    Name="apollo_medicineinvoicesline_PrescribedMedicine_apollo_prescribedmedicine" />
+  <EntityRelationship
+    Name="apollo_medicineinvoicesline_Prescription_apollo_prescription" />
+  <EntityRelationship
+    Name="apollo_prescribedmedicine_Medicines_apollo_medicine" />
+  <EntityRelationship
+    Name="apollo_prescribedmedicine_Prescription_apollo_prescription" />
+  <EntityRelationship
+    Name="apollo_prescription_Appointment_appointment" />
+  <EntityRelationship
+    Name="apollo_Reward_SystemUser_SystemUser" />
+  <EntityRelationship
+    Name="apollo_testreport_Lab_apollo_apollolab" />
+  <EntityRelationship
+    Name="apollo_testreport_LabTechnician_systemuser" />
+  <EntityRelationship
+    Name="apollo_testreport_MedicalTest_apollo_medicaltest" />
+  <EntityRelationship
+    Name="bpf_account_apollo_patientcreationbpf" />
+  <EntityRelationship
+    Name="bpf_apollo_medicaltest_apollo_medicaltestbpf" />
+  <EntityRelationship
+    Name="bpf_appointment_apollo_patientcreationbpf" />
+  <EntityRelationship
+    Name="bpf_contact_apollo_patientcreationbpf" />
+  <EntityRelationship
+    Name="business_unit_apollo_apolloinvoice" />
+  <EntityRelationship
+    Name="business_unit_apollo_apollolab" />
+  <EntityRelationship
+    Name="business_unit_apollo_doctorshift" />
+  <EntityRelationship
+    Name="business_unit_apollo_homevisit" />
+  <EntityRelationship
+    Name="business_unit_apollo_invoiceline" />
+  <EntityRelationship
+    Name="business_unit_apollo_medicaltest" />
+  <EntityRelationship
+    Name="business_unit_apollo_medicaltestinvoicelines" />
+  <EntityRelationship
+    Name="business_unit_apollo_medicine" />
+  <EntityRelationship
+    Name="business_unit_apollo_medicineinvoicesline" />
+  <EntityRelationship
+    Name="business_unit_apollo_message" />
+  <EntityRelationship
+    Name="business_unit_apollo_prescribedmedicine" />
+  <EntityRelationship
+    Name="business_unit_apollo_prescription" />
+  <EntityRelationship
+    Name="business_unit_apollo_reward" />
+  <EntityRelationship
+    Name="business_unit_apollo_shift" />
+  <EntityRelationship
+    Name="business_unit_apollo_testreport" />
+  <EntityRelationship
+    Name="FileAttachment_apollo_InsuranceClaim_apollo_KYCDocument" />
+  <EntityRelationship
+    Name="FileAttachment_apollo_TestReport_apollo_Attachment" />
+  <EntityRelationship
+    Name="lk_apollo_apolloinvoice_createdby" />
+  <EntityRelationship
+    Name="lk_apollo_apolloinvoice_modifiedby" />
+  <EntityRelationship
+    Name="lk_apollo_apollolab_createdby" />
+  <EntityRelationship
+    Name="lk_apollo_apollolab_modifiedby" />
+  <EntityRelationship
+    Name="lk_apollo_doctorshift_createdby" />
+  <EntityRelationship
+    Name="lk_apollo_doctorshift_modifiedby" />
+  <EntityRelationship
+    Name="lk_apollo_homevisit_createdby" />
+  <EntityRelationship
+    Name="lk_apollo_homevisit_modifiedby" />
+  <EntityRelationship
+    Name="lk_apollo_insuranceclaim_createdby" />
+  <EntityRelationship
+    Name="lk_apollo_insuranceclaim_modifiedby" />
+  <EntityRelationship
+    Name="lk_apollo_invoiceline_createdby" />
+  <EntityRelationship
+    Name="lk_apollo_invoiceline_modifiedby" />
+  <EntityRelationship
+    Name="lk_apollo_medicaltest_createdby" />
+  <EntityRelationship
+    Name="lk_apollo_medicaltest_modifiedby" />
+  <EntityRelationship
+    Name="lk_apollo_medicaltestbpf_activestageid" />
+  <EntityRelationship
+    Name="lk_apollo_medicaltestbpf_createdby" />
+  <EntityRelationship
+    Name="lk_apollo_medicaltestbpf_modifiedby" />
+  <EntityRelationship
+    Name="lk_apollo_medicaltestbpf_processid" />
+  <EntityRelationship
+    Name="lk_apollo_medicaltestinvoicelines_createdby" />
+  <EntityRelationship
+    Name="lk_apollo_medicaltestinvoicelines_modifiedby" />
+  <EntityRelationship
+    Name="lk_apollo_medicine_createdby" />
+  <EntityRelationship
+    Name="lk_apollo_medicine_modifiedby" />
+  <EntityRelationship
+    Name="lk_apollo_medicineinvoicesline_createdby" />
+  <EntityRelationship
+    Name="lk_apollo_medicineinvoicesline_modifiedby" />
+  <EntityRelationship
+    Name="lk_apollo_message_createdby" />
+  <EntityRelationship
+    Name="lk_apollo_message_modifiedby" />
+  <EntityRelationship
+    Name="lk_apollo_patientcreationbpf_activestageid" />
+  <EntityRelationship
+    Name="lk_apollo_patientcreationbpf_createdby" />
+  <EntityRelationship
+    Name="lk_apollo_patientcreationbpf_modifiedby" />
+  <EntityRelationship
+    Name="lk_apollo_patientcreationbpf_processid" />
+  <EntityRelationship
+    Name="lk_apollo_prescribedmedicine_createdby" />
+  <EntityRelationship
+    Name="lk_apollo_prescribedmedicine_modifiedby" />
+  <EntityRelationship
+    Name="lk_apollo_prescription_createdby" />
+  <EntityRelationship
+    Name="lk_apollo_prescription_modifiedby" />
+  <EntityRelationship
+    Name="lk_apollo_reward_createdby" />
+  <EntityRelationship
+    Name="lk_apollo_reward_modifiedby" />
+  <EntityRelationship
+    Name="lk_apollo_shift_createdby" />
+  <EntityRelationship
+    Name="lk_apollo_shift_modifiedby" />
+  <EntityRelationship
+    Name="lk_apollo_testreport_createdby" />
+  <EntityRelationship
+    Name="lk_apollo_testreport_modifiedby" />
+  <EntityRelationship
+    Name="organization_apollo_insuranceclaim" />
+  <EntityRelationship
+    Name="organization_apollo_medicaltestbpf" />
+  <EntityRelationship
+    Name="organization_apollo_patientcreationbpf" />
+  <EntityRelationship
+    Name="owner_apollo_apolloinvoice" />
+  <EntityRelationship
+    Name="owner_apollo_apollolab" />
+  <EntityRelationship
+    Name="owner_apollo_doctorshift" />
+  <EntityRelationship
+    Name="owner_apollo_homevisit" />
+  <EntityRelationship
+    Name="owner_apollo_invoiceline" />
+  <EntityRelationship
+    Name="owner_apollo_medicaltest" />
+  <EntityRelationship
+    Name="owner_apollo_medicaltestinvoicelines" />
+  <EntityRelationship
+    Name="owner_apollo_medicine" />
+  <EntityRelationship
+    Name="owner_apollo_medicineinvoicesline" />
+  <EntityRelationship
+    Name="owner_apollo_message" />
+  <EntityRelationship
+    Name="owner_apollo_prescribedmedicine" />
+  <EntityRelationship
+    Name="owner_apollo_prescription" />
+  <EntityRelationship
+    Name="owner_apollo_reward" />
+  <EntityRelationship
+    Name="owner_apollo_shift" />
+  <EntityRelationship
+    Name="owner_apollo_testreport" />
+  <EntityRelationship
+    Name="team_apollo_apolloinvoice" />
+  <EntityRelationship
+    Name="team_apollo_apollolab" />
+  <EntityRelationship
+    Name="team_apollo_doctorshift" />
+  <EntityRelationship
+    Name="team_apollo_homevisit" />
+  <EntityRelationship
+    Name="team_apollo_invoiceline" />
+  <EntityRelationship
+    Name="team_apollo_medicaltest" />
+  <EntityRelationship
+    Name="team_apollo_medicaltestinvoicelines" />
+  <EntityRelationship
+    Name="team_apollo_medicine" />
+  <EntityRelationship
+    Name="team_apollo_medicineinvoicesline" />
+  <EntityRelationship
+    Name="team_apollo_message" />
+  <EntityRelationship
+    Name="team_apollo_prescribedmedicine" />
+  <EntityRelationship
+    Name="team_apollo_prescription" />
+  <EntityRelationship
+    Name="team_apollo_reward" />
+  <EntityRelationship
+    Name="team_apollo_shift" />
+  <EntityRelationship
+    Name="team_apollo_testreport" />
+  <EntityRelationship
+    Name="TransactionCurrency_apollo_ApolloInvoice" />
+  <EntityRelationship
+    Name="TransactionCurrency_apollo_InsuranceClaim" />
+  <EntityRelationship
+    Name="TransactionCurrency_apollo_InvoiceLine" />
+  <EntityRelationship
+    Name="TransactionCurrency_apollo_MedicalTestInvoiceLines" />
+  <EntityRelationship
+    Name="TransactionCurrency_apollo_Medicine" />
+  <EntityRelationship
+    Name="TransactionCurrency_apollo_MedicineInvoicesLine" />
+  <EntityRelationship
+    Name="user_apollo_apolloinvoice" />
+  <EntityRelationship
+    Name="user_apollo_apollolab" />
+  <EntityRelationship
+    Name="user_apollo_doctorshift" />
+  <EntityRelationship
+    Name="user_apollo_homevisit" />
+  <EntityRelationship
+    Name="user_apollo_invoiceline" />
+  <EntityRelationship
+    Name="user_apollo_medicaltest" />
+  <EntityRelationship
+    Name="user_apollo_medicaltestinvoicelines" />
+  <EntityRelationship
+    Name="user_apollo_medicine" />
+  <EntityRelationship
+    Name="user_apollo_medicineinvoicesline" />
+  <EntityRelationship
+    Name="user_apollo_message" />
+  <EntityRelationship
+    Name="user_apollo_prescribedmedicine" />
+  <EntityRelationship
+    Name="user_apollo_prescription" />
+  <EntityRelationship
+    Name="user_apollo_reward" />
+  <EntityRelationship
+    Name="user_apollo_shift" />
+  <EntityRelationship
+    Name="user_apollo_testreport" />
+</EntityRelationships>

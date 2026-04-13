@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Workflow
+  WorkflowId="{44acf4ae-48bb-f011-bbd3-000d3a81a9a9}"
+  Name="Make Findings as Required if Test Date is past"
+  Description="Make Findings as Required if Test Date is past" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/MakeFindingsasRequiredifTestDateispast-44ACF4AE-48BB-F011-BBD3-000D3A81A9A9.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.1</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>2</ProcessTriggerScope>
+  <ModernFlowType>0</ModernFlowType>
+  <PrimaryEntity>apollo_TestReport</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName
+      languagecode="1033"
+      description="Make Findings as Required if Test Date is past" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description
+      languagecode="1033"
+      description="Make Findings as Required if Test Date is past" />
+  </Descriptions>
+</Workflow>

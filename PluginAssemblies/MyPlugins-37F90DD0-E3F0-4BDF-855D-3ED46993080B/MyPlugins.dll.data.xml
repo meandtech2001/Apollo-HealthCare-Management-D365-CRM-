@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginAssembly
+  FullName="MyPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=baa6576eee0f6dbc"
+  PluginAssemblyId="37f90dd0-e3f0-4bdf-855d-3ed46993080b"
+  CustomizationLevel="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <IsolationMode>2</IsolationMode>
+  <SourceType>0</SourceType>
+  <IntroducedVersion>1.0.0.2</IntroducedVersion>
+  <FileName>/PluginAssemblies/MyPlugins-37F90DD0-E3F0-4BDF-855D-3ED46993080B/MyPlugins.dll</FileName>
+  <PluginTypes>
+    <PluginType
+      AssemblyQualifiedName="MyPlugins.CalcTotalAmountInvoice, MyPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=baa6576eee0f6dbc"
+      PluginTypeId="71e0386a-e644-44be-9688-0889c34255f5"
+      Name="MyPlugins.CalcTotalAmountInvoice">
+      <FriendlyName>1771e65b-1e5e-4408-a645-318717129385</FriendlyName>
+    </PluginType>
+    <PluginType
+      AssemblyQualifiedName="MyPlugins.CreateInvoice, MyPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=baa6576eee0f6dbc"
+      PluginTypeId="e40a3ea5-a003-486c-a1a1-342912239b3a"
+      Name="MyPlugins.CreateInvoice">
+      <FriendlyName>6cde8672-e015-48c3-9e36-691a5ccb83a2</FriendlyName>
+    </PluginType>
+    <PluginType
+      AssemblyQualifiedName="MyPlugins.CreateMedicalInvoice, MyPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=baa6576eee0f6dbc"
+      PluginTypeId="9bf2e38f-b9ec-4f1b-9a2c-37d70fb7b9fc"
+      Name="MyPlugins.CreateMedicalInvoice">
+      <FriendlyName>0ccd9031-03a6-42b1-81fe-0a523747817d</FriendlyName>
+    </PluginType>
+    <PluginType
+      AssemblyQualifiedName="MyPlugins.CreatePrescription, MyPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=baa6576eee0f6dbc"
+      PluginTypeId="3af654ac-a91e-49b2-92e5-c558ebd96208"
+      Name="MyPlugins.CreatePrescription">
+      <FriendlyName>6f1cdadf-1f02-4975-93d8-0b20643646ef</FriendlyName>
+    </PluginType>
+    <PluginType
+      AssemblyQualifiedName="MyPlugins.CreateTestReport, MyPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=baa6576eee0f6dbc"
+      PluginTypeId="2e0dcad3-e797-40a1-a608-e60f30d93d77"
+      Name="MyPlugins.CreateTestReport">
+      <FriendlyName>7ecd7d28-ebc3-4da5-8240-3a62adc6a0e8</FriendlyName>
+    </PluginType>
+    <PluginType
+      AssemblyQualifiedName="MyPlugins.CreatInvoiceLine_MedicalTestLine, MyPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=baa6576eee0f6dbc"
+      PluginTypeId="de657029-ee0d-4da9-8f35-959f363b48f0"
+      Name="MyPlugins.CreatInvoiceLine_MedicalTestLine">
+      <FriendlyName>1b608cad-5f19-4888-ac72-6d65b451ff7a</FriendlyName>
+    </PluginType>
+    <PluginType
+      AssemblyQualifiedName="MyPlugins.FinishMedicalTestBPF, MyPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=baa6576eee0f6dbc"
+      PluginTypeId="67028bb3-11fc-4a8d-8f46-fb8adfc42fa0"
+      Name="MyPlugins.FinishMedicalTestBPF">
+      <FriendlyName>c50b0a0b-b944-4f5b-8330-c6ff85128f93</FriendlyName>
+    </PluginType>
+    <PluginType
+      AssemblyQualifiedName="MyPlugins.MedicineLineRollUpTrigger_CusomtWF, MyPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=baa6576eee0f6dbc"
+      PluginTypeId="8724abcf-f29d-46c2-902c-3f36e377241d"
+      Name="MyPlugins.MedicineLineRollUpTrigger_CusomtWF">
+      <FriendlyName>dd21fb85-9874-4166-8b2c-c102bcac518f</FriendlyName>
+      <WorkflowActivityGroupName>MyPlugins (1.0.0.0)</WorkflowActivityGroupName>
+    </PluginType>
+    <PluginType
+      AssemblyQualifiedName="MyPlugins.RestrictPrescriptionDeactivationcs, MyPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=baa6576eee0f6dbc"
+      PluginTypeId="47827719-ba80-4fbd-9b97-4db21597653f"
+      Name="MyPlugins.RestrictPrescriptionDeactivationcs">
+      <FriendlyName>8846f50b-a567-4371-8e99-f68c46d46a3f</FriendlyName>
+    </PluginType>
+    <PluginType
+      AssemblyQualifiedName="MyPlugins.UpdateMedicalTestBPF, MyPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=baa6576eee0f6dbc"
+      PluginTypeId="1284476c-f13f-402e-9dc1-d2ba1c0c94fd"
+      Name="MyPlugins.UpdateMedicalTestBPF">
+      <FriendlyName>3df1cc39-f00b-4d43-ae35-c994d9bf69b9</FriendlyName>
+    </PluginType>
+    <PluginType
+      AssemblyQualifiedName="MyPlugins.UpdateTestReport, MyPlugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=baa6576eee0f6dbc"
+      PluginTypeId="40840933-99d4-4e85-a4db-9e2293ba3ad0"
+      Name="MyPlugins.UpdateTestReport">
+      <FriendlyName>92e91d23-0d9e-49fe-84fd-a48c4d91675b</FriendlyName>
+    </PluginType>
+  </PluginTypes>
+</PluginAssembly>

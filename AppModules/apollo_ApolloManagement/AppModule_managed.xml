@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>apollo_ApolloManagement</UniqueName>
+  <IntroducedVersion>1.0.0.1</IntroducedVersion>
+  <WebResourceId>953b9fac-1e5e-e611-80d6-00155ded156f</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent
+      type="1"
+      schemaName="account" />
+    <AppModuleComponent
+      type="1"
+      schemaName="actioncard" />
+    <AppModuleComponent
+      type="1"
+      schemaName="apollo_apollofeedbacks" />
+    <AppModuleComponent
+      type="1"
+      schemaName="apollo_apolloinvoice" />
+    <AppModuleComponent
+      type="1"
+      schemaName="apollo_apollolab" />
+    <AppModuleComponent
+      type="1"
+      schemaName="apollo_doctorshift" />
+    <AppModuleComponent
+      type="1"
+      schemaName="apollo_homevisit" />
+    <AppModuleComponent
+      type="1"
+      schemaName="apollo_insuranceclaim" />
+    <AppModuleComponent
+      type="1"
+      schemaName="apollo_invoiceline" />
+    <AppModuleComponent
+      type="1"
+      schemaName="apollo_medicaltest" />
+    <AppModuleComponent
+      type="1"
+      schemaName="apollo_medicaltestinvoicelines" />
+    <AppModuleComponent
+      type="1"
+      schemaName="apollo_medicine" />
+    <AppModuleComponent
+      type="1"
+      schemaName="apollo_medicineinvoicesline" />
+    <AppModuleComponent
+      type="1"
+      schemaName="apollo_message" />
+    <AppModuleComponent
+      type="1"
+      schemaName="apollo_prescribedmedicine" />
+    <AppModuleComponent
+      type="1"
+      schemaName="apollo_prescription" />
+    <AppModuleComponent
+      type="1"
+      schemaName="apollo_reward" />
+    <AppModuleComponent
+      type="1"
+      schemaName="apollo_shift" />
+    <AppModuleComponent
+      type="1"
+      schemaName="apollo_testreport" />
+    <AppModuleComponent
+      type="1"
+      schemaName="appointment" />
+    <AppModuleComponent
+      type="1"
+      schemaName="businessunit" />
+    <AppModuleComponent
+      type="1"
+      schemaName="contact" />
+    <AppModuleComponent
+      type="1"
+      schemaName="role" />
+    <AppModuleComponent
+      type="1"
+      schemaName="systemuser" />
+    <AppModuleComponent
+      type="26"
+      id="{cec641c8-ffb7-f011-bbd3-000d3a81a9a9}" />
+    <AppModuleComponent
+      type="26"
+      id="{d011c680-00b8-f011-bbd3-000d3a81a9a9}" />
+    <AppModuleComponent
+      type="26"
+      id="{cae0b507-01b8-f011-bbd3-000d3a81a9a9}" />
+    <AppModuleComponent
+      type="26"
+      id="{d4090132-01b8-f011-bbd3-000d3a81a9a9}" />
+    <AppModuleComponent
+      type="26"
+      id="{1ea49d55-01b8-f011-bbd3-000d3a81a9a9}" />
+    <AppModuleComponent
+      type="26"
+      id="{7bf3bde7-02b8-f011-bbd3-000d3a81a9a9}" />
+    <AppModuleComponent
+      type="26"
+      id="{dd01fb06-03b8-f011-bbd3-000d3a81a9a9}" />
+    <AppModuleComponent
+      type="26"
+      id="{4602e02f-03b8-f011-bbd3-000d3a81a9a9}" />
+    <AppModuleComponent
+      type="26"
+      id="{704d29a4-03b8-f011-bbd3-000d3a81a9a9}" />
+    <AppModuleComponent
+      type="60"
+      id="{a9a846f7-82d9-f011-8544-000d3a81a9a9}" />
+    <AppModuleComponent
+      type="62"
+      schemaName="apollo_ApolloManagement" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role
+      id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role
+      id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName
+      description="Apollo Management"
+      languagecode="1033" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description
+      description="Apollo Management app"
+      languagecode="1033" />
+  </Descriptions>
+  <appelements>
+    <appelement
+      uniquename="apollo_apollo_ApolloManagement_canvasappid_apollo_apollomanagementdefaultcommandlibrary_33e35">
+      <canvasappid>
+        <name>apollo_apollomanagementdefaultcommandlibrary_33e35</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>apollo_apollo_ApolloManagement_canvasappid_apollo_apollomanagementdefaultcommandlibrary_33e35</name>
+    </appelement>
+    <appelement
+      uniquename="apollo_apollo_ApolloManagement_canvasappid_apollo_appointmentcreationpage_a95af">
+      <canvasappid>
+        <name>apollo_appointmentcreationpage_a95af</name>
+      </canvasappid>
+      <iscustomizable>1</iscustomizable>
+      <name>apollo_apollo_ApolloManagement_canvasappid_apollo_appointmentcreationpage_a95af</name>
+    </appelement>
+    <appelement
+      uniquename="apollo_apollo_ApolloManagement_schemaname_crd42_bot610100">
+      <iscustomizable>1</iscustomizable>
+      <name>crd42_bot610100</name>
+      <objectid>
+        <schemaname>crd42_bot610100</schemaname>
+      </objectid>
+      <objectidtype>bot</objectidtype>
+    </appelement>
+  </appelements>
+  <appsettings>
+    <appsetting
+      settingdefinitionid.uniquename="AppChannel">
+      <iscustomizable>1</iscustomizable>
+      <value>1</value>
+    </appsetting>
+  </appsettings>
+</AppModule>

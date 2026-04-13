@@ -1,0 +1,462 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AppModuleSiteMap xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SiteMapUniqueName>apollo_ApolloManagement</SiteMapUniqueName>
+  <EnableCollapsibleGroups>False</EnableCollapsibleGroups>
+  <ShowHome>True</ShowHome>
+  <ShowPinned>True</ShowPinned>
+  <ShowRecents>True</ShowRecents>
+  <SiteMap
+    IntroducedVersion="7.0.0.0">
+    <Area
+      Id="area_7c4cd80b"
+      ResourceId="SitemapDesigner.NewTitle"
+      DescriptionResourceId="SitemapDesigner.NewTitle"
+      ShowGroups="true"
+      IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title
+          LCID="1033"
+          Title="Doctor Panel" />
+      </Titles>
+      <Group
+        Id="group_e23c1e3b"
+        ResourceId="SitemapDesigner.NewGroup"
+        DescriptionResourceId="SitemapDesigner.NewGroup"
+        IntroducedVersion="7.0.0.0"
+        IsProfile="false"
+        ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title
+            LCID="1033"
+            Title="Main" />
+        </Titles>
+        <SubArea
+          Id="subarea_6a84dd09"
+          DescriptionResourceId="Dashboards_Description"
+          Icon="/_imgs/imagestrips/transparent_spacer.gif"
+          Url="/workplace/home_dashboards.aspx"
+          DefaultDashboard="a9a846f7-82d9-f011-8544-000d3a81a9a9"
+          Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web"
+          AvailableOffline="true"
+          PassParams="false"
+          Sku="All,OnPremise,Live,SPLA"
+          ToolTipResourseId="DashboardTooltip">
+          <Titles>
+            <Title
+              LCID="1033"
+              Title="Apollo Dashboard" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group
+        Id="group_c21c333c"
+        ResourceId="SitemapDesigner.NewGroup"
+        DescriptionResourceId="SitemapDesigner.NewGroup"
+        IntroducedVersion="7.0.0.0"
+        IsProfile="false"
+        ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title
+            LCID="1033"
+            Title="Staffs" />
+        </Titles>
+        <SubArea
+          Id="subarea_d6937621"
+          Icon="/_imgs/imagestrips/transparent_spacer.gif"
+          Entity="systemuser"
+          Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web"
+          AvailableOffline="true"
+          PassParams="false"
+          Sku="All,OnPremise,Live,SPLA" />
+        <SubArea
+          Id="subarea_4d7a1c08"
+          Icon="/_imgs/imagestrips/transparent_spacer.gif"
+          Entity="apollo_doctorshift"
+          Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web"
+          AvailableOffline="true"
+          PassParams="false"
+          Sku="All,OnPremise,Live,SPLA" />
+        <SubArea
+          Id="subarea_76310711"
+          Icon="/_imgs/imagestrips/transparent_spacer.gif"
+          Entity="apollo_reward"
+          Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web"
+          AvailableOffline="true"
+          PassParams="false"
+          Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group
+        Id="group_75dfcb73"
+        ResourceId="SitemapDesigner.NewGroup"
+        DescriptionResourceId="SitemapDesigner.NewGroup"
+        IntroducedVersion="7.0.0.0"
+        IsProfile="false"
+        ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title
+            LCID="1033"
+            Title="Prescription" />
+        </Titles>
+        <SubArea
+          Id="subarea_5d85fa2c"
+          Icon="/_imgs/imagestrips/transparent_spacer.gif"
+          Entity="apollo_prescription"
+          Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web"
+          AvailableOffline="true"
+          PassParams="false"
+          Sku="All,OnPremise,Live,SPLA" />
+        <SubArea
+          Id="subarea_5c03f2cf"
+          Icon="/_imgs/imagestrips/transparent_spacer.gif"
+          Entity="apollo_prescribedmedicine"
+          Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web"
+          AvailableOffline="true"
+          PassParams="false"
+          Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+    </Area>
+    <Area
+      Id="area_620f634d"
+      ResourceId="SitemapDesigner.NewTitle"
+      DescriptionResourceId="SitemapDesigner.NewTitle"
+      ShowGroups="true"
+      IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title
+          LCID="1033"
+          Title="Patients" />
+      </Titles>
+      <Group
+        Id="group_bb3d4aa0"
+        ResourceId="SitemapDesigner.NewGroup"
+        DescriptionResourceId="SitemapDesigner.NewGroup"
+        IntroducedVersion="7.0.0.0"
+        IsProfile="false"
+        ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title
+            LCID="1033"
+            Title="Patient Info" />
+        </Titles>
+        <SubArea
+          Id="subarea_c456d39f"
+          Icon="/_imgs/imagestrips/transparent_spacer.gif"
+          Entity="account"
+          Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web"
+          AvailableOffline="true"
+          PassParams="false"
+          Sku="All,OnPremise,Live,SPLA" />
+        <SubArea
+          Id="subarea_32fa81bf"
+          Icon="/_imgs/imagestrips/transparent_spacer.gif"
+          Entity="contact"
+          Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web"
+          AvailableOffline="true"
+          PassParams="false"
+          Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group
+        Id="group_ef87a065"
+        ResourceId="SitemapDesigner.NewGroup"
+        DescriptionResourceId="SitemapDesigner.NewGroup"
+        IntroducedVersion="7.0.0.0"
+        IsProfile="false"
+        ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title
+            LCID="1033"
+            Title="FeedBacks" />
+        </Titles>
+        <SubArea
+          Id="subarea_667cef54"
+          Icon="/_imgs/imagestrips/transparent_spacer.gif"
+          Entity="apollo_apollofeedbacks"
+          Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web"
+          AvailableOffline="true"
+          PassParams="false"
+          Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+    </Area>
+    <Area
+      Id="area_824e43cf"
+      ResourceId="SitemapDesigner.NewTitle"
+      DescriptionResourceId="SitemapDesigner.NewTitle"
+      ShowGroups="true"
+      IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title
+          LCID="1033"
+          Title="Pharmacy" />
+      </Titles>
+      <Group
+        Id="group_9c30b18a"
+        ResourceId="SitemapDesigner.NewGroup"
+        DescriptionResourceId="SitemapDesigner.NewGroup"
+        IntroducedVersion="7.0.0.0"
+        IsProfile="false"
+        ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title
+            LCID="1033"
+            Title="Medicine" />
+        </Titles>
+        <SubArea
+          Id="subarea_e0b94333"
+          Icon="/_imgs/imagestrips/transparent_spacer.gif"
+          Entity="apollo_medicine"
+          Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web"
+          AvailableOffline="true"
+          PassParams="false"
+          Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+    </Area>
+    <Area
+      Id="area_b372a64c"
+      ResourceId="SitemapDesigner.NewTitle"
+      DescriptionResourceId="SitemapDesigner.NewTitle"
+      ShowGroups="true"
+      IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title
+          LCID="1033"
+          Title="Master Data" />
+      </Titles>
+      <Group
+        Id="group_da658b17"
+        ResourceId="SitemapDesigner.NewGroup"
+        DescriptionResourceId="SitemapDesigner.NewGroup"
+        IntroducedVersion="7.0.0.0"
+        IsProfile="false"
+        ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title
+            LCID="1033"
+            Title="Main Data" />
+        </Titles>
+        <SubArea
+          Id="subarea_a8602fcf"
+          Icon="/_imgs/imagestrips/transparent_spacer.gif"
+          Entity="businessunit"
+          Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web"
+          AvailableOffline="true"
+          PassParams="false"
+          Sku="All,OnPremise,Live,SPLA" />
+        <SubArea
+          Id="subarea_4d2a5a75"
+          Icon="/_imgs/imagestrips/transparent_spacer.gif"
+          Entity="apollo_shift"
+          Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web"
+          AvailableOffline="true"
+          PassParams="false"
+          Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group
+        Id="group_34d64b32"
+        ResourceId="SitemapDesigner.NewGroup"
+        DescriptionResourceId="SitemapDesigner.NewGroup"
+        IntroducedVersion="7.0.0.0"
+        IsProfile="false"
+        ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title
+            LCID="1033"
+            Title="Message to Outer" />
+        </Titles>
+        <SubArea
+          Id="subarea_67071600"
+          Icon="/_imgs/imagestrips/transparent_spacer.gif"
+          Entity="apollo_message"
+          Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web"
+          AvailableOffline="true"
+          PassParams="false"
+          Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+    </Area>
+    <Area
+      Id="area_63e39ee2"
+      ResourceId="SitemapDesigner.NewTitle"
+      DescriptionResourceId="SitemapDesigner.NewTitle"
+      ShowGroups="true"
+      IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title
+          LCID="1033"
+          Title="Appointments" />
+      </Titles>
+      <Group
+        Id="group_94e854a3"
+        ResourceId="SitemapDesigner.NewGroup"
+        DescriptionResourceId="SitemapDesigner.NewGroup"
+        IntroducedVersion="7.0.0.0"
+        IsProfile="false"
+        ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title
+            LCID="1033"
+            Title="All Appointments" />
+        </Titles>
+        <SubArea
+          Id="subarea_28851d42"
+          Icon="/_imgs/imagestrips/transparent_spacer.gif"
+          Entity="appointment"
+          Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web"
+          AvailableOffline="true"
+          PassParams="false"
+          Sku="All,OnPremise,Live,SPLA" />
+        <SubArea
+          Id="subarea_98d457cd"
+          Icon="/_imgs/imagestrips/transparent_spacer.gif"
+          Entity="apollo_homevisit"
+          Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web"
+          AvailableOffline="true"
+          PassParams="false"
+          Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+    </Area>
+    <Area
+      Id="area_2a8830fe"
+      ResourceId="SitemapDesigner.NewTitle"
+      DescriptionResourceId="SitemapDesigner.NewTitle"
+      ShowGroups="true"
+      IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title
+          LCID="1033"
+          Title="Lab" />
+      </Titles>
+      <Group
+        Id="group_98f3902a"
+        ResourceId="SitemapDesigner.NewGroup"
+        DescriptionResourceId="SitemapDesigner.NewGroup"
+        IntroducedVersion="7.0.0.0"
+        IsProfile="false"
+        ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title
+            LCID="1033"
+            Title="Lab Report" />
+        </Titles>
+        <SubArea
+          Id="subarea_326ff4e3"
+          Icon="/_imgs/imagestrips/transparent_spacer.gif"
+          Entity="apollo_apollolab"
+          Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web"
+          AvailableOffline="true"
+          PassParams="false"
+          Sku="All,OnPremise,Live,SPLA" />
+        <SubArea
+          Id="subarea_11565590"
+          Icon="/_imgs/imagestrips/transparent_spacer.gif"
+          Entity="apollo_testreport"
+          Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web"
+          AvailableOffline="true"
+          PassParams="false"
+          Sku="All,OnPremise,Live,SPLA" />
+        <SubArea
+          Id="subarea_15f4e59c"
+          Icon="/_imgs/imagestrips/transparent_spacer.gif"
+          Entity="apollo_medicaltest"
+          Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web"
+          AvailableOffline="true"
+          PassParams="false"
+          Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+    </Area>
+    <Area
+      Id="area_991f62c8"
+      ResourceId="SitemapDesigner.NewTitle"
+      DescriptionResourceId="SitemapDesigner.NewTitle"
+      ShowGroups="true"
+      IntroducedVersion="7.0.0.0">
+      <Titles>
+        <Title
+          LCID="1033"
+          Title="Payments" />
+      </Titles>
+      <Group
+        Id="group_3c8e050c"
+        ResourceId="SitemapDesigner.NewGroup"
+        DescriptionResourceId="SitemapDesigner.NewGroup"
+        IntroducedVersion="7.0.0.0"
+        IsProfile="false"
+        ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title
+            LCID="1033"
+            Title="Patient Invoice" />
+        </Titles>
+        <SubArea
+          Id="subarea_0e1e75c0"
+          Icon="/_imgs/imagestrips/transparent_spacer.gif"
+          Entity="apollo_apolloinvoice"
+          Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web"
+          AvailableOffline="true"
+          PassParams="false"
+          Sku="All,OnPremise,Live,SPLA" />
+        <SubArea
+          Id="subarea_fe421045"
+          Icon="/_imgs/imagestrips/transparent_spacer.gif"
+          Entity="apollo_invoiceline"
+          Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web"
+          AvailableOffline="true"
+          PassParams="false"
+          Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group
+        Id="group_cb8395a2"
+        ResourceId="SitemapDesigner.NewGroup"
+        DescriptionResourceId="SitemapDesigner.NewGroup"
+        IntroducedVersion="7.0.0.0"
+        IsProfile="false"
+        ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title
+            LCID="1033"
+            Title="Insurance" />
+        </Titles>
+        <SubArea
+          Id="subarea_2537ab65"
+          Icon="/_imgs/imagestrips/transparent_spacer.gif"
+          Entity="apollo_insuranceclaim"
+          Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web"
+          AvailableOffline="true"
+          PassParams="false"
+          Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group
+        Id="group_8bfd14c6"
+        ResourceId="SitemapDesigner.NewGroup"
+        DescriptionResourceId="SitemapDesigner.NewGroup"
+        IntroducedVersion="7.0.0.0"
+        IsProfile="false"
+        ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title
+            LCID="1033"
+            Title="Intersects" />
+        </Titles>
+        <SubArea
+          Id="subarea_be476169"
+          Icon="/_imgs/imagestrips/transparent_spacer.gif"
+          Entity="apollo_medicineinvoicesline"
+          Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web"
+          AvailableOffline="true"
+          PassParams="false"
+          Sku="All,OnPremise,Live,SPLA" />
+        <SubArea
+          Id="subarea_3524f598"
+          Icon="/_imgs/imagestrips/transparent_spacer.gif"
+          Entity="apollo_medicaltestinvoicelines"
+          Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web"
+          AvailableOffline="true"
+          PassParams="false"
+          Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+    </Area>
+  </SiteMap>
+  <LocalizedNames>
+    <LocalizedName
+      description="Apollo Management"
+      languagecode="1033" />
+  </LocalizedNames>
+</AppModuleSiteMap>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{b616877f-c03c-4f03-8e48-54414fa47b01}</savedqueryid>
+    <layoutxml>
+      <grid
+        name="apollo_invoicelines"
+        jump="apollo_invoicelinename"
+        select="1"
+        icon="1"
+        preview="0">
+        <row
+          name="apollo_invoiceline"
+          id="apollo_invoicelineid">
+          <cell
+            name="apollo_invoicelinename"
+            width="300" />
+          <cell
+            name="createdon"
+            width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch
+        version="1.0"
+        mapping="logical">
+        <entity
+          name="apollo_invoiceline">
+          <attribute
+            name="apollo_invoicelineid" />
+          <attribute
+            name="apollo_invoicelinename" />
+          <attribute
+            name="createdon" />
+          <filter
+            type="and">
+            <condition
+              attribute="statecode"
+              operator="eq"
+              value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName
+        description="Invoice Line Lookup View"
+        languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

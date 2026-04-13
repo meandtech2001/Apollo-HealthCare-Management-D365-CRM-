@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{230cd27c-0ce0-4b52-9fe5-d7a5ed94ba4e}</formid>
+    <IntroducedVersion>8.0.0.0</IntroducedVersion>
+    <FormPresentation>2</FormPresentation>
+    <FormActivationState>0</FormActivationState>
+    <form>
+      <tabs>
+        <tab
+          name="tab_5"
+          id="{b93cb48c-02e6-69ed-4ad2-09ba584b5613}"
+          IsUserDefined="0"
+          locklevel="0"
+          showlabel="false"
+          expanded="true"
+          ordinalvalue="0">
+          <columns>
+            <column
+              width="42%"
+              id="1">
+              <sections>
+                <section
+                  name="tab_5_section_2"
+                  showlabel="true"
+                  showbar="false"
+                  locklevel="0"
+                  id="{cad0ba34-34e8-6c14-ec48-3a1d3424ced4}"
+                  IsUserDefined="0"
+                  layout="varwidth"
+                  columns="1"
+                  labelwidth="115"
+                  celllabelalignment="Left"
+                  celllabelposition="Left"
+                  ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell
+                        id="{32a30c13-1750-b89e-a057-e02b7bc06626}"
+                        showlabel="true"
+                        locklevel="0"
+                        visible="false"
+                        ordinalvalue="10004">
+                        <control
+                          id="isonlinemeeting"
+                          classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}"
+                          datafieldname="isonlinemeeting"
+                          disabled="false"
+                          uniqueid="{5B7DA1D6-E65E-A356-2D63-E4414175EA30}"
+                          solutionaction="Modified" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{4c798716-37ee-dc9d-8853-90337291ed9e}"
+                        showlabel="true"
+                        locklevel="0"
+                        visible="false"
+                        ordinalvalue="10005">
+                        <control
+                          id="onlinemeetingjoinurl"
+                          classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}"
+                          datafieldname="onlinemeetingjoinurl"
+                          disabled="false"
+                          uniqueid="{22BB388A-4C4E-147D-885B-1D6DC724400C}"
+                          solutionaction="Modified" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions
+        FallbackForm="false"
+        Order="4"
+        solutionaction="Modified" />
+      <controlDescriptions>
+        <controlDescription
+          forControl="{5B7DA1D6-E65E-A356-2D63-E4414175EA30}"
+          solutionaction="Modified">
+          <customControl
+            formFactor="0"
+            name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>isonlinemeeting</value>
+            </parameters>
+          </customControl>
+          <customControl
+            formFactor="1"
+            name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>isonlinemeeting</value>
+            </parameters>
+          </customControl>
+          <customControl
+            formFactor="2"
+            name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>isonlinemeeting</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription
+          forControl="{22BB388A-4C4E-147D-885B-1D6DC724400C}"
+          solutionaction="Modified">
+          <customControl
+            formFactor="0"
+            name="MscrmControls.Activity.HyperlinkControlWithImage">
+            <parameters>
+              <attributeName>onlinemeetingjoinurl</attributeName>
+              <webResourceName
+                static="true"
+                type="SingleLine.Text">Activities/Resources/Activities</webResourceName>
+              <webResourceName_key
+                static="true"
+                type="SingleLine.Text">JoinTeamsMeeting_Label</webResourceName_key>
+              <button_Icon
+                static="true"
+                type="SingleLine.Text">Activities/Images/Teams_color.svg</button_Icon>
+            </parameters>
+          </customControl>
+          <customControl
+            formFactor="1"
+            name="MscrmControls.Activity.HyperlinkControlWithImage">
+            <parameters>
+              <attributeName>onlinemeetingjoinurl</attributeName>
+              <webResourceName
+                static="true"
+                type="SingleLine.Text">Activities/Resources/Activities</webResourceName>
+              <webResourceName_key
+                static="true"
+                type="SingleLine.Text">JoinTeamsMeeting_Label</webResourceName_key>
+              <button_Icon
+                static="true"
+                type="SingleLine.Text">Activities/Images/Teams_color.svg</button_Icon>
+            </parameters>
+          </customControl>
+          <customControl
+            formFactor="2"
+            name="MscrmControls.Activity.HyperlinkControlWithImage">
+            <parameters>
+              <attributeName>onlinemeetingjoinurl</attributeName>
+              <webResourceName
+                static="true"
+                type="SingleLine.Text">Activities/Resources/Activities</webResourceName>
+              <webResourceName_key
+                static="true"
+                type="SingleLine.Text">JoinTeamsMeeting_Label</webResourceName_key>
+              <button_Icon
+                static="true"
+                type="SingleLine.Text">Activities/Images/Teams_color.svg</button_Icon>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName
+        description="Termin für interaktive Funktionen"
+        languagecode="1031" />
+      <LocalizedName
+        description="Appointment for Interactive experience"
+        languagecode="1033" />
+      <LocalizedName
+        description="Rendez-vous pour l'expérience interactive"
+        languagecode="1036" />
+      <LocalizedName
+        description="इंटरैक्टिव अनुभव के लिए अपॉइंटमेंट"
+        languagecode="1081" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description
+        description="Default Interactive experience Appointment form."
+        languagecode="1031" />
+      <Description
+        description="Default Interactive experience Appointment form."
+        languagecode="1033" />
+      <Description
+        description="Default Interactive experience Appointment form."
+        languagecode="1036" />
+      <Description
+        description="Default Interactive experience Appointment form."
+        languagecode="1081" />
+    </Descriptions>
+  </systemform>
+</forms>

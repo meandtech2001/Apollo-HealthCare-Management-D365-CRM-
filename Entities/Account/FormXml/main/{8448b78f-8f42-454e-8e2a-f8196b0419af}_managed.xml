@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{8448b78f-8f42-454e-8e2a-f8196b0419af}</formid>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form
+      showImage="true">
+      <tabs>
+        <tab
+          name="SUMMARY_TAB"
+          id="{3b0b63a9-d379-689a-0ec3-e71eb4c6a841}"
+          IsUserDefined="0"
+          showlabel="true"
+          expanded="true"
+          locklevel="0"
+          ordinalvalue="0">
+          <columns>
+            <column
+              width="25%"
+              id="2">
+              <sections>
+                <section
+                  name="SUMMARY_TAB_section_6"
+                  showlabel="false"
+                  showbar="false"
+                  locklevel="0"
+                  id="{d4c3ee9c-ba71-5cdb-31be-2aa505750472}"
+                  IsUserDefined="0"
+                  layout="varwidth"
+                  columns="1"
+                  labelwidth="115"
+                  celllabelalignment="Left"
+                  celllabelposition="Top"
+                  ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell
+                        id="{8e24c7e3-6a40-5abb-eadb-254eba5478e2}"
+                        showlabel="true"
+                        colspan="1"
+                        auto="false"
+                        rowspan="7"
+                        ordinalvalue="10002">
+                        <control
+                          id="Contacts"
+                          classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                          <parameters>
+                            <VisualizationId />
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions
+        FallbackForm="false"
+        Order="2"
+        solutionaction="Modified" />
+    </form>
+    <LocalizedNames>
+      <LocalizedName
+        description="Firma"
+        languagecode="1031" />
+      <LocalizedName
+        description="Account"
+        languagecode="1033" />
+      <LocalizedName
+        description="Compte"
+        languagecode="1036" />
+      <LocalizedName
+        description="खाता"
+        languagecode="1081" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description
+        description="Standardmäßiges Kontoformular aktualisiert."
+        languagecode="1031" />
+      <Description
+        description="Updated default Account form."
+        languagecode="1033" />
+      <Description
+        description="Formulaire de compte par défaut mis à jour."
+        languagecode="1036" />
+      <Description
+        description="अद्यतन किया गया डिफ़ॉल्ट खाता प्रपत्र."
+        languagecode="1081" />
+    </Descriptions>
+  </systemform>
+</forms>

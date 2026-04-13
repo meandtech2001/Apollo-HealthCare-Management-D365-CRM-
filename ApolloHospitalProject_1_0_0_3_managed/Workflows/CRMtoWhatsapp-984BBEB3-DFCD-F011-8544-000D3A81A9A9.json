@@ -1,0 +1,79 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_commondataserviceforapps": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "apollo_sharedcommondataserviceforapps_0f9da"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        },
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "When_a_row_is_added,_modified_or_deleted": {
+          "metadata": {
+            "operationMetadataId": "075223c2-8486-4afd-b678-6a4adf0f0e38"
+          },
+          "type": "OpenApiConnectionWebhook",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_commondataserviceforapps",
+              "operationId": "SubscribeWebhookTrigger",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+            },
+            "parameters": {
+              "subscriptionRequest/message": 1,
+              "subscriptionRequest/entityname": "apollo_message",
+              "subscriptionRequest/scope": 4,
+              "subscriptionRequest/filterexpression": "apollo_Direction eq 554550000"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        }
+      },
+      "actions": {
+        "HTTP": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "b4b6f33a-df5f-44d8-9933-cd2b6a9832f7"
+          },
+          "type": "Http",
+          "inputs": {
+            "method": "POST",
+            "uri": "https://graph.facebook.com/v22.0/920380777824578/messages",
+            "headers": {
+              "Content-Type": "application/json",
+              "Authorization": "Bearer EAAv9Coi8exwBQa6nvHSVV66YwaALFI8wkobXScfGgmOHT8oQQgnRl736azFwc0FqfvfnmHdgUnm3NPyVbC6jCcApzXVoUt0pfh7hAHhZCpJnmnA8ZAUlnLTwYCIahmIZCKBO5BknF2OIxImL0WuqmS703mM41T5WINrG53wqcOGzkyatav34Inr1wlDqLtx4uGQRbwFKZCf9Q201NOyTvnyWEBrG0VZCzhtVZCYhoK8KUlBIvrE5Sr0nVOpLGEVdZBJ8v8iQKcuNqXiay0Wvbu7dLiZCyahhQex4FHoZD"
+            },
+            "body": {
+              "messaging_product": "whatsapp",
+              "to": "917695836845",
+              "type": "text",
+              "text": {
+                "body": "@{triggerOutputs()?['body/apollo_messagecontent']}"
+              }
+            }
+          }
+        }
+      },
+      "outputs": {}
+    },
+    "templateName": ""
+  },
+  "schemaVersion": "1.0.0.0"
+}

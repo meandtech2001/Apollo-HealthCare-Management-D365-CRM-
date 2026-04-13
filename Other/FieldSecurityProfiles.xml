@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FieldSecurityProfiles xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <FieldSecurityProfile
+    name="Invoice Cols Restrictions"
+    description="Restricting Currency fields"
+    fieldsecurityprofileid="{adb74f5e-08d2-f011-8544-000d3a81a9a9}">
+    <FieldPermissions>
+      <FieldPermission>
+        <EntityName>apollo_apolloinvoice</EntityName>
+        <AttributeName>apollo_apollopaymentmode</AttributeName>
+        <CanRead>4</CanRead>
+        <CanUpdate>0</CanUpdate>
+        <CanCreate>0</CanCreate>
+        <CanReadUnmasked>0</CanReadUnmasked>
+      </FieldPermission>
+    </FieldPermissions>
+  </FieldSecurityProfile>
+</FieldSecurityProfiles>

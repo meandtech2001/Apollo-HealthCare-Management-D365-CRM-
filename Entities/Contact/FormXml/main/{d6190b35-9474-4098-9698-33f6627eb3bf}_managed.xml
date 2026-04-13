@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{d6190b35-9474-4098-9698-33f6627eb3bf}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form
+      shownavigationbar="true">
+      <DisplayConditions
+        FallbackForm="false"
+        Order="5"
+        solutionaction="Modified">
+        <Role
+          Id="{627090ff-40a3-4053-8790-584edc5be201}"
+          solutionaction="Modified" />
+        <Role
+          Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}"
+          solutionaction="Modified" />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName
+        description="Invite Web Form"
+        languagecode="1031" />
+      <LocalizedName
+        description="Invite Web Form"
+        languagecode="1033" />
+      <LocalizedName
+        description="Invite Web Form"
+        languagecode="1036" />
+      <LocalizedName
+        description="Invite Web Form"
+        languagecode="1081" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description
+        description="Dieses Formular wird vom Portal verwendet, um andere Benutzer einzuladen, sich beim Portal anzumelden."
+        languagecode="1031" />
+      <Description
+        description="This form is used by the portal to invite other's to join the portal"
+        languagecode="1033" />
+      <Description
+        description="Ce formulaire est utilisé par le portail pour inviter d’autres personnes à rejoindre celui-ci"
+        languagecode="1036" />
+      <Description
+        description="पोर्टल इस प्रपत्र का उपयोग अन्य लोगों को पोर्टल में शामिल होने का आमंत्रण देने के लिए करता है"
+        languagecode="1081" />
+    </Descriptions>
+  </systemform>
+</forms>

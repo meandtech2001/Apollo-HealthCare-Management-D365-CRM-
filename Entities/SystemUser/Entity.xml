@@ -1,0 +1,1560 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name
+    LocalizedName="User"
+    OriginalName="">SystemUser</Name>
+  <EntityInfo>
+    <entity
+      Name="SystemUser">
+      <attributes>
+        <attribute
+          PhysicalName="Address1_AddressTypeCode"
+          unmodified="1">
+          <Type>picklist</Type>
+          <Name>address1_addresstypecode</Name>
+          <LogicalName>address1_addresstypecode</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsLogical>1</IsLogical>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>1</AppDefaultValue>
+          <optionset
+            Name="systemuser_address1_addresstypecode">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname
+                description="Address 1: Address Type"
+                languagecode="1033" />
+              <displayname
+                description="Adresse 1 : Type d'adresse"
+                languagecode="1036" />
+              <displayname
+                description="Adresse 1: Adresstyp"
+                languagecode="1031" />
+              <displayname
+                description="पता 1: पता प्रकार"
+                languagecode="1081" />
+            </displaynames>
+            <Descriptions>
+              <Description
+                description="Type of address for address 1, such as billing, shipping, or primary address."
+                languagecode="1033" />
+              <Description
+                description="Type de l'adresse 1, tel que l'adresse de facturation, l'adresse d'expédition ou l'adresse principale."
+                languagecode="1036" />
+              <Description
+                description="Adresstyp für 'Adresse 1', z. B. Rechnungsadresse, Lieferadresse oder primäre Adresse."
+                languagecode="1031" />
+              <Description
+                description="पता 1 के लिए पते का प्रकार, जैसे बिलिंग, शिपिंग, या प्राथमिक पता."
+                languagecode="1081" />
+            </Descriptions>
+            <options>
+              <option
+                value="1"
+                IsHidden="0">
+                <labels>
+                  <label
+                    description="Default Value"
+                    languagecode="1033" />
+                  <label
+                    description="Valeur par défaut"
+                    languagecode="1036" />
+                  <label
+                    description="Standardwert"
+                    languagecode="1031" />
+                  <label
+                    description="डिफ़ॉल्ट मान"
+                    languagecode="1081" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname
+              description="Address 1: Address Type"
+              languagecode="1033" />
+            <displayname
+              description="Adresse 1 : Type d'adresse"
+              languagecode="1036" />
+            <displayname
+              description="Adresse 1: Adresstyp"
+              languagecode="1031" />
+            <displayname
+              description="पता 1: पता प्रकार"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Type of address for address 1, such as billing, shipping, or primary address."
+              languagecode="1033" />
+            <Description
+              description="Type de l'adresse 1, tel que l'adresse de facturation, l'adresse d'expédition ou l'adresse principale."
+              languagecode="1036" />
+            <Description
+              description="Adresstyp für 'Adresse 1', z. B. Rechnungsadresse, Lieferadresse oder primäre Adresse."
+              languagecode="1031" />
+            <Description
+              description="पता 1 के लिए पते का प्रकार, जैसे बिलिंग, शिपिंग, या प्राथमिक पता."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="Address1_City"
+          unmodified="1">
+          <Type>nvarchar</Type>
+          <Name>address1_city</Name>
+          <LogicalName>address1_city</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>active</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsLogical>1</IsLogical>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>128</MaxLength>
+          <Length>256</Length>
+          <displaynames>
+            <displayname
+              description="City"
+              languagecode="1033" />
+            <displayname
+              description="Ville"
+              languagecode="1036" />
+            <displayname
+              description="Ort"
+              languagecode="1031" />
+            <displayname
+              description="शहर"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="City name for address 1."
+              languagecode="1033" />
+            <Description
+              description="Nom de la ville de l'adresse 1."
+              languagecode="1036" />
+            <Description
+              description="Name des Ortes für 'Adresse 1'."
+              languagecode="1031" />
+            <Description
+              description="पता 1 के लिए शहर का नाम."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="Address1_Composite"
+          unmodified="1">
+          <Type>ntext</Type>
+          <Name>address1_composite</Name>
+          <LogicalName>address1_composite</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForMap|ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>active</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsLogical>1</IsLogical>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>6.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>textarea</Format>
+          <MaxLength>1000</MaxLength>
+          <displaynames>
+            <displayname
+              description="Address"
+              languagecode="1033" />
+            <displayname
+              description="Adresse"
+              languagecode="1036" />
+            <displayname
+              description="Adresse"
+              languagecode="1031" />
+            <displayname
+              description="पता"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Shows the complete primary address."
+              languagecode="1033" />
+            <Description
+              description="Affiche l'adresse principale complète."
+              languagecode="1036" />
+            <Description
+              description="Zeigt die vollständige primäre Adresse."
+              languagecode="1031" />
+            <Description
+              description="पूर्ण प्राथमिक पता दिखाता है."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="Address1_Country"
+          unmodified="1">
+          <Type>nvarchar</Type>
+          <Name>address1_country</Name>
+          <LogicalName>address1_country</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>active</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsLogical>1</IsLogical>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>128</MaxLength>
+          <Length>256</Length>
+          <displaynames>
+            <displayname
+              description="Country/Region"
+              languagecode="1033" />
+            <displayname
+              description="Pays/région"
+              languagecode="1036" />
+            <displayname
+              description="Land/Region"
+              languagecode="1031" />
+            <displayname
+              description="देश/क्षेत्र"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Country/region name in address 1."
+              languagecode="1033" />
+            <Description
+              description="Nom du pays ou de la région de l'adresse 1."
+              languagecode="1036" />
+            <Description
+              description="Name für Land/Region in 'Adresse 1'."
+              languagecode="1031" />
+            <Description
+              description="पता 1 में देश/क्षेत्र का नाम."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="Address1_County"
+          unmodified="1">
+          <Type>nvarchar</Type>
+          <Name>address1_county</Name>
+          <LogicalName>address1_county</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>active</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsLogical>1</IsLogical>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>128</MaxLength>
+          <Length>256</Length>
+          <displaynames>
+            <displayname
+              description="Address 1: County"
+              languagecode="1033" />
+            <displayname
+              description="Adresse 1 : Commune"
+              languagecode="1036" />
+            <displayname
+              description="Adresse 1: Verwaltungsbezirk"
+              languagecode="1031" />
+            <displayname
+              description="पता 1: काउंटी"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="County name for address 1."
+              languagecode="1033" />
+            <Description
+              description="Nom de la commune de l'adresse 1."
+              languagecode="1036" />
+            <Description
+              description="Name des Verwaltungsbezirks für 'Adresse 1'."
+              languagecode="1031" />
+            <Description
+              description="पता 1 के लिए काउंटी का नाम."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="Address1_Fax"
+          unmodified="1">
+          <Type>nvarchar</Type>
+          <Name>address1_fax</Name>
+          <LogicalName>address1_fax</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>inactive</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsLogical>1</IsLogical>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>64</MaxLength>
+          <Length>128</Length>
+          <displaynames>
+            <displayname
+              description="Address 1: Fax"
+              languagecode="1033" />
+            <displayname
+              description="Adresse 1 : Télécopie"
+              languagecode="1036" />
+            <displayname
+              description="Adresse 1: Fax"
+              languagecode="1031" />
+            <displayname
+              description="पता 1: फ़ैक्स"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Fax number for address 1."
+              languagecode="1033" />
+            <Description
+              description="Numéro de télécopie de l'adresse 1."
+              languagecode="1036" />
+            <Description
+              description="Faxnummer für 'Adresse 1'."
+              languagecode="1031" />
+            <Description
+              description="पता 1 के लिए फ़ैक्स नंबर."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="Address1_Name"
+          unmodified="1">
+          <Type>nvarchar</Type>
+          <Name>address1_name</Name>
+          <LogicalName>address1_name</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>active</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsLogical>1</IsLogical>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>100</MaxLength>
+          <Length>400</Length>
+          <displaynames>
+            <displayname
+              description="Address 1: Name"
+              languagecode="1033" />
+            <displayname
+              description="Adresse 1 : Nom"
+              languagecode="1036" />
+            <displayname
+              description="Adresse 1: Name"
+              languagecode="1031" />
+            <displayname
+              description="पता 1: नाम"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Name to enter for address 1."
+              languagecode="1033" />
+            <Description
+              description="Nom à entrer pour l'adresse 1."
+              languagecode="1036" />
+            <Description
+              description="Für 'Adresse 1' einzugebender Name."
+              languagecode="1031" />
+            <Description
+              description="पता 1 के लिए दर्ज किया जाने वाला नाम."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="Address1_PostalCode"
+          unmodified="1">
+          <Type>nvarchar</Type>
+          <Name>address1_postalcode</Name>
+          <LogicalName>address1_postalcode</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>inactive</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsLogical>1</IsLogical>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>40</MaxLength>
+          <Length>80</Length>
+          <displaynames>
+            <displayname
+              description="ZIP/Postal Code"
+              languagecode="1033" />
+            <displayname
+              description="Code postal"
+              languagecode="1036" />
+            <displayname
+              description="Postleitzahl"
+              languagecode="1031" />
+            <displayname
+              description="ज़िप/पोस्टल कोड"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="ZIP Code or postal code for address 1."
+              languagecode="1033" />
+            <Description
+              description="Code postal de l'adresse 1."
+              languagecode="1036" />
+            <Description
+              description="Postleitzahl für 'Adresse 1'."
+              languagecode="1031" />
+            <Description
+              description="पता 1 के लिए ज़िप कोड या डाक कोड."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="Address1_StateOrProvince"
+          unmodified="1">
+          <Type>nvarchar</Type>
+          <Name>address1_stateorprovince</Name>
+          <LogicalName>address1_stateorprovince</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>active</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsLogical>1</IsLogical>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>128</MaxLength>
+          <Length>256</Length>
+          <displaynames>
+            <displayname
+              description="State/Province"
+              languagecode="1033" />
+            <displayname
+              description="Département/province"
+              languagecode="1036" />
+            <displayname
+              description="Bundesland/Kanton"
+              languagecode="1031" />
+            <displayname
+              description="राज्य/प्रांत"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="State or province for address 1."
+              languagecode="1033" />
+            <Description
+              description="Département ou province de l'adresse 1."
+              languagecode="1036" />
+            <Description
+              description="Bundesland/Kanton für 'Adresse 1'."
+              languagecode="1031" />
+            <Description
+              description="पता 1 के लिए राज्य या प्रांत."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="Address1_Telephone1"
+          unmodified="1">
+          <Type>nvarchar</Type>
+          <Name>address1_telephone1</Name>
+          <LogicalName>address1_telephone1</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>inactive</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsLogical>1</IsLogical>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>phone</Format>
+          <MaxLength>64</MaxLength>
+          <Length>128</Length>
+          <displaynames>
+            <displayname
+              description="Main Phone"
+              languagecode="1033" />
+            <displayname
+              description="Téléphone principal"
+              languagecode="1036" />
+            <displayname
+              description="Telefon 1"
+              languagecode="1031" />
+            <displayname
+              description="मुख्य फ़ोन"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="First telephone number associated with address 1."
+              languagecode="1033" />
+            <Description
+              description="Premier numéro de téléphone associé à l'adresse 1."
+              languagecode="1036" />
+            <Description
+              description="Zu 'Adresse 1' zugeordnete erste Telefonnummer."
+              languagecode="1031" />
+            <Description
+              description="पता 1 के साथ संबद्ध पहला टेलीफ़ोन नंबर."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="apollo_AvailableforHomeVisit">
+          <Type>bit</Type>
+          <Name>apollo_availableforhomevisit</Name>
+          <LogicalName>apollo_availableforhomevisit</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset
+            Name="apollo_systemuser_apollo_availableforhomevisit">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <ExternalTypeName></ExternalTypeName>
+            <displaynames>
+              <displayname
+                description="Available for Home Visit"
+                languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description
+                description=""
+                languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option
+                value="1"
+                ExternalValue=""
+                IsHidden="0">
+                <labels>
+                  <label
+                    description="Yes"
+                    languagecode="1033" />
+                </labels>
+              </option>
+              <option
+                value="0"
+                ExternalValue=""
+                IsHidden="0">
+                <labels>
+                  <label
+                    description="No"
+                    languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname
+              description="Available for Home Visit"
+              languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Available for Home Visit"
+              languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="apollo_AvailableforTeleHealth">
+          <Type>bit</Type>
+          <Name>apollo_availablefortelehealth</Name>
+          <LogicalName>apollo_availablefortelehealth</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset
+            Name="apollo_systemuser_apollo_availablefortelehealth">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <ExternalTypeName></ExternalTypeName>
+            <displaynames>
+              <displayname
+                description="Available for Tele Health"
+                languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description
+                description=""
+                languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option
+                value="1"
+                ExternalValue=""
+                IsHidden="0">
+                <labels>
+                  <label
+                    description="Yes"
+                    languagecode="1033" />
+                </labels>
+              </option>
+              <option
+                value="0"
+                ExternalValue=""
+                IsHidden="0">
+                <labels>
+                  <label
+                    description="No"
+                    languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname
+              description="Available for Tele Health"
+              languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Available for Tele Health"
+              languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="apollo_DoctorsCapacity">
+          <Type>int</Type>
+          <Name>apollo_doctorscapacity</Name>
+          <LogicalName>apollo_doctorscapacity</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>disabled</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>none</Format>
+          <MinValue>-2147483648</MinValue>
+          <MaxValue>2147483647</MaxValue>
+          <displaynames>
+            <displayname
+              description="Doctor's Capacity"
+              languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Doctor's Capacity"
+              languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="apollo_JobTitle">
+          <Type>multiselectpicklist</Type>
+          <Name>apollo_jobtitle</Name>
+          <LogicalName>apollo_jobtitle</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.1</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <optionset
+            Name="apollo_systemuser_apollo_jobtitle">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>1.0.0.1</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <ExternalTypeName></ExternalTypeName>
+            <displaynames>
+              <displayname
+                description="Job Title"
+                languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description
+                description=""
+                languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option
+                value="554550000"
+                ExternalValue=""
+                IsHidden="0">
+                <labels>
+                  <label
+                    description="Apollo Doctor"
+                    languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description
+                    description=""
+                    languagecode="1033" />
+                </Descriptions>
+              </option>
+              <option
+                value="554550001"
+                ExternalValue=""
+                IsHidden="0">
+                <labels>
+                  <label
+                    description="Apollo Lab Technician"
+                    languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description
+                    description=""
+                    languagecode="1033" />
+                </Descriptions>
+              </option>
+              <option
+                value="554550002"
+                ExternalValue=""
+                IsHidden="0">
+                <labels>
+                  <label
+                    description="Apollo Admin"
+                    languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description
+                    description=""
+                    languagecode="1033" />
+                </Descriptions>
+              </option>
+              <option
+                value="554550003"
+                ExternalValue=""
+                IsHidden="0">
+                <labels>
+                  <label
+                    description="Apollo Nurse"
+                    languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description
+                    description=""
+                    languagecode="1033" />
+                </Descriptions>
+              </option>
+              <option
+                value="554550004"
+                ExternalValue=""
+                IsHidden="0">
+                <labels>
+                  <label
+                    description="Apollo Staff"
+                    languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description
+                    description=""
+                    languagecode="1033" />
+                </Descriptions>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname
+              description="User Job Title"
+              languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Job Title for users"
+              languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="apollo_LicenseNumber">
+          <Type>nvarchar</Type>
+          <Name>apollo_licensenumber</Name>
+          <LogicalName>apollo_licensenumber</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname
+              description="License Number"
+              languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="License Number"
+              languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="apollo_RemainingCapacity">
+          <Type>int</Type>
+          <Name>apollo_remainingcapacity</Name>
+          <LogicalName>apollo_remainingcapacity</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>disabled</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>none</Format>
+          <MinValue>-2147483648</MinValue>
+          <MaxValue>2147483647</MaxValue>
+          <displaynames>
+            <displayname
+              description="Remaining Capacity"
+              languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Remaining Doctor's Capacity"
+              languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="apollo_Specialization">
+          <Type>picklist</Type>
+          <Name>apollo_specialization</Name>
+          <LogicalName>apollo_specialization</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>-1</AppDefaultValue>
+          <optionset
+            Name="apollo_systemuser_apollo_specialization">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <ExternalTypeName></ExternalTypeName>
+            <displaynames>
+              <displayname
+                description="Specialization"
+                languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description
+                description=""
+                languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option
+                value="554550000"
+                ExternalValue=""
+                IsHidden="0">
+                <labels>
+                  <label
+                    description="Cardiology"
+                    languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description
+                    description=""
+                    languagecode="1033" />
+                </Descriptions>
+              </option>
+              <option
+                value="554550001"
+                ExternalValue=""
+                IsHidden="0">
+                <labels>
+                  <label
+                    description="General Physician"
+                    languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description
+                    description=""
+                    languagecode="1033" />
+                </Descriptions>
+              </option>
+              <option
+                value="554550002"
+                ExternalValue=""
+                IsHidden="0">
+                <labels>
+                  <label
+                    description="Neurology"
+                    languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description
+                    description=""
+                    languagecode="1033" />
+                </Descriptions>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname
+              description="Specialization"
+              languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description=""
+              languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="apollo_StaffID">
+          <Type>nvarchar</Type>
+          <Name>apollo_staffid</Name>
+          <LogicalName>apollo_staffid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ReadOnlyInUI|ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat>Apollo{SEQNUM:4}</AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname
+              description="Staff ID"
+              languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description=""
+              languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="apollo_StaffNumber">
+          <Type>nvarchar</Type>
+          <Name>apollo_staffnumber</Name>
+          <LogicalName>apollo_staffnumber</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ReadOnlyInUI|ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat>S{SEQNUM:4}</AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname
+              description="Staff Number"
+              languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Staff Number"
+              languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="BusinessUnitId"
+          unmodified="1">
+          <Type>lookup</Type>
+          <Name>businessunitid</Name>
+          <LogicalName>businessunitid</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>1</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes>
+            <LookupType
+              id="00000000-0000-0000-0000-000000000000">10</LookupType>
+          </LookupTypes>
+          <displaynames>
+            <displayname
+              description="Business Unit"
+              languagecode="1033" />
+            <displayname
+              description="Division"
+              languagecode="1036" />
+            <displayname
+              description="Unternehmenseinheit"
+              languagecode="1031" />
+            <displayname
+              description="व्यवसाय इकाई"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Unique identifier of the business unit with which the user is associated."
+              languagecode="1033" />
+            <Description
+              description="Identificateur unique de la division à laquelle l'utilisateur est associé."
+              languagecode="1036" />
+            <Description
+              description="Eindeutiger Bezeichner der Unternehmenseinheit, der der Benutzer zugeordnet ist."
+              languagecode="1031" />
+            <Description
+              description="उस व्यापार इकाई का युनीक आइडेंटिफ़ायर जिसके साथ उपयोगकर्ता संबद्ध है."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="FirstName"
+          unmodified="1">
+          <Type>nvarchar</Type>
+          <Name>firstname</Name>
+          <LogicalName>firstname</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>active</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>256</MaxLength>
+          <Length>512</Length>
+          <displaynames>
+            <displayname
+              description="First Name"
+              languagecode="1033" />
+            <displayname
+              description="Prénom"
+              languagecode="1036" />
+            <displayname
+              description="Vorname"
+              languagecode="1031" />
+            <displayname
+              description="प्रथम नाम"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="First name of the user."
+              languagecode="1033" />
+            <Description
+              description="Prénom de l'utilisateur."
+              languagecode="1036" />
+            <Description
+              description="Vorname des Benutzers."
+              languagecode="1031" />
+            <Description
+              description="उपयोगकर्ता का प्रथम नाम."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="InternalEMailAddress"
+          unmodified="1">
+          <Type>nvarchar</Type>
+          <Name>internalemailaddress</Name>
+          <LogicalName>internalemailaddress</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>inactive</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>email</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname
+              description="Primary Email"
+              languagecode="1033" />
+            <displayname
+              description="Adresse de messagerie principale"
+              languagecode="1036" />
+            <displayname
+              description="Primäre E-Mail-Adresse"
+              languagecode="1031" />
+            <displayname
+              description="प्राथमिक ई-मेल"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Internal email address for the user."
+              languagecode="1033" />
+            <Description
+              description="Adresse de messagerie interne de l'utilisateur."
+              languagecode="1036" />
+            <Description
+              description="Interne E-Mail-Adresse des Benutzers."
+              languagecode="1031" />
+            <Description
+              description="उपयोगकर्ता के लिए आंतरिक ई-मेल पता."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="LastName"
+          unmodified="1">
+          <Type>nvarchar</Type>
+          <Name>lastname</Name>
+          <LogicalName>lastname</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>active</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>256</MaxLength>
+          <Length>256</Length>
+          <displaynames>
+            <displayname
+              description="Last Name"
+              languagecode="1033" />
+            <displayname
+              description="Nachname"
+              languagecode="1031" />
+            <displayname
+              description="Nom de famille"
+              languagecode="1036" />
+            <displayname
+              description="अंतिम नाम"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Last name of the user."
+              languagecode="1033" />
+            <Description
+              description="Der Nachname des Benutzers."
+              languagecode="1031" />
+            <Description
+              description="Nom de famille de l’utilisateur."
+              languagecode="1036" />
+            <Description
+              description="उपयोगकर्ता का अंतिम नाम."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="SystemUserId">
+          <Type>primarykey</Type>
+          <Name>systemuserid</Name>
+          <LogicalName>systemuserid</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|RequiredForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>1</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <displaynames>
+            <displayname
+              description="User"
+              languagecode="1033" />
+            <displayname
+              description="Utilisateur"
+              languagecode="1036" />
+            <displayname
+              description="Benutzer"
+              languagecode="1031" />
+            <displayname
+              description="उपयोगकर्ता"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Unique identifier for the user."
+              languagecode="1033" />
+            <Description
+              description="Identificateur unique des instances d'entité"
+              languagecode="1036" />
+            <Description
+              description="Eindeutiger Bezeichner der Entitätsinstanzen"
+              languagecode="1031" />
+            <Description
+              description="निकाय आवृत्तियों के लिए युनीक आइडेंटिफ़ायर"
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+      </attributes>
+    </entity>
+  </EntityInfo>
+  <FormXml />
+  <SavedQueries />
+  <RibbonDiffXml />
+</Entity>

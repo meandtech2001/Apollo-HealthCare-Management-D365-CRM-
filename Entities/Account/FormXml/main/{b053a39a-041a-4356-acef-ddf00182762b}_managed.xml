@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{b053a39a-041a-4356-acef-ddf00182762b}</formid>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form
+      showImage="true">
+      <DisplayConditions
+        FallbackForm="false"
+        Order="4"
+        solutionaction="Modified" />
+    </form>
+    <LocalizedNames>
+      <LocalizedName
+        description="Informationen"
+        languagecode="1031" />
+      <LocalizedName
+        description="Information"
+        languagecode="1033" />
+      <LocalizedName
+        description="Informations"
+        languagecode="1036" />
+      <LocalizedName
+        description="जानकारी"
+        languagecode="1081" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description
+        description="Ein Formular für diese Entität."
+        languagecode="1031" />
+      <Description
+        description="A form for this entity."
+        languagecode="1033" />
+      <Description
+        description="Formulaire pour cette entité."
+        languagecode="1036" />
+      <Description
+        description="इस निकाय के लिए एक प्रपत्र."
+        languagecode="1081" />
+    </Descriptions>
+  </systemform>
+</forms>

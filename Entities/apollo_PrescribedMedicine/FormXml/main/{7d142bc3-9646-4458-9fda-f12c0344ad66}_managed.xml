@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{7d142bc3-9646-4458-9fda-f12c0344ad66}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form
+      headerdensity="HighWithControls">
+      <tabs>
+        <tab
+          verticallayout="true"
+          id="{118d0f8b-750c-4b28-86d5-2f13b9f32382}"
+          IsUserDefined="1">
+          <labels>
+            <label
+              description="General"
+              languagecode="1033" />
+          </labels>
+          <columns>
+            <column
+              width="100%">
+              <sections>
+                <section
+                  showlabel="false"
+                  showbar="false"
+                  IsUserDefined="0"
+                  id="{8107f2ae-fa0a-4431-87d1-601409eb0157}">
+                  <labels>
+                    <label
+                      description="General"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell
+                        id="{8f77c76d-edc3-4059-9d20-970c970922fb}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_name"
+                          classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}"
+                          datafieldname="apollo_name"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{dca0965c-91fe-4c2e-8314-123cc9018725}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Medicine"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_medicines"
+                          classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                          datafieldname="apollo_medicines"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{2d218420-0282-470e-a4a4-2cc2c300a0d2}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_timings"
+                          classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}"
+                          datafieldname="apollo_timings"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{c7644d01-18d8-4a59-ae32-8f582b33b781}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_tabletamount"
+                          classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}"
+                          datafieldname="apollo_tabletamount"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{09f649b1-2765-43c4-96fc-779d4d353fb7}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_days"
+                          classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}"
+                          datafieldname="apollo_days"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{fb745f37-92ec-44ae-b9e0-c5c1a73debed}"
+                        visible="false">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="ownerid"
+                          classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                          datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab
+          name="tab_2"
+          id="033a4e21-6d92-4e78-ae7b-7cc94a81e91c"
+          IsUserDefined="0"
+          locklevel="0"
+          showlabel="true">
+          <labels>
+            <label
+              description="Medicine Invoices Lines"
+              languagecode="1033" />
+          </labels>
+          <columns>
+            <column
+              width="100%">
+              <sections>
+                <section
+                  name="tab_2_section_1"
+                  id="55161562-5fc6-4da5-ba17-a60b620a33af"
+                  IsUserDefined="0"
+                  locklevel="0"
+                  showlabel="false"
+                  showbar="false"
+                  layout="varwidth"
+                  celllabelalignment="Left"
+                  celllabelposition="Left"
+                  columns="1"
+                  labelwidth="115">
+                  <labels>
+                    <label
+                      description="New Section"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell
+                        locklevel="0"
+                        id="{6adb63b7-568f-44b5-9aac-1c89f191b8d8}"
+                        rowspan="4"
+                        colspan="1"
+                        auto="false"
+                        showlabel="false">
+                        <labels>
+                          <label
+                            description="New SG control 1763582094914"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          indicationOfSubgrid="true"
+                          id="Subgrid_new_1"
+                          classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName>apollo_medicineinvoicesline_PrescribedMedicine_apollo_prescribedmedicine</RelationshipName>
+                            <TargetEntityType>apollo_medicineinvoicesline</TargetEntityType>
+                            <ViewId>{490bb81b-a8a6-4371-a99e-03e3852e9aca}</ViewId>
+                            <ViewIds>{490bb81b-a8a6-4371-a99e-03e3852e9aca}</ViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header
+        id="{74f6999d-e68a-4281-a256-eca7528386f4}"
+        celllabelposition="Top"
+        columns="111"
+        labelwidth="115"
+        celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell
+              id="{62a759e1-efe5-418c-b8e5-044695f6e132}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{ece2acd9-6d26-42a3-bdd9-96c0fdd39bc7}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{c1f22ff4-30c3-4b76-aa43-489bacf48e73}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{138f3f6e-e713-4abe-b6c3-b916fc5ff623}"
+              locklevel="0"
+              colspan="1"
+              rowspan="1">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+              <control
+                id="header_apollo_prescription"
+                classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                datafieldname="apollo_prescription"
+                disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer
+        id="{a728d5ad-c233-43eb-a40b-21b51641d6d7}"
+        celllabelposition="Top"
+        columns="111"
+        labelwidth="115"
+        celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell
+              id="{e857a1c5-bed7-41ab-a17d-517c7ea1eeab}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{196c971f-6085-4d7a-93e9-881b320ee522}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{b4a61f5f-dd93-4de5-87bc-cfde7d56fd77}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions
+        Order="0"
+        FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName
+        description="Prescribed Medicine - Main Form"
+        languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description
+        description="A form for this entity."
+        languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

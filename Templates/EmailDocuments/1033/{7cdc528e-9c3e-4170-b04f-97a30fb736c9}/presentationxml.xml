@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template>
+  <text><![CDATA[<P>Dear Customer,</P>
+					<P>As per your request, we have unsubscribed you from receiving marketing related communication from us.</P>
+					<P>Please call us at ]]></text>
+  <slugs>
+    <slug>
+      <entity>systemuser</entity>
+      <attribute>address1_telephone1</attribute>
+    </slug>
+    <default>UserPhone</default>
+  </slugs>
+  <text><![CDATA[ for any further changes or clarifications.</P>
+					<P>Thanks</P>]]></text>
+</template>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>apollo_appointmentcreationpage_a95af</Name>
+  <AppVersion>2026-04-13T05:22:42Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.26035.11.0</CreatedByClientVersion>
+  <MinClientVersion>3.26035.11.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","showStatusBar":"false","publisherVersion":"3.26035.11","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","m365CopilotSettingValue":"0","sienaVersion":"20260413T051930Z-3.26035.11.0"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId
+    xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <DisplayName>Appointment Creation Page</DisplayName>
+  <Description
+    xsi:nil="true"></Description>
+  <CommitMessage
+    xsi:nil="true"></CommitMessage>
+  <Publisher
+    xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified","environmentVariableName":""}},"dataSources":{"Appointments":{"entitySetName":"appointments","logicalName":"appointment"},"Users":{"entitySetName":"systemusers","logicalName":"systemuser"},"Contacts":{"entitySetName":"contacts","logicalName":"contact"},"Accounts":{"entitySetName":"accounts","logicalName":"account"}}}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>2</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp
+    xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"appointment","componenttype":1},{"logicalname":"systemuser","componenttype":1},{"logicalname":"contact","componenttype":1},{"logicalname":"account","componenttype":1}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/apollo_appointmentcreationpage_a95af_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/apollo_appointmentcreationpage_a95af_DocumentUri.msapp</DocumentUri>
+  <AdditionalUris>
+    <AdditionalUri>/CanvasApps/apollo_appointmentcreationpage_a95af_AdditionalUris0_identity.json</AdditionalUri>
+  </AdditionalUris>
+</CanvasApp>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<botcomponent
+  schemaname="apollo_agent.gpt.default">
+  <componenttype>15</componenttype>
+  <description>An AI agent designed to assist users with Apollo Management MDA by providing guidance, troubleshooting, and best practices.</description>
+  <iscustomizable>0</iscustomizable>
+  <name>Apollo AI Help</name>
+  <parentbotid>
+    <schemaname>apollo_agent</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

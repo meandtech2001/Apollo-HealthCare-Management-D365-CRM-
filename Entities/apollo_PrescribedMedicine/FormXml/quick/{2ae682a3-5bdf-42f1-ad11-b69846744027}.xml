@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{2ae682a3-5bdf-42f1-ad11-b69846744027}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab
+          verticallayout="true"
+          id="{8897de8e-5d9b-468b-b75b-16d6698afde7}"
+          IsUserDefined="1">
+          <labels>
+            <label
+              description=""
+              languagecode="1033" />
+          </labels>
+          <columns>
+            <column
+              width="100%">
+              <sections>
+                <section
+                  showlabel="false"
+                  showbar="false"
+                  IsUserDefined="0"
+                  id="{cd5210ad-3881-4e5e-8a76-c22916db0b56}">
+                  <labels>
+                    <label
+                      description="GENERAL"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell
+                        id="{5d2955c3-f368-4681-9b2d-d6f03a7d4054}"
+                        visible="false">
+                        <labels>
+                          <label
+                            description="Owner"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="ownerid"
+                          classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                          datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{a3a374bf-6165-4a68-9398-a2a61e32030a}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Medicine"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_medicines"
+                          classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                          datafieldname="apollo_medicines"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{c69ec08d-b4a6-470d-8f5a-c14a85bcf6b1}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Tablet Amount"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_tabletamount"
+                          classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}"
+                          datafieldname="apollo_tabletamount"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{07a0a335-cd35-4f8b-8899-9d520a11e48a}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Days"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_days"
+                          classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}"
+                          datafieldname="apollo_days"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{4de59e69-3f6b-46cc-a8fc-4d02e8c37592}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Timings"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_timings"
+                          classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}"
+                          datafieldname="apollo_timings"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions
+        Order="0"
+        FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName
+        description="Prescribed Medicine - Quick view"
+        languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

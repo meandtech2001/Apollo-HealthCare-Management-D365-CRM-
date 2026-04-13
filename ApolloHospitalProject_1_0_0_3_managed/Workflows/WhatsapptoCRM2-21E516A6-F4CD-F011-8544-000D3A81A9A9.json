@@ -1,0 +1,183 @@
+{
+  "properties": {
+    "connectionReferences": {
+      "shared_commondataserviceforapps": {
+        "runtimeSource": "embedded",
+        "connection": {
+          "connectionReferenceLogicalName": "apollo_sharedcommondataserviceforapps_0f9da"
+        },
+        "api": {
+          "name": "shared_commondataserviceforapps"
+        }
+      }
+    },
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$connections": {
+          "defaultValue": {},
+          "type": "Object"
+        },
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "metadata": {
+            "operationMetadataId": "77e19a9c-754e-41d1-91c3-6422821164ee"
+          },
+          "type": "Request",
+          "kind": "Http",
+          "inputs": {
+            "schema": {
+              "type": "object",
+              "properties": {
+                "object": {
+                  "type": "string"
+                },
+                "entry": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "string"
+                      },
+                      "changes": {
+                        "type": "array",
+                        "items": {
+                          "type": "object",
+                          "properties": {
+                            "field": {
+                              "type": "string"
+                            },
+                            "value": {
+                              "type": "object",
+                              "properties": {
+                                "messaging_product": {
+                                  "type": "string"
+                                },
+                                "metadata": {
+                                  "type": "object",
+                                  "properties": {
+                                    "display_phone_number": {
+                                      "type": "string"
+                                    },
+                                    "phone_number_id": {
+                                      "type": "string"
+                                    }
+                                  }
+                                },
+                                "contacts": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "object",
+                                    "properties": {
+                                      "profile": {
+                                        "type": "object",
+                                        "properties": {
+                                          "name": {
+                                            "type": "string"
+                                          }
+                                        }
+                                      },
+                                      "wa_id": {
+                                        "type": "string"
+                                      }
+                                    },
+                                    "required": [
+                                      "profile",
+                                      "wa_id"
+                                    ]
+                                  }
+                                },
+                                "messages": {
+                                  "type": "array",
+                                  "items": {
+                                    "type": "object",
+                                    "properties": {
+                                      "from": {
+                                        "type": "string"
+                                      },
+                                      "id": {
+                                        "type": "string"
+                                      },
+                                      "timestamp": {
+                                        "type": "string"
+                                      },
+                                      "type": {
+                                        "type": "string"
+                                      },
+                                      "text": {
+                                        "type": "object",
+                                        "properties": {
+                                          "body": {
+                                            "type": "string"
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "required": [
+                                      "from",
+                                      "id",
+                                      "timestamp",
+                                      "type",
+                                      "text"
+                                    ]
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "required": [
+                            "field",
+                            "value"
+                          ]
+                        }
+                      }
+                    },
+                    "required": [
+                      "id",
+                      "changes"
+                    ]
+                  }
+                }
+              }
+            },
+            "method": "POST",
+            "triggerAuthenticationType": "All"
+          }
+        }
+      },
+      "actions": {
+        "Add_a_new_row": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "2fc9cb5d-427c-4666-b2b1-1993b4fbddbc"
+          },
+          "type": "OpenApiConnection",
+          "inputs": {
+            "host": {
+              "connectionName": "shared_commondataserviceforapps",
+              "operationId": "CreateRecord",
+              "apiId": "/providers/Microsoft.PowerApps/apis/shared_commondataserviceforapps"
+            },
+            "parameters": {
+              "entityName": "apollo_messages",
+              "item/apollo_name": "@concat('Message from ', coalesce(triggerBody()?['entry']?[0]?['changes']?[0]?['value']?['contacts']?[0]?['profile']?['name'], triggerBody()?['entry']?[0]?['changes']?[0]?['value']?['messages']?[0]?['from'], 'Unknown Contact'), ' on - ', formatDateTime(utcNow(), 'dd/MM/yyyy hh:mm tt'))",
+              "item/apollo_direction": 554550001,
+              "item/apollo_messagecontent": "@triggerBody()?['entry']?[0]?['changes']?[0]?['value']?['messages']?[0]?['text']?['body']"
+            },
+            "authentication": "@parameters('$authentication')"
+          }
+        }
+      },
+      "outputs": {}
+    },
+    "templateName": ""
+  },
+  "schemaVersion": "1.0.0.0"
+}

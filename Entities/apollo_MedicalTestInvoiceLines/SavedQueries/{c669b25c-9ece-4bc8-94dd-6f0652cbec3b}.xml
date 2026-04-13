@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{c669b25c-9ece-4bc8-94dd-6f0652cbec3b}</savedqueryid>
+    <layoutxml>
+      <grid
+        name="resultset"
+        jump="apollo_newcolumn"
+        select="1"
+        icon="1"
+        preview="1">
+        <row
+          name="result"
+          id="apollo_medicaltestinvoicelinesid">
+          <cell
+            name="apollo_newcolumn"
+            width="300" />
+          <cell
+            name="createdon"
+            width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch
+        version="1.0"
+        mapping="logical">
+        <entity
+          name="apollo_medicaltestinvoicelines">
+          <attribute
+            name="apollo_medicaltestinvoicelinesid" />
+          <attribute
+            name="apollo_newcolumn" />
+          <attribute
+            name="createdon" />
+          <order
+            attribute="apollo_newcolumn"
+            descending="false" />
+          <filter
+            type="and">
+            <condition
+              attribute="statecode"
+              operator="eq"
+              value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName
+        description="Inactive Medical Test Invoice Lineses"
+        languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

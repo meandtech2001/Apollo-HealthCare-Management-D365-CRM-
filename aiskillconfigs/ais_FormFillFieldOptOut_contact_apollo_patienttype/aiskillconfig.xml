@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aiskillconfig
+  uniquename="ais_FormFillFieldOptOut_contact_apollo_patienttype">
+  <aiskill>FormFillFieldOptOut</aiskill>
+  <attribute>
+    <entityid.logicalname>contact</entityid.logicalname>
+    <logicalname>apollo_patienttype</logicalname>
+  </attribute>
+  <description>contact - Patient Type Form fill opt out</description>
+  <entity>
+    <logicalname>contact</logicalname>
+  </entity>
+  <iscustomizable>1</iscustomizable>
+  <scope>1</scope>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</aiskillconfig>

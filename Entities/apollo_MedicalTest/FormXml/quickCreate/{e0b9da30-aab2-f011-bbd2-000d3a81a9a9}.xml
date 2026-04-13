@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{e0b9da30-aab2-f011-bbd2-000d3a81a9a9}</formid>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab
+          verticallayout="true"
+          id="{aedb1ac3-7983-449a-ac45-bd7b73ffc940}"
+          showlabel="false"
+          name="New Tab"
+          labelid="{7ac19a17-d995-4b99-afb3-55641787cc6f}">
+          <labels>
+            <label
+              description="New Tab"
+              languagecode="1033" />
+          </labels>
+          <columns>
+            <column
+              width="34%">
+              <sections>
+                <section
+                  showlabel="true"
+                  columns="1"
+                  showbar="false"
+                  IsUserDefined="false"
+                  labelwidth="130"
+                  id="{ed77164c-29d2-4af9-a96e-5f1e1e697ef6}"
+                  name="tab_1_column_1_section_1"
+                  labelid="{9f09a0bc-ee59-4853-aa84-6f71f7e3440f}">
+                  <labels>
+                    <label
+                      description="New Section"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell
+                        id="{be7b26a6-1630-460a-b527-ace9deb6677d}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Medical Test Name"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_medicaltest1"
+                          classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}"
+                          datafieldname="apollo_medicaltest1"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{933fbf92-76d4-4064-a1d8-ba1fb0231471}"
+                        colspan="1"
+                        rowspan="1"
+                        labelid="{39e75561-605b-418c-936e-e0711a61d65c}">
+                        <labels>
+                          <label
+                            description="Prescription"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_prescription"
+                          classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}"
+                          datafieldname="apollo_prescription" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{d3b79566-6315-47b3-9e18-fa47aec9ffe3}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Test Name"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_testname"
+                          classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}"
+                          datafieldname="apollo_testname"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{a34e334a-5889-40d9-928a-0596801795f9}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Test Date"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_testdate"
+                          classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}"
+                          datafieldname="apollo_testdate"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column
+              width="33%">
+              <sections>
+                <section
+                  id="{3b6bebc9-a83b-4618-bc07-c20a19964019}"
+                  name="tab_1_column_2_section_1"
+                  columns="1"
+                  showlabel="true"
+                  showbar="false"
+                  IsUserDefined="0"
+                  labelwidth="130"
+                  labelid="{050669fc-951e-43fe-9c4b-55ac27cc786a}">
+                  <labels>
+                    <label
+                      description="New Section"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell
+                        id="{63f2e0af-500f-4fab-8679-d6d15ec55e6f}"
+                        labelid="{2c2e7a20-0749-4bbb-b235-acdf8069122e}">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column
+              width="33%">
+              <sections>
+                <section
+                  id="{c7d778c1-2894-4b53-aa50-ed2fb0b6d27d}"
+                  name="tab_1_column_3_section_1"
+                  columns="1"
+                  showlabel="true"
+                  showbar="false"
+                  IsUserDefined="0"
+                  labelwidth="130"
+                  labelid="{2a1b5e3d-56da-4116-9bbb-26a2d8f37628}">
+                  <labels>
+                    <label
+                      description="New Section"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell
+                        id="{02137c3f-7532-4ad0-85a6-e8065ef9ef1d}"
+                        labelid="{f6421462-89aa-425f-bc27-8e8c2bf80fe5}">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions
+        Order="0"
+        FallbackForm="true">
+        <Role
+          Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role
+          Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName
+        description="Quick Create Form for Medical Test"
+        languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description
+        description="Quick Create Form for Medical Test"
+        languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

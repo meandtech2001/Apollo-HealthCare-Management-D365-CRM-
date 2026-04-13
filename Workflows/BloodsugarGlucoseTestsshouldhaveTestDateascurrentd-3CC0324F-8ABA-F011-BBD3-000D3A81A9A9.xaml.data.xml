@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Workflow
+  WorkflowId="{3cc0324f-8aba-f011-bbd3-000d3a81a9a9}"
+  Name="Blood sugar/Glucose Tests should have TestDate as current date"
+  Description="Blood sugar/Glucose Tests should have TestDate as current date" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/BloodsugarGlucoseTestsshouldhaveTestDateascurrentd-3CC0324F-8ABA-F011-BBD3-000D3A81A9A9.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.1</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>2</ProcessTriggerScope>
+  <ModernFlowType>0</ModernFlowType>
+  <PrimaryEntity>apollo_MedicalTest</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName
+      languagecode="1033"
+      description="Blood sugar/Glucose Tests should have TestDate as current date" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description
+      languagecode="1033"
+      description="Blood sugar/Glucose Tests should have TestDate as current date" />
+  </Descriptions>
+  <labels>
+    <steplabels
+      id="{91c9f18b-b04e-447a-ae16-bac901cf9c15}">
+      <label
+        languagecode="1033"
+        description="Blood sugar/Glucose Test Date" />
+    </steplabels>
+    <steplabels
+      id="{433e4200-0200-4395-83d8-bd5462821dd5}">
+      <label
+        languagecode="1033"
+        description="As recommended by doctors, Blood sugar/Glucose Tests should have Test Date as current date" />
+    </steplabels>
+  </labels>
+</Workflow>

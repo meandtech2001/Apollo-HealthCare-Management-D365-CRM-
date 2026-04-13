@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship
+    Name="lk_apollo_medicaltestbpf_processid">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IsCustomizable>1</IsCustomizable>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>apollo_medicaltestbpf</ReferencingEntityName>
+    <ReferencedEntityName>Workflow</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>NoCascade</CascadeDelete>
+    <CascadeArchive>NoCascade</CascadeArchive>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <ReferencingAttributeName>ProcessId</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description
+          description="Unique identifier of the workflow associated to the Business Process Flow instance."
+          languagecode="1033" />
+        <Description
+          description="Identificateur unique du workflow associé à l'instance du flux des processus d'entreprise."
+          languagecode="1036" />
+        <Description
+          description="Eindeutiger Bezeichner des Workflows, der der Geschäftsprozessflow-Instanz zugeordnet ist."
+          languagecode="1031" />
+        <Description
+          description="व्यवसाय प्रोसेस फ़्लो आवृत्ति से संबद्ध कार्यप्रवाह का युनीक आइडेंटिफ़ायर."
+          languagecode="1081" />
+      </Descriptions>
+    </RelationshipDescription>
+  </EntityRelationship>
+  <EntityRelationship
+    Name="lk_apollo_patientcreationbpf_processid">
+    <EntityRelationshipType>OneToMany</EntityRelationshipType>
+    <IsCustomizable>1</IsCustomizable>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <IsHierarchical>0</IsHierarchical>
+    <ReferencingEntityName>apollo_patientcreationbpf</ReferencingEntityName>
+    <ReferencedEntityName>Workflow</ReferencedEntityName>
+    <CascadeAssign>NoCascade</CascadeAssign>
+    <CascadeDelete>NoCascade</CascadeDelete>
+    <CascadeArchive>NoCascade</CascadeArchive>
+    <CascadeReparent>NoCascade</CascadeReparent>
+    <CascadeShare>NoCascade</CascadeShare>
+    <CascadeUnshare>NoCascade</CascadeUnshare>
+    <ReferencingAttributeName>ProcessId</ReferencingAttributeName>
+    <RelationshipDescription>
+      <Descriptions>
+        <Description
+          description="Unique identifier of the workflow associated to the Business Process Flow instance."
+          languagecode="1033" />
+        <Description
+          description="Identificateur unique du workflow associé à l'instance du flux des processus d'entreprise."
+          languagecode="1036" />
+        <Description
+          description="Eindeutiger Bezeichner des Workflows, der der Geschäftsprozessflow-Instanz zugeordnet ist."
+          languagecode="1031" />
+        <Description
+          description="व्यवसाय प्रोसेस फ़्लो आवृत्ति से संबद्ध कार्यप्रवाह का युनीक आइडेंटिफ़ायर."
+          languagecode="1081" />
+      </Descriptions>
+    </RelationshipDescription>
+  </EntityRelationship>
+</EntityRelationships>

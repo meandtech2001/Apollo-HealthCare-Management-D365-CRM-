@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<botcomponent
+  schemaname="crd42_bot610100.gpt.default">
+  <componenttype>15</componenttype>
+  <iscustomizable>0</iscustomizable>
+  <name>Apollo AI Help</name>
+  <parentbotid>
+    <schemaname>crd42_bot610100</schemaname>
+  </parentbotid>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</botcomponent>

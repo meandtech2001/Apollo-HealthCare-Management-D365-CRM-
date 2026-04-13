@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template>
+  <text><![CDATA[<P>Dear ]]></text>
+  <slugs>
+    <slug>
+      <entity>contact</entity>
+      <attribute>fullname</attribute>
+    </slug>
+    <default>Valued Customer</default>
+  </slugs>
+  <text><![CDATA[,</P> <P>We are excited to inform you that our company will be attending the Industry Expo in ]]></text>
+  <slugs>
+    <slug>
+      <entity>contact</entity>
+      <attribute>address1_city</attribute>
+    </slug>
+    <default>a city near you</default>
+  </slugs>
+  <text><![CDATA[. This is a great opportunity for you to see our new products in action, and you will receive a 25% discount on any order placed during this event.</P> <P>We look forward to seeing you there.</P> <P>Thank you.</P>]]></text>
+</template>

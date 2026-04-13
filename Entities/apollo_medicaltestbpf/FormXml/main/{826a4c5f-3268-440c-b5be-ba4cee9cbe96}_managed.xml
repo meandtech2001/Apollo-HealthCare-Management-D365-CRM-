@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{826a4c5f-3268-440c-b5be-ba4cee9cbe96}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab
+          verticallayout="true"
+          id="{bb38e534-111b-4791-baf3-69c17bcdbc3b}"
+          name="StageStep3"
+          locklevel="0"
+          expanded="true"
+          visible="false"
+          labelid="{cac0e54c-4d12-45a9-b5bb-9e4f29c0b492}">
+          <labels>
+            <label
+              description="Assigned To Lab"
+              languagecode="1033" />
+          </labels>
+          <columns>
+            <column
+              width="100%">
+              <sections>
+                <section
+                  showbar="false"
+                  columns="1"
+                  id="{8c5b4283-ba66-eb58-497a-272b811e009e}"
+                  name="StageStep3_section1"
+                  labelid="{1b83ace5-365e-4f6d-859a-ea0ab08411d1}">
+                  <labels>
+                    <label
+                      description="Assigned To Lab"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell
+                        id="{2afa2d82-b802-4e36-9f98-e137fac20ef8}"
+                        showlabel="true"
+                        visible="true"
+                        labelid="{58afa36d-c426-4d7c-88e0-320e8f42d7b3}">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="bpf_apollo_medicaltest_apollo_medicaltestbpf:statuscode"
+                          classid="{5d68b988-0661-4db2-bc3e-17598ad3be6c}"
+                          datafieldname="statuscode"
+                          disabled="false"
+                          relationship="bpf_apollo_medicaltest_apollo_medicaltestbpf"
+                          isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab
+          verticallayout="true"
+          id="{2b572b02-f9c2-454a-9419-27064c89715e}"
+          name="StageStep7"
+          locklevel="0"
+          expanded="true"
+          visible="false"
+          labelid="{20745c82-ce0d-4590-9a04-2c4d62708e5c}">
+          <labels>
+            <label
+              description="Sample Collected"
+              languagecode="1033" />
+          </labels>
+          <columns>
+            <column
+              width="100%">
+              <sections>
+                <section
+                  showbar="false"
+                  columns="1"
+                  id="{9bbf39f8-1329-4c72-bd26-2f281d777ae7}"
+                  name="StageStep7_section1"
+                  labelid="{1ad6cc9b-e092-4f31-9db8-43320255eef7}">
+                  <labels>
+                    <label
+                      description="Sample Collected"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell
+                        id="{c54b0929-2916-4ffa-a487-a86037de7bfc}"
+                        showlabel="true"
+                        visible="true"
+                        labelid="{48c4deee-6baf-43c7-9178-aadd12d64981}">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="bpf_apollo_medicaltest_apollo_medicaltestbpf:statuscode"
+                          classid="{5d68b988-0661-4db2-bc3e-17598ad3be6c}"
+                          datafieldname="statuscode"
+                          disabled="false"
+                          relationship="bpf_apollo_medicaltest_apollo_medicaltestbpf"
+                          isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab
+          verticallayout="true"
+          id="{de18d0e5-6f7d-4b6f-a4f8-37dc3bff1aa6}"
+          name="StageStep11"
+          locklevel="0"
+          expanded="true"
+          visible="false"
+          labelid="{05d14087-7e6e-472c-b6d5-e23bf3dcbc85}">
+          <labels>
+            <label
+              description="Reports Generated"
+              languagecode="1033" />
+          </labels>
+          <columns>
+            <column
+              width="100%">
+              <sections>
+                <section
+                  showbar="false"
+                  columns="1"
+                  id="{5b9a903c-9c2b-f6eb-7474-f59d289df153}"
+                  name="StageStep11_section1"
+                  labelid="{efad09c5-07e4-4f74-bc16-443d6a71d8d4}">
+                  <labels>
+                    <label
+                      description="Reports Generated"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell
+                        id="{4bb202a4-8b8f-4535-b6f7-f9832f65f27e}"
+                        showlabel="true"
+                        visible="true"
+                        labelid="{1a1eaa37-5639-4d00-a66e-7915981e25fe}">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="bpf_apollo_medicaltest_apollo_medicaltestbpf:statuscode"
+                          classid="{5d68b988-0661-4db2-bc3e-17598ad3be6c}"
+                          datafieldname="statuscode"
+                          disabled="false"
+                          relationship="bpf_apollo_medicaltest_apollo_medicaltestbpf"
+                          isrequired="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{cfc31886-ce54-4bd6-8320-c94902bc0d72}"
+                        showlabel="true"
+                        visible="true"
+                        labelid="{e6d95f7c-92e1-44ca-bea9-777d1182ae80}">
+                        <labels>
+                          <label
+                            description="Reports Verified"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="bpf_apollo_medicaltest_apollo_medicaltestbpf:apollo_reportsverified"
+                          classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}"
+                          datafieldname="apollo_reportsverified"
+                          disabled="false"
+                          relationship="bpf_apollo_medicaltest_apollo_medicaltestbpf"
+                          isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName
+        description="Information"
+        languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description
+        description="A form for this entity."
+        languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

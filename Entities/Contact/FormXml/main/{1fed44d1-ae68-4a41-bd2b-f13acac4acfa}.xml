@@ -1,0 +1,1171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}</formid>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form
+      showImage="true"
+      headerdensity="HighWithControls"
+      solutionaction="Modified">
+      <tabs>
+        <tab
+          name="SUMMARY_TAB"
+          id="{15bb2d4b-71da-74ea-3c5b-e497d78a55a2}"
+          IsUserDefined="0"
+          showlabel="true"
+          expanded="true"
+          ordinalvalue="0">
+          <columns>
+            <column
+              width="75%"
+              id="0"
+              solutionaction="Modified">
+              <sections>
+                <section
+                  name="CONTACT_INFORMATION"
+                  showlabel="true"
+                  showbar="false"
+                  id="{9d943649-0387-1882-caa1-36de40d5a86c}"
+                  IsUserDefined="0"
+                  layout="varwidth"
+                  columns="1"
+                  labelwidth="115"
+                  celllabelposition="Left"
+                  ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell
+                        id="{542e581d-cca1-5e40-e6d9-d67a9d1468b4}"
+                        showlabel="true"
+                        locklevel="0"
+                        ordinalvalue="10000">
+                        <labels>
+                          <label
+                            description="Full Name"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Nom complet"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Vollständiger Name"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="पूरा नाम"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{07326cde-7529-ddc0-e421-c0bcddd07b8a}"
+                        showlabel="true"
+                        ordinalvalue="10001">
+                        <labels>
+                          <label
+                            description="Job Title"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Fonction"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Position"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="कार्य शीर्षक"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{a54c19c9-4722-ce25-60c5-2bb9452680d2}"
+                        showlabel="true"
+                        locklevel="0"
+                        ordinalvalue="10002">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{7d538a97-98eb-b438-72de-57a808b9a308}"
+                        showlabel="true"
+                        ordinalvalue="10003">
+                        <labels>
+                          <label
+                            description="Email"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Courrier électronique"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="E-Mail"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="ईमेल"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{215da2d0-2b64-3481-8d2d-16107d4d7e5b}"
+                        showlabel="true"
+                        ordinalvalue="10004">
+                        <labels>
+                          <label
+                            description="Business Phone"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Téléphone professionel"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Telefon (geschäftlich)"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="व्यवसाय फ़ोन"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{290b48ba-c0cc-7746-6dda-93e240e4cc78}"
+                        showlabel="true"
+                        ordinalvalue="10005">
+                        <labels>
+                          <label
+                            description="Mobile Phone"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Téléphone mobile"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Mobiltelefon"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="मोबाइल फ़ोन"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{1b54cdb3-1582-c29e-cc9e-9d4bc2a5700b}"
+                        showlabel="true"
+                        ordinalvalue="10006">
+                        <labels>
+                          <label
+                            description="Fax"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Télécopie"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Fax"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="फ़ैक्स"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{408dda0b-48a7-c05c-e29a-56a93eb97172}"
+                        showlabel="true"
+                        ordinalvalue="10007">
+                        <labels>
+                          <label
+                            description="Preferred Method of Contact"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Mode de communication privilégié"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Bevorzugte Kontaktmethode"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="संपर्क की पसंदीदा कार्यविधि"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{133d09d6-c374-954a-315b-435e1eeb722c}"
+                        showlabel="true"
+                        locklevel="0"
+                        ordinalvalue="10008">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section
+                  name="MapSection"
+                  showlabel="false"
+                  showbar="false"
+                  id="{e0109668-cb5b-4b6c-8ca6-9d0c4b24f385}"
+                  IsUserDefined="0"
+                  layout="varwidth"
+                  columns="1"
+                  labelwidth="115"
+                  celllabelposition="Left"
+                  ordinalvalue="1"
+                  solutionaction="Removed" />
+              </sections>
+            </column>
+            <column
+              width="75%"
+              id="1"
+              solutionaction="Modified">
+              <sections>
+                <section
+                  name="SOCIAL_PANE_TAB"
+                  showlabel="false"
+                  showbar="false"
+                  id="{bea579b8-8901-77b0-1128-351760e68bd4}"
+                  IsUserDefined="0"
+                  layout="varwidth"
+                  columns="1"
+                  labelwidth="115"
+                  celllabelposition="Top"
+                  ordinalvalue="0"
+                  solutionaction="Removed" />
+                <section
+                  name="SUMMARY_TAB_section_6"
+                  id="d000dceb-ac52-466a-b94b-cc81965f3484"
+                  IsUserDefined="0"
+                  locklevel="0"
+                  showlabel="true"
+                  showbar="false"
+                  layout="varwidth"
+                  celllabelalignment="Left"
+                  celllabelposition="Left"
+                  columns="1"
+                  labelwidth="115"
+                  ordinalvalue="0"
+                  solutionaction="Added">
+                  <labels>
+                    <label
+                      description="Other Details"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell
+                        id="{e2645ec8-0786-45c6-b020-3010d4d30dce}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10000">
+                        <labels>
+                          <label
+                            description="Emergency Contact Name"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_emergencycontactname"
+                          classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}"
+                          datafieldname="apollo_emergencycontactname"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{eaa873c4-ef78-4522-add5-2ae5798d25ab}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10001">
+                        <labels>
+                          <label
+                            description="Emergency Contact Person"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_emergencycontactperson"
+                          classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                          datafieldname="apollo_emergencycontactperson"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{6e5b96a6-1249-43b6-b103-8d852f428219}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10002">
+                        <labels>
+                          <label
+                            description="Emergency Contact Phone"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_emergencycontactphone"
+                          classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}"
+                          datafieldname="apollo_emergencycontactphone"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{3aa0f20e-7293-47f5-9533-dcd44c556f5c}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10003">
+                        <labels>
+                          <label
+                            description="Patient DateofBirth"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_patientdateofbirth"
+                          classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}"
+                          datafieldname="apollo_patientdateofbirth"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{5c718491-7a98-459a-b75d-ee3d882683c3}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10004">
+                        <labels>
+                          <label
+                            description="Patient Photo"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_photo"
+                          classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}"
+                          datafieldname="apollo_photo"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{a56ab8a9-8f3f-462f-a093-380c4ec17705}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10005">
+                        <labels>
+                          <label
+                            description="Patient SSN"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_ssn"
+                          classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}"
+                          datafieldname="apollo_ssn"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section
+                  name="SUMMARY_TAB_section_6"
+                  id="edd1c54d-108e-4581-ab7a-5b3f6aaa4e94"
+                  IsUserDefined="0"
+                  locklevel="0"
+                  showlabel="false"
+                  showbar="false"
+                  layout="varwidth"
+                  celllabelalignment="Left"
+                  celllabelposition="Left"
+                  columns="1"
+                  labelwidth="115"
+                  ordinalvalue="1"
+                  solutionaction="Added">
+                  <labels>
+                    <label
+                      description="New Section"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell
+                        rowspan="8"
+                        id="{0b84afa6-a07c-4dc2-bbc8-2c67407c03ec}"
+                        colspan="1"
+                        auto="true"
+                        showlabel="false"
+                        ordinalvalue="10000">
+                        <labels>
+                          <label
+                            description="Control_new_1"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="mapcontrol"
+                          classid="{62B0DF79-0464-470F-8AF7-4483CFEA0C7D}">
+                          <parameters>
+                            <AddressField>address1_composite</AddressField>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell
+                        id="{87ff701e-b3c7-4e76-b6f6-604ef66b8802}"
+                        userspacer="true"
+                        showlabel="false"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10001">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        locklevel="0"
+                        id="{e3c919c3-fe90-4764-b6f3-78bec251ed8e}"
+                        rowspan="15"
+                        colspan="1"
+                        ordinalvalue="10002">
+                        <labels>
+                          <label
+                            description="Note Text"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="notescontrol"
+                          classid="{06375649-C143-495E-A496-C962E5B4488E}"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column
+              width="25%"
+              id="2"
+              solutionaction="Removed" />
+          </columns>
+        </tab>
+        <tab
+          name="DETAILS_TAB"
+          id="{fe1c5c3b-d556-4552-a444-4781214a6d63}"
+          IsUserDefined="0"
+          expanded="true"
+          showlabel="true"
+          ordinalvalue="1">
+          <columns>
+            <column
+              width="34%"
+              id="0">
+              <sections>
+                <section
+                  name="PERSONAL INFORMATION"
+                  showlabel="true"
+                  showbar="false"
+                  id="{0F64B9A3-01F2-4411-B0B5-6C6C39D7B011}"
+                  IsUserDefined="0"
+                  columns="1"
+                  labelwidth="115"
+                  celllabelposition="Left"
+                  ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell
+                        id="{cb391eb8-02ec-0ee6-9d92-6996d4311809}"
+                        showlabel="true"
+                        ordinalvalue="10000">
+                        <labels>
+                          <label
+                            description="Gender"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Sexe"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Geschlecht"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="लिंग"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{2d8cee50-7123-01e7-c2cc-0068c0ecc4c0}"
+                        showlabel="true"
+                        ordinalvalue="10001">
+                        <labels>
+                          <label
+                            description="Marital Status"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="État civil"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Familienstand"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="वैवाहिक स्थिति"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{450c5a59-c7de-1289-0934-9a04bc4e1c72}"
+                        showlabel="true"
+                        ordinalvalue="10002">
+                        <labels>
+                          <label
+                            description="Spouse/Partner Name"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Nom du (de la) conjoint(e)/partenaire"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Name des Ehepartners/der Ehepartnerin"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="पति/पत्नी/जीवनसाथी का नाम"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{bac50a31-27a0-c7e2-3ab3-5d6aa8895c6e}"
+                        showlabel="true"
+                        ordinalvalue="10003">
+                        <labels>
+                          <label
+                            description="Birthday"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Date de naissance"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Geburtstag"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="जन्मदिवस"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{ba714204-2499-db47-78e0-d8795307301d}"
+                        showlabel="true"
+                        ordinalvalue="10004">
+                        <labels>
+                          <label
+                            description="Anniversary"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Date d'anniversaire"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Jahrestag"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="वर्षगाँठ"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section
+                  name="PERSONAL_NOTES_SECTION"
+                  showlabel="true"
+                  showbar="false"
+                  locklevel="0"
+                  id="{9435d60e-c5ac-2462-a159-414573dc2e45}"
+                  IsUserDefined="0"
+                  layout="varwidth"
+                  columns="1"
+                  labelwidth="115"
+                  celllabelalignment="Left"
+                  celllabelposition="Top"
+                  ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell
+                        id="{d0c6aad7-7064-924e-b0e0-718dc557ccee}"
+                        showlabel="false"
+                        locklevel="0"
+                        rowspan="5"
+                        ordinalvalue="10000">
+                        <labels>
+                          <label
+                            description="Description"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Description"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Beschreibung"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="वर्णन"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column
+              width="33%"
+              id="1">
+              <sections>
+                <section
+                  name="CONTACT_PREFERENCES"
+                  showlabel="true"
+                  showbar="false"
+                  id="{42aa148d-17fa-4c73-8213-bd22400b74ea}"
+                  IsUserDefined="0"
+                  columns="1"
+                  labelwidth="115"
+                  celllabelposition="Left"
+                  ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell
+                        id="{d4ec2d52-6658-cee9-4a2a-7a8029ad1862}"
+                        showlabel="true"
+                        locklevel="0"
+                        ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{f0b4951b-b5ec-4103-b69d-7ac2ad176ee4}"
+                        ordinalvalue="10001">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{2344e926-ebe5-43a9-a634-98a98b1b9267}"
+                        ordinalvalue="10002">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{041968bd-14fe-486a-baa0-719e7691e6ee}"
+                        ordinalvalue="10003">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{569cf3bd-3b14-46d8-a03a-22e6317d1d41}"
+                        ordinalvalue="10004">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{28d804f2-b314-42f6-92f8-982f4929bd6f}"
+                        ordinalvalue="10005">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{dfe9aafd-1acc-488d-b31e-feef6f63a34d}"
+                        ordinalvalue="10006">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column
+              width="33%"
+              id="2">
+              <sections>
+                <section
+                  name="billing information"
+                  showlabel="true"
+                  showbar="false"
+                  id="{4565ac06-d780-4467-9baa-d03d6af45ae7}"
+                  IsUserDefined="0"
+                  columns="1"
+                  labelwidth="115"
+                  celllabelposition="Left"
+                  ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell
+                        id="{4e7b2783-1a45-4a13-bfd6-e12915e74161}"
+                        ordinalvalue="10000">
+                        <labels>
+                          <label
+                            description="Currency"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Devise"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Währung"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="मुद्रा"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{6b03860a-a677-48f1-bfdc-a04faf8b151c}"
+                        ordinalvalue="10001">
+                        <labels>
+                          <label
+                            description="Credit Limit"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Limite de crédit"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Kreditlimit"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="क्रेडिट सीमा"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{64e56163-0a77-46c9-9872-50b94d661d96}"
+                        ordinalvalue="10002">
+                        <labels>
+                          <label
+                            description="Credit Hold"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Suspension de crédit"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Kreditsperre"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="क्रेडिट नियंत्रण"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{9980090e-c75b-4bc9-834f-63ba6e3a93f2}"
+                        ordinalvalue="10003">
+                        <labels>
+                          <label
+                            description="Payment Terms"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Conditions de paiement"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Zahlungsbedingungen"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="भुगतान शर्तें"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section
+                  name="shipping information"
+                  showlabel="true"
+                  showbar="false"
+                  id="{19e024e7-16f7-40c6-a1d6-e8672a639011}"
+                  IsUserDefined="0"
+                  columns="1"
+                  labelwidth="115"
+                  celllabelposition="Left"
+                  ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell
+                        id="{aa10fd1b-42f6-4e26-b42c-6ab4effc54d0}"
+                        ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{bbb8d9cb-6c80-47f2-885b-d4a5d6384c07}"
+                        ordinalvalue="10001">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab
+          name="tab_3"
+          id="1d363acc-86be-494e-a0a2-ac093be444ac"
+          IsUserDefined="0"
+          locklevel="0"
+          showlabel="true"
+          ordinalvalue="2"
+          solutionaction="Added">
+          <labels>
+            <label
+              description="Appointment"
+              languagecode="1033" />
+          </labels>
+          <columns>
+            <column
+              width="100%"
+              id="0">
+              <sections>
+                <section
+                  name="tab_3_section_1"
+                  id="d5096bc8-d4bd-43b6-8995-53f95c2bba9f"
+                  IsUserDefined="0"
+                  locklevel="0"
+                  showlabel="false"
+                  showbar="false"
+                  layout="varwidth"
+                  celllabelalignment="Left"
+                  celllabelposition="Left"
+                  columns="1"
+                  labelwidth="115"
+                  ordinalvalue="0">
+                  <labels>
+                    <label
+                      description="New Section"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell
+                        locklevel="0"
+                        id="{3c0cc034-bdfc-4ff0-9f46-a8b80ab66446}"
+                        rowspan="4"
+                        colspan="1"
+                        auto="false"
+                        showlabel="false"
+                        ordinalvalue="10000">
+                        <labels>
+                          <label
+                            description="New SG control 1764957687577"
+                            languagecode="1033" />
+                          <label
+                            description="Cartes d'action"
+                            languagecode="1036" />
+                          <label
+                            description="Aktionskarten"
+                            languagecode="1031" />
+                          <label
+                            description="क्रिया कार्ड्स"
+                            languagecode="1081" />
+                        </labels>
+                        <control
+                          indicationOfSubgrid="true"
+                          id="Subgrid_new_1"
+                          classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>true</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName>apollo_contact_appointment_286</RelationshipName>
+                            <TargetEntityType>appointment</TargetEntityType>
+                            <ViewId>{606EEA12-0C33-47D3-96E1-BA1529EE8205}</ViewId>
+                            <VisualizationId>{1BC0FF08-CB08-45D6-8FD4-E49E6B49FE91}</VisualizationId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header
+        id="{3ff9aa06-4e43-41ce-afa9-22a038af5c19}"
+        celllabelposition="Top"
+        columns="1"
+        labelwidth="115">
+        <rows>
+          <row>
+            <cell
+              id="{24be01cc-16a6-8eea-8916-42d20a1097ae}"
+              showlabel="true"
+              locklevel="1"
+              ordinalvalue="30002"
+              solutionaction="Modified">
+              <labels>
+                <label
+                  description="Owner"
+                  languagecode="1033"
+                  solutionaction="Modified" />
+                <label
+                  description="Propriétaire"
+                  languagecode="1036"
+                  solutionaction="Added" />
+                <label
+                  description="Besitzer"
+                  languagecode="1031"
+                  solutionaction="Added" />
+                <label
+                  description="स्वामी"
+                  languagecode="1081"
+                  solutionaction="Added" />
+              </labels>
+            </cell>
+          </row>
+          <row>
+            <cell
+              id="{f3e71348-74f1-4367-a392-dfef8dcf0867}"
+              locklevel="1"
+              colspan="1"
+              rowspan="1"
+              ordinalvalue="10000"
+              solutionaction="Added">
+              <labels>
+                <label
+                  description="Apollo Patient ID"
+                  languagecode="1033" />
+              </labels>
+              <control
+                id="header_apollo_contactnumber"
+                classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}"
+                datafieldname="apollo_contactnumber"
+                disabled="true" />
+            </cell>
+            <cell
+              id="{bd58aa40-3931-477b-bbd2-24f5750becc6}"
+              locklevel="0"
+              colspan="1"
+              rowspan="1"
+              ordinalvalue="20001"
+              solutionaction="Added">
+              <labels>
+                <label
+                  description="Patient Type"
+                  languagecode="1033" />
+              </labels>
+              <control
+                id="header_apollo_patienttype"
+                classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}"
+                datafieldname="apollo_patienttype"
+                disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <controlDescriptions>
+        <controlDescription
+          forControl="{3FF9A528-DD50-4ACA-8F10-2E5ED73513AD}"
+          solutionaction="Removed" />
+      </controlDescriptions>
+      <DisplayConditions
+        FallbackForm="false"
+        Order="2"
+        solutionaction="Modified">
+        <Everyone
+          solutionaction="Removed" />
+        <Role
+          Id="{627090ff-40a3-4053-8790-584edc5be201}"
+          solutionaction="Added" />
+        <Role
+          Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}"
+          solutionaction="Added" />
+      </DisplayConditions>
+      <footer
+        id="{044a6a6c-2e4b-4aab-9bc7-3f8f64f744c0}"
+        celllabelposition="Top"
+        columns="111"
+        labelwidth="115"
+        celllabelalignment="Left"
+        solutionaction="Added">
+        <rows>
+          <row>
+            <cell
+              id="{becc7419-5e26-4f1d-a301-2ed677572eae}"
+              showlabel="false"
+              ordinalvalue="10000">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{a4effb70-1100-4519-8b20-31c4a9acf746}"
+              showlabel="false"
+              ordinalvalue="20001">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{0c9db45c-e965-4fa3-b714-93234b4f15a8}"
+              showlabel="false"
+              ordinalvalue="30002">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+    </form>
+    <LocalizedNames>
+      <LocalizedName
+        description="Kontakt"
+        languagecode="1031" />
+      <LocalizedName
+        description="Contact - Main 1"
+        languagecode="1033" />
+      <LocalizedName
+        description="Contact"
+        languagecode="1036" />
+      <LocalizedName
+        description="संपर्क"
+        languagecode="1081" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description
+        description="Aktualisiertes Standardformular für Kontakte."
+        languagecode="1031" />
+      <Description
+        description="Updated default Contact form."
+        languagecode="1033" />
+      <Description
+        description="Formulaire de contact par défaut mis à jour."
+        languagecode="1036" />
+      <Description
+        description="अद्यतन किया गया डिफ़ॉल्ट संपर्क प्रपत्र."
+        languagecode="1081" />
+    </Descriptions>
+  </systemform>
+</forms>

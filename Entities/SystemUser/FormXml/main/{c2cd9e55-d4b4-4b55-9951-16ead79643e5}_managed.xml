@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{c2cd9e55-d4b4-4b55-9951-16ead79643e5}</formid>
+    <IntroducedVersion>6.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form
+      showImage="true"
+      headerdensity="HighWithControls"
+      solutionaction="Modified">
+      <tabs>
+        <tab
+          name="SUMMARY_TAB"
+          id="{33c4221d-ccb0-4a92-853e-369d2d0adb85}"
+          IsUserDefined="0"
+          showlabel="true"
+          expanded="true"
+          ordinalvalue="0">
+          <columns>
+            <column
+              width="33%"
+              id="0">
+              <sections>
+                <section
+                  name="onpremise account information"
+                  showlabel="true"
+                  showbar="true"
+                  id="{a89a591d-8259-4e19-8bc4-514f3312928f}"
+                  IsUserDefined="0"
+                  locklevel="0"
+                  ordinalvalue="0"
+                  solutionaction="Removed" />
+                <section
+                  name="online account information"
+                  showlabel="true"
+                  showbar="true"
+                  id="{50c53b90-8e97-4da4-8069-041d6a58aa05}"
+                  IsUserDefined="0"
+                  locklevel="0"
+                  visible="false"
+                  ordinalvalue="0"
+                  solutionaction="Modified">
+                  <rows>
+                    <row>
+                      <cell
+                        auto="false"
+                        showlabel="true"
+                        locklevel="0"
+                        rowspan="1"
+                        colspan="1"
+                        id="{78ba55b2-173e-42c9-b579-84f96926059f}"
+                        ordinalvalue="10000"
+                        solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell
+                        auto="false"
+                        showlabel="true"
+                        locklevel="0"
+                        rowspan="1"
+                        colspan="1"
+                        id="{8b90bd6f-0038-4faf-82c2-ca8990c47409}"
+                        visible="false"
+                        ordinalvalue="10000"
+                        solutionaction="Modified" />
+                    </row>
+                  </rows>
+                </section>
+                <section
+                  name="user information"
+                  showlabel="true"
+                  showbar="true"
+                  id="{9b914e4e-027c-4e9c-90d7-59daed00fd53}"
+                  IsUserDefined="0"
+                  locklevel="0"
+                  ordinalvalue="1"
+                  solutionaction="Modified">
+                  <rows>
+                    <row>
+                      <cell
+                        id="{f605c7f9-5bff-49f3-8508-419d37ced40e}"
+                        ordinalvalue="10001"
+                        solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell
+                        id="{5075ae56-ccfb-4f74-94b8-71e66b8e3b81}"
+                        ordinalvalue="10001"
+                        solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell
+                        id="{6a2a2dea-f57b-4caf-bbc7-2273741f6b5a}"
+                        ordinalvalue="10002"
+                        solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell
+                        id="{953c66e5-c67b-47c5-9b28-c5e01257e0e1}"
+                        ordinalvalue="10004"
+                        solutionaction="Removed" />
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column
+              width="42%"
+              id="1">
+              <sections>
+                <section
+                  name="SOCIAL_PANE_TAB"
+                  showlabel="false"
+                  showbar="false"
+                  id="{ddd9570e-c22b-4fd9-84c0-84bb2b594766}"
+                  IsUserDefined="0"
+                  layout="varwidth"
+                  columns="1"
+                  labelwidth="115"
+                  celllabelposition="Top"
+                  locklevel="0"
+                  celllabelalignment="Left"
+                  ordinalvalue="0">
+                  <rows>
+                    <row
+                      height="stdwithlabel">
+                      <cell
+                        id="{f3367a48-b751-496b-9641-abd402e6be4a}"
+                        showlabel="false"
+                        rowspan="20"
+                        auto="false"
+                        colspan="1"
+                        ordinalvalue="10000"
+                        solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell
+                        auto="false"
+                        showlabel="true"
+                        locklevel="0"
+                        rowspan="1"
+                        colspan="1"
+                        id="{260074a5-5be0-4304-a223-91a242bc79e7}"
+                        ordinalvalue="10000"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="domainname"
+                          classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}"
+                          datafieldname="domainname"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{0824cab9-1273-4177-a7a3-6e72bb4cf575}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10001"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_jobtitle"
+                          classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}"
+                          datafieldname="apollo_jobtitle"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{127e15a0-f525-4d28-ae35-9eb0ce1f5931}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10002"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_specialization"
+                          classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}"
+                          datafieldname="apollo_specialization"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{a90b8fd8-e52e-43a1-8820-428e255ee1d0}"
+                        locklevel="1"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10003"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_doctorscapacity"
+                          classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}"
+                          datafieldname="apollo_doctorscapacity"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{67becd17-3ed4-4467-8615-79951f3d992d}"
+                        locklevel="1"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10004"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_remainingcapacity"
+                          classid="{C6D124CA-7EDA-4A60-AEA9-7FB8D318B68F}"
+                          datafieldname="apollo_remainingcapacity"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column
+              width="25%"
+              id="2">
+              <sections>
+                <section
+                  name="organization information"
+                  showlabel="true"
+                  showbar="true"
+                  id="{81278426-fb20-424e-91bd-7ceb5a6248d2}"
+                  IsUserDefined="0"
+                  locklevel="0"
+                  ordinalvalue="1">
+                  <rows />
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header
+        id="{2cbd72c8-df43-4a03-aad4-373bd1a965b3}"
+        celllabelposition="Top"
+        columns="111"
+        labelwidth="115"
+        celllabelalignment="Left"
+        solutionaction="Added">
+        <rows>
+          <row>
+            <cell
+              id="{0c01307e-e748-4fb9-8286-a050933188f9}"
+              showlabel="false"
+              ordinalvalue="10000">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{6bdc6c56-22ea-4b1f-9e2d-da07e6db5a3f}"
+              showlabel="false"
+              ordinalvalue="20001">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{e852840c-4f00-4a05-b40e-c8dd7560ea4c}"
+              showlabel="false"
+              ordinalvalue="30002">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+    </form>
+    <LocalizedNames>
+      <LocalizedName
+        description="Benutzer"
+        languagecode="1031" />
+      <LocalizedName
+        description="User"
+        languagecode="1033" />
+      <LocalizedName
+        description="Utilisateur"
+        languagecode="1036" />
+      <LocalizedName
+        description="उपयोगकर्ता"
+        languagecode="1081" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description
+        description="Aktualisiertes Standardformular für Benutzer"
+        languagecode="1031" />
+      <Description
+        description="Updated default User form"
+        languagecode="1033" />
+      <Description
+        description="Formulaire d'utilisateur par défaut mis à jour"
+        languagecode="1036" />
+      <Description
+        description="अद्यतन किया गया डिफ़ॉल्ट उपयोगकर्ता प्रपत्र"
+        languagecode="1081" />
+    </Descriptions>
+  </systemform>
+</forms>

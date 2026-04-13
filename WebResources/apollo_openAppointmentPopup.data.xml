@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{c47cb053-f336-f111-88b4-0022481a1bf1}</WebResourceId>
+  <Name>apollo_openAppointmentPopup</Name>
+  <DisplayName>openAppointmentPopup</DisplayName>
+  <LanguageCode>0</LanguageCode>
+  <WebResourceType>3</WebResourceType>
+  <IntroducedVersion>1.0.0.2</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/apollo_openAppointmentPopupC47CB053-F336-F111-88B4-0022481A1BF1</FileName>
+</WebResource>

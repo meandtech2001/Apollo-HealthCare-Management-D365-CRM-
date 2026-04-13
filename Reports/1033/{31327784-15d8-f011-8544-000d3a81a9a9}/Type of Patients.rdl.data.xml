@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Report>
+  <name>Type of Patients</name>
+  <defaultfilter>
+    <ReportFilter>
+      <ReportEntity
+        paramname="CRM_FilteredContact"
+        donotconvert="1">
+        <fetch
+          version="1.0"
+          output-format="xml-platform"
+          mapping="logical"
+          distinct="false">
+          <entity
+            name="contact">
+            <all-attributes />
+            <filter
+              type="and">
+              <condition
+                attribute="statecode"
+                operator="eq"
+                value="0" />
+              <condition
+                attribute="createdon"
+                operator="last-x-months"
+                value="3" />
+            </filter>
+          </entity>
+        </fetch>
+      </ReportEntity>
+    </ReportFilter>
+  </defaultfilter>
+  <iscustomreport>1</iscustomreport>
+  <description>Number of In-Patients and Out-Patients</description>
+  <filename>Type of Patients.rdl</filename>
+  <languagecode>1033</languagecode>
+  <reportid>{31327784-15d8-f011-8544-000d3a81a9a9}</reportid>
+  <reporttypecode>1</reporttypecode>
+  <IntroducedVersion>1.0.0.1</IntroducedVersion>
+  <createdinmajorversion>9</createdinmajorversion>
+  <iscustomizable>1</iscustomizable>
+  <ExportedFileName>/Reports/TypeofPatientsrdl31327784-15d8-f011-8544-000d3a81a9a9.wdl</ExportedFileName>
+  <ReportCategories />
+  <ReportVisibilities>
+    <ReportVisbility>2</ReportVisbility>
+    <ReportVisbility>3</ReportVisbility>
+    <ReportVisbility>1</ReportVisbility>
+  </ReportVisibilities>
+  <ReportEntities>
+    <ReportEntity>contact</ReportEntity>
+  </ReportEntities>
+</Report>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{9459698d-e19e-4fde-a51d-11f694819c0a}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form
+      headerdensity="HighWithControls">
+      <tabs>
+        <tab
+          verticallayout="true"
+          id="{4dbd12e9-7b4b-4535-921f-a428d18a3417}"
+          IsUserDefined="1">
+          <labels>
+            <label
+              description="General"
+              languagecode="1033" />
+          </labels>
+          <columns>
+            <column
+              width="100%">
+              <sections>
+                <section
+                  showlabel="false"
+                  showbar="false"
+                  IsUserDefined="0"
+                  id="{0e5f11b8-24ad-4189-8122-373954a00a68}">
+                  <labels>
+                    <label
+                      description="General"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell
+                        id="{8d6c5a1c-a507-446d-b917-3955ac01a8b8}">
+                        <labels>
+                          <label
+                            description="Invoice Line Name"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_invoicelinename"
+                          classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}"
+                          datafieldname="apollo_invoicelinename" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{709bd530-158a-464f-8d81-a443bf23f026}"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Payment For"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_paymentfor"
+                          classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}"
+                          datafieldname="apollo_paymentfor" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{bd7aed1b-124d-4646-accb-6804ee89c004}">
+                        <labels>
+                          <label
+                            description="Amount"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_amount"
+                          classid="{533b9e00-756b-4312-95a0-dc888637ac78}"
+                          datafieldname="apollo_amount" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{65f0f76a-b2a9-4dc4-b8f5-0eedb7ac8655}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Total Medical Test Amount"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_totalamountmedicaltest"
+                          classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}"
+                          datafieldname="apollo_totalamountmedicaltest"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{8ba01feb-6293-42ac-8929-92d9c2b8fa1c}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Total Medicine Amount"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_totalmedicineamount"
+                          classid="{C3EFE0C3-0EC6-42BE-8349-CBD9079DFD8E}"
+                          datafieldname="apollo_totalmedicineamount"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header
+        id="{4b0c4811-bba7-451e-84cd-fc14339105c2}"
+        celllabelposition="Top"
+        columns="111"
+        labelwidth="115"
+        celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell
+              id="{5e1bc008-34f1-46db-a5fa-4bcd277259a0}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{386c44b3-c2b9-47dd-8a8f-4a53af2f46ee}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{975b4416-d732-4782-9c56-8d5bbc877e63}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{55df3c1d-4cb8-4c99-91af-4e79a51cdf9a}"
+              colspan="1"
+              rowspan="1">
+              <labels>
+                <label
+                  description="Parent Invoice"
+                  languagecode="1033" />
+              </labels>
+              <control
+                id="header_apollo_parentinvoice"
+                classid="{270bd3db-d9af-4782-9025-509e298dec0a}"
+                datafieldname="apollo_parentinvoice" />
+            </cell>
+            <cell
+              id="{d70269a4-b13d-40d4-a294-db1b5c43e678}"
+              locklevel="0"
+              colspan="1"
+              rowspan="1">
+              <labels>
+                <label
+                  description="Status Reason"
+                  languagecode="1033" />
+              </labels>
+              <control
+                id="header_statuscode"
+                classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}"
+                datafieldname="statuscode"
+                disabled="false" />
+            </cell>
+            <cell
+              id="{8d7618aa-8e46-434d-bae3-32fe751943ac}"
+              colspan="1"
+              rowspan="1">
+              <labels>
+                <label
+                  description="Owner"
+                  languagecode="1033" />
+              </labels>
+              <control
+                id="header_ownerid"
+                classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                datafieldname="ownerid" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer
+        id="{a0c8127a-728f-429b-b007-1dd910b6533e}"
+        celllabelposition="Top"
+        columns="111"
+        labelwidth="115"
+        celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell
+              id="{ca846ceb-c093-4440-a4c1-19597703c8f1}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{bfb1a6a5-cd9f-4c43-8d4f-d887bc319d62}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{7f71619c-1467-4dec-9c81-6cb9b439df5d}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions
+        Order="0"
+        FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName
+        description="Invoice Line - Main Form"
+        languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description
+        description="A form for this entity."
+        languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

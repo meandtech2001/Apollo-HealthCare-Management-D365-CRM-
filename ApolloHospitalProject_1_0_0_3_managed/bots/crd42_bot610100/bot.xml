@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bot
+  schemaname="crd42_bot610100">
+  <authenticationmode>2</authenticationmode>
+  <authenticationtrigger>1</authenticationtrigger>
+  <iscustomizable>0</iscustomizable>
+  <language>1033</language>
+  <name>Apollo AI Help</name>
+  <runtimeprovider>0</runtimeprovider>
+  <synchronizationstatus>{
+  "$kind": "BotSynchronizationDetails",
+  "contentVersion": 2,
+  "currentSynchronizationState": {
+    "$kind": "SynchronizationState",
+    "provisioningStatus": "ProvisionedWithoutRegistration",
+    "state": "Synchronized"
+  },
+  "lastSynchronizedOnUtc": "2025-12-15T05:30:48.3211595Z"
+}</synchronizationstatus>
+  <template>empty-1.0.0</template>
+</bot>

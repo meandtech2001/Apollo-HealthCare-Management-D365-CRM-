@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{230cd27c-0ce0-4b52-9fe5-d7a5ed94ba4e}</formid>
+    <IntroducedVersion>8.0.0.0</IntroducedVersion>
+    <FormPresentation>2</FormPresentation>
+    <FormActivationState>0</FormActivationState>
+    <form>
+      <tabs>
+        <tab
+          name="tab_5"
+          id="{b93cb48c-02e6-69ed-4ad2-09ba584b5613}"
+          IsUserDefined="0"
+          locklevel="0"
+          showlabel="false"
+          expanded="true"
+          ordinalvalue="0">
+          <columns>
+            <column
+              width="33%"
+              id="0">
+              <sections>
+                <section
+                  name="tab_5_section_5"
+                  showlabel="true"
+                  showbar="false"
+                  locklevel="0"
+                  id="{b7480366-0ccc-3b49-2998-8608c3695b1d}"
+                  IsUserDefined="0"
+                  layout="varwidth"
+                  columns="1"
+                  labelwidth="115"
+                  celllabelalignment="Left"
+                  celllabelposition="Left"
+                  ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell
+                        id="{245e10e2-69da-cc17-c075-1306a507e0bc}"
+                        showlabel="false"
+                        locklevel="0"
+                        availableforphone="true"
+                        ordinalvalue="10000">
+                        <labels>
+                          <label
+                            description="Regarding"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Concernant"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Bezug"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="के संबंध में"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column
+              width="42%"
+              id="1">
+              <sections>
+                <section
+                  name="tab_5_section_2"
+                  showlabel="true"
+                  showbar="false"
+                  locklevel="0"
+                  id="{cad0ba34-34e8-6c14-ec48-3a1d3424ced4}"
+                  IsUserDefined="0"
+                  layout="varwidth"
+                  columns="1"
+                  labelwidth="115"
+                  celllabelalignment="Left"
+                  celllabelposition="Left"
+                  ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell
+                        id="{5743c7e7-41d7-5651-d740-e0476dd99c51}"
+                        showlabel="true"
+                        locklevel="0"
+                        ordinalvalue="10000">
+                        <labels>
+                          <label
+                            description="Subject"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Sujet"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Betreff"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="विषय"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{13be87dd-be70-025d-2645-8a8896483225}"
+                        showlabel="true"
+                        locklevel="0"
+                        availableforphone="true"
+                        ordinalvalue="10001">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{a0598c73-a7c1-a839-21b7-cb585c7c498b}"
+                        showlabel="true"
+                        locklevel="0"
+                        availableforphone="true"
+                        ordinalvalue="10002">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{50b4360c-8024-92d7-633a-be1be7679a4d}"
+                        showlabel="true"
+                        locklevel="0"
+                        ordinalvalue="10003">
+                        <labels>
+                          <label
+                            description="Location"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Emplacement"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Ort"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="स्थान"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{32a30c13-1750-b89e-a057-e02b7bc06626}"
+                        showlabel="true"
+                        locklevel="0"
+                        visible="false"
+                        ordinalvalue="10004">
+                        <labels />
+                        <control
+                          id="isonlinemeeting"
+                          classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}"
+                          datafieldname="isonlinemeeting"
+                          disabled="false"
+                          uniqueid="{5B7DA1D6-E65E-A356-2D63-E4414175EA30}"
+                          solutionaction="Modified" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{4c798716-37ee-dc9d-8853-90337291ed9e}"
+                        showlabel="true"
+                        locklevel="0"
+                        visible="false"
+                        ordinalvalue="10005">
+                        <labels />
+                        <control
+                          id="onlinemeetingjoinurl"
+                          classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}"
+                          datafieldname="onlinemeetingjoinurl"
+                          disabled="false"
+                          uniqueid="{22BB388A-4C4E-147D-885B-1D6DC724400C}"
+                          solutionaction="Modified" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{87bdeeb5-3281-7bd0-9c7c-5cc97600e8d1}"
+                        showlabel="true"
+                        locklevel="0"
+                        ordinalvalue="10006">
+                        <labels>
+                          <label
+                            description="Regarding"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Concernant"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Bezug"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="के संबंध में"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{52914d03-24c9-a2b8-3a2d-0a97ba682d98}"
+                        showlabel="true"
+                        locklevel="0"
+                        ordinalvalue="10007">
+                        <labels>
+                          <label
+                            description="Start Time"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Heure de début"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Startzeit"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="प्रारंभ समय"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{47e01e88-78c9-14bb-b799-638d6089235a}"
+                        showlabel="true"
+                        locklevel="0"
+                        ordinalvalue="10008">
+                        <labels>
+                          <label
+                            description="All Day Event"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Journée entière"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Ganztägiges Ereignis"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="दिन भर का इवेंट"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{ee0432b4-3858-04b3-b22d-d23b4476d356}"
+                        showlabel="true"
+                        locklevel="0"
+                        ordinalvalue="10009">
+                        <labels>
+                          <label
+                            description="End Time"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Heure de fin"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Endzeit"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="अंत समय"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{37c3661d-1729-a21a-55aa-a49ada78e1ca}"
+                        showlabel="true"
+                        locklevel="0"
+                        ordinalvalue="10010">
+                        <labels>
+                          <label
+                            description="Duration"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Durée"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Dauer"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="अवधि"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section
+                  name="appointment description"
+                  showlabel="true"
+                  showbar="false"
+                  locklevel="0"
+                  id="{e140c976-0d86-bb23-5597-73327b9ad17b}"
+                  IsUserDefined="0"
+                  layout="varwidth"
+                  columns="1"
+                  labelwidth="115"
+                  celllabelalignment="Left"
+                  celllabelposition="Left"
+                  ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell
+                        id="{36bad937-8cd9-4c55-9782-23a8052c8c2c}"
+                        showlabel="false"
+                        locklevel="0"
+                        availableforphone="true"
+                        rowspan="14"
+                        ordinalvalue="10000">
+                        <labels>
+                          <label
+                            description="Description"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Description"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Beschreibung"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="वर्णन"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column
+              width="25%"
+              id="2">
+              <sections>
+                <section
+                  name="tab_5_section_3"
+                  showlabel="true"
+                  showbar="false"
+                  locklevel="0"
+                  id="{ba651457-12d3-1212-c2a4-76d9c8ec0cc0}"
+                  IsUserDefined="0"
+                  layout="varwidth"
+                  columns="1"
+                  labelwidth="115"
+                  celllabelalignment="Left"
+                  celllabelposition="Left"
+                  ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell
+                        id="{3b586d9e-1511-7bd3-18c7-091e5b0e2ad6}"
+                        showlabel="false"
+                        colspan="1"
+                        auto="false"
+                        rowspan="6"
+                        ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header
+        id="{a3703834-4bff-4f22-a370-687b83ff3950}"
+        celllabelposition="Top"
+        columns="1111"
+        labelwidth="115">
+        <rows>
+          <row>
+            <cell
+              id="{0986610b-718d-53c6-c6d7-b1c0611dd69d}"
+              showlabel="true"
+              locklevel="0"
+              ordinalvalue="10000">
+              <labels>
+                <label
+                  description="Priority"
+                  languagecode="1033"
+                  solutionaction="Modified" />
+                <label
+                  description="Priorité"
+                  languagecode="1036"
+                  solutionaction="Added" />
+                <label
+                  description="Priorität"
+                  languagecode="1031"
+                  solutionaction="Added" />
+                <label
+                  description="प्राथमिकता"
+                  languagecode="1081"
+                  solutionaction="Added" />
+              </labels>
+            </cell>
+            <cell
+              id="{b0434d61-5379-50e8-a234-0327873650d0}"
+              showlabel="true"
+              locklevel="0"
+              availableforphone="true"
+              ordinalvalue="20001">
+              <labels />
+            </cell>
+            <cell
+              id="{3366d71d-6395-bda7-2303-0b090223d5ee}"
+              showlabel="true"
+              locklevel="0"
+              ordinalvalue="30002">
+              <labels>
+                <label
+                  description="Status"
+                  languagecode="1033"
+                  solutionaction="Modified" />
+                <label
+                  description="Statut"
+                  languagecode="1036"
+                  solutionaction="Added" />
+                <label
+                  description="Status"
+                  languagecode="1031"
+                  solutionaction="Added" />
+                <label
+                  description="स्थिति"
+                  languagecode="1081"
+                  solutionaction="Added" />
+              </labels>
+            </cell>
+            <cell
+              id="{13e47a08-5542-0361-441d-177053e729a3}"
+              showlabel="true"
+              locklevel="0"
+              ordinalvalue="40003">
+              <labels>
+                <label
+                  description="Owner"
+                  languagecode="1033"
+                  solutionaction="Modified" />
+                <label
+                  description="Propriétaire"
+                  languagecode="1036"
+                  solutionaction="Added" />
+                <label
+                  description="Besitzer"
+                  languagecode="1031"
+                  solutionaction="Added" />
+                <label
+                  description="स्वामी"
+                  languagecode="1081"
+                  solutionaction="Added" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <DisplayConditions
+        FallbackForm="false"
+        Order="4"
+        solutionaction="Modified" />
+      <controlDescriptions>
+        <controlDescription
+          forControl="{5B7DA1D6-E65E-A356-2D63-E4414175EA30}"
+          solutionaction="Modified">
+          <customControl
+            formFactor="0"
+            name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>isonlinemeeting</value>
+            </parameters>
+          </customControl>
+          <customControl
+            formFactor="1"
+            name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>isonlinemeeting</value>
+            </parameters>
+          </customControl>
+          <customControl
+            formFactor="2"
+            name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value>isonlinemeeting</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription
+          forControl="{22BB388A-4C4E-147D-885B-1D6DC724400C}"
+          solutionaction="Modified">
+          <customControl
+            formFactor="0"
+            name="MscrmControls.Activity.HyperlinkControlWithImage">
+            <parameters>
+              <attributeName>onlinemeetingjoinurl</attributeName>
+              <webResourceName
+                static="true"
+                type="SingleLine.Text">Activities/Resources/Activities</webResourceName>
+              <webResourceName_key
+                static="true"
+                type="SingleLine.Text">JoinTeamsMeeting_Label</webResourceName_key>
+              <button_Icon
+                static="true"
+                type="SingleLine.Text">Activities/Images/Teams_color.svg</button_Icon>
+            </parameters>
+          </customControl>
+          <customControl
+            formFactor="1"
+            name="MscrmControls.Activity.HyperlinkControlWithImage">
+            <parameters>
+              <attributeName>onlinemeetingjoinurl</attributeName>
+              <webResourceName
+                static="true"
+                type="SingleLine.Text">Activities/Resources/Activities</webResourceName>
+              <webResourceName_key
+                static="true"
+                type="SingleLine.Text">JoinTeamsMeeting_Label</webResourceName_key>
+              <button_Icon
+                static="true"
+                type="SingleLine.Text">Activities/Images/Teams_color.svg</button_Icon>
+            </parameters>
+          </customControl>
+          <customControl
+            formFactor="2"
+            name="MscrmControls.Activity.HyperlinkControlWithImage">
+            <parameters>
+              <attributeName>onlinemeetingjoinurl</attributeName>
+              <webResourceName
+                static="true"
+                type="SingleLine.Text">Activities/Resources/Activities</webResourceName>
+              <webResourceName_key
+                static="true"
+                type="SingleLine.Text">JoinTeamsMeeting_Label</webResourceName_key>
+              <button_Icon
+                static="true"
+                type="SingleLine.Text">Activities/Images/Teams_color.svg</button_Icon>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName
+        description="Termin für interaktive Funktionen"
+        languagecode="1031" />
+      <LocalizedName
+        description="Appointment for Interactive experience"
+        languagecode="1033" />
+      <LocalizedName
+        description="Rendez-vous pour l'expérience interactive"
+        languagecode="1036" />
+      <LocalizedName
+        description="इंटरैक्टिव अनुभव के लिए अपॉइंटमेंट"
+        languagecode="1081" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description
+        description="Default Interactive experience Appointment form."
+        languagecode="1031" />
+      <Description
+        description="Default Interactive experience Appointment form."
+        languagecode="1033" />
+      <Description
+        description="Default Interactive experience Appointment form."
+        languagecode="1036" />
+      <Description
+        description="Default Interactive experience Appointment form."
+        languagecode="1081" />
+    </Descriptions>
+  </systemform>
+</forms>

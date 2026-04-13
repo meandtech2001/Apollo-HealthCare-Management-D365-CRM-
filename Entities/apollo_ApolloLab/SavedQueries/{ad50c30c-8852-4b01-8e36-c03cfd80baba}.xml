@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{ad50c30c-8852-4b01-8e36-c03cfd80baba}</savedqueryid>
+    <layoutxml>
+      <grid
+        name="resultset"
+        jump="apollo_labname"
+        select="1"
+        icon="1"
+        preview="1">
+        <row
+          name="result"
+          id="apollo_apollolabid">
+          <cell
+            name="apollo_labname"
+            width="300" />
+          <cell
+            name="createdon"
+            width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch
+        version="1.0"
+        mapping="logical">
+        <entity
+          name="apollo_apollolab">
+          <attribute
+            name="apollo_apollolabid" />
+          <attribute
+            name="apollo_labname" />
+          <attribute
+            name="createdon" />
+          <order
+            attribute="apollo_labname"
+            descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName
+        description="Apollo Lab Advanced Find View"
+        languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

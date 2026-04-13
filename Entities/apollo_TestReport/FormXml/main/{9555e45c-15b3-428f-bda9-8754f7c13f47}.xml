@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{9555e45c-15b3-428f-bda9-8754f7c13f47}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form
+      headerdensity="HighWithControls">
+      <tabs>
+        <tab
+          verticallayout="true"
+          id="{990faa6c-5fd4-409f-982f-2526ca7fbe62}"
+          IsUserDefined="1"
+          name="general">
+          <labels>
+            <label
+              description="General"
+              languagecode="1033" />
+          </labels>
+          <columns>
+            <column
+              width="100%">
+              <sections>
+                <section
+                  showlabel="false"
+                  showbar="false"
+                  IsUserDefined="0"
+                  id="{b4e7c568-9fe5-48c2-b429-741a9a2d304e}"
+                  columns="11"
+                  name="genera;">
+                  <labels>
+                    <label
+                      description="General"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell
+                        id="{0e580a74-82b3-4fe2-98d9-127823cb3203}">
+                        <labels>
+                          <label
+                            description="Name"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_name"
+                          classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}"
+                          datafieldname="apollo_name" />
+                      </cell>
+                      <cell
+                        id="{94fadcb4-c800-4906-ae54-fcbd193bb6f5}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Lab"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_lab"
+                          classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                          datafieldname="apollo_lab"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{b9e72e78-7de9-4c3e-8229-55c0e689d23c}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Findings"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_findings"
+                          classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}"
+                          datafieldname="apollo_findings"
+                          disabled="false" />
+                      </cell>
+                      <cell
+                        id="{34078e11-03ba-461a-a5e8-516d5152cce2}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Lab Technician"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_labtechnician"
+                          classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                          datafieldname="apollo_labtechnician"
+                          disabled="false">
+                          <parameters>
+                            <DefaultViewId>{1F2B1F79-A2C4-F011-BBD3-000D3A81A9A9}</DefaultViewId>
+                            <AvailableViewIds>{ABA981C9-16A2-4DCC-B694-376AE95FA4B0},{862C3CBF-23FF-4EAB-B9A9-7B438BAC70A9},{EE937294-0AC2-F011-BBD3-000D3A81A9A9},{1F2B1F79-A2C4-F011-BBD3-000D3A81A9A9},{AC21A0C0-A2C4-F011-BBD3-000D3A81A9A9},{43025C0B-A3C4-F011-BBD3-000D3A81A9A9},{51AF2F40-36BB-4198-9B0C-71A986C7C953},{F79AD170-AE03-4F4C-8132-D4AA08520A0C},{00000000-0000-0000-00AA-000010001119},{5953249B-2A59-43BF-A94F-6B8CC1F2D245},{00000000-0000-0000-00AA-000010001019},{DA675923-DA9D-4702-AAD6-3207283A5ACE},{00000000-0000-0000-00AA-000010001020},{8DD58E14-0138-47D4-BA2D-A7DC76094D05},{00000000-0000-0000-00AA-000010001021},{1FE05F14-0074-49E3-B55D-0AF1FD0A2B85},{AF89FDC8-5D83-40B4-988C-A0941579EE9D},{BB3CD580-ECFB-4A85-A623-9A109B73815F},{5FDA842A-004B-42B4-A611-B93C2C69667E},{490B1410-D231-46B0-B5FA-60017B21AB14},{30CE6879-6B7A-E211-8976-00155D89AC0C},{AAD628C6-F0DD-4D34-B0ED-9A78F9C23A20},{E88CA999-0B16-4AE9-B6A9-9EDC840D42D8},{E5D893D1-2B1F-46E5-8EA4-25562567CCCE},{19487F2F-8405-4D59-8F8B-4EDA98D4F302},{31E76B45-BFE7-447E-B4B5-50DC393BCDBE},{FCF02D37-524A-4332-8AC7-497EF6B739F9},{89939D86-F073-42BA-BFC4-DA7999C78825}</AvailableViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{df6e6bb2-387f-4bec-acff-1cabeec26405}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Medical Test"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_medicaltest"
+                          classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                          datafieldname="apollo_medicaltest"
+                          disabled="false" />
+                      </cell>
+                      <cell
+                        id="{86c1310f-c338-469d-be10-913c2b748920}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Test Date"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_testdate"
+                          classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}"
+                          datafieldname="apollo_testdate"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        locklevel="0"
+                        id="{3d5ce4c6-b99b-49d0-a728-59040de6961d}"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Medical Test Information"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="MedicalTestInformation"
+                          classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}"
+                          datafieldname="apollo_medicaltest">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="apollo_medicaltest"&gt;164c6010-ab19-4da5-afed-0f9bbe47a22e&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                            <HideQuickFormBorder>false</HideQuickFormBorder>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell
+                        id="{68baba87-8e94-4369-9938-1d4d656d1d4b}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Attachment"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_attachment"
+                          classid="{0A7FF475-B016-4687-9CE5-042BFDBD6519}"
+                          datafieldname="apollo_attachment"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        locklevel="0"
+                        id="{5502134f-7b77-4586-b8da-baa02f3385ec}">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell
+                        id="{edd4fc21-95ce-4443-95ab-88811f0aa669}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Sample Collected"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_samplecollected"
+                          classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}"
+                          datafieldname="apollo_samplecollected"
+                          disabled="false"
+                          uniqueid="{6efe4118-d1e7-4f66-b7fe-b3a65c911130}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab
+          name="tab_2"
+          id="31e72935-a59c-4bc2-8844-a3261bbcdc62"
+          IsUserDefined="0"
+          locklevel="0"
+          showlabel="true">
+          <labels>
+            <label
+              description="Details"
+              languagecode="1033" />
+          </labels>
+          <columns>
+            <column
+              width="100%">
+              <sections>
+                <section
+                  name="tab_2_section_1"
+                  id="767ce952-3b6c-4f2f-97c4-b2da3e5ce7fd"
+                  IsUserDefined="0"
+                  locklevel="0"
+                  showlabel="false"
+                  showbar="false"
+                  layout="varwidth"
+                  celllabelalignment="Left"
+                  celllabelposition="Left"
+                  columns="1"
+                  labelwidth="115">
+                  <labels>
+                    <label
+                      description="New Section"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell
+                        id="{3c278dcb-6b3b-42f7-b873-a15f44f6376d}"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Owner"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="header_ownerid"
+                          classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                          datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{157b9625-f8ee-4aa8-99f4-c8e4529bb0b0}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Created By"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="createdby"
+                          classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                          datafieldname="createdby"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{5a6bcc19-5ebe-409a-a485-086e14e02f90}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Created On"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="createdon"
+                          classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}"
+                          datafieldname="createdon"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{06066b1b-de09-47fb-bf83-40e5986c76ea}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Modified By"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="modifiedby"
+                          classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                          datafieldname="modifiedby"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{ec23cb58-6a62-4928-afb9-0f9a8faffccf}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Modified On"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="modifiedon"
+                          classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}"
+                          datafieldname="modifiedon"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{e32404d5-7065-465a-a2a6-3e8493be1dad}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Owning Business Unit"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="owningbusinessunit"
+                          classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                          datafieldname="owningbusinessunit"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header
+        id="{caf9710a-8d85-43dd-a3b5-7cac4c69716a}"
+        celllabelposition="Top"
+        columns="111"
+        labelwidth="115"
+        celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell
+              id="{3a538cac-24c3-44f7-b7d8-8138bc7aba24}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{32a00ef6-f333-4396-98d8-e4a41fa609f8}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{331c398a-74fe-4585-af74-8f1ec9597677}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{2dacc9c1-259a-4cb2-8729-7dde8034e96a}"
+              locklevel="0"
+              colspan="1"
+              rowspan="1">
+              <labels>
+                <label
+                  description="Status"
+                  languagecode="1033" />
+              </labels>
+              <control
+                id="header_statecode"
+                classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}"
+                datafieldname="statecode"
+                disabled="false" />
+            </cell>
+            <cell
+              id="{ed37df52-6172-4d3f-a1a6-55d6c9b5dbd1}"
+              locklevel="0"
+              colspan="1"
+              rowspan="1">
+              <labels>
+                <label
+                  description="Status Reason"
+                  languagecode="1033" />
+              </labels>
+              <control
+                id="header_statuscode"
+                classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}"
+                datafieldname="statuscode"
+                disabled="false" />
+            </cell>
+            <cell
+              id="{ff8f17d6-20d5-468a-b079-f9acbe7770b7}"
+              locklevel="0"
+              colspan="1"
+              rowspan="1">
+              <labels>
+                <label
+                  description="Report Date"
+                  languagecode="1033" />
+              </labels>
+              <control
+                id="header_apollo_reportdate"
+                classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}"
+                datafieldname="apollo_reportdate"
+                disabled="false" />
+            </cell>
+            <cell
+              id="{53aef0f6-5eff-448c-b1b7-757df65faaa0}"
+              locklevel="0"
+              colspan="1"
+              rowspan="1">
+              <labels>
+                <label
+                  description="Current Date"
+                  languagecode="1033" />
+              </labels>
+              <control
+                id="header_apollo_currentdate"
+                classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}"
+                datafieldname="apollo_currentdate"
+                disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer
+        id="{1e33f515-7c13-4bc2-a1b3-8e487beedb27}"
+        celllabelposition="Top"
+        columns="111"
+        labelwidth="115"
+        celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell
+              id="{eea6900b-570d-48c3-8469-c20f245cd42a}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{1b5bb8c1-d823-46c8-951e-8561c0ae374d}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{0fcd3a40-5fdb-45f4-ac7f-86f6e342884b}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions
+        Order="0"
+        FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+      <controlDescriptions>
+        <controlDescription
+          forControl="{6efe4118-d1e7-4f66-b7fe-b3a65c911130}">
+          <customControl
+            id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>apollo_samplecollected</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl
+            formFactor="0"
+            name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value
+                type="TwoOptions">apollo_samplecollected</value>
+            </parameters>
+          </customControl>
+          <customControl
+            formFactor="2"
+            name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value
+                type="TwoOptions">apollo_samplecollected</value>
+            </parameters>
+          </customControl>
+          <customControl
+            formFactor="1"
+            name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value
+                type="TwoOptions">apollo_samplecollected</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName
+        description="Test Report Main Form"
+        languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description
+        description="Test Report Main Form"
+        languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

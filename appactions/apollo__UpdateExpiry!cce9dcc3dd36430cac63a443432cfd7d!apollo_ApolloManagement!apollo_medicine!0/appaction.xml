@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appaction
+  uniquename="apollo__UpdateExpiry!cce9dcc3dd36430cac63a443432cfd7d!apollo_ApolloManagement!apollo_medicine!0">
+  <appmoduleid>
+    <uniquename>apollo_ApolloManagement</uniquename>
+  </appmoduleid>
+  <buttonlabeltext
+    default="Update Expiry">
+    <label
+      description="Update Expiry"
+      languagecode="1033" />
+  </buttonlabeltext>
+  <context>1</context>
+  <contextentity>
+    <logicalname>apollo_medicine</logicalname>
+  </contextentity>
+  <contextvalue>apollo_medicine</contextvalue>
+  <fonticon>$clientsvg:ActivateOrders</fonticon>
+  <hidden>0</hidden>
+  <iscustomizable>1</iscustomizable>
+  <isdisabled>0</isdisabled>
+  <isgrouptitlehidden>0</isgrouptitlehidden>
+  <location>0</location>
+  <name>UpdateExpiry!cce9dcc3dd36430cac63a443432cfd7d</name>
+  <onclickeventformulacomponentlibraryid>
+    <name>apollo_apollomanagementdefaultcommandlibrary_33e35</name>
+  </onclickeventformulacomponentlibraryid>
+  <onclickeventformulacomponentname>364087dd00214a35a81741445520fc01</onclickeventformulacomponentname>
+  <onclickeventformulafunctionname>OnSelect</onclickeventformulafunctionname>
+  <onclickeventtype>1</onclickeventtype>
+  <origin>0</origin>
+  <sequence>100100015.0000000000</sequence>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <type>2</type>
+  <visibilityformulacomponentlibraryid>
+    <name>apollo_apollomanagementdefaultcommandlibrary_33e35</name>
+  </visibilityformulacomponentlibraryid>
+  <visibilityformulacomponentname>364087dd00214a35a81741445520fc01</visibilityformulacomponentname>
+  <visibilityformulafunctionname>Visible</visibilityformulafunctionname>
+  <visibilitytype>1</visibilitytype>
+</appaction>

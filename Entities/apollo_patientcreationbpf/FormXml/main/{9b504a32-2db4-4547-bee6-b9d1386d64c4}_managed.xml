@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{9b504a32-2db4-4547-bee6-b9d1386d64c4}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab
+          verticallayout="true"
+          id="{40e7d318-e196-4e1b-876e-c43673dad1e2}"
+          name="StageStep5"
+          locklevel="0"
+          expanded="true"
+          visible="false"
+          labelid="{442eb68f-6200-4422-b77c-5ec1f08dfe9c}">
+          <labels>
+            <label
+              description="Contact Creation"
+              languagecode="1033" />
+          </labels>
+          <columns>
+            <column
+              width="100%">
+              <sections>
+                <section
+                  showbar="false"
+                  columns="1"
+                  id="{bbee8a63-0f9e-8f19-5a91-b7e9d980d45f}"
+                  name="StageStep5_section1"
+                  labelid="{20ed7708-7c1b-4a50-8e69-2d67260d4366}">
+                  <labels>
+                    <label
+                      description="Contact Creation"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell
+                        id="{244275e3-f3c9-4de9-8d43-e29f09c289a7}"
+                        showlabel="true"
+                        visible="true"
+                        labelid="{9812132c-da15-4646-be17-9b550702e837}">
+                        <labels>
+                          <label
+                            description="Patient Type"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="bpf_contact_apollo_patientcreationbpf:apollo_patienttype"
+                          classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}"
+                          datafieldname="apollo_patienttype"
+                          disabled="false"
+                          relationship="bpf_contact_apollo_patientcreationbpf"
+                          isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{a56d61d3-cd8f-43df-a85e-2c0d6cf81ca4}"
+                        showlabel="true"
+                        visible="true"
+                        labelid="{2e7d769f-3c8a-4c4f-ba7c-4eab3174a290}">
+                        <labels>
+                          <label
+                            description="First Name"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="bpf_contact_apollo_patientcreationbpf:firstname"
+                          classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}"
+                          datafieldname="firstname"
+                          disabled="false"
+                          relationship="bpf_contact_apollo_patientcreationbpf"
+                          isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{4ad41d22-8350-41f1-8bcb-e3eb27c7b2a4}"
+                        showlabel="true"
+                        visible="true"
+                        labelid="{eda77178-25cc-4bd0-9dac-d607425eb4ff}">
+                        <labels>
+                          <label
+                            description="Last Name"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="bpf_contact_apollo_patientcreationbpf:lastname"
+                          classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}"
+                          datafieldname="lastname"
+                          disabled="false"
+                          relationship="bpf_contact_apollo_patientcreationbpf"
+                          isrequired="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{942125f7-3800-4483-bdf7-d2259d0f60c9}"
+                        showlabel="true"
+                        visible="true"
+                        labelid="{8fdd5ae4-39ef-4628-bcbb-a57ff0984c4a}">
+                        <labels>
+                          <label
+                            description="Patient DateofBirth"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="bpf_contact_apollo_patientcreationbpf:apollo_patientdateofbirth"
+                          classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}"
+                          datafieldname="apollo_patientdateofbirth"
+                          disabled="false"
+                          relationship="bpf_contact_apollo_patientcreationbpf"
+                          isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{3846bf57-833c-4636-b702-78471cfb9fd5}"
+                        showlabel="true"
+                        visible="true"
+                        labelid="{967b60fe-feab-4cc3-af1c-04617badd9d1}">
+                        <labels>
+                          <label
+                            description="Email"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="bpf_contact_apollo_patientcreationbpf:emailaddress1"
+                          classid="{ada2203e-b4cd-49be-9ddf-234642b43b52}"
+                          datafieldname="emailaddress1"
+                          disabled="false"
+                          relationship="bpf_contact_apollo_patientcreationbpf"
+                          isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{1d0e4b0a-80f7-4423-b47b-0cc315c08fc4}"
+                        showlabel="true"
+                        visible="true"
+                        labelid="{7a479cf7-8bef-40f8-a31b-15f21a9f556e}">
+                        <labels>
+                          <label
+                            description="Mobile Phone"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="bpf_contact_apollo_patientcreationbpf:mobilephone"
+                          classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}"
+                          datafieldname="mobilephone"
+                          disabled="false"
+                          relationship="bpf_contact_apollo_patientcreationbpf"
+                          isrequired="true" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab
+          verticallayout="true"
+          id="{7946f615-27a5-46a4-926f-35f72119faa9}"
+          name="StageStep20"
+          locklevel="0"
+          expanded="true"
+          visible="false"
+          labelid="{8ea29e70-6acf-4b67-adaf-4dc4a28e7e67}">
+          <labels>
+            <label
+              description="Create Account"
+              languagecode="1033" />
+          </labels>
+          <columns>
+            <column
+              width="100%">
+              <sections>
+                <section
+                  showbar="false"
+                  columns="1"
+                  id="{a826edc4-88a5-c83e-c634-a5bc42a0a42d}"
+                  name="StageStep20_section1"
+                  labelid="{db38925a-8bf9-4723-a0ea-8ff689bbf0ff}">
+                  <labels>
+                    <label
+                      description="Create Account"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell
+                        id="{f0f0d0b4-ba74-4f13-9336-c0f0853931dc}"
+                        showlabel="true"
+                        visible="true"
+                        labelid="{94621ac7-52fb-4aa4-a6f8-254c62f92003}">
+                        <labels>
+                          <label
+                            description="Account Name"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="bpf_account_apollo_patientcreationbpf:name"
+                          classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}"
+                          datafieldname="name"
+                          disabled="false"
+                          relationship="bpf_account_apollo_patientcreationbpf"
+                          isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{d0a1f30b-5951-4148-8e53-fd7ec7acca22}"
+                        showlabel="true"
+                        visible="true"
+                        labelid="{eddec30b-56c1-4990-b363-94b1b9f76a41}">
+                        <labels>
+                          <label
+                            description="Date of Establishment"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="bpf_account_apollo_patientcreationbpf:apollo_dateofestablishment"
+                          classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}"
+                          datafieldname="apollo_dateofestablishment"
+                          disabled="false"
+                          relationship="bpf_account_apollo_patientcreationbpf"
+                          isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{0ffaa5c1-0757-4101-bdee-f4ba2ab7810e}"
+                        showlabel="true"
+                        visible="true"
+                        labelid="{124b8b4a-366c-40da-955f-b3d9345fda1f}">
+                        <labels>
+                          <label
+                            description="Email"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="bpf_account_apollo_patientcreationbpf:emailaddress1"
+                          classid="{ada2203e-b4cd-49be-9ddf-234642b43b52}"
+                          datafieldname="emailaddress1"
+                          disabled="false"
+                          relationship="bpf_account_apollo_patientcreationbpf"
+                          isrequired="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{eae53114-1cb2-4053-9cad-135aad8ad296}"
+                        showlabel="true"
+                        visible="true"
+                        labelid="{9f13095e-f93e-4443-a840-7bed3e2ea793}">
+                        <labels>
+                          <label
+                            description="Main Phone"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="bpf_account_apollo_patientcreationbpf:telephone1"
+                          classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}"
+                          datafieldname="telephone1"
+                          disabled="false"
+                          relationship="bpf_account_apollo_patientcreationbpf"
+                          isrequired="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{3e5da3f4-7e35-4f35-9838-c0d861a963f9}"
+                        showlabel="true"
+                        visible="true"
+                        labelid="{d8d5370d-583d-407a-8306-2ba8e79c5dfb}">
+                        <labels>
+                          <label
+                            description="Street 1"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="bpf_account_apollo_patientcreationbpf:address1_line1"
+                          classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}"
+                          datafieldname="address1_line1"
+                          disabled="false"
+                          relationship="bpf_account_apollo_patientcreationbpf"
+                          isrequired="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{0d6b01ea-d276-4da9-a8b0-468f7d83df5d}"
+                        showlabel="true"
+                        visible="true"
+                        labelid="{e944154b-c050-409b-9cda-a633ebc87650}">
+                        <labels>
+                          <label
+                            description="City"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="bpf_account_apollo_patientcreationbpf:address1_city"
+                          classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}"
+                          datafieldname="address1_city"
+                          disabled="false"
+                          relationship="bpf_account_apollo_patientcreationbpf"
+                          isrequired="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{156dd217-7602-474f-bd86-9144d9b2f787}"
+                        showlabel="true"
+                        visible="true"
+                        labelid="{51ae909b-2c47-4369-a79d-3248266fc030}">
+                        <labels>
+                          <label
+                            description="State/Province"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="bpf_account_apollo_patientcreationbpf:address1_stateorprovince"
+                          classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}"
+                          datafieldname="address1_stateorprovince"
+                          disabled="false"
+                          relationship="bpf_account_apollo_patientcreationbpf"
+                          isrequired="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{e89b027e-0e57-4857-8e86-e2c1a9b0285c}"
+                        showlabel="true"
+                        visible="true"
+                        labelid="{fb15fce1-d83c-4627-9c86-932be7036452}">
+                        <labels>
+                          <label
+                            description="ZIP/Postal Code"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="bpf_account_apollo_patientcreationbpf:address1_postalcode"
+                          classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}"
+                          datafieldname="address1_postalcode"
+                          disabled="false"
+                          relationship="bpf_account_apollo_patientcreationbpf"
+                          isrequired="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{a6d6b510-1c7c-4aba-bd14-b54300e307e7}"
+                        showlabel="true"
+                        visible="true"
+                        labelid="{d0951f94-412d-413f-938a-738e162fd5c4}">
+                        <labels>
+                          <label
+                            description="Country"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="bpf_account_apollo_patientcreationbpf:address1_country"
+                          classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}"
+                          datafieldname="address1_country"
+                          disabled="false"
+                          relationship="bpf_account_apollo_patientcreationbpf"
+                          isrequired="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{91c4fcde-f3ae-4b80-8db1-2a622eaa0884}"
+                        showlabel="true"
+                        visible="true"
+                        labelid="{ff73ade6-38e5-45ea-93e8-6712e1704e11}">
+                        <labels>
+                          <label
+                            description="AccountCreation_Action"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="91c4fcde-f3ae-4b80-8db1-2a622eaa0884:6f6a338d-bba7-46b0-91d3-0219890b67f5_actionstep"
+                          classid="{00ad73da-bd4d-49c6-88a8-2f4f4cad4a20}"
+                          datafieldname="apollo_AccountCreation_Action_Step_41"
+                          isrequired="false"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab
+          verticallayout="true"
+          id="{34db1c53-5e0e-4e52-a4b2-8fde498f99ef}"
+          name="StageStep43"
+          locklevel="0"
+          expanded="true"
+          visible="false"
+          labelid="{848c6146-f8fa-48d6-9860-07b630ec7be8}">
+          <labels>
+            <label
+              description="Create Appointment"
+              languagecode="1033" />
+          </labels>
+          <columns>
+            <column
+              width="100%">
+              <sections>
+                <section
+                  showbar="false"
+                  columns="1"
+                  id="{868730f6-3a14-a7da-fbc4-12846386fb46}"
+                  name="StageStep43_section1"
+                  labelid="{429af368-b3a7-4d02-b388-976f9478c244}">
+                  <labels>
+                    <label
+                      description="Create Appointment"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell
+                        id="{00a06ebb-e4a4-49a2-b65b-2d229b04cc35}"
+                        showlabel="true"
+                        visible="true"
+                        labelid="{ef16670b-74dc-4a0c-87ce-c4ebc2009ac8}">
+                        <labels>
+                          <label
+                            description="Appointment Date"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="bpf_appointment_apollo_patientcreationbpf:apollo_appointmentdate"
+                          classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}"
+                          datafieldname="apollo_appointmentdate"
+                          disabled="false"
+                          relationship="bpf_appointment_apollo_patientcreationbpf"
+                          isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{1be070ea-52f7-4d76-bfea-134eb9646b3f}"
+                        showlabel="true"
+                        visible="true"
+                        labelid="{083789c1-b465-4660-901f-e6d6b48fdcf2}">
+                        <labels>
+                          <label
+                            description="Doctor"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="bpf_appointment_apollo_patientcreationbpf:apollo_doctor"
+                          classid="{270bd3db-d9af-4782-9025-509e298dec0a}"
+                          datafieldname="apollo_doctor"
+                          disabled="false"
+                          relationship="bpf_appointment_apollo_patientcreationbpf"
+                          isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{5ea8ca1d-9751-422e-8200-e2dd813bbb78}"
+                        showlabel="true"
+                        visible="true"
+                        labelid="{6248764e-5005-4924-953a-7d4621b5cb49}">
+                        <labels>
+                          <label
+                            description="Patient"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="bpf_appointment_apollo_patientcreationbpf:apollo_patient"
+                          classid="{270bd3db-d9af-4782-9025-509e298dec0a}"
+                          datafieldname="apollo_patient"
+                          disabled="false"
+                          relationship="bpf_appointment_apollo_patientcreationbpf"
+                          isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{dbb94318-ea4d-4958-bcaf-23609bc200b4}"
+                        showlabel="true"
+                        visible="true"
+                        labelid="{a7366a14-8832-4548-9dfc-d9090d2de1aa}">
+                        <labels>
+                          <label
+                            description="Subject"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="bpf_appointment_apollo_patientcreationbpf:subject"
+                          classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}"
+                          datafieldname="subject"
+                          disabled="false"
+                          relationship="bpf_appointment_apollo_patientcreationbpf"
+                          isrequired="true" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{d28e36c8-4fd3-4c2d-ae29-47c8841ed2e2}"
+                        showlabel="true"
+                        visible="true"
+                        labelid="{bc410784-a81c-4d29-8f65-0959cdb8cd3c}">
+                        <labels>
+                          <label
+                            description="Priority"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="bpf_appointment_apollo_patientcreationbpf:prioritycode"
+                          classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}"
+                          datafieldname="prioritycode"
+                          disabled="false"
+                          relationship="bpf_appointment_apollo_patientcreationbpf"
+                          isrequired="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName
+        description="Information"
+        languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description
+        description="A form for this entity."
+        languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

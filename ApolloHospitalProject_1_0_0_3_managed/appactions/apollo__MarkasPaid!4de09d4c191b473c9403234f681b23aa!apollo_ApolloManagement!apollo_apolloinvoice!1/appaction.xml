@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appaction
+  uniquename="apollo__MarkasPaid!4de09d4c191b473c9403234f681b23aa!apollo_ApolloManagement!apollo_apolloinvoice!1">
+  <appmoduleid>
+    <uniquename>apollo_ApolloManagement</uniquename>
+  </appmoduleid>
+  <buttonlabeltext
+    default="Mark as Paid">
+    <label
+      description="Mark as Paid"
+      languagecode="1033" />
+  </buttonlabeltext>
+  <context>1</context>
+  <contextentity>
+    <logicalname>apollo_apolloinvoice</logicalname>
+  </contextentity>
+  <contextvalue>apollo_apolloinvoice</contextvalue>
+  <fonticon>$clientsvg:Accept</fonticon>
+  <hidden>0</hidden>
+  <iscustomizable>1</iscustomizable>
+  <isdisabled>0</isdisabled>
+  <isgrouptitlehidden>0</isgrouptitlehidden>
+  <location>1</location>
+  <name>MarkasPaid!4de09d4c191b473c9403234f681b23aa</name>
+  <onclickeventformulacomponentlibraryid>
+    <name>apollo_apollomanagementdefaultcommandlibrary_33e35</name>
+  </onclickeventformulacomponentlibraryid>
+  <onclickeventformulacomponentname>c3a9844229804c99bfa45a37a2758874</onclickeventformulacomponentname>
+  <onclickeventformulafunctionname>OnSelect</onclickeventformulafunctionname>
+  <onclickeventtype>1</onclickeventtype>
+  <origin>0</origin>
+  <sequence>1000100010.0000000000</sequence>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <type>0</type>
+  <visibilityformulacomponentlibraryid>
+    <name>apollo_apollomanagementdefaultcommandlibrary_33e35</name>
+  </visibilityformulacomponentlibraryid>
+  <visibilityformulacomponentname>c3a9844229804c99bfa45a37a2758874</visibilityformulacomponentname>
+  <visibilityformulafunctionname>Visible</visibilityformulafunctionname>
+  <visibilitytype>1</visibilitytype>
+</appaction>

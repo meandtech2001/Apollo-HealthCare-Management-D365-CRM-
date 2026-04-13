@@ -1,0 +1,7 @@
+kind: GptComponentMetadata
+displayName: Apollo AI Help
+knowledgeSources:
+  kind: SearchAllKnowledgeSources
+
+gptCapabilities:
+  webBrowsing: true

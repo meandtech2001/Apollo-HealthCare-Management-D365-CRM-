@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Workflow
+  WorkflowId="{87526e25-4502-f111-8407-0022481a1bf1}"
+  Name="PrescribedMedicineSetName" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/PrescribedMedicineSetName-87526E25-4502-F111-8407-0022481A1BF1.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>0</Category>
+  <Mode>1</Mode>
+  <Scope>1</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>0</StateCode>
+  <StatusCode>1</StatusCode>
+  <CreateStage>40</CreateStage>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.2</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ModernFlowType>0</ModernFlowType>
+  <PrimaryEntity>apollo_PrescribedMedicine</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName
+      languagecode="1033"
+      description="PrescribedMedicineSetName" />
+  </LocalizedNames>
+</Workflow>

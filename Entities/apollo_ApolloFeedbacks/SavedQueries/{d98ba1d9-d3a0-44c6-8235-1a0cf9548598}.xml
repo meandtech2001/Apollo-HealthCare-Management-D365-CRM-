@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{d98ba1d9-d3a0-44c6-8235-1a0cf9548598}</savedqueryid>
+    <layoutxml>
+      <grid
+        name="resultset"
+        jump="apollo_title"
+        select="1"
+        icon="1"
+        preview="1">
+        <row
+          name="result"
+          id="apollo_apollofeedbacksid">
+          <cell
+            name="apollo_title"
+            width="77" />
+          <cell
+            name="apollo_rating"
+            width="100" />
+          <cell
+            name="apollo_comments"
+            width="101" />
+          <cell
+            name="apollo_patientid"
+            width="100" />
+          <cell
+            name="apollo_patientname"
+            width="116" />
+          <cell
+            name="apollo_phonenumber"
+            width="122" />
+          <cell
+            name="apollo_email"
+            width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch
+        version="1.0"
+        mapping="logical">
+        <entity
+          name="apollo_apollofeedbacks">
+          <attribute
+            name="apollo_apollofeedbacksid" />
+          <attribute
+            name="apollo_title" />
+          <attribute
+            name="apollo_comments" />
+          <attribute
+            name="apollo_patientid" />
+          <attribute
+            name="apollo_patientname" />
+          <attribute
+            name="apollo_phonenumber" />
+          <attribute
+            name="apollo_rating" />
+          <attribute
+            name="apollo_email" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName
+        description="All Apollo Feedbacks"
+        languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

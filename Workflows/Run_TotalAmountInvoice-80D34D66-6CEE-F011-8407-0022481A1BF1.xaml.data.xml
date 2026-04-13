@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Workflow
+  WorkflowId="{80d34d66-6cee-f011-8407-0022481a1bf1}"
+  Name="Run_TotalAmountInvoice" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/Run_TotalAmountInvoice-80D34D66-6CEE-F011-8407-0022481A1BF1.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>0</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnUpdateAttributeList>apollo_calculatetotalamount</TriggerOnUpdateAttributeList>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.2</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ModernFlowType>0</ModernFlowType>
+  <PrimaryEntity>apollo_ApolloInvoice</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName
+      languagecode="1033"
+      description="Run_TotalAmountInvoice" />
+  </LocalizedNames>
+</Workflow>

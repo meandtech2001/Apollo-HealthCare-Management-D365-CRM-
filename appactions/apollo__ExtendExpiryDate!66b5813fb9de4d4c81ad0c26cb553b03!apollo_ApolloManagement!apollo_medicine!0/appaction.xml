@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appaction
+  uniquename="apollo__ExtendExpiryDate!66b5813fb9de4d4c81ad0c26cb553b03!apollo_ApolloManagement!apollo_medicine!0">
+  <appmoduleid>
+    <uniquename>apollo_ApolloManagement</uniquename>
+  </appmoduleid>
+  <buttonlabeltext
+    default="Extend Expiry Date">
+    <label
+      description="Extend Expiry Date"
+      languagecode="1033" />
+  </buttonlabeltext>
+  <context>1</context>
+  <contextentity>
+    <logicalname>apollo_medicine</logicalname>
+  </contextentity>
+  <contextvalue>apollo_medicine</contextvalue>
+  <fonticon>$clientsvg:CheckboxComposite</fonticon>
+  <hidden>0</hidden>
+  <iscustomizable>1</iscustomizable>
+  <isdisabled>0</isdisabled>
+  <isgrouptitlehidden>0</isgrouptitlehidden>
+  <location>0</location>
+  <name>ExtendExpiryDate!66b5813fb9de4d4c81ad0c26cb553b03</name>
+  <onclickeventformulacomponentlibraryid>
+    <name>apollo_apollomanagementdefaultcommandlibrary_33e35</name>
+  </onclickeventformulacomponentlibraryid>
+  <onclickeventformulacomponentname>c993426cbb9746c88c52adc7ca5f894a</onclickeventformulacomponentname>
+  <onclickeventformulafunctionname>OnSelect</onclickeventformulafunctionname>
+  <onclickeventtype>1</onclickeventtype>
+  <origin>0</origin>
+  <parentappactionid>
+    <uniquename>apollo__Status!6253fde45ed04e61b8569ccfa7f2c975!apollo_ApolloManagement!apollo_medicine!0</uniquename>
+  </parentappactionid>
+  <sequence>20000.0000000000</sequence>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+  <type>0</type>
+  <visibilitytype>0</visibilitytype>
+</appaction>

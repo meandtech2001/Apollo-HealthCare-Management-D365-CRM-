@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{6f831027-d1bf-482d-a988-5fe1560b7e41}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form
+      headerdensity="HighWithControls">
+      <tabs>
+        <tab
+          verticallayout="true"
+          id="{f82ca247-2fe6-4997-ba90-461bffd4f28f}"
+          IsUserDefined="1">
+          <labels>
+            <label
+              description="General"
+              languagecode="1033" />
+          </labels>
+          <columns>
+            <column
+              width="100%">
+              <sections>
+                <section
+                  showlabel="false"
+                  showbar="false"
+                  IsUserDefined="0"
+                  id="{c5f3ffe2-d7af-4450-9e97-3265d0e055f4}">
+                  <labels>
+                    <label
+                      description="General"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell
+                        id="{2330ddbe-b0c7-438d-af43-75fae7a92d49}">
+                        <labels>
+                          <label
+                            description="Name"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_name"
+                          classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}"
+                          datafieldname="apollo_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{c2a72952-8903-4ae6-9e61-618581a5c687}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Doctor"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_doctor"
+                          classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                          datafieldname="apollo_doctor"
+                          disabled="false">
+                          <parameters>
+                            <DefaultViewId>{EE937294-0AC2-F011-BBD3-000D3A81A9A9}</DefaultViewId>
+                            <AvailableViewIds>{ABA981C9-16A2-4DCC-B694-376AE95FA4B0},{862C3CBF-23FF-4EAB-B9A9-7B438BAC70A9},{EE937294-0AC2-F011-BBD3-000D3A81A9A9},{1F2B1F79-A2C4-F011-BBD3-000D3A81A9A9},{AC21A0C0-A2C4-F011-BBD3-000D3A81A9A9},{43025C0B-A3C4-F011-BBD3-000D3A81A9A9},{51AF2F40-36BB-4198-9B0C-71A986C7C953},{F79AD170-AE03-4F4C-8132-D4AA08520A0C},{00000000-0000-0000-00AA-000010001119},{5953249B-2A59-43BF-A94F-6B8CC1F2D245},{00000000-0000-0000-00AA-000010001019},{DA675923-DA9D-4702-AAD6-3207283A5ACE},{00000000-0000-0000-00AA-000010001020},{8DD58E14-0138-47D4-BA2D-A7DC76094D05},{00000000-0000-0000-00AA-000010001021},{1FE05F14-0074-49E3-B55D-0AF1FD0A2B85},{AF89FDC8-5D83-40B4-988C-A0941579EE9D},{BB3CD580-ECFB-4A85-A623-9A109B73815F},{5FDA842A-004B-42B4-A611-B93C2C69667E},{490B1410-D231-46B0-B5FA-60017B21AB14},{30CE6879-6B7A-E211-8976-00155D89AC0C},{AAD628C6-F0DD-4D34-B0ED-9A78F9C23A20},{E88CA999-0B16-4AE9-B6A9-9EDC840D42D8},{E5D893D1-2B1F-46E5-8EA4-25562567CCCE},{19487F2F-8405-4D59-8F8B-4EDA98D4F302},{31E76B45-BFE7-447E-B4B5-50DC393BCDBE},{FCF02D37-524A-4332-8AC7-497EF6B739F9},{89939D86-F073-42BA-BFC4-DA7999C78825}</AvailableViewIds>
+                            <DisableViewPicker>true</DisableViewPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{5076e30d-c30e-438d-9218-254b4abf55b2}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Doctor Availability"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_doctoravailability"
+                          classid="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}"
+                          datafieldname="apollo_doctoravailability"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{8c5eab42-5909-4445-bdb0-aff5c514bdfa}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Shift"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_shift"
+                          classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                          datafieldname="apollo_shift"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{ee241b1a-bb6e-4e99-b5ac-d023d5463ae1}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Shift Date"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_shiftdate"
+                          classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}"
+                          datafieldname="apollo_shiftdate"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section
+                  name="null_section_3"
+                  id="23abc4a2-db6d-4b81-a8ad-bafb56de62bb"
+                  IsUserDefined="0"
+                  locklevel="0"
+                  showlabel="true"
+                  showbar="false"
+                  layout="varwidth"
+                  celllabelalignment="Left"
+                  celllabelposition="Left"
+                  columns="1"
+                  labelwidth="115"
+                  visible="true">
+                  <labels>
+                    <label
+                      description="Shift Details"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell
+                        locklevel="0"
+                        id="{2bb4e3d0-e960-4e49-84cb-ba63a9e34519}"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="New QV control 1763185762228"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="QuickviewControl1763185762228"
+                          classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}"
+                          datafieldname="apollo_shift">
+                          <parameters>
+                            <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                            <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="apollo_shift"&gt;b787f17f-ae3f-49bb-b203-2b411948bcbb&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header
+        id="{ccc0560f-62b5-4bb4-a9ff-eaeb4bf4930f}"
+        celllabelposition="Top"
+        columns="111"
+        labelwidth="115"
+        celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell
+              id="{ed292e8b-d009-4045-bfc1-77b30fd57c7c}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{3a71a869-0351-4b78-82ab-3a72b7533566}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{002feb97-9ed0-475c-9f90-2030b648dacd}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{dfd3c88c-9395-4624-896b-9884c0ae0fe3}"
+              colspan="1"
+              rowspan="1"
+              visible="false">
+              <labels>
+                <label
+                  description="Owner"
+                  languagecode="1033" />
+              </labels>
+              <control
+                id="header_ownerid"
+                classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                datafieldname="ownerid" />
+            </cell>
+            <cell
+              locklevel="0"
+              id="{c5eb4bb9-cae9-4ce3-9988-783a1dd4e3e1}"
+              colspan="1"
+              rowspan="1">
+              <labels>
+                <label
+                  description="Shift: Shift - Quick View"
+                  languagecode="1033" />
+              </labels>
+              <control
+                id="header_QuickviewControl1763185655578"
+                classid="{5C5600E0-1D6E-4205-A272-BE80DA87FD42}"
+                datafieldname="apollo_shift">
+                <parameters>
+                  <DisplayAsCustomer360Tile>false</DisplayAsCustomer360Tile>
+                  <QuickForms>&lt;QuickFormIds&gt;&lt;QuickFormId entityname="apollo_shift"&gt;b787f17f-ae3f-49bb-b203-2b411948bcbb&lt;/QuickFormId&gt;&lt;/QuickFormIds&gt;</QuickForms>
+                </parameters>
+              </control>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer
+        id="{ffa0cded-53b1-4d27-a26b-a46668ef359b}"
+        celllabelposition="Top"
+        columns="111"
+        labelwidth="115"
+        celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell
+              id="{624e967e-3498-4ff6-ae4a-db5dec77955b}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{2a2c2e45-8f00-40ee-a8a7-66abd489a65a}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{16e6ad23-99c8-4ec5-9a9c-d326c1852614}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions
+        Order="0"
+        FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName
+        description="Doctor Shift Main Form - 1"
+        languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description
+        description="A form for this entity."
+        languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

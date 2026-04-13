@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{bdb0ae1c-32fa-4374-b637-8dafe107bc44}</formid>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form
+      hasmargin="false"
+      shownavigationbar="false">
+      <tabs
+        showlabels="false">
+        <tab
+          name="general"
+          verticallayout="true"
+          id="{6fd9013a-2c88-4593-b364-c9f21e572640}"
+          IsUserDefined="0"
+          ordinalvalue="0">
+          <columns>
+            <column
+              width="100%"
+              id="0">
+              <sections>
+                <section
+                  name="information"
+                  id="{a9d2c4bb-9863-4712-b13c-f27c88331597}"
+                  IsUserDefined="0"
+                  showlabel="false"
+                  showbar="false"
+                  ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell
+                        id="{958bb238-c9ac-42e8-7d34-4895b95e2650}"
+                        showlabel="true"
+                        locklevel="0"
+                        ordinalvalue="10001"
+                        solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell
+                        id="{b3627b14-9e4e-e767-71c3-dc88b9e4946d}"
+                        showlabel="true"
+                        locklevel="0"
+                        ordinalvalue="10002"
+                        solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell
+                        id="{c7d58014-ca91-7338-a507-25cd221ab7ab}"
+                        showlabel="true"
+                        locklevel="0"
+                        ordinalvalue="10003"
+                        solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell
+                        id="{367e4a65-8596-10bc-4ce4-3e58d82ce46d}"
+                        showlabel="true"
+                        locklevel="0"
+                        ordinalvalue="10004"
+                        solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell
+                        id="{0952bfb8-a6cf-4c90-b478-52faafa72151}"
+                        showlabel="true"
+                        locklevel="0"
+                        ordinalvalue="10004"
+                        solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell
+                        id="{a3b32019-83db-4156-9149-fa2aab17d5ff}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10000"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_contactnumber"
+                          classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}"
+                          datafieldname="apollo_contactnumber"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions
+        Order="0"
+        FallbackForm="true"
+        solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName
+        description="Kontakt-Schnellerfassung"
+        languagecode="1031" />
+      <LocalizedName
+        description="Contact Quick Form"
+        languagecode="1033" />
+      <LocalizedName
+        description="Formulaire rapide de contact"
+        languagecode="1036" />
+      <LocalizedName
+        description="संपर्क त्वरित प्रपत्र"
+        languagecode="1081" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description
+        description="Das Formular, das für die Kontakt-Schnellerfassung angezeigt wird."
+        languagecode="1031" />
+      <Description
+        description="This is the form that is displayed for the contact Quick Form."
+        languagecode="1033" />
+      <Description
+        description="Il s'agit du formulaire qui s'affiche pour le formulaire rapide de contact."
+        languagecode="1036" />
+      <Description
+        description="यह वह प्रपत्र है जो संपर्क त्वरित प्रपत्र के लिए प्रदर्शित किया गया है."
+        languagecode="1081" />
+    </Descriptions>
+  </systemform>
+</forms>

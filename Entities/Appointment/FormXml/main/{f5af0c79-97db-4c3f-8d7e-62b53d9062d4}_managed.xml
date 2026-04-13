@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{f5af0c79-97db-4c3f-8d7e-62b53d9062d4}</formid>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form
+      headerdensity="HighWithControls"
+      solutionaction="Modified">
+      <tabs>
+        <tab
+          name="appointment"
+          verticallayout="true"
+          id="{6C7EDBF5-39CD-437c-A2D5-BA02355D285A}"
+          IsUserDefined="0"
+          ordinalvalue="0">
+          <columns>
+            <column
+              width="100%"
+              id="0">
+              <sections>
+                <section
+                  name="general information"
+                  showlabel="false"
+                  showbar="false"
+                  locklevel="0"
+                  id="{844DE7EE-AD12-4301-B10F-9CC5D1EA1F0F}"
+                  IsUserDefined="0"
+                  layout="varwidth"
+                  columns="11"
+                  ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell
+                        auto="false"
+                        showlabel="true"
+                        locklevel="0"
+                        rowspan="1"
+                        colspan="2"
+                        id="{02db07aa-8245-4c98-b6e0-9ca3b524eb5f}"
+                        visible="false"
+                        ordinalvalue="10000"
+                        solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell
+                        colspan="2"
+                        id="{d1d86802-ae88-4c0c-a87e-ce3860c395d5}"
+                        visible="false"
+                        ordinalvalue="10001"
+                        solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell
+                        auto="false"
+                        showlabel="true"
+                        locklevel="1"
+                        rowspan="1"
+                        colspan="2"
+                        id="{aa6a666b-b488-4bff-b6ba-3da354389d42}"
+                        visible="false"
+                        ordinalvalue="10012"
+                        solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell
+                        id="{2bb41e51-4d85-4a60-8163-4c97ac1e9778}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10002"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_appointmentdate"
+                          classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}"
+                          datafieldname="apollo_appointmentdate"
+                          disabled="false" />
+                      </cell>
+                      <cell
+                        locklevel="0"
+                        id="{7772f127-dc45-47e2-90dd-081b8a6ece4c}"
+                        ordinalvalue="20003"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{c047fdaa-b22e-4eba-a7d0-fae30be44e98}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10004"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_doctor"
+                          classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                          datafieldname="apollo_doctor"
+                          disabled="false" />
+                      </cell>
+                      <cell
+                        locklevel="0"
+                        id="{9c34c7b8-65d2-4b06-a042-f4a740baffc9}"
+                        ordinalvalue="20005"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{5506c01e-4ff8-4ff4-b22f-a41352f96916}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10006"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_patient"
+                          classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                          datafieldname="apollo_patient"
+                          disabled="false" />
+                      </cell>
+                      <cell
+                        locklevel="0"
+                        id="{340ed6f2-bd0d-42b8-a43a-d88305ec791b}"
+                        ordinalvalue="20007"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{dc2c67b3-2487-4bd5-bc2a-441af4c4d0e2}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10008"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_symptoms"
+                          classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}"
+                          datafieldname="apollo_symptoms"
+                          disabled="false" />
+                      </cell>
+                      <cell
+                        locklevel="0"
+                        id="{5e2f5596-79a6-4ff1-b270-331bb5d343bc}"
+                        ordinalvalue="20009"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{61067ca4-d26a-4898-9239-213c8887ce99}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10010"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_validtilldate"
+                          classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}"
+                          datafieldname="apollo_validtilldate"
+                          disabled="false" />
+                      </cell>
+                      <cell
+                        locklevel="0"
+                        id="{945d2f66-3fe0-46e3-8122-45513ab613a5}"
+                        ordinalvalue="20011"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section
+                  name="scheduling information"
+                  showlabel="true"
+                  showbar="true"
+                  locklevel="1"
+                  id="{4F40F21E-AB16-446f-9EFD-BD3F3FAAB634}"
+                  IsUserDefined="0"
+                  layout="varwidth"
+                  columns="11"
+                  ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell
+                        auto="false"
+                        showlabel="true"
+                        locklevel="1"
+                        rowspan="1"
+                        colspan="2"
+                        id="{44049430-b656-4f77-a9e0-d7faf6eed732}"
+                        visible="false"
+                        ordinalvalue="10000"
+                        solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell
+                        auto="false"
+                        showlabel="true"
+                        locklevel="0"
+                        rowspan="1"
+                        colspan="2"
+                        id="{267cbd23-f2ac-441c-b313-2e8763dec053}"
+                        ordinalvalue="10001"
+                        solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell
+                        auto="false"
+                        showlabel="true"
+                        locklevel="0"
+                        rowspan="1"
+                        colspan="1"
+                        id="{b56cec0d-f4bd-4c32-b109-a8493827ec29}"
+                        ordinalvalue="10001"
+                        solutionaction="Modified" />
+                      <cell
+                        auto="false"
+                        showlabel="true"
+                        locklevel="0"
+                        rowspan="1"
+                        colspan="1"
+                        id="{2aded54d-2ada-4f81-8b6c-bf882895a53c}"
+                        visible="false"
+                        ordinalvalue="20002"
+                        solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell
+                        auto="false"
+                        showlabel="true"
+                        locklevel="0"
+                        rowspan="1"
+                        colspan="1"
+                        id="{6bc51b1c-566c-44ee-b036-b051e3159842}"
+                        ordinalvalue="10003"
+                        solutionaction="Modified" />
+                      <cell
+                        auto="false"
+                        showlabel="true"
+                        locklevel="0"
+                        rowspan="1"
+                        colspan="1"
+                        id="{cd8ba373-9a85-467c-9e74-04795af7755c}"
+                        visible="false"
+                        ordinalvalue="20004"
+                        solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell
+                        auto="false"
+                        showlabel="true"
+                        locklevel="1"
+                        rowspan="1"
+                        colspan="1"
+                        id="{138e47a8-3b2f-4065-a209-57fc6ff5ea47}"
+                        ordinalvalue="10005"
+                        solutionaction="Modified" />
+                      <cell
+                        auto="false"
+                        showlabel="true"
+                        locklevel="1"
+                        rowspan="1"
+                        colspan="1"
+                        id="{998edd7b-4f37-4f9d-8998-c7914ed35fa8}"
+                        visible="false"
+                        ordinalvalue="20006"
+                        solutionaction="Modified" />
+                    </row>
+                  </rows>
+                </section>
+                <section
+                  name="appointment description"
+                  showlabel="false"
+                  showbar="false"
+                  locklevel="0"
+                  id="{86EB037C-1F69-44b4-920E-7DE3B1641F8C}"
+                  IsUserDefined="0"
+                  layout="varwidth"
+                  columns="11"
+                  height="auto"
+                  ordinalvalue="2">
+                  <rows>
+                    <row>
+                      <cell
+                        auto="true"
+                        showlabel="false"
+                        locklevel="0"
+                        rowspan="7"
+                        colspan="2"
+                        id="{6fac42af-766a-487d-8a4f-782a926723f0}"
+                        ordinalvalue="10000"
+                        solutionaction="Removed" />
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab
+          name="notes"
+          id="{32f14e18-9a3a-4544-8543-8ec73039739b}"
+          IsUserDefined="0"
+          locklevel="0"
+          expanded="false"
+          ordinalvalue="2"
+          solutionaction="Removed" />
+        <tab
+          id="{A0A52124-8019-4a51-9DAE-D85CD6227FFF}"
+          IsUserDefined="0"
+          locklevel="0"
+          name="{A0A52124-8019-4a51-9DAE-D85CD6227FFF}"
+          ordinalvalue="2"
+          solutionaction="Modified">
+          <columns>
+            <column
+              width="100%"
+              id="0">
+              <sections>
+                <section
+                  showlabel="false"
+                  showbar="false"
+                  locklevel="0"
+                  id="{6DAA79FB-7C18-428f-9219-7A146BAC5AE8}"
+                  IsUserDefined="0"
+                  layout="varwidth"
+                  columns="11"
+                  name="{6DAA79FB-7C18-428f-9219-7A146BAC5AE8}"
+                  ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell
+                        id="{9251d189-7e26-480f-b2e0-b1c1cd11bea4}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10004"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="actualdurationminutes"
+                          classid="{AA987274-CE4E-4271-A803-66164311A958}"
+                          datafieldname="actualdurationminutes"
+                          disabled="false" />
+                      </cell>
+                      <cell
+                        id="{ba2032b9-1a2a-4d61-836c-6b56bc2e4206}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="20005"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="activityadditionalparams"
+                          classid="{E0DECE4B-6FC8-4A8F-A065-082708572369}"
+                          datafieldname="activityadditionalparams"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{456f58ef-7209-488d-b8e8-aafe46987db0}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10006"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="actualstart"
+                          classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}"
+                          datafieldname="actualstart"
+                          disabled="false" />
+                      </cell>
+                      <cell
+                        id="{065f1c32-ce8f-4fee-ae58-a301e8fcc585}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="20007"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="actualend"
+                          classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}"
+                          datafieldname="actualend"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{a4b294da-d88f-4975-8fbc-7520f5d33682}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10008"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="createdby"
+                          classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                          datafieldname="createdby"
+                          disabled="false" />
+                      </cell>
+                      <cell
+                        id="{7e4e39fa-4a28-4af3-8459-c5759e381890}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="20009"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="createdon"
+                          classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}"
+                          datafieldname="createdon"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{3dff4b61-8c4a-4570-a237-0af0e8e9dba9}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10010"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="modifiedby"
+                          classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                          datafieldname="modifiedby"
+                          disabled="false" />
+                      </cell>
+                      <cell
+                        id="{32188ff0-b065-44f6-9919-5337141439e3}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="20011"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="modifiedon"
+                          classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}"
+                          datafieldname="modifiedon"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{db518f74-51a6-43ed-8f0e-e55688b16928}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10012"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="owningbusinessunit"
+                          classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                          datafieldname="owningbusinessunit"
+                          disabled="false" />
+                      </cell>
+                      <cell
+                        locklevel="0"
+                        id="{fbb4ed42-dcb0-41e2-961e-c7a74cf72c51}"
+                        ordinalvalue="20013"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions
+        FallbackForm="false"
+        Order="2"
+        solutionaction="Modified">
+        <Everyone
+          solutionaction="Removed" />
+        <Role
+          Id="{76B3B7CE-CEC0-F011-BBD3-000D3A81A9A9}"
+          solutionaction="Added" />
+        <Role
+          Id="{124C34DA-CEC0-F011-BBD3-000D3A81A9A9}"
+          solutionaction="Added" />
+      </DisplayConditions>
+      <header
+        id="{94f954b6-f4ce-45ef-a5cc-e8aced2720e1}"
+        celllabelposition="Top"
+        columns="111"
+        labelwidth="115"
+        celllabelalignment="Left"
+        solutionaction="Added">
+        <rows>
+          <row>
+            <cell
+              id="{7ef5bbf0-19fe-4fef-88aa-972c447e490b}"
+              showlabel="false"
+              ordinalvalue="10000">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{9ce5109b-aaa2-455e-8a93-509e94757ff7}"
+              showlabel="false"
+              ordinalvalue="20001">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{e4afcbfc-e1c0-4b6b-b00a-c9b1fa74261f}"
+              showlabel="false"
+              ordinalvalue="30002">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{6e88b023-881f-4d7e-a4ac-3536926d6f16}"
+              locklevel="1"
+              colspan="1"
+              rowspan="1"
+              ordinalvalue="40003">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+              <control
+                id="header_apollo_appointmentnumber"
+                classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}"
+                datafieldname="apollo_appointmentnumber"
+                disabled="true" />
+            </cell>
+            <cell
+              id="{f4a1c050-1ba7-41c9-848c-1ef1c13894b1}"
+              locklevel="0"
+              colspan="1"
+              rowspan="1"
+              ordinalvalue="50004">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+              <control
+                id="header_statecode"
+                classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}"
+                datafieldname="statecode"
+                disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer
+        id="{b80de19c-cb0b-4cc3-a658-f0dc8848868e}"
+        celllabelposition="Top"
+        columns="111"
+        labelwidth="115"
+        celllabelalignment="Left"
+        solutionaction="Added">
+        <rows>
+          <row>
+            <cell
+              id="{6bea4939-b3f3-4185-9383-1112d288a24f}"
+              showlabel="false"
+              ordinalvalue="10000">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{f0a1926f-4b9d-427b-85b6-7274b08b9826}"
+              showlabel="false"
+              ordinalvalue="20001">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{be2bde65-0471-4098-9916-5f2e4084babf}"
+              showlabel="false"
+              ordinalvalue="30002">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+    </form>
+    <LocalizedNames>
+      <LocalizedName
+        description="Informationen"
+        languagecode="1031" />
+      <LocalizedName
+        description="Appointment Main Form - 2"
+        languagecode="1033" />
+      <LocalizedName
+        description="Informations"
+        languagecode="1036" />
+      <LocalizedName
+        description="सूचना"
+        languagecode="1081" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description
+        description="Ein Formular für diese Entität."
+        languagecode="1031" />
+      <Description
+        description="A form for this entity."
+        languagecode="1033" />
+      <Description
+        description="Formulaire pour cette entité."
+        languagecode="1036" />
+      <Description
+        description="इस निकाय के लिए एक प्रपत्र."
+        languagecode="1081" />
+    </Descriptions>
+  </systemform>
+</forms>

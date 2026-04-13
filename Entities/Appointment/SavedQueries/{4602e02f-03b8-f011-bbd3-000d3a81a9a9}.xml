@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{4602e02f-03b8-f011-bbd3-000d3a81a9a9}</savedqueryid>
+    <layoutxml>
+      <grid
+        name="resultset"
+        jump="subject"
+        select="1"
+        icon="1"
+        preview="1">
+        <row
+          name="result"
+          id="activityid">
+          <cell
+            name="apollo_appointmentnumber"
+            width="133" />
+          <cell
+            name="apollo_appointmentdate"
+            width="144" />
+          <cell
+            name="apollo_symptoms"
+            width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch
+        version="1.0"
+        output-format="xml-platform"
+        mapping="logical">
+        <entity
+          name="appointment">
+          <attribute
+            name="activityid" />
+          <attribute
+            name="apollo_appointmentnumber" />
+          <attribute
+            name="apollo_appointmentdate" />
+          <attribute
+            name="apollo_symptoms" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.1</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName
+        description="Appointment Lookup View"
+        languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

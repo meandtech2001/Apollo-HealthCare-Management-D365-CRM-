@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Workflow
+  WorkflowId="{3555f1c0-87e9-f011-8406-0022481a1bf1}"
+  Name="medicaltestBPF" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/medicaltestBPF-3555F1C0-87E9-F011-8406-0022481A1BF1.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>100</processorder>
+  <RunAs>1</RunAs>
+  <UniqueName>apollo_medicaltestbpf</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.2</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
+  <ModernFlowType>0</ModernFlowType>
+  <PrimaryEntity>apollo_MedicalTest</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName
+      languagecode="1033"
+      description="medicaltestBPF" />
+  </LocalizedNames>
+  <labels>
+    <steplabels
+      id="{bb38e534-111b-4791-baf3-69c17bcdbc3b}">
+      <label
+        languagecode="1033"
+        description="Assigned To Lab" />
+    </steplabels>
+    <steplabels
+      id="{2afa2d82-b802-4e36-9f98-e137fac20ef8}">
+      <label
+        languagecode="1033"
+        description="Status Reason" />
+    </steplabels>
+    <steplabels
+      id="{2b572b02-f9c2-454a-9419-27064c89715e}">
+      <label
+        languagecode="1033"
+        description="Sample Collected" />
+    </steplabels>
+    <steplabels
+      id="{c54b0929-2916-4ffa-a487-a86037de7bfc}">
+      <label
+        languagecode="1033"
+        description="Status Reason" />
+    </steplabels>
+    <steplabels
+      id="{de18d0e5-6f7d-4b6f-a4f8-37dc3bff1aa6}">
+      <label
+        languagecode="1033"
+        description="Reports Generated" />
+    </steplabels>
+    <steplabels
+      id="{4bb202a4-8b8f-4535-b6f7-f9832f65f27e}">
+      <label
+        languagecode="1033"
+        description="Status Reason" />
+    </steplabels>
+    <steplabels
+      id="{cfc31886-ce54-4bd6-8320-c94902bc0d72}">
+      <label
+        languagecode="1033"
+        description="Reports Verified" />
+    </steplabels>
+  </labels>
+</Workflow>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{4a22ca83-b4e7-43d9-b882-ebd4017a271a}</savedqueryid>
+    <layoutxml>
+      <grid
+        name="resultset"
+        jump="apollo_medicinename"
+        select="1"
+        icon="1"
+        preview="1">
+        <row
+          name="result"
+          id="apollo_medicineid">
+          <cell
+            name="apollo_medicinename"
+            width="300" />
+          <cell
+            name="createdon"
+            width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch
+        version="1.0"
+        mapping="logical">
+        <entity
+          name="apollo_medicine">
+          <attribute
+            name="apollo_medicineid" />
+          <attribute
+            name="apollo_medicinename" />
+          <attribute
+            name="createdon" />
+          <order
+            attribute="apollo_medicinename"
+            descending="false" />
+          <filter
+            type="and">
+            <condition
+              attribute="statecode"
+              operator="eq"
+              value="1" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName
+        description="Inactive Medicines"
+        languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,1553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name
+    LocalizedName="medicaltestBPF"
+    OriginalName="medicaltestBPF">apollo_medicaltestbpf</Name>
+  <EntityInfo>
+    <entity
+      Name="apollo_medicaltestbpf">
+      <LocalizedNames>
+        <LocalizedName
+          description="medicaltestBPF"
+          languagecode="1033" />
+      </LocalizedNames>
+      <LocalizedCollectionNames>
+        <LocalizedCollectionName
+          description="medicaltestBPF"
+          languagecode="1033" />
+      </LocalizedCollectionNames>
+      <Descriptions>
+        <Description
+          description="Base entity for process medicaltestBPF"
+          languagecode="1033" />
+      </Descriptions>
+      <attributes>
+        <attribute
+          PhysicalName="ActiveStageId">
+          <Type>lookup</Type>
+          <Name>activestageid</Name>
+          <LogicalName>activestageid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname
+              description="Active Stage"
+              languagecode="1033" />
+            <displayname
+              description="Phase active"
+              languagecode="1036" />
+            <displayname
+              description="Aktive Phase"
+              languagecode="1031" />
+            <displayname
+              description="सक्रिय अवस्था"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Unique identifier of the active stage for the Business Process Flow instance."
+              languagecode="1033" />
+            <Description
+              description="Identificateur unique de la phase active pour l'instance du flux des processus d'entreprise."
+              languagecode="1036" />
+            <Description
+              description="Eindeutiger Bezeichner der aktiven Phase für die Geschäftsprozessflow-Instanz."
+              languagecode="1031" />
+            <Description
+              description="व्यवसाय प्रोसेस फ़्लो आवृत्ति के लिए सक्रिय अवस्था का युनीक आइडेंटिफ़ायर."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="ActiveStageStartedOn">
+          <Type>datetime</Type>
+          <Name>activestagestartedon</Name>
+          <LogicalName>activestagestartedon</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>inactive</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>date</Format>
+          <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
+          <Behavior>1</Behavior>
+          <displaynames>
+            <displayname
+              description="Active Stage Started On"
+              languagecode="1033" />
+            <displayname
+              description="Date de démarrage de la phase active"
+              languagecode="1036" />
+            <displayname
+              description="Aktive Phase gestartet am"
+              languagecode="1031" />
+            <displayname
+              description="सक्रिय अवस्था प्रारंभ दिनांक"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Date and time when current active stage is started"
+              languagecode="1033" />
+            <Description
+              description="Date et heure de démarrage de la phase active actuelle"
+              languagecode="1036" />
+            <Description
+              description="Zeitpunkt (Datum und Uhrzeit), zu dem die aktuelle aktive Phase gestartet wird"
+              languagecode="1031" />
+            <Description
+              description="वर्तमान सक्रिय अवस्था आरंभ होने का दिनांक और समय"
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="bpf_apollo_medicaltestid">
+          <Type>lookup</Type>
+          <Name>bpf_apollo_medicaltestid</Name>
+          <LogicalName>bpf_apollo_medicaltestid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname
+              description="Apollo_Medicaltest"
+              languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description=""
+              languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="bpf_Duration">
+          <Type>int</Type>
+          <Name>bpf_duration</Name>
+          <LogicalName>bpf_duration</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>1</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>duration</Format>
+          <MinValue>0</MinValue>
+          <MaxValue>2147483647</MaxValue>
+          <displaynames>
+            <displayname
+              description="Duration"
+              languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Duration of Business Process Flow"
+              languagecode="1033" />
+          </Descriptions>
+          <FormulaDefinitionFileName>/Formulas/apollo_medicaltestbpf-bpf_duration.xaml</FormulaDefinitionFileName>
+        </attribute>
+        <attribute
+          PhysicalName="bpf_name">
+          <Type>nvarchar</Type>
+          <Name>bpf_name</Name>
+          <LogicalName>bpf_name</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>PrimaryName|ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>1</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname
+              description="Name"
+              languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Description"
+              languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="BusinessProcessFlowInstanceId">
+          <Type>primarykey</Type>
+          <Name>businessprocessflowinstanceid</Name>
+          <LogicalName>businessprocessflowinstanceid</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|RequiredForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>0</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>1</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <displaynames>
+            <displayname
+              description="medicaltestBPF"
+              languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Unique identifier for entity instances"
+              languagecode="1033" />
+            <Description
+              description="Identificateur unique des instances d'entité"
+              languagecode="1036" />
+            <Description
+              description="Eindeutiger Bezeichner der Entitätsinstanzen"
+              languagecode="1031" />
+            <Description
+              description="निकाय आवृत्तियों के लिए युनीक आइडेंटिफ़ायर"
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="CompletedOn">
+          <Type>datetime</Type>
+          <Name>completedon</Name>
+          <LogicalName>completedon</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>inactive</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>date</Format>
+          <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
+          <Behavior>1</Behavior>
+          <displaynames>
+            <displayname
+              description="Completed On"
+              languagecode="1033" />
+            <displayname
+              description="Terminé(e) le"
+              languagecode="1036" />
+            <displayname
+              description="Abgeschlossen am"
+              languagecode="1031" />
+            <displayname
+              description="पूर्ण करने का दिनांक"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Date and time when Business Process Flow instance is completed."
+              languagecode="1033" />
+            <Description
+              description="Date et heure de fin de l'instance du flux des processus d'entreprise."
+              languagecode="1036" />
+            <Description
+              description="Zeitpunkt (Datum und Uhrzeit), zu dem die Geschäftsprozessflow-Instanz abgeschlossen ist."
+              languagecode="1031" />
+            <Description
+              description="व्यवसाय प्रोसेस फ़्लो आवृत्ति के पूर्ण होने का दिनांक और समय."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="CreatedBy">
+          <Type>lookup</Type>
+          <Name>createdby</Name>
+          <LogicalName>createdby</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname
+              description="Created By"
+              languagecode="1033" />
+            <displayname
+              description="Créé par"
+              languagecode="1036" />
+            <displayname
+              description="Erstellt von"
+              languagecode="1031" />
+            <displayname
+              description="निर्माता"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Unique identifier of the user who created the record."
+              languagecode="1033" />
+            <Description
+              description="Identificateur unique de l'utilisateur ayant créé l'enregistrement."
+              languagecode="1036" />
+            <Description
+              description="Eindeutiger Bezeichner des Benutzers, der den Datensatz erstellt hat."
+              languagecode="1031" />
+            <Description
+              description="उस उपयोगकर्ता का युनीक आइडेंटिफ़ायर, जिसने रिकॉर्ड बनाया."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="CreatedOn">
+          <Type>datetime</Type>
+          <Name>createdon</Name>
+          <LogicalName>createdon</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>inactive</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>1</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>datetime</Format>
+          <CanChangeDateTimeBehavior>0</CanChangeDateTimeBehavior>
+          <Behavior>1</Behavior>
+          <displaynames>
+            <displayname
+              description="Created On"
+              languagecode="1033" />
+            <displayname
+              description="Créé le"
+              languagecode="1036" />
+            <displayname
+              description="Erstellt am"
+              languagecode="1031" />
+            <displayname
+              description="बनाने का दिनांक"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Date and time when the record was created."
+              languagecode="1033" />
+            <Description
+              description="Date et heure de création de l'enregistrement."
+              languagecode="1036" />
+            <Description
+              description="Datum und Uhrzeit der Datensatzerstellung."
+              languagecode="1031" />
+            <Description
+              description="रिकॉर्ड बनाने का दिनांक और समय."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="CreatedOnBehalfBy">
+          <Type>lookup</Type>
+          <Name>createdonbehalfby</Name>
+          <LogicalName>createdonbehalfby</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname
+              description="Created By (Delegate)"
+              languagecode="1033" />
+            <displayname
+              description="Créé par (délégué)"
+              languagecode="1036" />
+            <displayname
+              description="Erstellt von (Stellvertreter)"
+              languagecode="1031" />
+            <displayname
+              description="निर्माता (प्रतिनिधि)"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Unique identifier of the delegate user who created the record."
+              languagecode="1033" />
+            <Description
+              description="Identificateur unique de l'utilisateur délégué ayant créé l'enregistrement."
+              languagecode="1036" />
+            <Description
+              description="Eindeutiger Bezeichner des stellvertretenden Benutzers, der den Datensatz erstellt hat."
+              languagecode="1031" />
+            <Description
+              description="उस प्रतिनिधि उपयोगकर्ता का युनीक आइडेंटिफ़ायर, जिसने रिकॉर्ड बनाया."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="ImportSequenceNumber">
+          <Type>int</Type>
+          <Name>importsequencenumber</Name>
+          <LogicalName>importsequencenumber</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind</DisplayMask>
+          <ImeMode>disabled</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format></Format>
+          <MinValue>-2147483648</MinValue>
+          <MaxValue>2147483647</MaxValue>
+          <displaynames>
+            <displayname
+              description="Import Sequence Number"
+              languagecode="1033" />
+            <displayname
+              description="Numéro séquentiel d’importation"
+              languagecode="1036" />
+            <displayname
+              description="Importsequenznummer"
+              languagecode="1031" />
+            <displayname
+              description="आयात अनुक्रम संख्या"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Sequence number of the import that created this record."
+              languagecode="1033" />
+            <Description
+              description="Numéro séquentiel de l'importation ayant créé cet enregistrement."
+              languagecode="1036" />
+            <Description
+              description="Sequenznummer des Imports, mit dem dieser Datensatz erstellt wurde."
+              languagecode="1031" />
+            <Description
+              description="यह रिकॉर्ड बनाने वाले आयात की अनुक्रम संख्या."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="ModifiedBy">
+          <Type>lookup</Type>
+          <Name>modifiedby</Name>
+          <LogicalName>modifiedby</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname
+              description="Modified By"
+              languagecode="1033" />
+            <displayname
+              description="Modifié par"
+              languagecode="1036" />
+            <displayname
+              description="Geändert von"
+              languagecode="1031" />
+            <displayname
+              description="संशोधनकर्ता"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Unique identifier of the user who modified the record."
+              languagecode="1033" />
+            <Description
+              description="Identificateur unique de l'utilisateur ayant modifié l'enregistrement."
+              languagecode="1036" />
+            <Description
+              description="Eindeutiger Bezeichner des Benutzers, der den Datensatz geändert hat."
+              languagecode="1031" />
+            <Description
+              description="उस उपयोगकर्ता का युनीक आइडेंटिफ़ायर जिसने रिकॉर्ड का संशोधन किया."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="ModifiedOn">
+          <Type>datetime</Type>
+          <Name>modifiedon</Name>
+          <LogicalName>modifiedon</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>inactive</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>1</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>datetime</Format>
+          <CanChangeDateTimeBehavior>0</CanChangeDateTimeBehavior>
+          <Behavior>1</Behavior>
+          <displaynames>
+            <displayname
+              description="Modified On"
+              languagecode="1033" />
+            <displayname
+              description="Modifié le"
+              languagecode="1036" />
+            <displayname
+              description="Geändert am"
+              languagecode="1031" />
+            <displayname
+              description="इसको संशोधित"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Date and time when the record was modified."
+              languagecode="1033" />
+            <Description
+              description="Date et heure de modification de l'enregistrement."
+              languagecode="1036" />
+            <Description
+              description="Datum und Uhrzeit der Datensatzänderung."
+              languagecode="1031" />
+            <Description
+              description="वह दिनांक और समय जब रिकॉर्ड को संशोधित किया गया था."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="ModifiedOnBehalfBy">
+          <Type>lookup</Type>
+          <Name>modifiedonbehalfby</Name>
+          <LogicalName>modifiedonbehalfby</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname
+              description="Modified By (Delegate)"
+              languagecode="1033" />
+            <displayname
+              description="Modifié par (délégué)"
+              languagecode="1036" />
+            <displayname
+              description="Geändert von (Stellvertreter)"
+              languagecode="1031" />
+            <displayname
+              description="इसके द्वारा संशोधित (प्रतिनिधि)"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Unique identifier of the delegate user who modified the record."
+              languagecode="1033" />
+            <Description
+              description="Identificateur unique de l'utilisateur délégué ayant modifié l'enregistrement."
+              languagecode="1036" />
+            <Description
+              description="Eindeutiger Bezeichner des stellvertretenden Benutzers, der den Datensatz geändert hat."
+              languagecode="1031" />
+            <Description
+              description="उस प्रतिनिधि का युनीक आइडेंटिफ़ायर जिसने रिकॉर्ड को संशोधित किया."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="OrganizationId">
+          <Type>lookup</Type>
+          <Name>organizationid</Name>
+          <LogicalName>organizationid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupTypes />
+          <displaynames>
+            <displayname
+              description="Organization Id"
+              languagecode="1033" />
+            <displayname
+              description="ID d’organisation"
+              languagecode="1036" />
+            <displayname
+              description="Organisations-ID"
+              languagecode="1031" />
+            <displayname
+              description="संगठन Id"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Unique identifier for the organization"
+              languagecode="1033" />
+            <Description
+              description="Identificateur unique de l'organisation"
+              languagecode="1036" />
+            <Description
+              description="Eindeutiger Bezeichner der Organisation"
+              languagecode="1031" />
+            <Description
+              description="संगठन के लिए युनीक आइडेंटिफ़ायर"
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="OverriddenCreatedOn">
+          <Type>datetime</Type>
+          <Name>overriddencreatedon</Name>
+          <LogicalName>overriddencreatedon</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForGrid</DisplayMask>
+          <ImeMode>inactive</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>date</Format>
+          <CanChangeDateTimeBehavior>0</CanChangeDateTimeBehavior>
+          <Behavior>1</Behavior>
+          <displaynames>
+            <displayname
+              description="Record Created On"
+              languagecode="1033" />
+            <displayname
+              description="Enregistrement créé le"
+              languagecode="1036" />
+            <displayname
+              description="Datensatz erstellt am"
+              languagecode="1031" />
+            <displayname
+              description="रिकॉर्ड बनाने का दिनांक"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Date and time that the record was migrated."
+              languagecode="1033" />
+            <Description
+              description="Date et heure de migration de l'enregistrement."
+              languagecode="1036" />
+            <Description
+              description="Datum und Uhrzeit der Datensatzmigration."
+              languagecode="1031" />
+            <Description
+              description="वह दिनांक और समय जब रिकॉर्ड को माइग्रेट किया गया था."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="ProcessId">
+          <Type>lookup</Type>
+          <Name>processid</Name>
+          <LogicalName>processid</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname
+              description="Process"
+              languagecode="1033" />
+            <displayname
+              description="Traiter"
+              languagecode="1036" />
+            <displayname
+              description="Verarbeiten"
+              languagecode="1031" />
+            <displayname
+              description="प्रक्रिया"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Unique identifier of the workflow associated to the Business Process Flow instance."
+              languagecode="1033" />
+            <Description
+              description="Identificateur unique du workflow associé à l'instance du flux des processus d'entreprise."
+              languagecode="1036" />
+            <Description
+              description="Eindeutiger Bezeichner des Workflows, der der Geschäftsprozessflow-Instanz zugeordnet ist."
+              languagecode="1031" />
+            <Description
+              description="व्यवसाय प्रोसेस फ़्लो आवृत्ति से संबद्ध कार्यप्रवाह का युनीक आइडेंटिफ़ायर."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="statecode">
+          <Type>state</Type>
+          <Name>statecode</Name>
+          <LogicalName>statecode</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>1</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <optionset
+            Name="apollo_medicaltestbpf_statecode">
+            <OptionSetType>state</OptionSetType>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname
+                description="Status"
+                languagecode="1033" />
+              <displayname
+                description="Statut"
+                languagecode="1036" />
+              <displayname
+                description="स्थिति"
+                languagecode="1081" />
+            </displaynames>
+            <Descriptions>
+              <Description
+                description="Status of the medicaltestBPF"
+                languagecode="1033" />
+              <Description
+                description="Statut de l'élément medicaltestBPF"
+                languagecode="1036" />
+              <Description
+                description="Status von medicaltestBPF"
+                languagecode="1031" />
+              <Description
+                description="medicaltestBPF की स्थिति"
+                languagecode="1081" />
+            </Descriptions>
+            <states>
+              <state
+                value="0"
+                defaultstatus="1"
+                invariantname="Active">
+                <labels>
+                  <label
+                    description="Active"
+                    languagecode="1033" />
+                  <label
+                    description="Actif"
+                    languagecode="1036" />
+                  <label
+                    description="Aktiv"
+                    languagecode="1031" />
+                  <label
+                    description="सक्रिय"
+                    languagecode="1081" />
+                </labels>
+              </state>
+              <state
+                value="1"
+                defaultstatus="2"
+                invariantname="Inactive">
+                <labels>
+                  <label
+                    description="Inactive"
+                    languagecode="1033" />
+                  <label
+                    description="Inactif"
+                    languagecode="1036" />
+                  <label
+                    description="Inaktiv"
+                    languagecode="1031" />
+                  <label
+                    description="निष्क्रिय"
+                    languagecode="1081" />
+                </labels>
+              </state>
+            </states>
+          </optionset>
+          <displaynames>
+            <displayname
+              description="Status"
+              languagecode="1033" />
+            <displayname
+              description="Statut"
+              languagecode="1036" />
+            <displayname
+              description="स्थिति"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Status of the medicaltestBPF"
+              languagecode="1033" />
+            <Description
+              description="Statut de l'élément medicaltestBPF"
+              languagecode="1036" />
+            <Description
+              description="Status von medicaltestBPF"
+              languagecode="1031" />
+            <Description
+              description="medicaltestBPF की स्थिति"
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="statuscode">
+          <Type>status</Type>
+          <Name>statuscode</Name>
+          <LogicalName>statuscode</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <optionset
+            Name="apollo_medicaltestbpf_statuscode">
+            <OptionSetType>status</OptionSetType>
+            <IntroducedVersion>1.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <displaynames>
+              <displayname
+                description="Status Reason"
+                languagecode="1033" />
+              <displayname
+                description="Raison du statut"
+                languagecode="1036" />
+              <displayname
+                description="Statusgrund"
+                languagecode="1031" />
+              <displayname
+                description="स्थिति विवरण"
+                languagecode="1081" />
+            </displaynames>
+            <Descriptions>
+              <Description
+                description="Reason for the status of the medicaltestBPF"
+                languagecode="1033" />
+              <Description
+                description="Raison du statut de l'élément medicaltestBPF"
+                languagecode="1036" />
+              <Description
+                description="Grund für den Status von medicaltestBPF"
+                languagecode="1031" />
+              <Description
+                description="medicaltestBPF की स्थिति का कारण"
+                languagecode="1081" />
+            </Descriptions>
+            <statuses>
+              <status
+                value="1"
+                state="0">
+                <labels>
+                  <label
+                    description="Active"
+                    languagecode="1033" />
+                  <label
+                    description="Actif"
+                    languagecode="1036" />
+                  <label
+                    description="Aktiv"
+                    languagecode="1031" />
+                  <label
+                    description="सक्रिय"
+                    languagecode="1081" />
+                </labels>
+              </status>
+              <status
+                value="2"
+                state="1">
+                <labels>
+                  <label
+                    description="Finished"
+                    languagecode="1033" />
+                  <label
+                    description="Terminé(e)"
+                    languagecode="1036" />
+                  <label
+                    description="Fertig"
+                    languagecode="1031" />
+                  <label
+                    description="समाप्त हुआ"
+                    languagecode="1081" />
+                </labels>
+              </status>
+              <status
+                value="3"
+                state="1">
+                <labels>
+                  <label
+                    description="Aborted"
+                    languagecode="1033" />
+                  <label
+                    description="Abandonné(e)"
+                    languagecode="1036" />
+                  <label
+                    description="Abgebrochen"
+                    languagecode="1031" />
+                  <label
+                    description="रोका गया"
+                    languagecode="1081" />
+                </labels>
+              </status>
+            </statuses>
+          </optionset>
+          <displaynames>
+            <displayname
+              description="Status Reason"
+              languagecode="1033" />
+            <displayname
+              description="Raison du statut"
+              languagecode="1036" />
+            <displayname
+              description="Statusgrund"
+              languagecode="1031" />
+            <displayname
+              description="स्थिति विवरण"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Reason for the status of the medicaltestBPF"
+              languagecode="1033" />
+            <Description
+              description="Raison du statut de l'élément medicaltestBPF"
+              languagecode="1036" />
+            <Description
+              description="Grund für den Status von medicaltestBPF"
+              languagecode="1031" />
+            <Description
+              description="medicaltestBPF की स्थिति का कारण"
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="TimeZoneRuleVersionNumber">
+          <Type>int</Type>
+          <Name>timezoneruleversionnumber</Name>
+          <LogicalName>timezoneruleversionnumber</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format></Format>
+          <MinValue>-1</MinValue>
+          <MaxValue>2147483647</MaxValue>
+          <displaynames>
+            <displayname
+              description="Time Zone Rule Version Number"
+              languagecode="1033" />
+            <displayname
+              description="Numéro de version de la règle du fuseau horaire"
+              languagecode="1036" />
+            <displayname
+              description="Versionsnummer der Zeitzonenregel"
+              languagecode="1031" />
+            <displayname
+              description="समय क्षेत्र नियम संस्करण क्रमांक"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="For internal use only."
+              languagecode="1033" />
+            <Description
+              description="Utilisation interne uniquement."
+              languagecode="1036" />
+            <Description
+              description="Nur zur internen Verwendung."
+              languagecode="1031" />
+            <Description
+              description="केवल आंतरिक प्रयोग के लिए."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="TraversedPath">
+          <Type>nvarchar</Type>
+          <Name>traversedpath</Name>
+          <LogicalName>traversedpath</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>1250</MaxLength>
+          <Length>2500</Length>
+          <displaynames>
+            <displayname
+              description="Traversed Path"
+              languagecode="1033" />
+            <displayname
+              description="Chemin d'accès traversé"
+              languagecode="1036" />
+            <displayname
+              description="Durchlaufener Pfad"
+              languagecode="1031" />
+            <displayname
+              description="तय किया गया पथ"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Comma delimited string of process stage ids that represent visited stages of the Business Process Flow instance."
+              languagecode="1033" />
+            <Description
+              description="Chaîne séparée par des virgules dans laquelle figurent des identificateurs de phases représentant les phases consultées de l'instance de flux des processus d'entreprise."
+              languagecode="1036" />
+            <Description
+              description="Durch Komma getrennte Zeichenfolge der Prozessphasen-IDs, die besuchte Phasen der Geschäftsprozessflow-Instanz repräsentieren."
+              languagecode="1031" />
+            <Description
+              description="प्रक्रिया अवस्था id की कॉमा डीलिमिटेड स्ट्रिंग जो किसी व्यवसाय प्रोसेस फ़्लो आवृत्ति की विज़िट की गई अवस्थाओं को दर्शाती है."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="UTCConversionTimeZoneCode">
+          <Type>int</Type>
+          <Name>utcconversiontimezonecode</Name>
+          <LogicalName>utcconversiontimezonecode</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format></Format>
+          <MinValue>-1</MinValue>
+          <MaxValue>2147483647</MaxValue>
+          <displaynames>
+            <displayname
+              description="UTC Conversion Time Zone Code"
+              languagecode="1033" />
+            <displayname
+              description="Code de fuseau horaire pour la conversion UTC"
+              languagecode="1036" />
+            <displayname
+              description="Zeitzonencode für UTC-Konvertierung"
+              languagecode="1031" />
+            <displayname
+              description="UTC परिवर्तन समय क्षेत्र कोड"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Time zone code that was in use when the record was created."
+              languagecode="1033" />
+            <Description
+              description="Code du fuseau horaire utilisé à la création de l'enregistrement."
+              languagecode="1036" />
+            <Description
+              description="Zeitzonencode, der bei der Datensatzerstellung verwendet wurde."
+              languagecode="1031" />
+            <Description
+              description="वह समय क्षेत्र कोड जो रिकॉर्ड बनाते समय उपयोग में था."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+      </attributes>
+      <EntitySetName>apollo_medicaltestbpfs</EntitySetName>
+      <IsDuplicateCheckSupported>0</IsDuplicateCheckSupported>
+      <IsBusinessProcessEnabled>0</IsBusinessProcessEnabled>
+      <IsRequiredOffline>0</IsRequiredOffline>
+      <IsInteractionCentricEnabled>0</IsInteractionCentricEnabled>
+      <IsCollaboration>0</IsCollaboration>
+      <AutoRouteToOwnerQueue>0</AutoRouteToOwnerQueue>
+      <IsConnectionsEnabled>0</IsConnectionsEnabled>
+      <IsDocumentManagementEnabled>0</IsDocumentManagementEnabled>
+      <AutoCreateAccessTeams>0</AutoCreateAccessTeams>
+      <IsOneNoteIntegrationEnabled>0</IsOneNoteIntegrationEnabled>
+      <IsKnowledgeManagementEnabled>0</IsKnowledgeManagementEnabled>
+      <IsSLAEnabled>0</IsSLAEnabled>
+      <IsDocumentRecommendationsEnabled>0</IsDocumentRecommendationsEnabled>
+      <IsBPFEntity>1</IsBPFEntity>
+      <OwnershipTypeMask>OrgOwned</OwnershipTypeMask>
+      <IsAuditEnabled>0</IsAuditEnabled>
+      <IsRetrieveAuditEnabled>0</IsRetrieveAuditEnabled>
+      <IsRetrieveMultipleAuditEnabled>0</IsRetrieveMultipleAuditEnabled>
+      <IsActivity>0</IsActivity>
+      <ActivityTypeMask></ActivityTypeMask>
+      <IsActivityParty>0</IsActivityParty>
+      <IsReplicated>1</IsReplicated>
+      <IsReplicationUserFiltered>0</IsReplicationUserFiltered>
+      <IsMailMergeEnabled>0</IsMailMergeEnabled>
+      <IsVisibleInMobile>0</IsVisibleInMobile>
+      <IsVisibleInMobileClient>1</IsVisibleInMobileClient>
+      <IsReadOnlyInMobileClient>0</IsReadOnlyInMobileClient>
+      <IsOfflineInMobileClient>1</IsOfflineInMobileClient>
+      <DaysSinceRecordLastModified>0</DaysSinceRecordLastModified>
+      <MobileOfflineFilters></MobileOfflineFilters>
+      <IsMapiGridEnabled>0</IsMapiGridEnabled>
+      <IsReadingPaneEnabled>0</IsReadingPaneEnabled>
+      <IsQuickCreateEnabled>0</IsQuickCreateEnabled>
+      <SyncToExternalSearchIndex>0</SyncToExternalSearchIndex>
+      <IntroducedVersion>1.0</IntroducedVersion>
+      <IsCustomizable>1</IsCustomizable>
+      <IsRenameable>1</IsRenameable>
+      <IsMappable>1</IsMappable>
+      <CanModifyAuditSettings>1</CanModifyAuditSettings>
+      <CanModifyMobileVisibility>1</CanModifyMobileVisibility>
+      <CanModifyMobileClientVisibility>0</CanModifyMobileClientVisibility>
+      <CanModifyMobileClientReadOnly>1</CanModifyMobileClientReadOnly>
+      <CanModifyMobileClientOffline>1</CanModifyMobileClientOffline>
+      <CanModifyConnectionSettings>1</CanModifyConnectionSettings>
+      <CanModifyDuplicateDetectionSettings>1</CanModifyDuplicateDetectionSettings>
+      <CanModifyMailMergeSettings>1</CanModifyMailMergeSettings>
+      <CanModifyQueueSettings>1</CanModifyQueueSettings>
+      <CanCreateAttributes>1</CanCreateAttributes>
+      <CanCreateForms>1</CanCreateForms>
+      <CanCreateCharts>1</CanCreateCharts>
+      <CanCreateViews>1</CanCreateViews>
+      <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+      <CanEnableSyncToExternalSearchIndex>1</CanEnableSyncToExternalSearchIndex>
+      <EnforceStateTransitions>0</EnforceStateTransitions>
+      <CanChangeHierarchicalRelationship>1</CanChangeHierarchicalRelationship>
+      <EntityHelpUrlEnabled>0</EntityHelpUrlEnabled>
+      <ChangeTrackingEnabled>1</ChangeTrackingEnabled>
+      <CanChangeTrackingBeEnabled>1</CanChangeTrackingBeEnabled>
+      <IsEnabledForExternalChannels>0</IsEnabledForExternalChannels>
+      <IsMSTeamsIntegrationEnabled>0</IsMSTeamsIntegrationEnabled>
+      <IsSolutionAware>0</IsSolutionAware>
+    </entity>
+  </EntityInfo>
+  <FormXml />
+  <SavedQueries />
+  <RibbonDiffXml />
+</Entity>

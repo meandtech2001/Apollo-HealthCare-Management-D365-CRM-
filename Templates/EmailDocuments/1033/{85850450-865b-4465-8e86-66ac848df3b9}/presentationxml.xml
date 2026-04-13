@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template>
+  <text><![CDATA[<p>Microsoft Dynamics CRM import ]]></text>
+  <slugs>
+    <slug>
+      <entity>asyncoperation</entity>
+      <attribute>name</attribute>
+    </slug>
+    <default>[Import]</default>
+  </slugs>
+  <text><![CDATA[<p> failed.</p> <p>Name: ]]></text>
+  <slugs>
+    <slug>
+      <entity>asyncoperation</entity>
+      <attribute>name</attribute>
+    </slug>
+    <default>[Import]</default>
+  </slugs>
+  <text><![CDATA[</p> <p>Started: ]]></text>
+  <slugs>
+    <slug>
+      <entity>asyncoperation</entity>
+      <attribute>createdon</attribute>
+    </slug>
+    <default />
+  </slugs>
+  <text><![CDATA[</p><p><A href=https://org45a09ef5.crm5.dynamics.com/import/edit.aspx?id=]]></text>
+  <slugs>
+    <slug>
+      <entity>asyncoperation</entity>
+      <attribute>regardingobjectid</attribute>
+    </slug>
+    <default />
+  </slugs>
+  <text><![CDATA[>View your import in Microsoft Dynamics CRM.</A></p><p>If the link does not open, paste the following link into Internet Explorer:<p><p>Import:<A name="slugAnchorTag"  href="#" >https://org45a09ef5.crm5.dynamics.com/import/edit.aspx?id=]]></text>
+  <slugs>
+    <slug>
+      <entity>asyncoperation</entity>
+      <attribute>regardingobjectid</attribute>
+    </slug>
+    <default />
+  </slugs>
+  <text><![CDATA[</A><p>For information about how to resolve failures, in Microsoft Dynamics CRM, on the Help menu, click Troubleshooting, and then click Importing records - troubleshooting.]]></text>
+</template>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{1b7de0d1-966a-4c65-8414-79486c51c94c}</savedqueryid>
+    <layoutxml>
+      <grid
+        name="apollo_apolloinvoices"
+        jump="apollo_invoicename"
+        select="1"
+        icon="1"
+        preview="1">
+        <row
+          name="apollo_apolloinvoice"
+          id="apollo_apolloinvoiceid">
+          <cell
+            name="apollo_invoicename"
+            width="134" />
+          <cell
+            name="apollo_appointment"
+            width="114" />
+          <cell
+            name="apollo_totalamount"
+            width="118" />
+          <cell
+            name="apollo_totalconsultingcharges"
+            width="183" />
+          <cell
+            name="apollo_totalmedicaltestinvoiceamount"
+            width="240" />
+          <cell
+            name="apollo_totalmedicineamount"
+            width="175" />
+          <cell
+            name="createdon"
+            width="125" />
+          <cell
+            name="statecode"
+            width="100" />
+          <cell
+            name="statuscode"
+            width="119" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch
+        version="1.0"
+        mapping="logical">
+        <entity
+          name="apollo_apolloinvoice">
+          <attribute
+            name="apollo_apolloinvoiceid" />
+          <attribute
+            name="apollo_invoicename" />
+          <attribute
+            name="createdon" />
+          <order
+            attribute="apollo_invoicename"
+            descending="false" />
+          <filter
+            type="and">
+            <condition
+              attribute="statecode"
+              operator="eq"
+              value="0" />
+          </filter>
+          <attribute
+            name="apollo_appointment" />
+          <attribute
+            name="apollo_totalamount" />
+          <attribute
+            name="apollo_totalconsultingcharges" />
+          <attribute
+            name="apollo_totalmedicaltestinvoiceamount" />
+          <attribute
+            name="apollo_totalmedicineamount" />
+          <attribute
+            name="statecode" />
+          <attribute
+            name="statuscode" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName
+        description="Apollo Invoice Associated View"
+        languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

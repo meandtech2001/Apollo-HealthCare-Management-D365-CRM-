@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Workflow
+  WorkflowId="{6f6a338d-bba7-46b0-91d3-0219890b67f5}"
+  Name="AccountCreation_Action" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/AccountCreation_Action-6F6A338D-BBA7-46B0-91D3-0219890B67F5.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>3</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>1</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>1</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <CreateStage>40</CreateStage>
+  <RunAs>1</RunAs>
+  <SdkMessageId>{478e757b-681d-f111-8342-0022481a1bf1}</SdkMessageId>
+  <UniqueName>AccountCreation_Action</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.2</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <FormId>{0f7ca1b0-be13-4b18-aa02-1c7f3a058116}</FormId>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ModernFlowType>0</ModernFlowType>
+  <PrimaryEntity>Account</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName
+      languagecode="1033"
+      description="AccountCreation_Action" />
+  </LocalizedNames>
+</Workflow>

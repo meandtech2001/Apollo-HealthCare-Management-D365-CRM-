@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<template>
+  <text><![CDATA[<P>Dear ]]></text>
+  <slugs>
+    <slug>
+      <entity>contact</entity>
+      <attribute>fullname</attribute>
+    </slug>
+    <default>Valued Customer</default>
+  </slugs>
+  <text><![CDATA[,</P> <P>We have not heard from you for a while. We wanted to check in and make sure that you are still having a great experience using our product(s). We have asked ]]></text>
+  <slugs>
+    <slug>
+      <entity>contact</entity>
+      <attribute>ownerid/@name</attribute>
+    </slug>
+    <default>a customer service representative</default>
+  </slugs>
+  <text><![CDATA[ to contact you next week to get your feedback on the product(s) you are currently using and to give you details about our upcoming products.</P> <P>Thank you.</P>]]></text>
+</template>

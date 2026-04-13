@@ -1,0 +1,1297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{549a8aa3-c349-4ab9-8bac-4873fa9a7a5c}</formid>
+    <IntroducedVersion>6.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form
+      headerdensity="HighWithControls"
+      solutionaction="Modified">
+      <tabs>
+        <tab
+          name="appointment"
+          id="{2A2A5AC4-581A-4131-BA0B-8A34943B19FC}"
+          IsUserDefined="0"
+          showlabel="false"
+          expanded="true"
+          ordinalvalue="0">
+          <columns>
+            <column
+              width="50%"
+              id="0"
+              solutionaction="Modified">
+              <sections>
+                <section
+                  name="general information"
+                  showlabel="false"
+                  showbar="false"
+                  locklevel="0"
+                  id="{846F5D88-C043-4E1F-9BF3-90CD9093C1D7}"
+                  IsUserDefined="0"
+                  layout="varwidth"
+                  columns="2"
+                  labelwidth="115"
+                  celllabelposition="Left"
+                  ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell
+                        auto="false"
+                        showlabel="true"
+                        locklevel="1"
+                        rowspan="1"
+                        colspan="2"
+                        id="{8901DF19-82EB-4BD3-B96B-CD3D4F5710D4}"
+                        visible="false"
+                        ordinalvalue="10000"
+                        solutionaction="Modified">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        auto="false"
+                        showlabel="true"
+                        locklevel="0"
+                        rowspan="1"
+                        colspan="2"
+                        id="{3953269C-ABD1-4B75-8DDB-23D5BC088D64}"
+                        visible="false"
+                        ordinalvalue="10001"
+                        solutionaction="Modified">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        auto="false"
+                        showlabel="true"
+                        locklevel="0"
+                        rowspan="1"
+                        colspan="1"
+                        id="{9BF8162D-95A7-4390-86E1-8305ACF475B0}"
+                        ordinalvalue="10012"
+                        solutionaction="Modified">
+                        <labels>
+                          <label
+                            description="Subject"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Sujet"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Betreff"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="विषय"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        colspan="2"
+                        id="{E15ACF1F-BA3E-4BC5-8AE5-AA3A290E7769}"
+                        ordinalvalue="10003"
+                        solutionaction="Removed" />
+                    </row>
+                    <row>
+                      <cell
+                        id="{32a30c13-1750-b89e-a057-e02b7bc06626}"
+                        showlabel="true"
+                        locklevel="0"
+                        visible="false"
+                        ordinalvalue="10004"
+                        solutionaction="Removed" />
+                      <cell
+                        id="{b68139cb-6e6b-4ac4-a997-6e2bc166bbfa}"
+                        ordinalvalue="20003"
+                        solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell
+                        id="{4c798716-37ee-dc9d-8853-90337291ed9e}"
+                        showlabel="true"
+                        locklevel="0"
+                        visible="false"
+                        ordinalvalue="10006"
+                        solutionaction="Removed" />
+                      <cell
+                        id="{8f545070-9d1f-454e-93fc-42cf6fce6033}"
+                        ordinalvalue="20005"
+                        solutionaction="Modified" />
+                    </row>
+                    <row>
+                      <cell
+                        auto="false"
+                        showlabel="true"
+                        locklevel="1"
+                        rowspan="1"
+                        colspan="2"
+                        id="{5D06EDBF-8D54-4710-8C6A-81483D6F41F4}"
+                        visible="false"
+                        ordinalvalue="10015"
+                        solutionaction="Modified">
+                        <labels>
+                          <label
+                            description="Regarding"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Concernant"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Bezug"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="के संबंध में"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{689cacb4-16c7-4712-a3a6-6c7f32499c0b}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10002"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description="Appointment Date"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_appointmentdate"
+                          classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}"
+                          datafieldname="apollo_appointmentdate"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{efb3775d-2150-4b1f-ad02-194d05cda499}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10004"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description="Doctor"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_doctor"
+                          classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                          datafieldname="apollo_doctor"
+                          disabled="false">
+                          <parameters>
+                            <DefaultViewId>{EE937294-0AC2-F011-BBD3-000D3A81A9A9}</DefaultViewId>
+                            <AvailableViewIds>{ABA981C9-16A2-4DCC-B694-376AE95FA4B0},{862C3CBF-23FF-4EAB-B9A9-7B438BAC70A9},{EE937294-0AC2-F011-BBD3-000D3A81A9A9},{51AF2F40-36BB-4198-9B0C-71A986C7C953},{F79AD170-AE03-4F4C-8132-D4AA08520A0C},{00000000-0000-0000-00AA-000010001119},{5953249B-2A59-43BF-A94F-6B8CC1F2D245},{00000000-0000-0000-00AA-000010001019},{DA675923-DA9D-4702-AAD6-3207283A5ACE},{00000000-0000-0000-00AA-000010001020},{8DD58E14-0138-47D4-BA2D-A7DC76094D05},{00000000-0000-0000-00AA-000010001021},{1FE05F14-0074-49E3-B55D-0AF1FD0A2B85},{AF89FDC8-5D83-40B4-988C-A0941579EE9D},{BB3CD580-ECFB-4A85-A623-9A109B73815F},{5FDA842A-004B-42B4-A611-B93C2C69667E},{490B1410-D231-46B0-B5FA-60017B21AB14},{30CE6879-6B7A-E211-8976-00155D89AC0C},{AAD628C6-F0DD-4D34-B0ED-9A78F9C23A20},{E88CA999-0B16-4AE9-B6A9-9EDC840D42D8},{E5D893D1-2B1F-46E5-8EA4-25562567CCCE},{19487F2F-8405-4D59-8F8B-4EDA98D4F302},{31E76B45-BFE7-447E-B4B5-50DC393BCDBE},{FCF02D37-524A-4332-8AC7-497EF6B739F9},{89939D86-F073-42BA-BFC4-DA7999C78825}</AvailableViewIds>
+                            <DisableViewPicker>true</DisableViewPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{64ea07b2-74bb-4104-ad38-953f86ae8bda}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10006"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description="Patient"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_patient"
+                          classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                          datafieldname="apollo_patient"
+                          disabled="false" />
+                      </cell>
+                      <cell
+                        id="{e7ff18f5-6400-4f23-b595-c12a7e4bbc86}"
+                        ordinalvalue="20007"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{62745e8e-49c3-4137-9328-adfc1ef0a8cf}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10008"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description="Symptoms"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_symptoms"
+                          classid="{4AA28AB7-9C13-4F57-A73D-AD894D048B5F}"
+                          datafieldname="apollo_symptoms"
+                          disabled="false" />
+                      </cell>
+                      <cell
+                        id="{9d42ed4d-54f9-4072-9bff-dd3fb92f17fc}"
+                        ordinalvalue="20009"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{613a43b7-520e-4389-8758-05b98a1455a7}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10010"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description="Valid Till Date"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_validtilldate"
+                          classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}"
+                          datafieldname="apollo_validtilldate"
+                          disabled="false" />
+                      </cell>
+                      <cell
+                        id="{970544d8-ff4b-4472-9003-af05d2ad7c3f}"
+                        ordinalvalue="20011"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{44b72f92-1a12-45c4-b1d5-eacddbeda33e}"
+                        ordinalvalue="20013"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        locklevel="1"
+                        id="{331971cd-0a86-4d3e-ad8f-6a13431c5775}"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10014"
+                        solutionaction="Added">
+                        <labels>
+                          <label
+                            description="Patient Need's Home Visit?"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_patientneedshomevisit"
+                          classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}"
+                          datafieldname="apollo_patientneedshomevisit"
+                          uniqueid="{7aab92cf-8663-4c40-a23c-ad5ab6f4b39a}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section
+                  name="attachments"
+                  showlabel="true"
+                  showbar="false"
+                  locklevel="0"
+                  id="{2DE1E001-3C69-41EF-86F1-429997660A27}"
+                  height="auto"
+                  IsUserDefined="0"
+                  layout="varheight"
+                  columns="11"
+                  labelid="{3674A55E-0853-4D1C-8D91-6DF9B0E20E8C}"
+                  labelwidth="115"
+                  celllabelalignment="Left"
+                  celllabelposition="Left"
+                  ordinalvalue="1"
+                  solutionaction="Removed" />
+                <section
+                  name="scheduling information"
+                  showlabel="false"
+                  showbar="false"
+                  locklevel="1"
+                  id="{A83EF0B4-92A2-4442-AF94-DC43BA1C31D3}"
+                  IsUserDefined="0"
+                  layout="varwidth"
+                  columns="1"
+                  ordinalvalue="1"
+                  solutionaction="Modified">
+                  <rows>
+                    <row>
+                      <cell
+                        auto="false"
+                        showlabel="true"
+                        locklevel="0"
+                        rowspan="1"
+                        colspan="1"
+                        id="{B4D87035-7744-4AE7-AFB5-AC85CA81642C}"
+                        ordinalvalue="10000">
+                        <labels>
+                          <label
+                            description="Start Time"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Heure de début"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Startzeit"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="प्रारंभ समय"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        auto="false"
+                        showlabel="true"
+                        locklevel="0"
+                        rowspan="1"
+                        colspan="1"
+                        id="{0BF43F88-DA02-4A74-823F-1EF5014867A9}"
+                        ordinalvalue="10001">
+                        <labels>
+                          <label
+                            description="End Time"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Heure de fin"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Endzeit"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="अंत समय"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        auto="false"
+                        showlabel="true"
+                        locklevel="0"
+                        rowspan="1"
+                        colspan="1"
+                        id="{4899B6A9-00DC-46BF-B6C6-4809D6EAAA67}"
+                        ordinalvalue="10002">
+                        <labels>
+                          <label
+                            description="All Day Event"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Journée entière"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Ganztägiges Ereignis"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="दिन भर का इवेंट"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        auto="false"
+                        showlabel="true"
+                        locklevel="0"
+                        rowspan="1"
+                        colspan="1"
+                        id="{ECDDF39D-1393-4C80-941A-4F8FE486305F}"
+                        ordinalvalue="10003">
+                        <labels>
+                          <label
+                            description="Duration"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Durée"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Dauer"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="अवधि"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section
+                  name="appointment description"
+                  showlabel="true"
+                  showbar="false"
+                  locklevel="0"
+                  id="{299BE158-E0A5-423D-9B70-BC82B5BC26B9}"
+                  IsUserDefined="0"
+                  layout="varwidth"
+                  columns="11"
+                  height="auto"
+                  ordinalvalue="3"
+                  solutionaction="Removed" />
+              </sections>
+            </column>
+            <column
+              width="50%"
+              id="1"
+              solutionaction="Modified">
+              <sections>
+                <section
+                  name="tab_2_section_2"
+                  showlabel="false"
+                  showbar="false"
+                  locklevel="0"
+                  id="{08520212-16e5-7152-81d4-d5e62eec683a}"
+                  IsUserDefined="0"
+                  layout="varwidth"
+                  columns="11"
+                  labelwidth="115"
+                  ordinalvalue="0"
+                  solutionaction="Removed" />
+                <section
+                  name="appointment_section_5"
+                  id="18aa66c0-079f-41bf-9a85-36522f4c3ad4"
+                  IsUserDefined="0"
+                  locklevel="0"
+                  showlabel="true"
+                  showbar="false"
+                  layout="varwidth"
+                  celllabelalignment="Left"
+                  celllabelposition="Left"
+                  columns="1"
+                  labelwidth="115"
+                  ordinalvalue="0"
+                  solutionaction="Added">
+                  <labels>
+                    <label
+                      description="Prescriptions"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell
+                        locklevel="0"
+                        id="{bb3b8be3-4090-4338-aeaa-43b3fe4b6d3f}"
+                        rowspan="4"
+                        colspan="1"
+                        auto="false"
+                        showlabel="false"
+                        ordinalvalue="10000">
+                        <labels>
+                          <label
+                            description="Prescription_Subgrid"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          indicationOfSubgrid="true"
+                          id="Subgrid_new_3"
+                          classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}"
+                          uniqueid="{E3A1C5E0-8F3D-4447-81FD-65CDAEEF6312}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>Chart</ChartGridMode>
+                            <RelationshipName>apollo_prescription_Appointment_appointment</RelationshipName>
+                            <TargetEntityType>apollo_prescription</TargetEntityType>
+                            <ViewId>{18313012-4E9B-44E9-800D-4CF21080DEA2}</ViewId>
+                            <ViewIds>{18313012-4E9B-44E9-800D-4CF21080DEA2}</ViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section
+                  name="attachments"
+                  showlabel="true"
+                  showbar="false"
+                  locklevel="0"
+                  id="{2DE1E001-3C69-41EF-86F1-429997660A27}"
+                  height="auto"
+                  IsUserDefined="0"
+                  layout="varheight"
+                  columns="11"
+                  labelid="{3674A55E-0853-4D1C-8D91-6DF9B0E20E8C}"
+                  labelwidth="115"
+                  celllabelalignment="Left"
+                  celllabelposition="Left"
+                  ordinalvalue="1"
+                  solutionaction="Added">
+                  <labels>
+                    <label
+                      description="Anlagen"
+                      languagecode="1031" />
+                    <label
+                      description="Attachments"
+                      languagecode="1033" />
+                    <label
+                      description="Pièces jointes"
+                      languagecode="1036" />
+                    <label
+                      description="अनुलग्नक"
+                      languagecode="1081" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell
+                        colspan="2"
+                        rowspan="5"
+                        showlabel="false"
+                        auto="true"
+                        id="{AB54E147-BC55-42B9-99BA-42276EE2D82A}"
+                        labelid="{FC189335-0BFB-46D6-A531-D461E22C9E3B}"
+                        ordinalvalue="10000">
+                        <labels>
+                          <label
+                            description="Attachment"
+                            languagecode="1033" />
+                          <label
+                            description="Pièce jointe"
+                            languagecode="1036" />
+                          <label
+                            description="Anlage"
+                            languagecode="1031" />
+                          <label
+                            description="अनुलग्नक"
+                            languagecode="1081" />
+                        </labels>
+                        <control
+                          id="attachmentsGrid"
+                          classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                          <parameters>
+                            <TargetEntityType>activitymimeattachment</TargetEntityType>
+                            <ViewId>{270DE234-E469-4806-9C7E-8D94901CD521}</ViewId>
+                            <RelationshipName>appointment_activity_mime_attachment</RelationshipName>
+                            <RecordsPerPage>3</RecordsPerPage>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <IsUserView>false</IsUserView>
+                            <ViewIds>{270DE234-E469-4806-9C7E-8D94901CD521}</ViewIds>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <AutoExpand>Auto</AutoExpand>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab
+          name="tab_2"
+          id="92072f64-1bfb-42a8-8c30-37c7e4f1befc"
+          IsUserDefined="0"
+          locklevel="0"
+          showlabel="true"
+          ordinalvalue="1"
+          solutionaction="Added">
+          <labels>
+            <label
+              description="Invoice"
+              languagecode="1033" />
+          </labels>
+          <columns>
+            <column
+              width="100%"
+              id="0">
+              <sections>
+                <section
+                  name="tab_2_section_1"
+                  id="328241fb-d65e-44d2-a090-15e46745adc7"
+                  IsUserDefined="0"
+                  locklevel="0"
+                  showlabel="false"
+                  showbar="false"
+                  layout="varwidth"
+                  celllabelalignment="Left"
+                  celllabelposition="Left"
+                  columns="1"
+                  labelwidth="115"
+                  ordinalvalue="0">
+                  <labels>
+                    <label
+                      description="New Section"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell
+                        locklevel="0"
+                        id="{cb4b3741-6233-4be6-9722-69a241123153}"
+                        rowspan="4"
+                        colspan="1"
+                        auto="false"
+                        ordinalvalue="10000">
+                        <labels>
+                          <label
+                            description="Appointment Invoice"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          indicationOfSubgrid="true"
+                          id="Subgrid_new_2"
+                          classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName>apollo_apolloinvoice_Appointment_appointment</RelationshipName>
+                            <TargetEntityType>apollo_apolloinvoice</TargetEntityType>
+                            <ViewId>{5AFC7BEC-4CB7-F011-BBD3-000D3A81A9A9}</ViewId>
+                            <ViewIds>{5AFC7BEC-4CB7-F011-BBD3-000D3A81A9A9}</ViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab
+          name="homevisit_tab"
+          id="123ae6fe-5f26-4649-a794-6b324ec012e9"
+          IsUserDefined="0"
+          locklevel="0"
+          showlabel="true"
+          ordinalvalue="2"
+          solutionaction="Added">
+          <labels>
+            <label
+              description="Home Visit"
+              languagecode="1033" />
+          </labels>
+          <columns>
+            <column
+              width="100%"
+              id="0">
+              <sections>
+                <section
+                  name="tab_3_section_1"
+                  id="860ef468-5007-44ae-95a0-af2f923f2d7d"
+                  IsUserDefined="0"
+                  locklevel="0"
+                  showlabel="false"
+                  showbar="false"
+                  layout="varwidth"
+                  celllabelalignment="Left"
+                  celllabelposition="Left"
+                  columns="1"
+                  labelwidth="115"
+                  ordinalvalue="0">
+                  <labels>
+                    <label
+                      description="New Section"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell
+                        locklevel="0"
+                        id="{1a36f15b-13e0-4737-b683-12b5a08bc630}"
+                        rowspan="4"
+                        colspan="1"
+                        auto="false"
+                        showlabel="false"
+                        ordinalvalue="10000">
+                        <labels>
+                          <label
+                            description="New SG control 1775927241673"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          indicationOfSubgrid="true"
+                          id="Subgrid_new_4"
+                          classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName>apollo_homevisit_Appointment_appointment</RelationshipName>
+                            <TargetEntityType>apollo_homevisit</TargetEntityType>
+                            <ViewId>{A81ADBF1-C866-4631-92AE-B26D11423FFF}</ViewId>
+                            <ViewIds>{A81ADBF1-C866-4631-92AE-B26D11423FFF}</ViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header
+        id="{42B31823-0752-4F96-83F8-0F3AC9C24E31}"
+        columns="111"
+        celllabelposition="Top"
+        labelwidth="115">
+        <rows>
+          <row>
+            <cell
+              id="{BD0D7CAA-7581-4BC8-9FBC-906A16BA4881}"
+              ordinalvalue="20001"
+              solutionaction="Modified">
+              <labels>
+                <label
+                  description="Priority"
+                  languagecode="1033"
+                  solutionaction="Modified" />
+                <label
+                  description="Priorité"
+                  languagecode="1036"
+                  solutionaction="Added" />
+                <label
+                  description="Priorität"
+                  languagecode="1031"
+                  solutionaction="Added" />
+                <label
+                  description="प्राथमिकता"
+                  languagecode="1081"
+                  solutionaction="Added" />
+              </labels>
+            </cell>
+            <cell
+              id="{FDE00F70-5571-47E9-B6BC-275E779B5269}"
+              showlabel="true"
+              ordinalvalue="30002"
+              solutionaction="Modified">
+              <labels>
+                <label
+                  description="Status"
+                  languagecode="1033"
+                  solutionaction="Modified" />
+                <label
+                  description="Statut"
+                  languagecode="1036"
+                  solutionaction="Added" />
+                <label
+                  description="Status"
+                  languagecode="1031"
+                  solutionaction="Added" />
+                <label
+                  description="स्थिति"
+                  languagecode="1081"
+                  solutionaction="Added" />
+              </labels>
+            </cell>
+            <cell
+              id="{83C1A8F6-E296-402C-836D-E41758053C08}"
+              showlabel="true"
+              locklevel="1"
+              visible="false"
+              ordinalvalue="10003"
+              solutionaction="Modified">
+              <labels>
+                <label
+                  description="Owner"
+                  languagecode="1033"
+                  solutionaction="Modified" />
+                <label
+                  description="Propriétaire"
+                  languagecode="1036"
+                  solutionaction="Added" />
+                <label
+                  description="Besitzer"
+                  languagecode="1031"
+                  solutionaction="Added" />
+                <label
+                  description="स्वामी"
+                  languagecode="1081"
+                  solutionaction="Added" />
+              </labels>
+            </cell>
+          </row>
+          <row>
+            <cell
+              id="{5e7ebba6-50a8-4ab2-a0fc-3777e54a5633}"
+              locklevel="1"
+              colspan="1"
+              rowspan="1"
+              ordinalvalue="10000"
+              solutionaction="Added">
+              <labels>
+                <label
+                  description="Appointment Number"
+                  languagecode="1033" />
+              </labels>
+              <control
+                id="header_apollo_appointmentnumber"
+                classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}"
+                datafieldname="apollo_appointmentnumber"
+                disabled="true" />
+            </cell>
+          </row>
+          <row>
+            <cell
+              id="{94846f1c-096f-43db-b929-1724116751a5}"
+              ordinalvalue="20004"
+              solutionaction="Added">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{e8efd296-b11c-487d-8dd3-b915b9774a7c}"
+              ordinalvalue="30005"
+              solutionaction="Added">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <DisplayConditions
+        FallbackForm="true"
+        Order="1"
+        solutionaction="Modified" />
+      <events>
+        <event
+          name="onload"
+          application="true"
+          active="true">
+          <Handlers
+            solutionaction="Added">
+            <Handler
+              functionName="onFormLoad"
+              libraryName="apollo_CreateUpdateHomeVisitRecord"
+              handlerUniqueId="{26b87258-99c8-4ec6-a15f-4ffb87e31ce2}"
+              enabled="true"
+              parameters=""
+              passExecutionContext="true"
+              ordinalvalue="0" />
+          </Handlers>
+        </event>
+        <event
+          name="onchange"
+          application="false"
+          active="false"
+          attribute="apollo_patientneedshomevisit"
+          solutionaction="Added">
+          <Handlers>
+            <Handler
+              functionName="onPatientNeedsHomeVisitChange"
+              libraryName="apollo_CreateUpdateHomeVisitRecord"
+              handlerUniqueId="{0c27efe5-7b1e-4a2e-b09a-3c27acd14197}"
+              enabled="true"
+              parameters=""
+              passExecutionContext="true"
+              ordinalvalue="0" />
+          </Handlers>
+        </event>
+        <event
+          name="onchange"
+          application="false"
+          active="false"
+          attribute="apollo_appointmentdate"
+          solutionaction="Added">
+          <Handlers>
+            <Handler
+              functionName="onAppointmentDateChange"
+              libraryName="apollo_CreateUpdateHomeVisitRecord"
+              handlerUniqueId="{f29ced0a-10ad-4636-b66d-13e2709b9d72}"
+              enabled="true"
+              parameters=""
+              passExecutionContext="true"
+              ordinalvalue="0" />
+          </Handlers>
+        </event>
+      </events>
+      <controlDescriptions>
+        <controlDescription
+          forControl="{64C06392-12E9-4C27-B1B0-9C30DF417844}"
+          solutionaction="Removed" />
+        <controlDescription
+          forControl="{5b7da1d6-e65e-a356-2d63-e4414175ea30}"
+          solutionaction="Removed" />
+        <controlDescription
+          forControl="{22bb388a-4c4e-147d-885b-1d6dc724400c}"
+          solutionaction="Removed" />
+        <controlDescription
+          forControl="{E3A1C5E0-8F3D-4447-81FD-65CDAEEF6312}"
+          solutionaction="Added">
+          <customControl
+            id="{E7A81278-8635-4D9E-8D4D-59480B391C5B}"
+            formFactor="0">
+            <parameters />
+          </customControl>
+          <customControl
+            formFactor="2"
+            name="Microsoft.PowerApps.PowerAppsOneGrid">
+            <parameters>
+              <data-set
+                name="Items">
+                <ViewId>{18313012-4E9B-44E9-800D-4CF21080DEA2}</ViewId>
+                <TargetEntityType>apollo_prescription</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName>apollo_prescription_Appointment_appointment</RelationshipName>
+                <FilteredViewIds>{18313012-4E9B-44E9-800D-4CF21080DEA2}</FilteredViewIds>
+              </data-set>
+              <data-set
+                name="ChildItems">
+                <ViewId>{805d6456-28e1-4831-b282-1e11c641a500}</ViewId>
+                <TargetEntityType>apollo_prescribedmedicine</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <ParentId>apollo_prescription</ParentId>
+              </data-set>
+              <EnableEditing
+                type="Enum"
+                static="true">no</EnableEditing>
+              <DisableChildItemsEditing
+                type="Enum"
+                static="true">no</DisableChildItemsEditing>
+              <EnableFiltering
+                type="Enum"
+                static="true">yes</EnableFiltering>
+              <EnableSorting
+                type="Enum"
+                static="true">yes</EnableSorting>
+              <EnableGrouping
+                type="Enum"
+                static="true">no</EnableGrouping>
+              <EnableAggregation
+                type="Enum"
+                static="true">no</EnableAggregation>
+              <EnableColumnMoving
+                type="Enum"
+                static="true">no</EnableColumnMoving>
+              <EnableMultipleSelection
+                type="Enum"
+                static="true">yes</EnableMultipleSelection>
+              <EnableRangeSelection
+                type="Enum"
+                static="true">yes</EnableRangeSelection>
+              <EnableJumpBar
+                type="Enum"
+                static="true">no</EnableJumpBar>
+              <EnablePagination
+                type="Enum"
+                static="true">no</EnablePagination>
+              <EnableDropdownColor
+                type="Enum"
+                static="true">no</EnableDropdownColor>
+              <EnableStatusIcons
+                type="Enum"
+                static="true">yes</EnableStatusIcons>
+              <EnableTypeIcons
+                type="Enum"
+                static="true">no</EnableTypeIcons>
+              <NavigationTypesAllowed
+                type="Enum"
+                static="true">all</NavigationTypesAllowed>
+              <ReflowBehavior
+                type="Enum"
+                static="true">Reflow</ReflowBehavior>
+              <ShowAvatar
+                type="Enum"
+                static="true">yes</ShowAvatar>
+              <NumberOfListColumns
+                type="Whole.None"
+                static="true">3</NumberOfListColumns>
+              <ShowFooter
+                type="Enum"
+                static="true">yes</ShowFooter>
+              <ShowColumnHeaders
+                type="Enum"
+                static="true">yes</ShowColumnHeaders>
+              <ContextualLookupColumnFilters
+                type="Enum"
+                static="true">yes</ContextualLookupColumnFilters>
+              <LookupFilterBeginsWith
+                type="Enum"
+                static="true">no</LookupFilterBeginsWith>
+              <UseFirstColumnForLookupEdits
+                type="Enum"
+                static="true">no</UseFirstColumnForLookupEdits>
+              <DateTimeFormat
+                type="Enum"
+                static="true">none</DateTimeFormat>
+              <DateOnlyFormat
+                type="Enum"
+                static="true">none</DateOnlyFormat>
+              <EnableStatusColumn
+                type="Enum"
+                static="true">yes</EnableStatusColumn>
+            </parameters>
+          </customControl>
+          <customControl
+            formFactor="1"
+            name="Microsoft.PowerApps.PowerAppsOneGrid">
+            <parameters>
+              <data-set
+                name="Items">
+                <ViewId>{18313012-4E9B-44E9-800D-4CF21080DEA2}</ViewId>
+                <TargetEntityType>apollo_prescription</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <EnableViewPicker>false</EnableViewPicker>
+                <RelationshipName>apollo_prescription_Appointment_appointment</RelationshipName>
+                <FilteredViewIds>{18313012-4E9B-44E9-800D-4CF21080DEA2}</FilteredViewIds>
+              </data-set>
+              <data-set
+                name="ChildItems">
+                <ViewId>{805d6456-28e1-4831-b282-1e11c641a500}</ViewId>
+                <TargetEntityType>apollo_prescribedmedicine</TargetEntityType>
+                <IsUserView>false</IsUserView>
+                <ParentId>apollo_prescription</ParentId>
+              </data-set>
+              <EnableEditing
+                type="Enum"
+                static="true">no</EnableEditing>
+              <DisableChildItemsEditing
+                type="Enum"
+                static="true">no</DisableChildItemsEditing>
+              <EnableFiltering
+                type="Enum"
+                static="true">yes</EnableFiltering>
+              <EnableSorting
+                type="Enum"
+                static="true">yes</EnableSorting>
+              <EnableGrouping
+                type="Enum"
+                static="true">no</EnableGrouping>
+              <EnableAggregation
+                type="Enum"
+                static="true">no</EnableAggregation>
+              <EnableColumnMoving
+                type="Enum"
+                static="true">no</EnableColumnMoving>
+              <EnableMultipleSelection
+                type="Enum"
+                static="true">yes</EnableMultipleSelection>
+              <EnableRangeSelection
+                type="Enum"
+                static="true">yes</EnableRangeSelection>
+              <EnableJumpBar
+                type="Enum"
+                static="true">no</EnableJumpBar>
+              <EnablePagination
+                type="Enum"
+                static="true">no</EnablePagination>
+              <EnableDropdownColor
+                type="Enum"
+                static="true">no</EnableDropdownColor>
+              <EnableStatusIcons
+                type="Enum"
+                static="true">yes</EnableStatusIcons>
+              <EnableTypeIcons
+                type="Enum"
+                static="true">no</EnableTypeIcons>
+              <NavigationTypesAllowed
+                type="Enum"
+                static="true">all</NavigationTypesAllowed>
+              <ReflowBehavior
+                type="Enum"
+                static="true">Reflow</ReflowBehavior>
+              <ShowAvatar
+                type="Enum"
+                static="true">yes</ShowAvatar>
+              <NumberOfListColumns
+                type="Whole.None"
+                static="true">3</NumberOfListColumns>
+              <ShowFooter
+                type="Enum"
+                static="true">yes</ShowFooter>
+              <ShowColumnHeaders
+                type="Enum"
+                static="true">yes</ShowColumnHeaders>
+              <ContextualLookupColumnFilters
+                type="Enum"
+                static="true">yes</ContextualLookupColumnFilters>
+              <LookupFilterBeginsWith
+                type="Enum"
+                static="true">no</LookupFilterBeginsWith>
+              <UseFirstColumnForLookupEdits
+                type="Enum"
+                static="true">no</UseFirstColumnForLookupEdits>
+              <DateTimeFormat
+                type="Enum"
+                static="true">none</DateTimeFormat>
+              <DateOnlyFormat
+                type="Enum"
+                static="true">none</DateOnlyFormat>
+              <EnableStatusColumn
+                type="Enum"
+                static="true">yes</EnableStatusColumn>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription
+          forControl="{7aab92cf-8663-4c40-a23c-ad5ab6f4b39a}"
+          solutionaction="Added">
+          <customControl
+            id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>apollo_patientneedshomevisit</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl
+            id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>apollo_patientneedshomevisit</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl
+            formFactor="0"
+            name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value
+                type="TwoOptions">apollo_patientneedshomevisit</value>
+            </parameters>
+          </customControl>
+          <customControl
+            formFactor="2"
+            name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value
+                type="TwoOptions">apollo_patientneedshomevisit</value>
+            </parameters>
+          </customControl>
+          <customControl
+            formFactor="1"
+            name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value
+                type="TwoOptions">apollo_patientneedshomevisit</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+      <footer
+        id="{757bcce1-a03b-4020-aeb9-dcbb18925678}"
+        celllabelposition="Top"
+        columns="111"
+        labelwidth="115"
+        celllabelalignment="Left"
+        solutionaction="Added">
+        <rows />
+      </footer>
+      <formLibraries
+        solutionaction="Added">
+        <Library
+          name="apollo_CreateUpdateHomeVisitRecord"
+          libraryUniqueId="{e8764d0a-bdff-4a91-b9c1-9474b60e3554}" />
+      </formLibraries>
+    </form>
+    <LocalizedNames>
+      <LocalizedName
+        description="Termin"
+        languagecode="1031" />
+      <LocalizedName
+        description="Appointment Main Form"
+        languagecode="1033" />
+      <LocalizedName
+        description="Rendez-vous"
+        languagecode="1036" />
+      <LocalizedName
+        description="अपॉइंटमेंट"
+        languagecode="1081" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description
+        description="Updated default Appointment form."
+        languagecode="1031" />
+      <Description
+        description="Updated default Appointment form."
+        languagecode="1033" />
+      <Description
+        description="Updated default Appointment form."
+        languagecode="1036" />
+      <Description
+        description="Updated default Appointment form."
+        languagecode="1081" />
+    </Descriptions>
+  </systemform>
+</forms>

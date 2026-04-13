@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{14031c70-00f3-f011-8407-0022481a1a43}</WebResourceId>
+  <Name>apollo_buttonCalcTotalAmount</Name>
+  <DisplayName>buttonCalcTotalAmount</DisplayName>
+  <LanguageCode>0</LanguageCode>
+  <WebResourceType>1</WebResourceType>
+  <IntroducedVersion>1.0.0.2</IntroducedVersion>
+  <IsEnabledForMobileClient>1</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>1</IsAvailableForMobileOffline>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/apollo_buttonCalcTotalAmount14031C70-00F3-F011-8407-0022481A1A43</FileName>
+</WebResource>

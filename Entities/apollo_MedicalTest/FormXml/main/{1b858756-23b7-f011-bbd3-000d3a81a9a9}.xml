@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{1b858756-23b7-f011-bbd3-000d3a81a9a9}</formid>
+    <IntroducedVersion>1.0.0.1</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form
+      headerdensity="HighWithControls">
+      <tabs>
+        <tab
+          verticallayout="true"
+          id="{1e5ca4ff-515f-4d5f-b63d-a4334e5317ee}"
+          IsUserDefined="1"
+          labelid="{b76f29b9-3002-4f2d-91bd-c832d74bb4bc}">
+          <labels>
+            <label
+              description="General"
+              languagecode="1033" />
+          </labels>
+          <columns>
+            <column
+              width="100%">
+              <sections>
+                <section
+                  showlabel="false"
+                  showbar="false"
+                  IsUserDefined="0"
+                  id="{f7a6c8c5-88f3-4664-b4ad-ba26fb8884db}"
+                  columns="11"
+                  name="General"
+                  labelid="{53db9ca9-c250-4ebb-a20f-79a781b1cb0e}">
+                  <labels>
+                    <label
+                      description="General"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell
+                        id="{58081eec-fd40-4bde-bfeb-8b9cdb9059c2}"
+                        labelid="{14cc5fcc-88fe-443e-87b5-509eb4463833}">
+                        <labels>
+                          <label
+                            description="Medical Test Name"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_medicaltest1"
+                          classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}"
+                          datafieldname="apollo_medicaltest1" />
+                      </cell>
+                      <cell
+                        id="{dcc59256-c500-43fd-9077-56cbf39d4024}"
+                        colspan="1"
+                        rowspan="1"
+                        labelid="{6baabe26-4e03-4951-bb18-129699082bcc}">
+                        <labels>
+                          <label
+                            description="Prescription"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_prescription"
+                          classid="{270bd3db-d9af-4782-9025-509e298dec0a}"
+                          datafieldname="apollo_prescription" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{a6c6c3da-1cc3-4854-adef-41011abfe5a6}"
+                        labelid="{e037ba1f-a197-48e1-becd-f53282f14634}"
+                        visible="false">
+                        <labels>
+                          <label
+                            description="Owner"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="ownerid"
+                          classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                          datafieldname="ownerid" />
+                      </cell>
+                      <cell
+                        id="{fa8d54ea-a5c4-47c7-b764-838d39b9688a}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        labelid="{100cb564-2fd3-4f1b-884f-55a7847884e0}">
+                        <labels>
+                          <label
+                            description="Prescription Issued On"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_prescriptionissuedon"
+                          classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}"
+                          datafieldname="apollo_prescriptionissuedon"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{44eee866-79ab-481a-867f-5819e11bd236}"
+                        labelid="{a858b79b-b2fa-4f8a-92cb-64a1fa471b43}">
+                        <labels>
+                          <label
+                            description="Lab"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_lab"
+                          classid="{270bd3db-d9af-4782-9025-509e298dec0a}"
+                          datafieldname="apollo_lab" />
+                      </cell>
+                      <cell
+                        id="{67a2f442-7134-4b1b-9a29-a4bc401d1930}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Reports Verified"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_reportsverified"
+                          classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}"
+                          datafieldname="apollo_reportsverified"
+                          disabled="false"
+                          uniqueid="{56d11fd4-bf68-4ad2-9cc6-98b1e6880e44}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{3645d37a-2829-4600-8a56-2fb7af0fe850}"
+                        labelid="{0a1ba995-1728-4fb5-b109-62da735e588b}">
+                        <labels>
+                          <label
+                            description="Test Name"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_testname"
+                          classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}"
+                          datafieldname="apollo_testname" />
+                      </cell>
+                      <cell
+                        locklevel="0"
+                        id="{5c910a0f-214e-4f0b-b528-03362ec3cffe}">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{d5c2efb4-1813-42ee-91da-de487ec7268b}"
+                        labelid="{5832f366-0e08-4b05-a2d0-35e42834b53d}">
+                        <labels>
+                          <label
+                            description="Test Date"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_testdate"
+                          classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}"
+                          datafieldname="apollo_testdate" />
+                      </cell>
+                      <cell
+                        locklevel="0"
+                        id="{448c88ba-97a2-4e0f-ad2f-293228a6c6c1}"
+                        labelid="{4b2c4112-f5af-4d4c-8c88-1bfc79250451}">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab
+          name="tab_2"
+          id="1fa4a387-8470-4db2-8ac8-063faec45b5e"
+          IsUserDefined="0"
+          locklevel="0"
+          showlabel="true">
+          <labels>
+            <label
+              description="Test Reports"
+              languagecode="1033" />
+          </labels>
+          <columns>
+            <column
+              width="100%">
+              <sections>
+                <section
+                  name="tab_2_section_1"
+                  id="a14b855c-1eb7-4118-bf79-160bbb4a1f5e"
+                  IsUserDefined="0"
+                  locklevel="0"
+                  showlabel="true"
+                  showbar="false"
+                  layout="varwidth"
+                  celllabelalignment="Left"
+                  celllabelposition="Left"
+                  columns="1"
+                  labelwidth="115">
+                  <labels>
+                    <label
+                      description="Related Test Reports"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell
+                        locklevel="0"
+                        id="{30c0d3db-7004-49e8-b541-a469d4605586}"
+                        rowspan="4"
+                        colspan="1"
+                        auto="false"
+                        showlabel="false">
+                        <labels>
+                          <label
+                            description="New SG control 1763580454110"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          indicationOfSubgrid="true"
+                          id="Subgrid_new_1"
+                          classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>true</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName>apollo_testreport_MedicalTest_apollo_medicaltest</RelationshipName>
+                            <TargetEntityType>apollo_testreport</TargetEntityType>
+                            <ViewId>{0FE5DC4E-25FA-4415-B5AE-E213DF8DAEA6}</ViewId>
+                            <ViewIds>{0FE5DC4E-25FA-4415-B5AE-E213DF8DAEA6},{47FA1D5E-A12A-46A8-9F4A-BD0E358AD037}</ViewIds>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header
+        id="{d449a51e-75dd-492b-92d7-0ac69fce1389}"
+        celllabelposition="Top"
+        columns="111"
+        labelwidth="115"
+        celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell
+              id="{9f2391a3-1574-4bb1-99ac-8411bd3ee19b}"
+              showlabel="false"
+              labelid="{29351f93-9cbd-46be-8de0-aca2509cc56f}">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{15c6aefa-9d85-4270-80a8-220cbe345639}"
+              showlabel="false"
+              labelid="{6ea15539-2029-4d0c-b8a4-a46bdd172d97}">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{a4f689ef-49e9-4356-bb1d-72c58b975839}"
+              showlabel="false"
+              labelid="{9c4e9ae3-e603-4e10-8594-62ee36f281a1}">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              locklevel="0"
+              id="{bed4c367-3484-4143-909b-01e55f8d9a08}">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              locklevel="0"
+              id="{b63c3956-4001-41d7-98aa-e39852ea632d}">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{636dad83-4c10-44d8-ac99-eb68c1240aea}"
+              locklevel="0"
+              colspan="1"
+              rowspan="1"
+              labelid="{db301b6f-c4ce-4028-8741-7a927d16d13d}">
+              <labels>
+                <label
+                  description="Status"
+                  languagecode="1033" />
+              </labels>
+              <control
+                id="header_statecode"
+                classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}"
+                datafieldname="statecode"
+                disabled="false" />
+            </cell>
+            <cell
+              id="{ac49156a-f725-4d6d-8583-55ecc9f3d653}"
+              locklevel="0"
+              colspan="1"
+              rowspan="1"
+              labelid="{90e77e74-05c0-4f48-977c-85e6b927d69a}">
+              <labels>
+                <label
+                  description="Status Reason"
+                  languagecode="1033" />
+              </labels>
+              <control
+                id="header_statuscode"
+                classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}"
+                datafieldname="statuscode"
+                disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer
+        id="{aa8b5dfa-8a57-42a1-b213-33a7aff1211d}"
+        celllabelposition="Top"
+        columns="111"
+        labelwidth="115"
+        celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell
+              id="{e2c88fa9-a14f-4a31-afbe-2f9ea168f340}"
+              showlabel="false"
+              labelid="{0b4fc715-3f22-434c-bfeb-451a6524b539}">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{ac1ab60a-1a6b-45df-880f-c3f8b9cd6167}"
+              showlabel="false"
+              labelid="{7a0ebac5-1fd9-48b3-86e4-6ecb4745cd6a}">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{878de4b5-3a9c-4df6-9663-a7edf160ab43}"
+              showlabel="false"
+              labelid="{8285dff9-aafe-47a4-a990-2406ace0d057}">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions
+        Order="1"
+        FallbackForm="true">
+        <Role
+          Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role
+          Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+      <controlDescriptions>
+        <controlDescription
+          forControl="{56d11fd4-bf68-4ad2-9cc6-98b1e6880e44}">
+          <customControl
+            id="{67FAC785-CD58-4F9F-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>apollo_reportsverified</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl
+            formFactor="0"
+            name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value
+                type="TwoOptions">apollo_reportsverified</value>
+            </parameters>
+          </customControl>
+          <customControl
+            formFactor="2"
+            name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value
+                type="TwoOptions">apollo_reportsverified</value>
+            </parameters>
+          </customControl>
+          <customControl
+            formFactor="1"
+            name="MscrmControls.FieldControls.ToggleControl">
+            <parameters>
+              <value
+                type="TwoOptions">apollo_reportsverified</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName
+        description="Medical Test Main Form - Patient"
+        languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description
+        description="A form for this entity."
+        languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

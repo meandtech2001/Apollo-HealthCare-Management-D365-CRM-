@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Types xmlns="http://schemas.openxmlformats.org/package/2006/content-types">
+  <Default
+    Extension="xml"
+    ContentType="application/octet-stream" />
+  <Default
+    Extension="xaml"
+    ContentType="application/octet-stream" />
+  <Default
+    Extension="yaml"
+    ContentType="application/octet-stream" />
+  <Default
+    Extension="json"
+    ContentType="application/octet-stream" />
+  <Default
+    Extension="wdl"
+    ContentType="application/octet-stream" />
+  <Default
+    Extension="dll"
+    ContentType="application/octet-stream" />
+  <Default
+    Extension="msapp"
+    ContentType="application/octet-stream" />
+  <Override
+    PartName="/WebResources/apollo_buttonCalcTotalAmount14031C70-00F3-F011-8407-0022481A1A43"
+    ContentType="application/octet-stream" />
+  <Override
+    PartName="/WebResources/apollo_MedicalReport_scriptC7371543-F1EE-F011-8407-0022481A1BF1"
+    ContentType="application/octet-stream" />
+  <Override
+    PartName="/WebResources/apollo_Highlight_FinalAmount9C7A4934-1AEF-F011-8407-0022481A1BF1"
+    ContentType="application/octet-stream" />
+  <Override
+    PartName="/WebResources/apollo_highlight73C164F2-1BEF-F011-8407-0022481A1BF1"
+    ContentType="application/octet-stream" />
+  <Override
+    PartName="/WebResources/apollo_TestingScriptsBBF1FB75-5832-F111-88B4-0022481A1BF1"
+    ContentType="application/octet-stream" />
+  <Override
+    PartName="/WebResources/apollo_CreateUpdateHomeVisitRecord043FCAD1-D035-F111-88B4-0022481A1BF1"
+    ContentType="application/octet-stream" />
+  <Override
+    PartName="/WebResources/apollo_openAppointmentPopupC47CB053-F336-F111-88B4-0022481A1BF1"
+    ContentType="application/octet-stream" />
+  <Override
+    PartName="/CanvasApps/apollo_apollomanagementdefaultcommandlibrary_23697_BackgroundImageUri"
+    ContentType="application/octet-stream" />
+  <Override
+    PartName="/CanvasApps/apollo_appointmentcreationpage_a95af_BackgroundImageUri"
+    ContentType="application/octet-stream" />
+  <Override
+    PartName="/botcomponents/apollo_agent.gpt.default/data"
+    ContentType="application/octet-stream" />
+  <Override
+    PartName="/botcomponents/apollo_agent.topic.OnError/data"
+    ContentType="application/octet-stream" />
+  <Override
+    PartName="/botcomponents/crd42_bot610100.gpt.default/data"
+    ContentType="application/octet-stream" />
+</Types>

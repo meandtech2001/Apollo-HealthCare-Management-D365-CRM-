@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Workflow
+  WorkflowId="{7c5471e7-85ba-f011-bbd3-000d3a81a9a9}"
+  Name="Set AppointmentDate to current date if blank"
+  Description="Set AppointmentDate to current date if blank" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/SetAppointmentDatetocurrentdateifblank-7C5471E7-85BA-F011-BBD3-000D3A81A9A9.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0.1</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
+  <ProcessTriggerScope>2</ProcessTriggerScope>
+  <ModernFlowType>0</ModernFlowType>
+  <PrimaryEntity>Appointment</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName
+      languagecode="1033"
+      description="Set AppointmentDate to current date if blank" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description
+      languagecode="1033"
+      description="Set AppointmentDate to current date if blank" />
+  </Descriptions>
+</Workflow>

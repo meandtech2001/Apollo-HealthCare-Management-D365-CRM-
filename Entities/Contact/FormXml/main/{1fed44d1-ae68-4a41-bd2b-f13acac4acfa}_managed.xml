@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{1fed44d1-ae68-4a41-bd2b-f13acac4acfa}</formid>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form
+      showImage="true"
+      headerdensity="HighWithControls"
+      solutionaction="Modified">
+      <tabs>
+        <tab
+          name="SUMMARY_TAB"
+          id="{15bb2d4b-71da-74ea-3c5b-e497d78a55a2}"
+          IsUserDefined="0"
+          showlabel="true"
+          expanded="true"
+          ordinalvalue="0">
+          <columns>
+            <column
+              width="75%"
+              id="0"
+              solutionaction="Modified">
+              <sections>
+                <section
+                  name="MapSection"
+                  showlabel="false"
+                  showbar="false"
+                  id="{e0109668-cb5b-4b6c-8ca6-9d0c4b24f385}"
+                  IsUserDefined="0"
+                  layout="varwidth"
+                  columns="1"
+                  labelwidth="115"
+                  celllabelposition="Left"
+                  ordinalvalue="1"
+                  solutionaction="Removed" />
+              </sections>
+            </column>
+            <column
+              width="75%"
+              id="1"
+              solutionaction="Modified">
+              <sections>
+                <section
+                  name="SOCIAL_PANE_TAB"
+                  showlabel="false"
+                  showbar="false"
+                  id="{bea579b8-8901-77b0-1128-351760e68bd4}"
+                  IsUserDefined="0"
+                  layout="varwidth"
+                  columns="1"
+                  labelwidth="115"
+                  celllabelposition="Top"
+                  ordinalvalue="0"
+                  solutionaction="Removed" />
+                <section
+                  name="SUMMARY_TAB_section_6"
+                  id="d000dceb-ac52-466a-b94b-cc81965f3484"
+                  IsUserDefined="0"
+                  locklevel="0"
+                  showlabel="true"
+                  showbar="false"
+                  layout="varwidth"
+                  celllabelalignment="Left"
+                  celllabelposition="Left"
+                  columns="1"
+                  labelwidth="115"
+                  ordinalvalue="0"
+                  solutionaction="Added">
+                  <labels>
+                    <label
+                      description="Other Details"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell
+                        id="{e2645ec8-0786-45c6-b020-3010d4d30dce}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10000">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_emergencycontactname"
+                          classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}"
+                          datafieldname="apollo_emergencycontactname"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{eaa873c4-ef78-4522-add5-2ae5798d25ab}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10001">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_emergencycontactperson"
+                          classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                          datafieldname="apollo_emergencycontactperson"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{6e5b96a6-1249-43b6-b103-8d852f428219}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10002">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_emergencycontactphone"
+                          classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}"
+                          datafieldname="apollo_emergencycontactphone"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{3aa0f20e-7293-47f5-9533-dcd44c556f5c}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10003">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_patientdateofbirth"
+                          classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}"
+                          datafieldname="apollo_patientdateofbirth"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{5c718491-7a98-459a-b75d-ee3d882683c3}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10004">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_photo"
+                          classid="{7E548B0D-209C-477B-9DCD-F0F44472381D}"
+                          datafieldname="apollo_photo"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{a56ab8a9-8f3f-462f-a093-380c4ec17705}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10005">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_ssn"
+                          classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}"
+                          datafieldname="apollo_ssn"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section
+                  name="SUMMARY_TAB_section_6"
+                  id="edd1c54d-108e-4581-ab7a-5b3f6aaa4e94"
+                  IsUserDefined="0"
+                  locklevel="0"
+                  showlabel="false"
+                  showbar="false"
+                  layout="varwidth"
+                  celllabelalignment="Left"
+                  celllabelposition="Left"
+                  columns="1"
+                  labelwidth="115"
+                  ordinalvalue="1"
+                  solutionaction="Added">
+                  <labels>
+                    <label
+                      description="New Section"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell
+                        rowspan="8"
+                        id="{0b84afa6-a07c-4dc2-bbc8-2c67407c03ec}"
+                        colspan="1"
+                        auto="true"
+                        showlabel="false"
+                        ordinalvalue="10000">
+                        <labels>
+                          <label
+                            description="Control_new_1"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="mapcontrol"
+                          classid="{62B0DF79-0464-470F-8AF7-4483CFEA0C7D}">
+                          <parameters>
+                            <AddressField>address1_composite</AddressField>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell
+                        id="{87ff701e-b3c7-4e76-b6f6-604ef66b8802}"
+                        userspacer="true"
+                        showlabel="false"
+                        colspan="1"
+                        rowspan="1"
+                        ordinalvalue="10001">
+                        <labels>
+                          <label
+                            description=""
+                            languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        locklevel="0"
+                        id="{e3c919c3-fe90-4764-b6f3-78bec251ed8e}"
+                        rowspan="15"
+                        colspan="1"
+                        ordinalvalue="10002">
+                        <labels>
+                          <label
+                            description="Note Text"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="notescontrol"
+                          classid="{06375649-C143-495E-A496-C962E5B4488E}"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column
+              width="25%"
+              id="2"
+              solutionaction="Removed" />
+          </columns>
+        </tab>
+        <tab
+          name="tab_3"
+          id="1d363acc-86be-494e-a0a2-ac093be444ac"
+          IsUserDefined="0"
+          locklevel="0"
+          showlabel="true"
+          ordinalvalue="2"
+          solutionaction="Added">
+          <labels>
+            <label
+              description="Appointment"
+              languagecode="1033" />
+          </labels>
+          <columns>
+            <column
+              width="100%"
+              id="0">
+              <sections>
+                <section
+                  name="tab_3_section_1"
+                  id="d5096bc8-d4bd-43b6-8995-53f95c2bba9f"
+                  IsUserDefined="0"
+                  locklevel="0"
+                  showlabel="false"
+                  showbar="false"
+                  layout="varwidth"
+                  celllabelalignment="Left"
+                  celllabelposition="Left"
+                  columns="1"
+                  labelwidth="115"
+                  ordinalvalue="0">
+                  <labels>
+                    <label
+                      description="New Section"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row />
+                    <row>
+                      <cell
+                        locklevel="0"
+                        id="{3c0cc034-bdfc-4ff0-9f46-a8b80ab66446}"
+                        rowspan="4"
+                        colspan="1"
+                        auto="false"
+                        showlabel="false"
+                        ordinalvalue="10000">
+                        <labels>
+                          <label
+                            description="Aktionskarten"
+                            languagecode="1031" />
+                          <label
+                            description="New SG control 1764957687577"
+                            languagecode="1033" />
+                          <label
+                            description="Cartes d'action"
+                            languagecode="1036" />
+                          <label
+                            description="क्रिया कार्ड्स"
+                            languagecode="1081" />
+                        </labels>
+                        <control
+                          indicationOfSubgrid="true"
+                          id="Subgrid_new_1"
+                          classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}">
+                          <parameters>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>true</EnableViewPicker>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <ChartGridMode>All</ChartGridMode>
+                            <RelationshipName>apollo_contact_appointment_286</RelationshipName>
+                            <TargetEntityType>appointment</TargetEntityType>
+                            <ViewId>{606EEA12-0C33-47D3-96E1-BA1529EE8205}</ViewId>
+                            <VisualizationId>{1BC0FF08-CB08-45D6-8FD4-E49E6B49FE91}</VisualizationId>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header
+        id="{3ff9aa06-4e43-41ce-afa9-22a038af5c19}"
+        celllabelposition="Top"
+        columns="1"
+        labelwidth="115">
+        <rows>
+          <row>
+            <cell
+              id="{24be01cc-16a6-8eea-8916-42d20a1097ae}"
+              showlabel="true"
+              locklevel="1"
+              ordinalvalue="30002"
+              solutionaction="Modified" />
+          </row>
+          <row>
+            <cell
+              id="{f3e71348-74f1-4367-a392-dfef8dcf0867}"
+              locklevel="1"
+              colspan="1"
+              rowspan="1"
+              ordinalvalue="10000"
+              solutionaction="Added">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+              <control
+                id="header_apollo_contactnumber"
+                classid="{4273EDBD-AC1D-40D3-9FB2-095C621B552D}"
+                datafieldname="apollo_contactnumber"
+                disabled="true" />
+            </cell>
+            <cell
+              id="{bd58aa40-3931-477b-bbd2-24f5750becc6}"
+              locklevel="0"
+              colspan="1"
+              rowspan="1"
+              ordinalvalue="20001"
+              solutionaction="Added">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+              <control
+                id="header_apollo_patienttype"
+                classid="{3EF39988-22BB-4F0B-BBBE-64B5A3748AEE}"
+                datafieldname="apollo_patienttype"
+                disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <controlDescriptions>
+        <controlDescription
+          forControl="{3FF9A528-DD50-4ACA-8F10-2E5ED73513AD}"
+          solutionaction="Removed" />
+      </controlDescriptions>
+      <DisplayConditions
+        FallbackForm="false"
+        Order="2"
+        solutionaction="Modified">
+        <Everyone
+          solutionaction="Removed" />
+        <Role
+          Id="{627090ff-40a3-4053-8790-584edc5be201}"
+          solutionaction="Added" />
+        <Role
+          Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}"
+          solutionaction="Added" />
+      </DisplayConditions>
+      <footer
+        id="{044a6a6c-2e4b-4aab-9bc7-3f8f64f744c0}"
+        celllabelposition="Top"
+        columns="111"
+        labelwidth="115"
+        celllabelalignment="Left"
+        solutionaction="Added">
+        <rows>
+          <row>
+            <cell
+              id="{becc7419-5e26-4f1d-a301-2ed677572eae}"
+              showlabel="false"
+              ordinalvalue="10000">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{a4effb70-1100-4519-8b20-31c4a9acf746}"
+              showlabel="false"
+              ordinalvalue="20001">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{0c9db45c-e965-4fa3-b714-93234b4f15a8}"
+              showlabel="false"
+              ordinalvalue="30002">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+    </form>
+    <LocalizedNames>
+      <LocalizedName
+        description="Kontakt"
+        languagecode="1031" />
+      <LocalizedName
+        description="Contact - Main 1"
+        languagecode="1033" />
+      <LocalizedName
+        description="Contact"
+        languagecode="1036" />
+      <LocalizedName
+        description="संपर्क"
+        languagecode="1081" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description
+        description="Aktualisiertes Standardformular für Kontakte."
+        languagecode="1031" />
+      <Description
+        description="Updated default Contact form."
+        languagecode="1033" />
+      <Description
+        description="Formulaire de contact par défaut mis à jour."
+        languagecode="1036" />
+      <Description
+        description="अद्यतन किया गया डिफ़ॉल्ट संपर्क प्रपत्र."
+        languagecode="1081" />
+    </Descriptions>
+  </systemform>
+</forms>

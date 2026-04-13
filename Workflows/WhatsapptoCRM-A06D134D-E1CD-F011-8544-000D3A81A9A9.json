@@ -1,0 +1,45 @@
+{
+  "properties": {
+    "connectionReferences": {},
+    "definition": {
+      "$schema": "https://schema.management.azure.com/providers/Microsoft.Logic/schemas/2016-06-01/workflowdefinition.json#",
+      "contentVersion": "1.0.0.0",
+      "parameters": {
+        "$authentication": {
+          "defaultValue": {},
+          "type": "SecureObject"
+        }
+      },
+      "triggers": {
+        "manual": {
+          "metadata": {
+            "operationMetadataId": "eb1dab59-3b21-49ef-9d1f-588e8fc6855a"
+          },
+          "type": "Request",
+          "kind": "Http",
+          "inputs": {
+            "method": "POST",
+            "triggerAuthenticationType": "All"
+          }
+        }
+      },
+      "actions": {
+        "Response": {
+          "runAfter": {},
+          "metadata": {
+            "operationMetadataId": "c1cac62e-27eb-4fab-8f79-26bf14cb5424"
+          },
+          "type": "Response",
+          "kind": "Http",
+          "inputs": {
+            "statusCode": 200,
+            "body": "@triggerOutputs()?['queries']['hub.mode']"
+          }
+        }
+      },
+      "outputs": {}
+    },
+    "templateName": ""
+  },
+  "schemaVersion": "1.0.0.0"
+}

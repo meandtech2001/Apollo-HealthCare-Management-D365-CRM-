@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dvtablesearchentity
+  dvtablesearchentityid="7236cc4c-a5bd-f011-bbd2-000d3a8127ac">
+  <dvtablesearch>
+    <dvtablesearchid>5d36cc4c-a5bd-f011-bbd2-000d3a8127ac</dvtablesearchid>
+  </dvtablesearch>
+  <entitylogicalname>systemuser</entitylogicalname>
+  <iscustomizable>1</iscustomizable>
+  <statecode>0</statecode>
+  <statuscode>1</statuscode>
+</dvtablesearchentity>

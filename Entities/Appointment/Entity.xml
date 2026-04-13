@@ -1,0 +1,1066 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name
+    LocalizedName="Appointment"
+    OriginalName="">Appointment</Name>
+  <EntityInfo>
+    <entity
+      Name="Appointment">
+      <attributes>
+        <attribute
+          PhysicalName="ActivityId"
+          unmodified="1">
+          <Type>primarykey</Type>
+          <Name>activityid</Name>
+          <LogicalName>activityid</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|RequiredForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>1</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <displaynames>
+            <displayname
+              description="Appointment"
+              languagecode="1033" />
+            <displayname
+              description="Rendez-vous"
+              languagecode="1036" />
+            <displayname
+              description="Termin"
+              languagecode="1031" />
+            <displayname
+              description="अपॉइंटमेंट"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Unique identifier of the appointment."
+              languagecode="1033" />
+            <Description
+              description="Identificateur unique du rendez-vous."
+              languagecode="1036" />
+            <Description
+              description="Eindeutiger Bezeichner des Termins."
+              languagecode="1031" />
+            <Description
+              description="अपॉइंटमेंट का युनीक आइडेंटिफ़ायर."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="ActualEnd"
+          unmodified="1">
+          <Type>datetime</Type>
+          <Name>actualend</Name>
+          <LogicalName>actualend</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>inactive</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>datetime</Format>
+          <displaynames>
+            <displayname
+              description="Actual End"
+              languagecode="1033" />
+            <displayname
+              description="Fin réelle"
+              languagecode="1036" />
+            <displayname
+              description="Tatsächliches Ende"
+              languagecode="1031" />
+            <displayname
+              description="वास्तविक अंत"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Enter the actual end date and time of the appointment. By default, it displays the date and time when the activity was completed or canceled, but can be edited to capture the actual duration of the appointment."
+              languagecode="1033" />
+            <Description
+              description="Entrez la date et l'heure de fin réelles du rendez-vous. Par défaut, la date et l'heure auxquelles l'activité est terminée ou annulée sont affichées, mais elles peuvent être modifiées pour tenir compte de la durée réelle du rendez-vous."
+              languagecode="1036" />
+            <Description
+              description="Geben Sie das tatsächliche Ende (Datum und Uhrzeit) des Termins ein. Standardmäßig wird der Zeitpunkt angezeigt, zu dem die Aktivität abgeschlossen oder storniert wurde. Dieser Wert kann jedoch bearbeitet werden, um die tatsächliche Dauer des Termins zu erfassen."
+              languagecode="1031" />
+            <Description
+              description="अपॉइंटमेंट की वास्तविक समाप्ति दिनांक और समय दर्ज करें. डिफ़ॉल्ट रूप से, यह उस दिनांक और समय को दिखाता है जब गतिविधि पूर्ण की गई थी या रद्द की गई थी, लेकिन अपॉइंटमेंट की वास्तविक अवधि को कैप्चर करने के लिए इसको संपादित किया जा सकता है."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="ActualStart"
+          unmodified="1">
+          <Type>datetime</Type>
+          <Name>actualstart</Name>
+          <LogicalName>actualstart</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>inactive</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>datetime</Format>
+          <displaynames>
+            <displayname
+              description="Actual Start"
+              languagecode="1033" />
+            <displayname
+              description="Début réel"
+              languagecode="1036" />
+            <displayname
+              description="Tatsächlicher Beginn"
+              languagecode="1031" />
+            <displayname
+              description="वास्तविक प्रारंभ"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Enter the actual start date and time for the appointment. By default, it displays the date and time when the activity was created, but can be edited to capture the actual duration of the appointment."
+              languagecode="1033" />
+            <Description
+              description="Entrez la date et l'heure de début réelles du rendez-vous. Par défaut, la date et l'heure auxquelles l'activité a été créée sont affichées, mais elles peuvent être modifiées pour tenir compte de la durée réelle du rendez-vous."
+              languagecode="1036" />
+            <Description
+              description="Geben Sie den tatsächlichen Beginn (Datum und Uhrzeit) des Termins ein. Standardmäßig wird der Erstellungszeitpunkt der Aktivität angezeigt. Dieser Wert kann jedoch bearbeitet werden, um die tatsächliche Dauer des Termins zu erfassen."
+              languagecode="1031" />
+            <Description
+              description="अपॉइंटमेंट की वास्तविक प्रारंभ दिनांक और समय दर्ज करें. डिफ़ॉल्ट रूप से, यह उस दिनांक और समय को दिखाता है जब गतिविधि बनाई गई थी, लेकिन अपॉइंटमेंट की वास्तविक अवधि को कैप्चर करने के लिए इसको संपादित किया जा सकता है."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="apollo_AppointmentDate">
+          <Type>datetime</Type>
+          <Name>apollo_appointmentdate</Name>
+          <LogicalName>apollo_appointmentdate</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>datetime</Format>
+          <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
+          <Behavior>1</Behavior>
+          <displaynames>
+            <displayname
+              description="Appointment Date"
+              languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description=""
+              languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="apollo_AppointmentNumber">
+          <Type>nvarchar</Type>
+          <Name>apollo_appointmentnumber</Name>
+          <LogicalName>apollo_appointmentnumber</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ReadOnlyInUI|ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat>A{SEQNUM:4}</AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>text</Format>
+          <MaxLength>100</MaxLength>
+          <Length>200</Length>
+          <displaynames>
+            <displayname
+              description="Appointment Number"
+              languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Appointment Number"
+              languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="apollo_Doctor">
+          <Type>lookup</Type>
+          <Name>apollo_doctor</Name>
+          <LogicalName>apollo_doctor</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <LookupStyle>single</LookupStyle>
+          <LookupTypes />
+          <displaynames>
+            <displayname
+              description="Doctor"
+              languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description=""
+              languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="apollo_Patient">
+          <Type>customer</Type>
+          <Name>apollo_patient</Name>
+          <LogicalName>apollo_patient</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <displaynames>
+            <displayname
+              description="Patient"
+              languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Patient can be a Account or Contact"
+              languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="apollo_PatientNeedsHomeVisit">
+          <Type>bit</Type>
+          <Name>apollo_patientneedshomevisit</Name>
+          <LogicalName>apollo_patientneedshomevisit</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.2</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <AppDefaultValue>0</AppDefaultValue>
+          <optionset
+            Name="apollo_appointment_apollo_patientneedshomevisit">
+            <OptionSetType>bit</OptionSetType>
+            <IntroducedVersion>1.0.0.2</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <ExternalTypeName></ExternalTypeName>
+            <displaynames>
+              <displayname
+                description="Patient Need's Home Visit?"
+                languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description
+                description=""
+                languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option
+                value="1"
+                ExternalValue=""
+                IsHidden="0">
+                <labels>
+                  <label
+                    description="Yes"
+                    languagecode="1033" />
+                </labels>
+              </option>
+              <option
+                value="0"
+                ExternalValue=""
+                IsHidden="0">
+                <labels>
+                  <label
+                    description="No"
+                    languagecode="1033" />
+                </labels>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname
+              description="Patient Need's Home Visit?"
+              languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description=""
+              languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="apollo_Symptoms">
+          <Type>multiselectpicklist</Type>
+          <Name>apollo_symptoms</Name>
+          <LogicalName>apollo_symptoms</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <optionset
+            Name="apollo_appointment_apollo_symptoms">
+            <OptionSetType>picklist</OptionSetType>
+            <IntroducedVersion>1.0.0.0</IntroducedVersion>
+            <IsCustomizable>1</IsCustomizable>
+            <ExternalTypeName></ExternalTypeName>
+            <displaynames>
+              <displayname
+                description="Symptoms"
+                languagecode="1033" />
+            </displaynames>
+            <Descriptions>
+              <Description
+                description=""
+                languagecode="1033" />
+            </Descriptions>
+            <options>
+              <option
+                value="554550000"
+                ExternalValue=""
+                IsHidden="0">
+                <labels>
+                  <label
+                    description="Fever"
+                    languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description
+                    description=""
+                    languagecode="1033" />
+                </Descriptions>
+              </option>
+              <option
+                value="554550001"
+                ExternalValue=""
+                IsHidden="0">
+                <labels>
+                  <label
+                    description="Headache"
+                    languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description
+                    description=""
+                    languagecode="1033" />
+                </Descriptions>
+              </option>
+              <option
+                value="554550002"
+                ExternalValue=""
+                IsHidden="0">
+                <labels>
+                  <label
+                    description="Cough"
+                    languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description
+                    description=""
+                    languagecode="1033" />
+                </Descriptions>
+              </option>
+              <option
+                value="554550003"
+                ExternalValue=""
+                IsHidden="0">
+                <labels>
+                  <label
+                    description="Body Pain"
+                    languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description
+                    description=""
+                    languagecode="1033" />
+                </Descriptions>
+              </option>
+            </options>
+          </optionset>
+          <displaynames>
+            <displayname
+              description="Symptoms"
+              languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Multiple Symptoms"
+              languagecode="1033" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="apollo_ValidTillDate">
+          <Type>datetime</Type>
+          <Name>apollo_validtilldate</Name>
+          <LogicalName>apollo_validtilldate</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>1</IsCustomField>
+          <IsAuditEnabled>0</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>1.0.0.0</IntroducedVersion>
+          <IsCustomizable>1</IsCustomizable>
+          <IsRenameable>1</IsRenameable>
+          <CanModifySearchSettings>1</CanModifySearchSettings>
+          <CanModifyRequirementLevelSettings>1</CanModifyRequirementLevelSettings>
+          <CanModifyAdditionalSettings>1</CanModifyAdditionalSettings>
+          <SourceType>1</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <CanModifyGlobalFilterSettings>1</CanModifyGlobalFilterSettings>
+          <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>datetime</Format>
+          <CanChangeDateTimeBehavior>1</CanChangeDateTimeBehavior>
+          <Behavior>1</Behavior>
+          <displaynames>
+            <displayname
+              description="Valid Till Date"
+              languagecode="1033" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description=""
+              languagecode="1033" />
+          </Descriptions>
+          <FormulaDefinitionFileName>/Formulas/appointment-apollo_validtilldate.xaml</FormulaDefinitionFileName>
+        </attribute>
+        <attribute
+          PhysicalName="ScheduledEnd"
+          unmodified="1">
+          <Type>datetime</Type>
+          <Name>scheduledend</Name>
+          <LogicalName>scheduledend</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
+          <ImeMode>inactive</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>datetime</Format>
+          <displaynames>
+            <displayname
+              description="End Time"
+              languagecode="1033" />
+            <displayname
+              description="Heure de fin"
+              languagecode="1036" />
+            <displayname
+              description="Endzeit"
+              languagecode="1031" />
+            <displayname
+              description="अंत समय"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Enter the expected due date and time for the activity to be completed to provide details about the timing of the appointment."
+              languagecode="1033" />
+            <Description
+              description="Entrez la date et l'heure d'échéance auxquelles il est prévu que l'activité finisse pour indiquer l'heure du rendez-vous."
+              languagecode="1036" />
+            <Description
+              description="Geben Sie die erwartete Fälligkeit (Datum und Uhrzeit) für den Abschluss der Aktivität ein, um Details zur Zeitplanung für den Termin anzugeben."
+              languagecode="1031" />
+            <Description
+              description="अपॉइंटमेंट के समय के बारे में विवरण प्रदान करने के लिए वह अपेक्षित नियत दिनांक और समय दर्ज करें जब गतिविधि के पूरे होने की आशा हो."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="ScheduledStart"
+          unmodified="1">
+          <Type>datetime</Type>
+          <Name>scheduledstart</Name>
+          <LogicalName>scheduledstart</LogicalName>
+          <RequiredLevel>required</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
+          <ImeMode>inactive</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>1</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <Format>datetime</Format>
+          <displaynames>
+            <displayname
+              description="Start Time"
+              languagecode="1033" />
+            <displayname
+              description="Heure de début"
+              languagecode="1036" />
+            <displayname
+              description="Startzeit"
+              languagecode="1031" />
+            <displayname
+              description="प्रारंभ समय"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Enter the expected start date and time for the activity to provide details about the timing of the appointment."
+              languagecode="1033" />
+            <Description
+              description="Entrez la date et l'heure de début prévues pour l'activité pour indiquer l'heure du rendez-vous."
+              languagecode="1036" />
+            <Description
+              description="Geben Sie den erwarteten Beginn (Datum und Uhrzeit) der Aktivität ein, um Details zur Zeitplanung für den Termin anzugeben."
+              languagecode="1031" />
+            <Description
+              description="अपॉइंटमेंट के समय के बारे में विवरण प्रदान करने के लिए गतिविधि की अपेक्षित प्रारंभ दिनांक और समय दर्ज करें."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="StateCode">
+          <Type>state</Type>
+          <Name>statecode</Name>
+          <LogicalName>statecode</LogicalName>
+          <RequiredLevel>systemrequired</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <optionset
+            Name="appointment_statecode">
+            <OptionSetType>state</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname
+                description="Status"
+                languagecode="1033" />
+              <displayname
+                description="Statut"
+                languagecode="1036" />
+              <displayname
+                description="Status"
+                languagecode="1031" />
+              <displayname
+                description="स्थिति"
+                languagecode="1081" />
+            </displaynames>
+            <Descriptions>
+              <Description
+                description="Status of the appointment."
+                languagecode="1033" />
+              <Description
+                description="Statut du rendez-vous."
+                languagecode="1036" />
+              <Description
+                description="Status des Termins."
+                languagecode="1031" />
+              <Description
+                description="अपॉइंटमेंट की स्थिति."
+                languagecode="1081" />
+            </Descriptions>
+            <states>
+              <state
+                value="0"
+                defaultstatus="1"
+                invariantname="Open">
+                <labels>
+                  <label
+                    description="Open"
+                    languagecode="1033" />
+                  <label
+                    description="Ouvert"
+                    languagecode="1036" />
+                  <label
+                    description="Offen"
+                    languagecode="1031" />
+                  <label
+                    description="खोलें"
+                    languagecode="1081" />
+                </labels>
+              </state>
+              <state
+                value="1"
+                defaultstatus="3"
+                invariantname="Completed">
+                <labels>
+                  <label
+                    description="Completed"
+                    languagecode="1033" />
+                  <label
+                    description="Terminé"
+                    languagecode="1036" />
+                  <label
+                    description="Abgeschlossen"
+                    languagecode="1031" />
+                  <label
+                    description="पूर्ण"
+                    languagecode="1081" />
+                </labels>
+              </state>
+              <state
+                value="2"
+                defaultstatus="4"
+                invariantname="Canceled">
+                <labels>
+                  <label
+                    description="Canceled"
+                    languagecode="1033" />
+                  <label
+                    description="Annulé"
+                    languagecode="1036" />
+                  <label
+                    description="Storniert"
+                    languagecode="1031" />
+                  <label
+                    description="रद्द"
+                    languagecode="1081" />
+                </labels>
+              </state>
+              <state
+                value="3"
+                defaultstatus="5"
+                invariantname="Scheduled">
+                <labels>
+                  <label
+                    description="Scheduled"
+                    languagecode="1033" />
+                  <label
+                    description="Planifié"
+                    languagecode="1036" />
+                  <label
+                    description="Geplant"
+                    languagecode="1031" />
+                  <label
+                    description="शेड्यूल्ड"
+                    languagecode="1081" />
+                </labels>
+              </state>
+            </states>
+          </optionset>
+          <displaynames>
+            <displayname
+              description="Status"
+              languagecode="1033" />
+            <displayname
+              description="Statut"
+              languagecode="1036" />
+            <displayname
+              description="Status"
+              languagecode="1031" />
+            <displayname
+              description="स्थिति"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Shows whether the appointment is open, completed, or canceled. Completed and canceled appointments are read-only and can't be edited."
+              languagecode="1033" />
+            <Description
+              description="Indique si le rendez-vous est ouvert, terminé ou annulé. Les rendez-vous terminés et annulés sont en lecture seule et ne peuvent pas être modifiés."
+              languagecode="1036" />
+            <Description
+              description="Gibt Aufschluss über den Status des Termins (offen, abgeschlossen oder storniert). Abgeschlossene und stornierte Termine sind schreibgeschützt und können nicht bearbeitet werden."
+              languagecode="1031" />
+            <Description
+              description="दिखाता है कि क्या अपॉइंटमेंट उपलब्ध है, पूर्ण किया गया है या रद्द किया गया है. पूर्ण किए गए और रद्द किए गए अपॉइंटमेंट केवल-पढ़ने के लिए होते हैं और उन्हें संपादित नहीं किया जा सकता."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+        <attribute
+          PhysicalName="StatusCode">
+          <Type>status</Type>
+          <Name>statuscode</Name>
+          <LogicalName>statuscode</LogicalName>
+          <RequiredLevel>none</RequiredLevel>
+          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>1</ValidForUpdateApi>
+          <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>1</ValidForCreateApi>
+          <IsCustomField>0</IsCustomField>
+          <IsAuditEnabled>1</IsAuditEnabled>
+          <IsSecured>0</IsSecured>
+          <IntroducedVersion>5.0.0.0</IntroducedVersion>
+          <SourceType>0</SourceType>
+          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
+          <IsSortableEnabled>0</IsSortableEnabled>
+          <IsDataSourceSecret>0</IsDataSourceSecret>
+          <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
+          <optionset
+            Name="appointment_statuscode">
+            <OptionSetType>status</OptionSetType>
+            <IntroducedVersion>5.0.0.0</IntroducedVersion>
+            <displaynames>
+              <displayname
+                description="Status Reason"
+                languagecode="1033" />
+              <displayname
+                description="Raison du statut"
+                languagecode="1036" />
+              <displayname
+                description="Statusgrund"
+                languagecode="1031" />
+              <displayname
+                description="स्थिति विवरण"
+                languagecode="1081" />
+            </displaynames>
+            <Descriptions>
+              <Description
+                description="Reason for the status of the appointment."
+                languagecode="1033" />
+              <Description
+                description="Raison du statut du rendez-vous."
+                languagecode="1036" />
+              <Description
+                description="Grund für den Status des Termins."
+                languagecode="1031" />
+              <Description
+                description="अपॉइंटमेंट की स्थिति का कारण."
+                languagecode="1081" />
+            </Descriptions>
+            <statuses>
+              <status
+                value="1"
+                state="0"
+                Color="#3b79b7">
+                <labels>
+                  <label
+                    description="Pending"
+                    languagecode="1033" />
+                  <label
+                    description="Libre"
+                    languagecode="1036" />
+                  <label
+                    description="Frei"
+                    languagecode="1031" />
+                  <label
+                    description="खाली"
+                    languagecode="1081" />
+                </labels>
+                <Descriptions>
+                  <Description
+                    description=""
+                    languagecode="1033" />
+                </Descriptions>
+              </status>
+              <status
+                value="3"
+                state="1"
+                Color="#358717">
+                <labels>
+                  <label
+                    description="Completed"
+                    languagecode="1033" />
+                  <label
+                    description="Terminé(e)"
+                    languagecode="1036" />
+                  <label
+                    description="Abgeschlossen"
+                    languagecode="1031" />
+                  <label
+                    description="पूर्ण"
+                    languagecode="1081" />
+                </labels>
+              </status>
+              <status
+                value="4"
+                state="2"
+                Color="#666666">
+                <labels>
+                  <label
+                    description="Canceled"
+                    languagecode="1033" />
+                  <label
+                    description="Annulé(e)"
+                    languagecode="1036" />
+                  <label
+                    description="Abgesagt"
+                    languagecode="1031" />
+                  <label
+                    description="रद्द"
+                    languagecode="1081" />
+                </labels>
+              </status>
+              <status
+                value="5"
+                state="3"
+                Color="#ea0600">
+                <labels>
+                  <label
+                    description="Upcoming"
+                    languagecode="1033" />
+                  <label
+                    description="Occupé"
+                    languagecode="1036" />
+                  <label
+                    description="Gebucht"
+                    languagecode="1031" />
+                  <label
+                    description="व्यस्त"
+                    languagecode="1081" />
+                </labels>
+                <Descriptions>
+                  <Description
+                    description=""
+                    languagecode="1033" />
+                </Descriptions>
+              </status>
+              <status
+                value="554550001"
+                state="0"
+                Color="#b629cf">
+                <labels>
+                  <label
+                    description="In-Progress"
+                    languagecode="1033" />
+                </labels>
+                <Descriptions>
+                  <Description
+                    description=""
+                    languagecode="1033" />
+                </Descriptions>
+              </status>
+            </statuses>
+          </optionset>
+          <displaynames>
+            <displayname
+              description="Status Reason"
+              languagecode="1033" />
+            <displayname
+              description="Raison du statut"
+              languagecode="1036" />
+            <displayname
+              description="Statusgrund"
+              languagecode="1031" />
+            <displayname
+              description="स्थिति विवरण"
+              languagecode="1081" />
+          </displaynames>
+          <Descriptions>
+            <Description
+              description="Select the appointment's status."
+              languagecode="1033" />
+            <Description
+              description="Sélectionnez le statut du rendez-vous."
+              languagecode="1036" />
+            <Description
+              description="Wählen Sie den Status des Termins aus."
+              languagecode="1031" />
+            <Description
+              description="अपॉइंटमेंट की स्थिति चुनें."
+              languagecode="1081" />
+          </Descriptions>
+        </attribute>
+      </attributes>
+    </entity>
+  </EntityInfo>
+  <FormXml />
+  <SavedQueries />
+  <RibbonDiffXml />
+</Entity>

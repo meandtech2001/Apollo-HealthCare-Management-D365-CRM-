@@ -1,0 +1,445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{ca8dfced-338c-43b2-b212-83745e257c28}</formid>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form
+      headerdensity="HighWithControls"
+      solutionaction="Modified">
+      <tabs>
+        <tab
+          name="general"
+          verticallayout="true"
+          id="{cfab2cf1-b18a-47e0-aaab-652d981e0b15}"
+          IsUserDefined="0"
+          ordinalvalue="0">
+          <columns>
+            <column
+              width="100%"
+              id="0">
+              <sections>
+                <section
+                  name="section 1"
+                  showlabel="false"
+                  showbar="false"
+                  id="{73df77a5-246c-4457-a19f-a603d0c42dc5}"
+                  IsUserDefined="0"
+                  ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell
+                        id="{7d7e8b42-03aa-4d9a-b73c-21c0fcb989e5}"
+                        ordinalvalue="10000">
+                        <labels>
+                          <label
+                            description="Name"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Nom"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Name"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="नाम"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                      <cell
+                        id="{bbbd5d6c-3f7a-498a-950b-ccf999091630}"
+                        ordinalvalue="20001">
+                        <labels>
+                          <label
+                            description="Main Phone"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Téléphone principal"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Telefon 1"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="मुख्य फ़ोन"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{141d1032-4c53-4680-9c89-6d29c0fe4828}"
+                        ordinalvalue="10002">
+                        <labels>
+                          <label
+                            description="Division"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Division"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Geschäftsbereich"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="विभाजन"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                      <cell
+                        id="{9bfad2ba-908b-4291-9fd5-1462c167d0a1}"
+                        ordinalvalue="20003">
+                        <labels>
+                          <label
+                            description="Other Phone"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Autre téléphone"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Telefon 2"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="अन्य फ़ोन"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{02d736ce-1596-4b8a-ae5f-876e47808aba}"
+                        ordinalvalue="10004">
+                        <labels>
+                          <label
+                            description="Parent Business"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Division mère"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Übergeordnetes Unternehmen"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="पैरेंट व्यवसाय"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                      <cell
+                        id="{0f16a18f-52b2-48de-9d71-1bf7e02e9ae2}"
+                        ordinalvalue="20005">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{8d78399a-96e0-4335-a0ca-eaf670473b08}"
+                        ordinalvalue="10006">
+                        <labels>
+                          <label
+                            description="Website"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Site Web"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="Website"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="वेबसाइट"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                      <cell
+                        id="{f20442e1-b679-4988-aeba-3576b35047ba}"
+                        ordinalvalue="20007">
+                        <labels>
+                          <label
+                            description="Email"
+                            languagecode="1033"
+                            solutionaction="Modified" />
+                          <label
+                            description="Courrier électronique"
+                            languagecode="1036"
+                            solutionaction="Added" />
+                          <label
+                            description="E-Mail"
+                            languagecode="1031"
+                            solutionaction="Added" />
+                          <label
+                            description="ईमेल"
+                            languagecode="1081"
+                            solutionaction="Added" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab
+          name="addresses"
+          id="{3ff9204b-c090-4264-ab41-4d0fd3fb77cc}"
+          IsUserDefined="0"
+          ordinalvalue="1">
+          <columns>
+            <column
+              width="100%"
+              id="0">
+              <sections>
+                <section
+                  name="bill to address"
+                  showlabel="true"
+                  showbar="true"
+                  id="{df597351-a325-44d3-b356-d5f1e98e6553}"
+                  IsUserDefined="0"
+                  ordinalvalue="0">
+                  <rows>
+                    <row>
+                      <cell
+                        id="{744ba048-b3bc-4545-bebb-adcfa6009a14}"
+                        ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                      <cell
+                        id="{e9040c00-9980-4a84-b08c-d8dc65768403}"
+                        ordinalvalue="20001">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{4e1c8d2b-19c2-43ce-b81a-1abe9c316391}"
+                        ordinalvalue="10002">
+                        <labels />
+                      </cell>
+                      <cell
+                        id="{85960798-95cf-4b23-bada-e9c3369fcb80}"
+                        ordinalvalue="20003">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{d550e828-3d74-4d8c-80f0-967f497166b2}"
+                        ordinalvalue="10004">
+                        <labels />
+                      </cell>
+                      <cell
+                        id="{6337a755-0480-40ea-ac6a-34e89e13e88f}"
+                        ordinalvalue="20005">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{35874209-8122-4066-b1fc-c25b9554f250}"
+                        ordinalvalue="10006">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section
+                  name="ship to address"
+                  showlabel="true"
+                  showbar="true"
+                  id="{e7f7fb01-ff2f-40ad-bdfc-534f1a71ea5f}"
+                  IsUserDefined="0"
+                  ordinalvalue="1">
+                  <rows>
+                    <row>
+                      <cell
+                        id="{e5b43d8e-f2f2-4215-ba72-052aeefffe9f}"
+                        ordinalvalue="10000">
+                        <labels />
+                      </cell>
+                      <cell
+                        id="{ca2eb859-3be5-42ab-8fc8-2dcae6d53ac4}"
+                        ordinalvalue="20001">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{0809f182-9acd-4249-b8f5-66b452848038}"
+                        ordinalvalue="10002">
+                        <labels />
+                      </cell>
+                      <cell
+                        id="{6d606673-50d9-4c50-a5b7-4c4d0a4dd6e6}"
+                        ordinalvalue="20003">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{3d931cc0-4998-476c-aff0-1a36f48df8d1}"
+                        ordinalvalue="10004">
+                        <labels />
+                      </cell>
+                      <cell
+                        id="{7ff00311-3202-4b6b-8b72-a69b4222cf98}"
+                        ordinalvalue="20005">
+                        <labels />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{aedc50d3-8a40-487d-888f-4b0d70d62ef4}"
+                        ordinalvalue="10006">
+                        <labels />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header
+        id="{afbd24c8-fff1-4424-9257-c4d501ae0436}"
+        celllabelposition="Top"
+        columns="111"
+        labelwidth="115"
+        celllabelalignment="Left"
+        solutionaction="Added">
+        <rows>
+          <row>
+            <cell
+              id="{175aa165-29d1-481b-9961-8f1bb7816968}"
+              showlabel="false"
+              ordinalvalue="10000">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{7aaf8fe1-528f-4acb-bdb6-93cfe8fafe9d}"
+              showlabel="false"
+              ordinalvalue="20001">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{deaad4fd-f762-4f6b-81fa-a2434e282e95}"
+              showlabel="false"
+              ordinalvalue="30002">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer
+        id="{38300be0-d840-48ac-881c-0579ed6e0560}"
+        celllabelposition="Top"
+        columns="111"
+        labelwidth="115"
+        celllabelalignment="Left"
+        solutionaction="Added">
+        <rows>
+          <row>
+            <cell
+              id="{bcb34479-872d-4366-a380-ff506db88dc7}"
+              showlabel="false"
+              ordinalvalue="10000">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{35778a5c-29ff-405c-818c-979cc9f58570}"
+              showlabel="false"
+              ordinalvalue="20001">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{5d1b23a6-b1df-4441-96c9-ef7fe994cfaf}"
+              showlabel="false"
+              ordinalvalue="30002">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions
+        Order="0"
+        FallbackForm="true"
+        solutionaction="Added">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName
+        description="Informationen"
+        languagecode="1031" />
+      <LocalizedName
+        description="Business Unit Main Form -1"
+        languagecode="1033" />
+      <LocalizedName
+        description="Informations"
+        languagecode="1036" />
+      <LocalizedName
+        description="जानकारी"
+        languagecode="1081" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description
+        description="Ein Formular für diese Entität."
+        languagecode="1031" />
+      <Description
+        description="A form for this entity."
+        languagecode="1033" />
+      <Description
+        description="Formulaire pour cette entité."
+        languagecode="1036" />
+      <Description
+        description="इस एंटिटी के लिए एक प्रपत्र."
+        languagecode="1081" />
+    </Descriptions>
+  </systemform>
+</forms>

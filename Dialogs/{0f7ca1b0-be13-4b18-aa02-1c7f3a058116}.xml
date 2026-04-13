@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Dialog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalizedNames>
+    <LocalizedName
+      description="AccountCreation_Action"
+      languagecode="1033" />
+  </LocalizedNames>
+  <FormId>{0f7ca1b0-be13-4b18-aa02-1c7f3a058116}</FormId>
+  <UniqueName>6f6a338d-bba7-46b0-91d3-0219890b67f5</UniqueName>
+  <IsCustomizable>1</IsCustomizable>
+  <IntroducedVersion>1.0.0.2</IntroducedVersion>
+  <IsTabletEnabled>1</IsTabletEnabled>
+  <CanBeDeleted>1</CanBeDeleted>
+  <FormXml>
+    <forms
+      type="dialog">
+      <form>
+        <formparameters>
+          <querystringparameter
+            name="last_button_clicked"
+            type="SafeString" />
+        </formparameters>
+        <tabs>
+          <tab
+            verticallayout="true"
+            id="{11a58d98-1eb0-4058-85df-9acdc654d216}"
+            name="tab element"
+            locklevel="0"
+            expanded="true">
+            <labels>
+              <label
+                description=""
+                languagecode="1033" />
+            </labels>
+            <columns>
+              <column
+                width="100%">
+                <sections>
+                  <section
+                    showbar="false"
+                    columns="1"
+                    id="{9e802476-391f-489a-82d3-5781efaaa736}"
+                    name="section element">
+                    <labels>
+                      <label
+                        description=""
+                        languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell
+                          id="{ae8d4386-0c56-483e-8b23-fabd4b07e89d}">
+                          <labels>
+                            <label
+                              description="EmailSubject"
+                              languagecode="1033" />
+                          </labels>
+                          <control
+                            id="ProcessUnification_Arguments_EmailSubject"
+                            classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}"
+                            isunbound="true"
+                            isrequired="true">
+                            <parameters>
+                              <Format>SingleLineOfText</Format>
+                              <MaxLength>4000</MaxLength>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row>
+                        <cell
+                          id="{d0a1f6ad-2117-434a-be47-58002c6bafe3}">
+                          <labels>
+                            <label
+                              description="Emailbody"
+                              languagecode="1033" />
+                          </labels>
+                          <control
+                            id="ProcessUnification_Arguments_Emailbody"
+                            classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}"
+                            isunbound="true"
+                            isrequired="true">
+                            <parameters>
+                              <Format>SingleLineOfText</Format>
+                              <MaxLength>4000</MaxLength>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+        </tabs>
+        <header
+          id="{01ed268f-62b2-469d-8391-248ad94dca31}">
+          <rows>
+            <row>
+              <cell
+                id="{4853185e-5d79-42c5-924b-5585be14d15d}">
+                <labels>
+                  <label
+                    description="AccountCreation_Action"
+                    languagecode="1033" />
+                </labels>
+                <control
+                  id="runprocessaction_id"
+                  classid="{39354e4a-5015-4d74-8031-ea9eb73a1322}"
+                  isunbound="true">
+                  <parameters>
+                    <IsTitle>true</IsTitle>
+                  </parameters>
+                </control>
+              </cell>
+            </row>
+          </rows>
+        </header>
+        <footer
+          id="{4e3c44ee-51c6-41d7-b647-074796e3bcc9}">
+          <rows>
+            <row>
+              <cell
+                id="{7bc6ac76-b3a3-439f-828f-cc7aced64322}">
+                <labels>
+                  <label
+                    description="Execute"
+                    languagecode="1033" />
+                </labels>
+                <control
+                  id="ok_id"
+                  classid="{00ad73da-bd4d-49c6-88a8-2f4f4cad4a20}"
+                  isunbound="true" />
+              </cell>
+            </row>
+            <row>
+              <cell
+                id="{f2316a62-0993-4bf6-b3d1-1eda4f1f2d1f}">
+                <labels>
+                  <label
+                    description="Cancel"
+                    languagecode="1033" />
+                </labels>
+                <control
+                  id="cancel_id"
+                  classid="{00ad73da-bd4d-49c6-88a8-2f4f4cad4a20}"
+                  isunbound="true" />
+              </cell>
+            </row>
+          </rows>
+        </footer>
+        <events>
+          <event
+            name="onclick"
+            application="false"
+            attribute="cancel_id">
+            <Handlers>
+              <Handler
+                functionName="Mscrm.ManageProcessActionDialogActions.onClickCancel"
+                libraryName="Main_system_library.js"
+                handlerUniqueId="{2d02e167-be7d-4b22-969b-4bf52a386126}"
+                enabled="true"
+                passExecutionContext="true" />
+            </Handlers>
+          </event>
+          <event
+            name="onclick"
+            application="false"
+            attribute="ok_id">
+            <Handlers>
+              <Handler
+                functionName="Mscrm.ManageProcessActionDialogActions.onClickOk"
+                libraryName="Main_system_library.js"
+                handlerUniqueId="{03d80721-295a-4713-a98a-da70cffe4b90}"
+                enabled="true"
+                passExecutionContext="true" />
+            </Handlers>
+          </event>
+        </events>
+        <clientresources>
+          <internalresources>
+            <clientincludes>
+              <internaljscriptfile
+                src="$webresource:Main_system_library.js" />
+            </clientincludes>
+          </internalresources>
+        </clientresources>
+      </form>
+    </forms>
+  </FormXml>
+</Dialog>

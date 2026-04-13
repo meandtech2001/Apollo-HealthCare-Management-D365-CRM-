@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<optionset
+  Name="apollo_paymentmode"
+  localizedName="Payment Mode" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <OptionSetType>picklist</OptionSetType>
+  <IsGlobal>1</IsGlobal>
+  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <ExternalTypeName></ExternalTypeName>
+  <displaynames>
+    <displayname
+      description="Payment Mode"
+      languagecode="1033" />
+  </displaynames>
+  <Descriptions>
+    <Description
+      description=""
+      languagecode="1033" />
+  </Descriptions>
+  <options>
+    <option
+      value="554550000"
+      ExternalValue=""
+      IsHidden="0">
+      <labels>
+        <label
+          description="Cash"
+          languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description
+          description=""
+          languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option
+      value="554550001"
+      ExternalValue=""
+      IsHidden="0">
+      <labels>
+        <label
+          description="UPI"
+          languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description
+          description=""
+          languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option
+      value="554550002"
+      ExternalValue=""
+      IsHidden="0">
+      <labels>
+        <label
+          description="Credit Card"
+          languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description
+          description=""
+          languagecode="1033" />
+      </Descriptions>
+    </option>
+    <option
+      value="554550003"
+      ExternalValue=""
+      IsHidden="0">
+      <labels>
+        <label
+          description="Debit Card"
+          languagecode="1033" />
+      </labels>
+      <Descriptions>
+        <Description
+          description=""
+          languagecode="1033" />
+      </Descriptions>
+    </option>
+  </options>
+</optionset>

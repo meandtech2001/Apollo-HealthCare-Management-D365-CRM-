@@ -1,0 +1,51 @@
+function onReportsVerifiedChange(executionContext) {
+    var formContext = executionContext.getFormContext();
+    var reportsVerified = formContext.getAttribute("apollo_reportsverified").getValue();
+
+    // 1. Only run if verified is checked
+    if (reportsVerified === true) {
+        formContext.data.save();
+        Xrm.Utility.showProgressIndicator("Finalizing Medical Test...");
+        var globalContext = Xrm.Utility.getGlobalContext();
+        var clientUrl = globalContext.getClientUrl();
+        var recordId = formContext.data.entity.getId().replace("{", "").replace("}", "");
+
+        // Actions are called on the entity's set: apollo_medicaltests(GUID)/Microsoft.Dynamics.CRM.ActionName
+        var actionName = "apollo_MedicalTest_FinishBPF";
+        var query = "/api/data/v9.1/apollo_medicaltests(" + recordId + ")/Microsoft.Dynamics.CRM." + actionName;
+
+        var req = new XMLHttpRequest();
+        req.open("POST", clientUrl + query, true);
+        req.setRequestHeader("Accept", "application/json");
+        req.setRequestHeader("Content-Type", "application/json; charset=utf-8");
+        req.setRequestHeader("OData-MaxVersion", "4.0");
+        req.setRequestHeader("OData-Version", "4.0");
+
+        req.onreadystatechange = function () {
+            if (this.readyState === 4) {
+                req.onreadystatechange = null;
+
+                Xrm.Utility.closeProgressIndicator();
+
+                if (this.status === 200 || this.status === 204) {
+                    // 2. Success Alert
+                    var alertStrings = { confirmButtonLabel: "OK", text: "Action successful! The BPF has been finished.", title: "Success" };
+                    var alertOptions = { height: 120, width: 260 };
+                    Xrm.Navigation.openAlertDialog(alertStrings, alertOptions).then(
+                        function () {
+                            // 3. Save the form ONLY after OK is clicked 
+                            formContext.data.refresh(false);
+                            Xrm.Utility.closeProgressIndicator();
+                        }
+                    );
+                } else {
+                    // 4. Error Alert
+                    var errorMsg = JSON.parse(this.response).error.message;
+                    Xrm.Navigation.openErrorDialog({ message: "Action Failed: " + errorMsg });
+                }
+            }
+        };
+
+        req.send();
+    }
+}

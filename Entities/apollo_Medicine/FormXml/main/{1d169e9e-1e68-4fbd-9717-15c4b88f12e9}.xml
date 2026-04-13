@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{1d169e9e-1e68-4fbd-9717-15c4b88f12e9}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form
+      headerdensity="HighWithControls">
+      <tabs>
+        <tab
+          verticallayout="true"
+          id="{0e241db8-1d44-44bf-b742-98e26727530d}"
+          IsUserDefined="1">
+          <labels>
+            <label
+              description="General"
+              languagecode="1033" />
+          </labels>
+          <columns>
+            <column
+              width="100%">
+              <sections>
+                <section
+                  showlabel="false"
+                  showbar="false"
+                  IsUserDefined="0"
+                  id="{a8247d34-8dbd-47ce-b68d-d5616d185b6f}">
+                  <labels>
+                    <label
+                      description="General"
+                      languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell
+                        id="{6bbae0c5-37ac-4c59-8db7-63bbb9f48175}">
+                        <labels>
+                          <label
+                            description="Medicine Name"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_medicinename"
+                          classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}"
+                          datafieldname="apollo_medicinename" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{53e80293-060c-4e83-a812-3e6a2182cdf1}">
+                        <labels>
+                          <label
+                            description="Dosage"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_dosage"
+                          classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}"
+                          datafieldname="apollo_dosage" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{6a74bb1b-6c4e-451c-8e13-b42ebd1d3845}">
+                        <labels>
+                          <label
+                            description="Frequency"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_frequency"
+                          classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}"
+                          datafieldname="apollo_frequency" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{c743f070-d8b2-47ab-857b-df1ece9959cc}">
+                        <labels>
+                          <label
+                            description="Duration"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_duration"
+                          classid="{c6d124ca-7eda-4a60-aea9-7fb8d318b68f}"
+                          datafieldname="apollo_duration" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{63ad111f-dd71-449b-ba38-5dae45cdd9ab}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Expiry Date"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_expirydate"
+                          classid="{5B773807-9FB2-42DB-97C3-7A91EFF8ADFF}"
+                          datafieldname="apollo_expirydate"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell
+                        id="{fc6ee3d2-a374-4ab2-9f34-af78d112f279}"
+                        locklevel="0"
+                        colspan="1"
+                        rowspan="1">
+                        <labels>
+                          <label
+                            description="Unit Amount"
+                            languagecode="1033" />
+                        </labels>
+                        <control
+                          id="apollo_unitamount"
+                          classid="{533B9E00-756B-4312-95A0-DC888637AC78}"
+                          datafieldname="apollo_unitamount"
+                          disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header
+        id="{8f7b0c84-550b-4b06-91b5-5f56b1c32ae6}"
+        celllabelposition="Top"
+        columns="111"
+        labelwidth="115"
+        celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell
+              id="{9a9c2eae-0370-4ecd-ad0a-2f3cb804f582}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{0cbe76d0-fbc9-486c-a360-6de1f67d7bab}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{502c52bb-186f-439f-8352-10032cd16ca1}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{75b79031-17b6-4a29-8e0f-2f26ff87fb37}"
+              colspan="1"
+              rowspan="1">
+              <labels>
+                <label
+                  description="Owner"
+                  languagecode="1033" />
+              </labels>
+              <control
+                id="header_ownerid"
+                classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}"
+                datafieldname="ownerid" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <footer
+        id="{ae3c9b65-157e-4dc1-af31-d014a74efb82}"
+        celllabelposition="Top"
+        columns="111"
+        labelwidth="115"
+        celllabelalignment="Left">
+        <rows>
+          <row>
+            <cell
+              id="{f37431a9-96eb-4c0e-b363-83001da6fea8}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{43388814-5747-47a1-9bcc-8ccd585b250a}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+            <cell
+              id="{bdd88d00-d2ad-4f37-85b8-d6ae27e7e862}"
+              showlabel="false">
+              <labels>
+                <label
+                  description=""
+                  languagecode="1033" />
+              </labels>
+            </cell>
+          </row>
+        </rows>
+      </footer>
+      <DisplayConditions
+        Order="0"
+        FallbackForm="true">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName
+        description="Medicine Main Form"
+        languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description
+        description="A form for this entity."
+        languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

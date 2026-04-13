@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EmailTemplates xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <emailtemplate>
+    <templateid>{b6c38bb9-2423-471d-8b38-e3b99ed80e7a}</templateid>
+    <subject></subject>
+    <subjectpresentationxml></subjectpresentationxml>
+    <mimetype></mimetype>
+    <templatetypecode>1</templatetypecode>
+    <body></body>
+    <title>Account Reconnect</title>
+    <description>Use this template to reopen the lines of communication with a customer you have not been in contact with for a while.</description>
+    <presentationxml></presentationxml>
+    <languagecode>1033</languagecode>
+    <generationtypecode>0</generationtypecode>
+    <IntroducedVersion>5.0</IntroducedVersion>
+  </emailtemplate>
+  <emailtemplate>
+    <templateid>{9a3aa696-2a23-4460-a87c-10ae475e3231}</templateid>
+    <subject></subject>
+    <subjectpresentationxml></subjectpresentationxml>
+    <mimetype></mimetype>
+    <templatetypecode>4700</templatetypecode>
+    <body></body>
+    <title>Bulk Deletion Task Completed With Failure Template</title>
+    <description>Use this e-mail template for sending notification to system users on completion of bulk deletion task with some failures.</description>
+    <presentationxml></presentationxml>
+    <languagecode>1033</languagecode>
+    <generationtypecode>3</generationtypecode>
+    <IntroducedVersion>5.0</IntroducedVersion>
+  </emailtemplate>
+  <emailtemplate>
+    <templateid>{5351049b-c2a4-4335-8789-e4fa8b8b319e}</templateid>
+    <subject></subject>
+    <subjectpresentationxml></subjectpresentationxml>
+    <mimetype></mimetype>
+    <templatetypecode>4700</templatetypecode>
+    <body></body>
+    <title>Bulk Deletion Task Completion Template</title>
+    <description>Use this e-mail template for sending notification to system users on successful completion of bulk deletion task.</description>
+    <presentationxml></presentationxml>
+    <languagecode>1033</languagecode>
+    <generationtypecode>2</generationtypecode>
+    <IntroducedVersion>5.0</IntroducedVersion>
+  </emailtemplate>
+  <emailtemplate>
+    <templateid>{df7251b7-038b-41fc-9b0a-bb9f79011712}</templateid>
+    <subject></subject>
+    <subjectpresentationxml></subjectpresentationxml>
+    <mimetype></mimetype>
+    <templatetypecode>4700</templatetypecode>
+    <body></body>
+    <title>Bulk Deletion Task Failed Template</title>
+    <description>Use this e-mail template for sending notification to system users when of bulk deletion task failed to complete.</description>
+    <presentationxml></presentationxml>
+    <languagecode>1033</languagecode>
+    <generationtypecode>4</generationtypecode>
+    <IntroducedVersion>5.0</IntroducedVersion>
+  </emailtemplate>
+  <emailtemplate>
+    <templateid>{07b94c1d-c85f-492f-b120-f0a743c540e6}</templateid>
+    <subject></subject>
+    <subjectpresentationxml></subjectpresentationxml>
+    <mimetype></mimetype>
+    <templatetypecode>2</templatetypecode>
+    <body></body>
+    <title>Contact Reconnect</title>
+    <description>Use this template to reopen the lines of communication with a customer you have not been in contact with for a while.</description>
+    <presentationxml></presentationxml>
+    <languagecode>1033</languagecode>
+    <generationtypecode>0</generationtypecode>
+    <IntroducedVersion>5.0</IntroducedVersion>
+  </emailtemplate>
+  <emailtemplate>
+    <templateid>{25249025-91fa-43c1-8c38-1f6bc14221c3}</templateid>
+    <subject></subject>
+    <subjectpresentationxml></subjectpresentationxml>
+    <mimetype></mimetype>
+    <templatetypecode>4700</templatetypecode>
+    <body></body>
+    <title>Duplicate Detection Task Completion Template</title>
+    <description>Use this e-mail template for sending notification to system users on successful completion of duplicate detection task.</description>
+    <presentationxml></presentationxml>
+    <languagecode>1033</languagecode>
+    <generationtypecode>1</generationtypecode>
+    <IntroducedVersion>5.0</IntroducedVersion>
+  </emailtemplate>
+  <emailtemplate>
+    <templateid>{ba699c93-6b75-4318-b129-59e2fe4cf0ca}</templateid>
+    <subject></subject>
+    <subjectpresentationxml></subjectpresentationxml>
+    <mimetype>text/html</mimetype>
+    <templatetypecode>4700</templatetypecode>
+    <body></body>
+    <title>Import Data Task Completion Template</title>
+    <description>Use this e-mail template for sending notification to system users on successful completion of Import task.</description>
+    <presentationxml></presentationxml>
+    <languagecode>1033</languagecode>
+    <generationtypecode>5</generationtypecode>
+    <IntroducedVersion>5.0</IntroducedVersion>
+  </emailtemplate>
+  <emailtemplate>
+    <templateid>{85850450-865b-4465-8e86-66ac848df3b9}</templateid>
+    <subject></subject>
+    <subjectpresentationxml></subjectpresentationxml>
+    <mimetype>text/html</mimetype>
+    <templatetypecode>4700</templatetypecode>
+    <body></body>
+    <title>Import Data Task Failure Template</title>
+    <description>Use this e-mail template for sending notification to system users on failure of Import task.</description>
+    <presentationxml></presentationxml>
+    <languagecode>1033</languagecode>
+    <generationtypecode>6</generationtypecode>
+    <IntroducedVersion>5.0</IntroducedVersion>
+  </emailtemplate>
+  <emailtemplate>
+    <templateid>{7cdc528e-9c3e-4170-b04f-97a30fb736c9}</templateid>
+    <subject></subject>
+    <subjectpresentationxml></subjectpresentationxml>
+    <mimetype></mimetype>
+    <templatetypecode>8</templatetypecode>
+    <body></body>
+    <title>Marketing communication unsubscribe acknowledgement</title>
+    <description>Use this e-mail template for sending acknowledgement to customers during auto unsubscribe.</description>
+    <presentationxml></presentationxml>
+    <languagecode>1033</languagecode>
+    <generationtypecode>0</generationtypecode>
+    <IntroducedVersion>5.0</IntroducedVersion>
+  </emailtemplate>
+  <emailtemplate>
+    <templateid>{9bdfd720-030e-4bf7-a94f-6183b527f84c}</templateid>
+    <subject></subject>
+    <subjectpresentationxml></subjectpresentationxml>
+    <mimetype></mimetype>
+    <templatetypecode>2</templatetypecode>
+    <body></body>
+    <title>Marketing Event Notification</title>
+    <description>Use this template to notify your customers of an upcoming trade show or event that your organization or business unit will be attending.</description>
+    <presentationxml></presentationxml>
+    <languagecode>1033</languagecode>
+    <generationtypecode>0</generationtypecode>
+    <IntroducedVersion>5.0</IntroducedVersion>
+  </emailtemplate>
+  <emailtemplate>
+    <templateid>{35249025-91fa-43c1-8c38-1f6bc14221c3}</templateid>
+    <subject></subject>
+    <subjectpresentationxml></subjectpresentationxml>
+    <templatetypecode>4700</templatetypecode>
+    <body></body>
+    <title>Modern Duplicate Detection Task Completion Template</title>
+    <presentationxml></presentationxml>
+    <languagecode>1033</languagecode>
+    <generationtypecode>0</generationtypecode>
+    <IntroducedVersion>1.0</IntroducedVersion>
+  </emailtemplate>
+  <emailtemplate>
+    <templateid>{7816b01c-efa8-4396-8ba5-0b6b72da5c08}</templateid>
+    <subject></subject>
+    <subjectpresentationxml></subjectpresentationxml>
+    <templatetypecode>2</templatetypecode>
+    <body></body>
+    <title>Thank you for registering with us</title>
+    <presentationxml></presentationxml>
+    <languagecode>1033</languagecode>
+    <generationtypecode>0</generationtypecode>
+    <IntroducedVersion>5.0</IntroducedVersion>
+  </emailtemplate>
+</EmailTemplates>
