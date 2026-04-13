@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .amount-container {
+            border: 2px dashed #0078d4;
+            padding: 20px;
+            text-align: center;
+            background-color: #f0f7ff;
+            border-radius: 10px;
+        }
+
+        #finalValue {
+            font-size: 32px;
+            font-weight: bold;
+            color: #004e8c;
+        }
+    </style>
+</head>
+<body>
+    <div class="amount-container">
+        <div style="font-size: 14px; color: #666;">Total Final Amount</div>
+        <div id="finalValue">$0.00</div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // 1. Access the Parent Form Context
+            // window.parent.Xrm is the entry point to the form from an iFrame
+            var xrm = window.parent.Xrm;
+            var formContext = xrm.Page; // Use xrm.Page for broader compatibility in Web Resources
+
+            function updateDisplay() {
+                // 2. Fetch the value from the actual Dataverse field
+                var amountAttr = formContext.getAttribute("apollo_finalamount");
+
+                if (amountAttr != null) {
+                    var val = amountAttr.getValue();
+                    // 3. Format as Currency and update the HTML element
+                    document.getElementById("finalValue").innerText =
+                        (val !== null) ? "$" + val.toLocaleString(undefined, { minimumFractionDigits: 2 }) : "$0.00";
+                }
+            }
+
+            // 4. Initial call to show value on load
+            updateDisplay();
+
+            // 5. REGISTER THE LISTENER: This connects the field change to the HTML
+            formContext.getAttribute("apollo_finalamount").addOnChange(updateDisplay);
+        });
+    </script>
+</body>
+</html>

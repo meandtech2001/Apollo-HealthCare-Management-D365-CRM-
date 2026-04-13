@@ -1,0 +1,71 @@
+function newMedicalTestOpen(formContext) {
+    //opens the medical test form as a dialog box
+
+    var prescriptionID = formContext.data.entity.getId();
+    var entityName = formContext.data.entity.getEntityName();
+    var prescriptionName = formContext.data.entity.getPrimaryAttributeValue();
+    var issuedOn = formContext.getAttribute("apollo_issuedon").getValue();
+
+    var pageInput = {
+        pageType: "entityrecord",
+        entityName: "apollo_medicaltest",
+        data: {
+            apollo_prescription: prescriptionID.replace("{","").replace("}",""),
+            apollo_prescriptionname: prescriptionName,
+            apollo_prescriptiontype: entityName,
+            apollo_prescriptionissuedon: issuedOn
+        }
+    };
+
+    var navigationOptions = {
+        target: 2,
+        height: { value: 100, unit: "%" },
+        width: { value: 100, unit: "%" },
+        position: 1,
+        title: "New Medical Test"
+    };
+
+    Xrm.Navigation.navigateTo(pageInput, navigationOptions).then(
+        function success() {
+            formContext.getControl("Subgrid_new_2").refresh();
+            console.log("Dialog opened successfully.");
+        },
+        function error(error) { console.error("Error opening dialog: ", error); }
+    );
+
+}
+
+function exisitingMedicalTestOpen(executionContext) {
+    // 1. STOP the default full-page navigation
+    var eventArgs = executionContext.getEventArgs();
+    eventArgs.preventDefault();
+
+    // 2. Get the specific row that was double-clicked
+    var entityReference = eventArgs.getEntityReference();
+
+    var pageInput = {
+        pageType: "entityrecord",
+        entityName: "apollo_medicaltest", // This is the logical name
+        entityId: entityReference.id.replace("{", "").replace("}", ""),
+        formId: "d43eaf88-9474-4cda-86aa-cd6ac9994ee9"
+    };
+
+    var navigationOptions = {
+        target: 2,
+        height: { value: 80, unit: "%" },
+        width: { value: 80, unit: "%" },
+        position: 1,
+        title: "Medical Test Details"
+    };
+
+    // 3. Open the Dialog
+    Xrm.Navigation.navigateTo(pageInput, navigationOptions).then(
+        function success(result) {
+            // Logic to refresh the subgrid if they saved changes in the dialog
+            if (result && result.savedEntityReference) {
+                executionContext.getEventSource().refresh();
+            }
+        },
+        function error(err) { console.error(err.message); }
+    );
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        .calc-button {
+            background-color: #0078d4; /* Apollo Blue */
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 14px;
+            font-weight: 600;
+            border-radius: 4px;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: background-color 0.2s;
+            width: 100%;
+            max-width: 200px;
+        }
+
+            .calc-button:hover {
+                background-color: #005a9e;
+            }
+
+            .calc-button:active {
+                background-color: #004578;
+                transform: translateY(1px);
+            }
+    </style>
+</head>
+<body>
+
+    <button class="calc-button" onclick="toggleWorkflowTrigger()">
+        Calculate Total Amount
+    </button> <! -- Onclick of button, it will change the value of the field which will trigger the workflow to calculate total amount -->
+
+    <script>
+        function toggleWorkflowTrigger() {
+            // 1. Access the Parent Form context
+            var formContext = window.parent.Xrm.Page;
+
+            // 2. Get the Yes/No (Two Options) attribute
+            var toggleAttr = formContext.getAttribute("apollo_calculatetotalamount");
+
+            if (toggleAttr != null) {
+                var currentValue = toggleAttr.getValue();
+
+                // 3. Flip the value (if it's Yes, make it No; if No, make it Yes)
+                // This "Field Change" is what triggers the workflow
+                toggleAttr.setValue(!currentValue);
+
+                // 4. Force the change to submit immediately
+                toggleAttr.setSubmitMode("always");
+
+                // 5. Save and Reload the form
+                formContext.data.save().then(
+                    function () {
+                        // This reloads the record data from the server
+                        // after the workflow/plugin has finished calculating.
+                        
+                        var entityFormDetails = {
+                            entityName: formContext.data.entity.getEntityName(),
+                            entityId: formContext.data.entity.getId()
+                        };
+
+                        var navigationOptions = { target: 1 };
+
+                        window.parent.Xrm.Navigation.openForm(entityFormDetails, navigationOptions).then(
+                            function () { console.log("Form reloaded"); },
+                            function (error) { console.log("Refresh failed: " + error.message); }
+                        );
+                    },
+                    function (error) {
+                        alert("Error saving trigger: " + error.message);
+                    });
+            } else {
+                alert("Error: Trigger field 'apollo_calculatetotalamount' not found on form.");
+            }
+        }
+    </script>
+</body>
+</html>

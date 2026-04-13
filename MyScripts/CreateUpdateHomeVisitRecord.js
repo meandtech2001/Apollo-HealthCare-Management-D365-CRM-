@@ -1,0 +1,242 @@
+//JS code to create/update/delete Home Visit record based on Patient Needs Home Visit field on Appointment form
+
+//OnLoad of Appointment form, check if Home Visit record exists for the appointment and show/hide Home Visit tab accordingly
+function onFormLoad(executionContext) {
+    var formContext = executionContext.getFormContext();
+
+    var appointmentId = formContext.data.entity.getId();
+
+    var fetchXml = `<fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+    <entity name="apollo_homevisit">
+    <attribute name="apollo_homevisitid" />
+    <attribute name="apollo_name" />
+    <attribute name="createdon" />
+    <order attribute="apollo_name" descending="false" />
+    <filter type="and">
+      <condition attribute="apollo_appointment" operator="eq" value="${appointmentId.replace("{", "").replace("}", "")}" />
+    </filter>
+    </entity>
+    </fetch>`;
+
+    Xrm.WebApi.retrieveMultipleRecords("apollo_homevisit", "?fetchXml=" + encodeURIComponent(fetchXml)).then(
+        function success(result) {
+            if (result.entities.length > 0) {
+                formContext.ui.tabs.get("homevisit_tab").setVisible(true);
+            }
+            else formContext.ui.tabs.get("homevisit_tab").setVisible(false);
+        }
+    );
+}
+
+//OnChange of Patient Needs Home Visit field, create or delete Home Visit record accordingly and show/hide Home Visit tab
+function onPatientNeedsHomeVisitChange(executionContext) {
+    var formContext = executionContext.getFormContext();
+
+    var PatientNeedsHomeVisit = formContext.getAttribute("apollo_patientneedshomevisit").getValue();
+
+    if (PatientNeedsHomeVisit) createHomeVisit(executionContext);
+
+    else deleteHomeVisit(executionContext);
+}
+//OnChange of Appointment Date, validate that the date is not in the past
+function onAppointmentDateChange(executionContext) {
+    var formContext = executionContext.getFormContext();
+
+    var appointmentId = formContext.data.entity.getId();
+    var appointmentDate = formContext.getAttribute("apollo_appointmentdate").getValue();
+    var today = new Date();
+
+    appointmentDate.setHours(0, 0, 0, 0);
+    today.setHours(0, 0, 0, 0);
+
+    if (appointmentDate < today) {
+        formContext.ui.setFormNotification("Appointment Date cannot be Past Date", "ERROR", "date_validation");
+        formContext.getAttribute("apollo_appointmentdate").setValue(null);
+    }
+    else {
+        formContext.ui.clearFormNotification("date_validation");
+        formContext.getAttribute("scheduledstart").setValue(appointmentDate);
+        formContext.getAttribute("scheduledend").setValue(appointmentDate);
+
+        var fetchXml = `<fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+                <entity name="apollo_homevisit">
+                <attribute name="apollo_homevisitid" />
+                <attribute name="apollo_name" />
+                <attribute name="createdon" />
+                <order attribute="apollo_name" descending="false" />
+                <filter type="and">
+                  <condition attribute="apollo_appointment" operator="eq" value="${appointmentId.replace("{", "").replace("}", "")}" />
+                </filter>
+                </entity>
+                </fetch>`;
+
+        Xrm.WebApi.retrieveMultipleRecords("apollo_homevisit", "?fetchXml=" + encodeURIComponent(fetchXml)).then(
+            function success(result) {
+                if (result.entities.length > 0) {
+                    result.entities.forEach(function (entity) {
+                        var homeVisitId = entity.apollo_homevisitid;
+                        var updateData = {
+                            "apollo_startdate": appointmentDate,
+                            "apollo_enddate": appointmentDate
+                        }
+                        Xrm.WebApi.updateRecord("apollo_homevisit", homeVisitId, updateData).then(
+                            function success() {
+                                console.log("Appointment and Home Visit was update");
+                            },
+                            function (error) {
+                                console.log("Error in Update" + error.message);
+                            }
+                        );
+                    });
+                }
+            },
+            function (error) {
+                console.log("Error in Update" + error.message);
+            }
+        );
+    }
+}
+
+//Helper functions to create and delete Home Visit record
+function createHomeVisit(executionContext) {
+    var formContext = executionContext.getFormContext();
+    var appointmentId = formContext.data.entity.getId();
+
+    // Confirm creation with user
+    Xrm.Navigation.openConfirmDialog({ text: "Confirm Creation of Home Visit?", title: "This Action will create a Home Visit record", confirmButtonLabel: "Create", cancelButtonLabel: "Cancel" }).then(
+        function (response) {
+            if (response.confirmed) {
+
+                Xrm.Utility.showProgressIndicator("Creating Home Visit Record...");
+
+                var fetchXml = `<fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+                <entity name="apollo_homevisit">
+                <attribute name="apollo_homevisitid" />
+                <attribute name="apollo_name" />
+                <attribute name="createdon" />
+                <order attribute="apollo_name" descending="false" />
+                <filter type="and">
+                  <condition attribute="apollo_appointment" operator="eq" value="${appointmentId.replace("{", "").replace("}", "")}" />
+                </filter>
+                </entity>
+                </fetch>`;
+
+                Xrm.WebApi.retrieveMultipleRecords("apollo_homevisit", "?fetchXml=" + encodeURIComponent(fetchXml)).then(
+                    function success(result) {
+                        if (result.entities.length === 0) {
+                            var appointmentName = formContext.getAttribute("subject").getValue();
+                            var startDate = formContext.getAttribute("apollo_appointmentdate").getValue();
+
+                            var newHomeVisitData = {
+                                "apollo_name": "Home Visit - " + appointmentName,
+                                "apollo_startdate": startDate,
+                                "apollo_enddate": new Date(startDate.getTime() + 1 * 60 * 60 * 1000),
+                                "apollo_Appointment@odata.bind": "/appointments(" + appointmentId.replace("{", "").replace("}", "") + ")"
+                            }
+                            // Create Home Visit record
+                            Xrm.WebApi.createRecord("apollo_homevisit", newHomeVisitData).then(
+                                function success(result) {
+                                    // Success Alert
+                                    console.log("Home Visit created with ID: " + result.id);
+                                    Xrm.Utility.closeProgressIndicator();
+                                    Xrm.Navigation.openAlertDialog({ confirmButtonLabel: "Ok", text: "Home Visit created successfully" }).then(
+                                        function () {
+                                            formContext.data.save();
+                                            formContext.ui.tabs.get("homevisit_tab").setVisible(true);
+                                            formContext.ui.tabs.get("homevisit_tab").setFocus(true);
+                                        }
+                                    );
+                                },
+                                function (error) {
+                                    console.log("Error creating Home Visit: " + error.message);
+                                    Xrm.Utility.closeProgressIndicator();
+                                    Xrm.Navigation.openErrorDialog({ message: "Unable to create Home Visit" })
+                                }
+                            );
+                        }
+                        // If Home Visit record already exists, show error message
+                        else {
+                            Xrm.Utility.closeProgressIndicator();
+                            Xrm.Navigation.openErrorDialog({ message: "Home Visit Record Alreay Exists" }).then(
+                                function success() { console.log("success") },
+                                function (error) { console.log("error" + error.message) }
+                            )
+                        }
+                    }
+                );
+            }
+                // If user cancels creation, set Patient Needs Home Visit field back to false
+            else {
+                formContext.getAttribute("apollo_patientneedshomevisit").setValue(false);
+            }
+        });
+}
+function deleteHomeVisit(executionContext) {
+    var formContext = executionContext.getFormContext();
+    var appointmentId = formContext.data.entity.getId();
+
+    // Confirm deletion with user
+    Xrm.Navigation.openConfirmDialog({ text: "Confirm Deletion of Home Visit?", title: "This Action will delete Home Visit record as well", confirmButtonLabel: "Delete", cancelButtonLabel: "Cancel" }).then(
+        function (response) {
+            // If user confirms deletion, delete Home Visit record and hide Home Visit tab
+            if (response.confirmed) {
+                Xrm.Utility.showProgressIndicator("Deleting Home Visit Record...");
+
+                var fetchXml = `<fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+                <entity name="apollo_homevisit">
+                <attribute name="apollo_homevisitid" />
+                <attribute name="apollo_name" />
+                <attribute name="createdon" />
+                <order attribute="apollo_name" descending="false" />
+                <filter type="and">
+                  <condition attribute="apollo_appointment" operator="eq" value="${appointmentId.replace("{", "").replace("}", "")}" />
+                </filter>
+                </entity>
+                </fetch>`;
+
+                var deletePromises = [];
+
+                Xrm.WebApi.retrieveMultipleRecords("apollo_homevisit", "?fetchXml=" + encodeURIComponent(fetchXml)).then(
+                    function success(result) {
+                        // If Home Visit record exists, delete it
+                        if (result.entities.length > 0) {
+                            result.entities.forEach(function (entity) {
+                                var homeVisitId = entity.apollo_homevisitid;
+                                deletePromises.push(Xrm.WebApi.deleteRecord("apollo_homevisit", homeVisitId));
+
+                                Promise.all(deletePromises).then(
+                                    function success() {
+                                        Xrm.Utility.closeProgressIndicator();
+                                        Xrm.Navigation.openAlertDialog({ confirmButtonLabel: "Ok", text: "Home Visit deleted successfully" }).then(
+                                            function () {
+                                                formContext.data.save();
+                                                formContext.ui.tabs.get("homevisit_tab").setVisible(false);
+                                            }
+                                        );
+                                    },
+                                    function (error) {
+                                        console.log("Error deleting Home Visit: " + error.message);
+                                        Xrm.Utility.closeProgressIndicator();
+                                        Xrm.Navigation.openErrorDialog({ message: "Unable to delete Home Visit" });
+                                    }
+                                );
+                            });
+                        }
+                            // If Home Visit record doesn't exist, show error message
+                        else {
+                            Xrm.Utility.closeProgressIndicator();
+                            Xrm.Navigation.openErrorDialog({ message: "Home Visit Doesn't Exists" }).then(
+                                function success() { console.log("success") },
+                                function (error) { console.log("error" + error.message) }
+                            );
+                        }
+                    }
+                );
+            }
+                // If user cancels deletion, set Patient Needs Home Visit field back to true
+            else {
+                formContext.getAttribute("apollo_patientneedshomevisit").setValue(true);
+            }
+        }
+    );
+}
